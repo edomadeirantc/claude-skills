@@ -14,6 +14,7 @@ for r in SRC:
             cands.setdefault(os.path.basename(root), []).append(root)
             dirs[:] = []  # don't descend into a skill
 pick = {n: max(ds, key=lambda d: os.path.getmtime(os.path.join(d, 'SKILL.md'))) for n, ds in cands.items()}
+for n in ('docx', 'pdf', 'pptx', 'xlsx'): pick.pop(n, None)  # licença proprietária Anthropic
 
 out = os.path.join(DST, 'skills')
 shutil.rmtree(out, ignore_errors=True)
