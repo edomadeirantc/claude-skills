@@ -1,0 +1,7 @@
+{
+  "name": "all-skills",
+  "version": "1.0.0",
+  "description": "Coleção pessoal de skills (438) para Claude Code local e na nuvem.",
+  "author": { "name": "edomadeirantc" },
+  "skills": "./skills/"
+}
