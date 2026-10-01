@@ -1,0 +1,10 @@
+{
+  "extraKnownMarketplaces": {
+    "edo-skills": {
+      "source": { "source": "github", "repo": "edomadeirantc/claude-skills" }
+    }
+  },
+  "enabledPlugins": {
+    "all-skills@edo-skills": true
+  }
+}

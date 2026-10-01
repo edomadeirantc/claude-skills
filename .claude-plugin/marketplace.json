@@ -1,0 +1,16 @@
+{
+  "name": "edo-skills",
+  "owner": {
+    "name": "edomadeirantc"
+  },
+  "plugins": [
+    {
+      "name": "all-skills",
+      "source": "./",
+      "description": "Coleção pessoal de skills (442) para Claude Code local e na nuvem."
+    }
+  ],
+  "metadata": {
+    "description": "Skills pessoais de edomadeirantc"
+  }
+}

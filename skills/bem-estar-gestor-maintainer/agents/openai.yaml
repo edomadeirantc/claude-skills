@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bem-estar Gestor Maintainer"
+  short_description: "Manutenção segura do SaaS Bem-estar Gestor"
+  default_prompt: "Use $bem-estar-gestor-maintainer para implementar e validar uma melhoria no SaaS Bem-estar Gestor."

@@ -1,0 +1,25 @@
+---
+name: solve
+description: Solve a design, marketing, writing, or communication problem with Perception-First Design. Runs the Mode 2 derivation protocol — derives requirements R1-R5 from cognitive constraints, then produces a solution that satisfies all of them.
+---
+
+Load the PFD skill and run a full Mode 2 Derivation (generative, bottom-up).
+
+If no specific problem is provided, ask: "What design, copy, communication, or marketing problem should we solve with PFD?"
+
+Then execute the derivation protocol strictly:
+
+1. **State the problem** — what the user is trying to do and what prevents them. No features, no comparisons.
+2. **Work each layer bottom-up** — Foundation → L1 → L2 → L3 → L4. Each layer: state the constraint, state the violation, derive the requirement (R[n]). Include a "**Citations:**" line per requirement listing 1-2 strongest supporting works from the framework's research base. Format: "Author (Year) for [reason]" with semicolons between multiple citations.
+3. **Accumulate R1-R5** — all non-negotiable. Present them before proposing anything.
+4. **Derive the solution** — what satisfies R1 AND R2 AND R3 AND R4 AND R5?
+5. **Test existing proposals** — if any were mentioned, check each against R1-R5.
+6. **Identify the gap** — requirements no existing proposal satisfies.
+
+**Rule Zero: No solutions until all 5 layers are complete.**
+
+End the output with a single italic line:
+
+> *Initial findings. Ralph Loop a requirement, cite further, switch to analyze / evaluate, or ask any follow-up to dig deeper.*
+
+Non-negotiable. Single italic line, no bullet menu.
