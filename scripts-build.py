@@ -22,3 +22,23 @@ os.makedirs(out)
 for n, d in sorted(pick.items()):
     shutil.copytree(d, os.path.join(out, n), ignore=EX, symlinks=False, dirs_exist_ok=True)
 print(len(pick), 'skills copied')
+
+# Directory limit: 50 MiB zipped. Drop big decorative media only referenced by READMEs.
+MEDIA = ('.gif', '.png', '.jpg', '.jpeg', '.webp', '.mp3', '.mp4', '.mov', '.wav')
+dropped = 0
+for n in os.listdir(out):
+    sd = os.path.join(out, n)
+    text = ''
+    for r, _, fs in os.walk(sd):
+        for f in fs:
+            if f.lower().endswith(('.md', '.py', '.js', '.mjs', '.ts', '.json', '.html', '.sh', '.yaml', '.yml', '.txt')) \
+                    and not f.lower().startswith('readme'):
+                p = os.path.join(r, f)
+                if os.path.getsize(p) < 5e6:
+                    text += open(p, encoding='utf-8', errors='ignore').read()
+    for r, _, fs in os.walk(sd):
+        for f in fs:
+            p = os.path.join(r, f)
+            if f.lower().endswith(MEDIA) and os.path.getsize(p) > 200_000 and f not in text:
+                dropped += os.path.getsize(p); os.remove(p)
+print(f'dropped {dropped/1e6:.1f} MB of unreferenced media')
