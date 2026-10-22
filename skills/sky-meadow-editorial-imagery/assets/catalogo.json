@@ -1,0 +1,1124 @@
+{
+  "versao": 1,
+  "base_caminhos": "raiz da skill",
+  "pacote": "público",
+  "resumo": {
+    "fontes_estudo_distribuidas": 0,
+    "geracoes_aprovadas_distribuidas": 2,
+    "historicos_distribuidos": 0,
+    "imagens_unicas_distribuidas": 2,
+    "folhas_contato": 1,
+    "demonstracoes_derivadas": 1,
+    "anexos_conversa_distribuidos": 0
+  },
+  "itens": [
+    {
+      "id": "N01",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1308
+      },
+      "sha256": "bbf9f1db39727dac011c10c217ceaa5b822a077dfe02a7eb37f85ea67bd399e8",
+      "bytes": 93644,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N01"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N02",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 967
+      },
+      "sha256": "fac6f1d1f12e9d03f687950b6c16766c86f43892b60a0ed93f1f0a0feff25d91",
+      "bytes": 81752,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N02"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N03",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 578,
+        "altura": 740
+      },
+      "sha256": "d31e5f2b9be61eca22a7adc594f232ebbdeae26e411c62e3ac3b036535c4a725",
+      "bytes": 31477,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N03"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N04",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "1868e90969c468c6aaf8b87108b74faf8057d934650a8602eb5e4ee785d24427",
+      "bytes": 114224,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N04"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N05",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1307
+      },
+      "sha256": "497bf8aba6b057f11eff6a831cd9e17af9ad5e1aceef48caf8ffc5369c8d5188",
+      "bytes": 75852,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N05"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N06",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "8a69db900a2c81de1a470125f30ae83383826a573ff631ac636c4f5ffb5aae30",
+      "bytes": 234986,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N06"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N07",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1200,
+        "altura": 1501
+      },
+      "sha256": "83a9720073e79354f1ad58df96110ccd967c684106d4122f015e503fdee14d17",
+      "bytes": 172812,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N07"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N08",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1104
+      },
+      "sha256": "ad5cc01877b943f2fc56855d961f105b8314043df34794594204905949883673",
+      "bytes": 167746,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N08"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N09",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "fde02d39283806a44e165dc21a5d79c0a7657ac6e9544c377145a870f863383b",
+      "bytes": 298472,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N09"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N10",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 735,
+        "altura": 923
+      },
+      "sha256": "1789cf0975d19537ec5bdf7cd3bacf875606dc8a895a95b3dc6e9019005fba20",
+      "bytes": 122036,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N10"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N11",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 735,
+        "altura": 917
+      },
+      "sha256": "642b31072acc0ef349eacb2b6cbdc16d06ad062379ffc50daf4c2af68f583f55",
+      "bytes": 132666,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N11"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N12",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1170,
+        "altura": 1517
+      },
+      "sha256": "eb478267c506efcaf47ad08cee77ab09499f7b8609d18423a488a86d7e655b50",
+      "bytes": 107535,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N12"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N13",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "6d403b47e3a2358d6531962cd98dde110612d8fd544ee675bf8e355e9b001ba9",
+      "bytes": 93776,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N13"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N14",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1307
+      },
+      "sha256": "15ae66045b4a7f5615f062ee0d40f7dee1ddfafb6de9f30811dfa4fc773a3e15",
+      "bytes": 115916,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N14"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N15",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 896,
+        "altura": 1344
+      },
+      "sha256": "cb69fd9c7c09b267ca3db9255b6f006567441791b1ae3f4cd5e96e40d5968af9",
+      "bytes": 284117,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N15"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N16",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "2cdb33f59e44e49f829a15d7cf68b9125cd965e36ddb0a0a741d96f49a3d21c6",
+      "bytes": 117274,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N16"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N17",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1000,
+        "altura": 1000
+      },
+      "sha256": "d522dbbee8b27c8cbac7ad6d6eec38983186c96e14433ff926c03917894cd03a",
+      "bytes": 83921,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N17"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "N18",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "c8e9985d63578cc699f20d86bdd9f3863bda61c253034d62517b818233ed41a9",
+      "bytes": 123152,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "N18"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R01",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1318
+      },
+      "sha256": "6109a7e671238a6e063e52a2264e18a4a07ecf63b92d50313c3ee326c0b81c8f",
+      "bytes": 96583,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R01"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R02",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "007b3f533d15af4da34f0dc90365d951c49a82783d6b4053defec284c8472311",
+      "bytes": 55286,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R02"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R03",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "f96eaffd783554a87b95106d941701b788f98fbd31374f06c613835054971747",
+      "bytes": 93415,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R03"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R04",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "f55f9ee1cdc019b69116058ecd472eae2ba6f91f11b68da8bf1825767a708f93",
+      "bytes": 119795,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R04"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R05",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "3ecc3de7e19a9aac9eeacf000347825397222d6029821735671d4466db5be220",
+      "bytes": 117807,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R05"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R06",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "a7fd48ec2c0da6e49b499af5ed74af86709127600b840e87e531e6f07ac46e0d",
+      "bytes": 146958,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R06"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R07",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "5b8f043471390c6c75ca864613e75327b07cf4712089a09e0aaf01fd53f2cf00",
+      "bytes": 98546,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R07"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R08",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "ea35aae4d7910e1dd1a8f802c878c5cb889fcdea448e5b4b31c54df85d7395ef",
+      "bytes": 76253,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R08"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R09",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "1dd8296b7a65e472fb8fa896dc72fca9db96461f36793156fef40ea980f3dc41",
+      "bytes": 126069,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R09"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R10",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "d1bf806fc76e40e63af9268732570ec10ba07d9d3349879764a720e9325bf568",
+      "bytes": 102070,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R10"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R11",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "e20e4b70ea7e90e40d760500c4f0c6a4870d1af619da0ef8133fc8981203bdd2",
+      "bytes": 103674,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R11"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R12",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "ffa9c30d507f7c5b547cc91c3ae53623f294c8a9298d794522a590f16a9056d2",
+      "bytes": 110042,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R12"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R13",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1104
+      },
+      "sha256": "d144f0ee37322add29a727631ba93b47f9e37cb6eaea5a6196d4225c9413252b",
+      "bytes": 88925,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R13"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R14",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "a3687426475dfc4ba8b1196fbafcb07c542a93ee53389db288d27df33aa842f0",
+      "bytes": 95576,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R14"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R15",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "2fd419e089b35a9b00184982757e755a6fe14019b4014c30335ea21b16aa67ee",
+      "bytes": 107322,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R15"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "R16",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 736,
+        "altura": 1308
+      },
+      "sha256": "0b25b947775c74cdf6af9fea3c7bf698012da27f4fcd4f74355d1d6ee47577b2",
+      "bytes": 160961,
+      "origem": {
+        "colecao": "referências de terceiros fornecidas para estudo",
+        "id": "R16"
+      },
+      "motivo": "Não redistribuído: autorização pública de terceiros não estabelecida. Originais e miniaturas existem somente no pacote local.",
+      "permissoes": {
+        "uso": "estudo apenas",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros preservados"
+      }
+    },
+    {
+      "id": "G01",
+      "papel": "aprovada",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/aprovadas/g01-casal-grama-mobile.png",
+      "dimensoes": {
+        "largura": 941,
+        "altura": 1672
+      },
+      "sha256": "015fb212cbffe60afbbe81a0a48f6fb9be64834deab6d3d749996166a0998cde",
+      "bytes": 2357266,
+      "origem": {
+        "tipo": "geração própria autorizada pelo usuário",
+        "id": "G01"
+      },
+      "observacao_visual": "Casal deitado na grama, vista superior; vegetação desfocada no topo; serif itálica e sans; CTA de contorno. Sem marca do cliente visível.",
+      "marca_cliente_visivel": false,
+      "permissoes": {
+        "uso": "referência autorizada e golden",
+        "anexar_ao_gerador": true,
+        "redistribuicao_publica": true,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      }
+    },
+    {
+      "id": "G02",
+      "papel": "aprovada",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/aprovadas/g02-perfis-frente-a-frente-mobile.jpg",
+      "dimensoes": {
+        "largura": 1536,
+        "altura": 2752
+      },
+      "sha256": "191020ecf883f65181c6e6300c1c1f66abb5247f602e75c68938f41cb94f121f",
+      "bytes": 2960360,
+      "origem": {
+        "tipo": "geração própria autorizada pelo usuário",
+        "id": "G02"
+      },
+      "observacao_visual": "Perfis em contato contra céu azul; pele texturizada e fios de cabelo; tags translúcidas e conectores; CTA de contorno. Sem marca do cliente visível.",
+      "marca_cliente_visivel": false,
+      "permissoes": {
+        "uso": "referência autorizada e golden",
+        "anexar_ao_gerador": true,
+        "redistribuicao_publica": true,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      }
+    },
+    {
+      "id": "H01",
+      "papel": "historico",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1536,
+        "altura": 2752
+      },
+      "sha256": "686e046cbb4a2e2cb53c3392c3780dabf13dccdef0f80407287c3f19f13b783e",
+      "bytes": 3338034,
+      "origem": {
+        "tipo": "geração própria autorizada pelo usuário",
+        "id": "H01"
+      },
+      "observacao_visual": "Mulher sozinha deitada na grama, título sobre saúde feminina; nome do cliente visível na margem superior.",
+      "marca_cliente_visivel": true,
+      "permissoes": {
+        "uso": "histórico; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Versão histórica contém marca do cliente; não foi editada, recortada nem publicada."
+    },
+    {
+      "id": "H02",
+      "papel": "historico",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1536,
+        "altura": 2752
+      },
+      "sha256": "77f86a13773cc0483c5e5ca27df902554384434daf45e506add2e85a4fa37df2",
+      "bytes": 3374545,
+      "origem": {
+        "tipo": "geração própria autorizada pelo usuário",
+        "id": "H02"
+      },
+      "observacao_visual": "Perfis do casal contra céu; painel superior de contorno e rodapé com nome do cliente. Versão anterior à G02.",
+      "marca_cliente_visivel": true,
+      "permissoes": {
+        "uso": "histórico; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Versão histórica contém marca do cliente; não foi editada, recortada nem publicada."
+    },
+    {
+      "id": "S01",
+      "papel": "historico",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 636,
+        "altura": 708
+      },
+      "sha256": "9434a11883345c96b89b514b4b6a0b841855c53620bc157863e7a9dda1067212",
+      "bytes": 32222,
+      "origem": {
+        "tipo": "anexo de conversa preservado apenas no acervo privado",
+        "id": "S01"
+      },
+      "observacao_visual": "Captura de interface com casal deitado na grama; card de vidro retangular no alto, título de saúde feminina, CTA de contorno e miniaturas da interface. Histórico, não golden.",
+      "permissoes": {
+        "uso": "consulta local de histórico/estudo; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
+      },
+      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
+    },
+    {
+      "id": "S02",
+      "papel": "historico",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 478,
+        "altura": 645
+      },
+      "sha256": "e297f672411d9e0f1857c395820ce7afa5f2d0014a4cf48427f20eff83b8c6cc",
+      "bytes": 27574,
+      "origem": {
+        "tipo": "anexo de conversa preservado apenas no acervo privado",
+        "id": "S02"
+      },
+      "observacao_visual": "Captura vertical de mulher sozinha na grama; topo verde desfocado, título sobre saúde para ele e ela e CTA branco preenchido. Histórico, não golden.",
+      "permissoes": {
+        "uso": "consulta local de histórico/estudo; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
+      },
+      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
+    },
+    {
+      "id": "S03",
+      "papel": "historico",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 469,
+        "altura": 694
+      },
+      "sha256": "3d0ac7d703602f214f564cebbe3c8796e9731c3b5638a9b9e7986e80ca532a16",
+      "bytes": 26850,
+      "origem": {
+        "tipo": "anexo de conversa preservado apenas no acervo privado",
+        "id": "S03"
+      },
+      "observacao_visual": "Captura de interface com casal na grama; título sobre saúde para ele e ela, CTA fino e controles do aplicativo ao redor. Histórico, não golden.",
+      "permissoes": {
+        "uso": "consulta local de histórico/estudo; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
+      },
+      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
+    },
+    {
+      "id": "S04",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1568,
+        "altura": 524
+      },
+      "sha256": "7bd422bf18e54f1e19691405e8a5e2d641fdccdf00c9ff6f02f71d8034fb2a5c",
+      "bytes": 137916,
+      "origem": {
+        "tipo": "anexo de conversa preservado apenas no acervo privado",
+        "id": "S04"
+      },
+      "observacao_visual": "Colagem de 16 painéis em duas linhas, incluindo céu emoldurado por folhas, multidão com acento vermelho, casal no campo, caminho verde, relógio, cadeira e mãos. Mistura visual de estudo; procedência individual não estabelecida. Não golden.",
+      "permissoes": {
+        "uso": "consulta local de histórico/estudo; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
+      },
+      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
+    },
+    {
+      "id": "S05",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1568,
+        "altura": 677
+      },
+      "sha256": "a4598f79ede91cddfb6bb78d09454d9ad9811b815cc31b25dfaa80333bf95235",
+      "bytes": 37390,
+      "origem": {
+        "tipo": "anexo de conversa preservado apenas no acervo privado",
+        "id": "S05"
+      },
+      "observacao_visual": "Captura de seção de site: telefone e xícara sobre mesa clara à esquerda, título com marca do cliente à direita e trilho de processo no rodapé. Estudo de interface, não golden.",
+      "permissoes": {
+        "uso": "consulta local de histórico/estudo; não usar como alvo final",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
+      },
+      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
+    }
+  ],
+  "indices": [
+    "assets/indices/geracoes-aprovadas.jpg"
+  ],
+  "nao_recuperado": [
+    {
+      "descricao": "Desktop aprovado adicional mencionado, sem arquivo recuperável identificado entre os caminhos explicitamente fornecidos; nenhum novo golden foi criado.",
+      "disponibilidade": "não recuperado",
+      "caminho": null,
+      "motivo": "O arquivo de nome hexadecimal indicado no Desktop.rar é N12, imagem de terceiro, e não um desktop próprio aprovado."
+    }
+  ],
+  "direitos": "A licença do código da skill não concede licença MIT às imagens. Somente as duas gerações próprias autorizadas e sem marca visível são distribuídas.",
+  "derivados": [
+    {
+      "id": "D01",
+      "papel": "demonstracao_tecnica_derivada",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/indices/microtipografia-exemplo.png",
+      "dimensoes": {
+        "largura": 1536,
+        "altura": 2752
+      },
+      "sha256": "fc1ec8e2c4a52e296fe10582d61f37ae0e820bf65db722e76194b6850ed0d8f0",
+      "bytes": 6269968,
+      "origem": {
+        "tipo": "sobreposição tipográfica determinística sobre G02; fotografia inteira, sem recorte",
+        "fonte_id": "G02",
+        "fonte_sha256": "191020ecf883f65181c6e6300c1c1f66abb5247f602e75c68938f41cb94f121f"
+      },
+      "observacao_visual": "Exemplo técnico de três rótulos de topo, aplicado por Pillow. Não é peça aprovada, nova geração de IA ou evidência de que um gerador escreveu os rótulos. Medição integrada: 5.949 pixels brancos puros, contraste mínimo 4,248:1 e máximo 5,348:1; mínimo inferior a 4,5:1 para texto pequeno. Demonstração da grade, não de acessibilidade aprovada; adequar contraste para uso final.",
+      "permissoes": {
+        "uso": "demonstração da grade, não golden; referência técnica autorizada",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      },
+      "rotulos": [
+        "CUIDADO INDIVIDUAL",
+        "SAÚDE EM FOCO",
+        "GUIA DE CUIDADO"
+      ],
+      "parametros": {
+        "ancoras_x_percentual": [
+          6,
+          50,
+          94
+        ],
+        "baseline_y_percentual": 6,
+        "fonte": "Segoe UI Semibold",
+        "fonte_px": 34,
+        "tracking_px": 2,
+        "cor": "#FFFFFF"
+      },
+      "contraste": {
+        "fonte_da_medicao": "verificação integrada pelo agente principal",
+        "metodo": "pixels brancos puros dos glifos comparados aos mesmos pixels da imagem-base G02",
+        "pixels_medidos": 5949,
+        "minimo": 4.248,
+        "maximo": 5.348,
+        "limiar_texto_pequeno": 4.5,
+        "aprovado": false
+      }
+    }
+  ]
+}

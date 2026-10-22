@@ -5,14 +5,14 @@ description: Use para criar, dirigir, editar e finalizar imagens editoriais de n
 
 # Editorial Imagery — hero e carrossel de nível de mercado
 
-Sistema para gerar imagens com a qualidade de 34 referências de mercado e de
-duas peças aprovadas por cliente (caso de telemedicina). A imagem nunca é
+Sistema para gerar imagens a partir de um acervo visual catalogado de
+referências de mercado e peças aprovadas (caso de telemedicina). A imagem nunca é
 decoração atrás do texto: ela é **composta para o texto**, nasce de **uma
 ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 ---
 
-> **Versão pública:** a pasta `assets/` (miniaturas de referências de terceiros e peças aprovadas do cliente) não é distribuída por direitos autorais e confidencialidade. As fichas em texto descrevem cada referência; use imagens próprias como `--ref`.
+> **Versão pública:** inclui as gerações próprias autorizadas pelo usuário, seus índices visuais e `assets/catalogo.json`. As 34 referências de terceiros R/N e seus originais permanecem no pacote local; no público, suas fichas são descritivas e os arquivos são marcados como não distribuídos. Não alegue consulta visual a uma imagem ausente.
 
 ---
 
@@ -21,16 +21,23 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 1. **Brief:** marca, público, mensagem, formatos (desktop, mobile, carrossel
    e nº de slides), cor de marca, se o texto vai na imagem ou em HTML.
    Pergunte só o que não puder deduzir; marque o que for inferido.
-2. **Família e arquétipo:** escolha pela tabela abaixo e leia o arquivo da
-   família. Um arquétipo por peça. **Carrossel = um universo só**: uma
-   família, as mesmas pessoas, a mesma luz, paleta e acabamento; a variedade
-   vem do gesto, da distância e da interface, nunca de trocar de mundo
-   (`references/formatos-e-composicao.md §7.4`).
+2. **Família e consulta visual:** escolha a família pela tabela e leia seu
+   arquivo. Antes de **cada novo prompt**, inclusive quando a entrega for só
+   texto, siga `references/acervo-visual.md`: abra o índice visual disponível
+   e 2–4 imagens pertinentes em tamanho integral. Registre IDs, o que extrair
+   e o que mudar. Consulta não é envio automático ao gerador. Para as
+   letrinhas no topo, leia `references/microtipografia-editorial.md` e confira
+   R08/R10/R14 quando disponíveis. Um arquétipo por peça. **Carrossel = um
+   universo só**: mesma família, pessoas, luz, paleta e acabamento; varie
+   gesto, distância e interface (`references/formatos-e-composicao.md §7.4`).
 3. **Conceito com ideia:** antes de escrever prompt, responda "qual é a ideia
    que faz alguém parar?" (metáfora, escala, ponto de vista ou entrelaçamento
    de texto e imagem). Sem ideia, a peça vira banco de imagem.
 4. **Copy:** título de 3–7 palavras com uma palavra em itálico, subtítulo de
-   uma frase, CTA com verbo. Sem promessa que a marca não confirmou.
+   uma frase, CTA com verbo. Sem promessa que a marca não confirmou. Se o
+   cabeçalho editorial for ativado em alguns slides, definir os três textos
+   exatos, suas âncoras e quais slides o recebem; não adicionar data ou autor
+   das referências.
 5. **Prompt do formato mestre** (geralmente 9:16 ou 4:5) com a arquitetura de
    `references/prompts.md §6` **e o bloco de realismo** de
    `references/realismo-fotografico.md §R.6` em toda peça com pessoas ou close.
@@ -51,6 +58,8 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Precisa de… | Leia |
 |---|---|
 | Fichas das 34 referências e das peças aprovadas | `references/referencias.md` |
+| Consulta obrigatória, permissões e catálogo das imagens | `references/acervo-visual.md` e `assets/catalogo.json` |
+| Letrinhas no topo: esquerda, centro e direita | `references/microtipografia-editorial.md` |
 | Família A — céu & campo, objeto monumental | `references/familia-ceu-campo.md` |
 | Família B — saúde com detalhe do corpo e interface de vidro | `references/familia-saude-vidro.md` |
 | Famílias C, D e E — produto, esporte, tipografia sobre paisagem | `references/familias-produto-esporte-tipo.md` |
@@ -61,8 +70,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Modelos (Gemini, Midjourney), texto atrás do sujeito, hero web, exportação | `references/modelos-e-producao.md` |
 | Realismo de pessoas, pele, texturas e nitidez | `references/realismo-fotografico.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
-| Miniaturas para consulta visual | `assets/referencias/` (R01–R16, N01–N18) |
-| Peças aprovadas, usáveis como `--ref` | `assets/aprovadas/` (G01, G02) |
+| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`; R/N não distribuídos |
 
 ---
 
@@ -122,6 +130,10 @@ Reprove a peça se qualquer item **crítico** falhar.
 - [ ] Não reproduz nenhuma composição-assinatura das referências R/N.
 - [ ] Carrossel: mesmo universo em todos os slides, narrativa legível na
       sequência, paginação e "ARRASTE →" idênticas e legíveis no celular.
+- [ ] Imagens pertinentes realmente abertas antes do prompt; IDs e qualidades
+      utilizadas registrados. Arquivos ausentes declarados, não imaginados.
+- [ ] Cabeçalho opcional: três textos exatos, âncoras consistentes, sem crédito
+      alheio; leitura e contraste verificados na exportação.
 
 **Alto**
 - [ ] Um único acento; luz, paleta e acabamento iguais aos da série.
@@ -144,9 +156,10 @@ Correção: diagnóstico e micro-prompts em `edicao-iterativa.md §E.4`.
 
 ## 13. Ética, licença e procedência
 
-- As referências R e N são material de estudo: não as use como `--ref` de
-  geração nem copie suas composições exatas, marcas ou textos. As peças G
-  foram geradas para o cliente e podem ser usadas como `--ref`.
+- Consulte as permissões em `assets/catalogo.json` antes de compartilhar ou
+  anexar imagens. R/N são apenas estudo visual local, não entradas `--ref`
+  nem material de redistribuição pública. G são peças geradas aprovadas
+  autorizadas pelo usuário como referência; histórico não é alvo final.
 - Não cite artistas ou fotógrafos vivos no prompt; descreva as qualidades
   visuais. Não gere pessoas reais, celebridades, personagens (R15), bandeiras
   e insígnias (R11), nem logotipos de terceiros (R01, R12, N10).
@@ -162,6 +175,8 @@ Correção: diagnóstico e micro-prompts em `edicao-iterativa.md §E.4`.
 ## 14. Contrato de entrega
 
 1. **Conceito**: família, arquétipo e a ideia em uma frase.
+   **Referências consultadas:** IDs, qualidades extraídas, diferenças propostas
+   e arquivos ausentes; registrar separadamente as imagens anexadas ao gerador.
 2. **Copy** aplicada (título, subtítulo, CTA, tags) e alternativas avaliadas.
 3. **Tabela de peças**: arquivo, formato, proporção, ponto focal, cor do texto.
 4. **Prompts finais** exatos de geração e de cada edição, com parâmetros

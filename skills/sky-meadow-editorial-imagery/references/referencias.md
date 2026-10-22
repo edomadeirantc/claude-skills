@@ -1,7 +1,11 @@
 # Referências analisadas
 
-Duas levas de referências. Miniaturas em `../assets/referencias/` (ID = nome do arquivo).
-Elas servem **só para estudo**: nunca as use como `--ref` de geração nem copie composições, marcas ou textos.
+Duas levas de referências analisadas. As imagens R/N são de terceiros e não
+são distribuídas no pacote público; as fichas abaixo são descrições, não
+substituem a abertura visual. Consulte `acervo-visual.md` e
+`../assets/catalogo.json` para os arquivos efetivamente disponíveis. R/N
+servem **só para estudo**: nunca as use como `--ref` de geração nem copie
+composições, marcas ou textos.
 
 ## 0. Composições-assinatura — não repetir
 
@@ -48,6 +52,15 @@ Use os IDs abaixo ao justificar decisões.
 | R14 | Quatro pessoas saltando numa crista; céu azul profundo; grão de filme; paginação 01–08 | Silhuetas na crista; carrossel paginado; filme 35 mm |
 | R15 | Dois personagens de série em cadeiras de praia num gramado; trailer ao fundo | **Somente a composição** (duas figuras simétricas sentadas). Personagens e pessoas reais são proibidos ([SKILL.md §13](../SKILL.md)) |
 | R16 | Céu vertical emoldurado por folhas de bananeira | Janela de céu 9:16; vazio central para tipografia |
+
+### Detalhe transversal: microlegendas superiores
+
+Inspeção visual de R08, R10 e R14 confirma uma linha de três âncoras no topo:
+esquerda, centro e direita; pequena sans em caixa-alta, sem fundo, subordinada
+ao título. Copiar só a hierarquia e a grade, não data, autor ou categoria.
+Aplicação opcional em slides escolhidos, parâmetros e prompts em
+`microtipografia-editorial.md`. No pacote público, consulte as fichas sem
+alegar que abriu R/N, pois essas imagens não são distribuídas.
 
 ## 1.1 Segunda leva — N01 a N18 (saúde, vidro, produto, esporte)
 

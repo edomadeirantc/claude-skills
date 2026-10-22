@@ -74,7 +74,7 @@ Frase: `Vertical composition. The top 38% is clean deep blue sky for a headline,
 
 ```
 ┌────────────────────┐ 0%
-│ meta-linha (0–9%)  │  data · autor · categoria (camada gráfica)
+│ meta-linha (4–9%)  │  três rótulos próprios, opcionais
 │ TÍTULO  12–40%     │
 │                    │
 │  [ SUJEITO ] 40–88%│
@@ -188,18 +188,20 @@ relógio gigante, guarda-chuvas, folhas de bananeira), saiu **bagunçado** e
 distância, texto). Se dois slides tiverem o mesmo gesto e a mesma distância,
 mude um. Se algum slide pedir outro cenário, a ideia não cabe neste carrossel.
 
-Elementos gráficos pesados (grade, setas desenhadas, meta-linha de 3 colunas)
-continuam sendo camada de design (§8); paginação curta e botão de contorno
-podem ser gerados (validado).
+Grade, setas complexas e fitas curvas continuam sendo camada de design (§8).
+Para o cabeçalho de três âncoras, consulte `microtipografia-editorial.md`:
+pode ser solicitado na imagem quando pedido, mas a grafia e a grade precisam
+ser conferidas; sobreposição tipográfica é a alternativa de controle exato.
 
 ---
 
-## 8. Camada gráfica (fora da geração)
+## 8. Camada gráfica — geração ou sobreposição
 
-Padrões observados nas referências que **não** devem ser gerados pela IA —
-aplique no HTML/Figma por cima da imagem:
+Cabeçalho de três âncoras: regras, escala, textos exatos e QA em
+`microtipografia-editorial.md`. A aplicação é opcional em slides escolhidos,
+sem copiar data, autor ou categoria das referências.
 
-- Meta-linha de 3 colunas em caixa-alta pequena: data · autor · categoria (R08–R11, R14).
+Para os elementos complexos abaixo, prefira HTML/Figma por cima da imagem:
 - Linhas finas, grade, círculo grande, marcas "+", molduras finas (R03, R05, R07, R12).
 - Paginação `BACK 01 … 08 NEXT` e setas (R12, R14).
 - Chips de vidro tipo HUD com dados (R13).

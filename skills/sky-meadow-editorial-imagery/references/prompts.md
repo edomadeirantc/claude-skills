@@ -34,6 +34,11 @@ Composition: {SAFE_ZONE_SENTENCE}
 Finish: {FINISH_SENTENCE}.
 Do not include any text, letters, numbers, logos, watermarks, signage, UI elements, borders or frames.
 ```
+Este template é a variante **sem texto**. Quando a copy for aplicada pelo
+gerador, substitua a última frase por uma lista fechada dos textos exatos
+(título, subtítulo, CTA e, se ativado, cabeçalho). Termine com: `Render only
+the exact text listed above; no additional lettering, dates, credits, logos
+or watermarks.` Não misture a lista com a proibição geral de letras/números.
 
 ### 6.3 Banco de frases por slot
 
@@ -85,6 +90,19 @@ por edição ou no tratamento.
   ([SKILL.md §13](../SKILL.md)). Descreva as qualidades visuais.
 - Prompt em inglês; texto que for aparecer na imagem, entre aspas, no idioma
   final.
+
+### 6.5 Referências e cabeçalho editorial
+
+Antes de preencher os slots, execute a consulta visual de `acervo-visual.md`
+e registre os IDs consultados fora do prompt. Anexe ao gerador somente
+imagens autorizadas, informando a função de cada uma. Se entregar um prompt
+para outro terminal ou gerador, diga quais arquivos devem acompanhá-lo;
+um caminho local ou ID no texto não envia uma imagem por si só.
+
+Se a peça pedir microlegendas no topo, inclua o bloco e as três strings exatas
+de `microtipografia-editorial.md §4`, adaptadas ao tema. Defina os slides
+escolhidos e reutilize as mesmas âncoras. No modo sobreposição, gere a faixa
+vazia e entregue os rótulos separadamente para composição tipográfica.
 
 ---
 
