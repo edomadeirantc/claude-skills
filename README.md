@@ -1,6 +1,6 @@
 # claude-skills
 
-439 skills pessoais empacotadas como plugin do Claude Code (`all-skills`) no marketplace `edo-skills`.
+440 skills pessoais empacotadas como plugin do Claude Code (`all-skills`) no marketplace `edo-skills`.
 
 ## Local (CLI)
 

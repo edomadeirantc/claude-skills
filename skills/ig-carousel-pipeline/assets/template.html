@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Carrossel</title>
+<style>
+  /* Troque só estas variáveis. Com brand/design system no projeto, use as cores dele. */
+  :root {
+    --bg: #F3EEE8;        /* fundo: neutro quente, tipo Morandi */
+    --surface: #FFFFFF;   /* cartões e pílulas */
+    --ink: #2B2A28;       /* texto principal */
+    --muted: #6F6A64;     /* texto secundário */
+    --accent: #B5654A;    /* UM acento só */
+    --handle: "@seuhandle";
+    --font: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #999; font-family: var(--font); color: var(--ink); }
+
+  .slide {
+    position: relative; width: 1080px; height: 1350px; overflow: hidden;
+    background: var(--bg); padding: 120px; /* zona segura: o grid corta as bordas */
+    display: flex; flex-direction: column; justify-content: center; gap: 40px;
+    page-break-after: always;
+  }
+  .slide::after { /* @handle em todo slide: screenshot viaja sem você */
+    content: var(--handle); position: absolute; right: 64px; bottom: 52px;
+    font-size: 30px; color: var(--muted); letter-spacing: .02em;
+  }
+  .count { position: absolute; left: 64px; bottom: 52px; font-size: 30px; color: var(--muted); }
+
+  .tag {
+    align-self: flex-start; background: var(--accent); color: #fff;
+    font-size: 34px; font-weight: 700; padding: 14px 32px; border-radius: 999px;
+  }
+  h1 { font-size: 132px; line-height: 1.02; font-weight: 800; letter-spacing: -.02em; }
+  h2 { font-size: 84px; line-height: 1.06; font-weight: 800; letter-spacing: -.015em; }
+  p, li { font-size: 44px; line-height: 1.35; }
+  .sub { font-size: 48px; color: var(--muted); }
+  .accent { color: var(--accent); }
+  .emoji { font-size: 96px; line-height: 1; }
+
+  .card { background: var(--surface); border-radius: 36px; padding: 48px 56px; }
+  .example { font-size: 38px; color: var(--muted); border-left: 8px solid var(--accent); padding-left: 32px; }
+
+  .recap ol { list-style: none; counter-reset: r; display: flex; flex-direction: column; gap: 28px; }
+  .recap li { counter-increment: r; display: flex; gap: 28px; align-items: baseline; }
+  .recap li::before { content: counter(r); color: var(--accent); font-weight: 800; font-size: 52px; min-width: 44px; }
+
+  .cta { background: var(--ink); color: var(--bg); }
+  .cta .sub, .cta .count, .cta::after { color: #CFC8C0; }
+  .keyword {
+    align-self: flex-start; font-size: 96px; font-weight: 800; letter-spacing: .04em;
+    background: var(--accent); color: #fff; padding: 12px 40px; border-radius: 28px;
+  }
+</style>
+</head>
+<body>
+
+<!-- 1 CAPA: até 6 palavras, grande, 1 linha de promessa, 1 pílula -->
+<section class="slide cover" aria-label="Capa: a cláusula de 18 mil reais">
+  <span class="tag">Salve para depois</span>
+  <h1>A cláusula de <span class="accent">R$ 18 mil</span></h1>
+  <p class="sub">Uma linha que agora vai em todo contrato meu.</p>
+</section>
+
+<!-- 2 STAKE: por que importa, numa frase. Funciona como segunda capa -->
+<section class="slide stake">
+  <h2>Aprovei o trabalho. Nove dias depois, pediram o dinheiro de volta.</h2>
+</section>
+
+<!-- 3..N UMA IDEIA POR SLIDE: título 3-7 palavras, até 25 palavras abaixo -->
+<section class="slide idea">
+  <div class="emoji" aria-hidden="true">📝</div>
+  <h2>O que a cláusula diz</h2>
+  <div class="card"><p>Pagamento na entrega, não na aprovação.</p></div>
+  <p class="example">Entregou o arquivo final? A fatura vence ali.</p>
+</section>
+
+<section class="slide idea">
+  <div class="emoji" aria-hidden="true">⏱️</div>
+  <h2>Prazo de contestação curto</h2>
+  <div class="card"><p>O cliente tem 5 dias úteis para apontar erro. Depois disso, o trabalho conta como aceito.</p></div>
+</section>
+
+<!-- RECAP: a lista inteira, legível sem contexto. É o slide do print -->
+<section class="slide recap">
+  <h2>Resumo</h2>
+  <ol>
+    <li>Pagamento na entrega</li>
+    <li>5 dias úteis para contestar</li>
+    <li>Silêncio conta como aceite</li>
+  </ol>
+</section>
+
+<!-- CTA: UMA ação só -->
+<section class="slide cta">
+  <h2>Quer a cláusula completa?</h2>
+  <p class="sub">Comente a palavra abaixo e eu te mando por DM.</p>
+  <span class="keyword">CONTRATO</span>
+</section>
+
+<script>
+  // Numeração 3/8 em todos os slides menos a capa: a pessoa vê onde termina.
+  const slides = document.querySelectorAll('section.slide');
+  slides.forEach((s, i) => {
+    if (i === 0) return;
+    const c = document.createElement('span');
+    c.className = 'count';
+    c.setAttribute('aria-hidden', 'true');
+    c.textContent = `${i + 1}/${slides.length}`;
+    s.appendChild(c);
+  });
+</script>
+</body>
+</html>
