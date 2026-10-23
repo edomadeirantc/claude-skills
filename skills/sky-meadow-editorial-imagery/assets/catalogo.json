@@ -10,7 +10,8 @@
     "folhas_contato": 2,
     "demonstracoes_derivadas": 1,
     "anexos_conversa_distribuidos": 0,
-    "referencias_carrossel_distribuidas": 10
+    "referencias_carrossel_distribuidas": 10,
+    "historicos_teste_distribuidos": 3
   },
   "itens": [
     {
@@ -1315,6 +1316,78 @@
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
       "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+    },
+    {
+      "id": "TG-R1",
+      "papel": "historico_teste",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/templates/groomy-rodada1.jpg",
+      "dimensoes": {
+        "largura": 1440,
+        "altura": 1052
+      },
+      "sha256": "03d707b2dfaf09965be8586b261de0529fa10c4329894a03344853a47a50c2f3",
+      "bytes": 290518,
+      "origem": {
+        "tipo": "gerações do usuário no teste do template T1 (caso Groomy), publicadas a pedido dele",
+        "id": "TG-R1"
+      },
+      "observacao_visual": "Folha de contato da rodada 1 do template T1 (8 slides Groomy): universo consistente aprovado; mesma diagramação em todos; contador errado; arquivos 3:4.",
+      "permissoes": {
+        "uso": "histórico de teste: mostrar o que aprovou e o que reprovou; não é golden",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      }
+    },
+    {
+      "id": "TG-R2",
+      "papel": "historico_teste",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/templates/groomy-rodada2.jpg",
+      "dimensoes": {
+        "largura": 1440,
+        "altura": 1052
+      },
+      "sha256": "5d064a472495c521039ea36fabc3fda9311f5746e4418524bd7d190a5dfec4c3",
+      "bytes": 254909,
+      "origem": {
+        "tipo": "gerações do usuário no teste do template T1 (caso Groomy), publicadas a pedido dele",
+        "id": "TG-R2"
+      },
+      "observacao_visual": "Folha de contato da rodada 2 do template T1: layouts variados aprovados; contador errado em 5 de 8; personagem e barbearia com cara de banco de imagem.",
+      "permissoes": {
+        "uso": "histórico de teste: mostrar o que aprovou e o que reprovou; não é golden",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      }
+    },
+    {
+      "id": "TG-R3",
+      "papel": "historico_teste",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/templates/groomy-rodada3-capas.png",
+      "dimensoes": {
+        "largura": 1493,
+        "altura": 244
+      },
+      "sha256": "5d754ac686545ff6a36d05d36cc21cf16f5c60d4b14a209c47022c97e68f1842",
+      "bytes": 713618,
+      "origem": {
+        "tipo": "gerações do usuário no teste do template T1 (caso Groomy), publicadas a pedido dele",
+        "id": "TG-R3"
+      },
+      "observacao_visual": "Captura das 8 capas da rodada 3 do template T1: barbearia pobre e precária, reprovada; originou a regra do padrão do lugar.",
+      "permissoes": {
+        "uso": "histórico de teste: mostrar o que aprovou e o que reprovou; não é golden",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
+      }
     }
   ],
   "indices": [

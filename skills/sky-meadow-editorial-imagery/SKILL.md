@@ -24,8 +24,11 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
    (`references/briefing-perguntas.md`): ação única, @handle, formato e nº de
    slides, linguagem visual, texto na imagem ou em camada. Pergunte só o que
    não puder deduzir.
-2. **Nicho, branding, família e consulta visual:** identifique nicho,
-   público, acento da marca e restrições legais
+2. **Template, nicho, branding, família e consulta visual:** se o pedido
+   combina com um template testado (carrossel de conversão, pitch 16:9,
+   produto na pele), comece por ele (`references/templates/README.md`).
+   Identifique nicho, público, acento da marca, padrão do lugar e
+   restrições legais
    (`references/nichos-e-ideias.md §N.1–N.3`; SaaS: `references/saas.md`).
    Escolha a família pela tabela e leia seu arquivo. Antes de **cada novo
    prompt**, inclusive quando a entrega for só texto, siga
@@ -100,8 +103,9 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Modelos (Gemini, Midjourney), texto atrás do sujeito, hero web, exportação | `references/modelos-e-producao.md` |
 | Realismo de pessoas, pele, texturas e nitidez; antídoto do banco de imagem, ficha de personagem, ambiente vivo, portão da capa | `references/realismo-fotografico.md` (detalhes por nicho em `nichos-e-ideias.md §N.5`) |
 | Contador do carrossel (pontos, numeração, "ARRASTE") em camada | `scripts/kit_overlay.mjs` |
+| Templates testados por tipo de peça (T1 carrossel de conversão, T2 pitch 16:9, T3 produto na pele), com prompts finais dos casos | `references/templates/README.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
-| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, índices em `assets/indices/`; R/N não distribuídos |
+| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, rodadas de teste e planilha de pitch em `assets/templates/`, índices em `assets/indices/`; R/N não distribuídos |
 
 **Precedência quando dois arquivos discordam:** (1) restrições legais e de
 ética (§13) e "nenhum dado inventado"; (2) arquivo do nicho específico
