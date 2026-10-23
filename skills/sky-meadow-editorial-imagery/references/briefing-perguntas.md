@@ -19,6 +19,9 @@ Leia todo o material enviado e preencha sozinho, marcando `[INFERIDO]`:
   ficha técnica e estudos só informam, `nichos-e-ideias.md §N.1`) e
   restrições do setor;
 - produto e textos exatos da embalagem (para não inventar letras);
+- padrão do lugar e das pessoas em cena (mediano bem cuidado por padrão;
+  premium ou popular digno só se preço, site ou público indicarem;
+  `realismo-fotografico.md §R.11.0`). Nunca pobre ou precário sem pedido;
 - referências do acervo a consultar (`acervo-visual.md`).
 
 Nunca pergunte o que o material responde. Pergunte só o que é **escolha**.

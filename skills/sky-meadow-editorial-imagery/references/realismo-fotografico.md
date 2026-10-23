@@ -132,8 +132,8 @@ bancada de madeira vazia) e luz dramática igual em todos os slides.
 
 | Sintoma | Causa no prompt | Antídoto |
 |---|---|---|
-| Personagem genérico | Descrição média ("early thirties, clean fade, neatly trimmed beard") | Ficha de personagem com 3–5 traços marcantes e roupa com desgaste (R.10) |
-| Cenário sem vida | Bíblia descrevendo um arquétipo de revista (concreto, Edison, couro) e proibindo tudo que tem texto | Lugar específico e usado, com 5 camadas de vida (R.11); cartazes permitidos fora de foco e ilegíveis |
+| Personagem genérico | Descrição média ("early thirties, clean fade, neatly trimmed beard") | Ficha de personagem com 3–5 traços marcantes (R.10) |
+| Cenário sem vida | Bíblia descrevendo um arquétipo de revista (concreto, Edison, couro) e proibindo tudo que tem texto | Lugar específico, bem cuidado e em uso, com 5 camadas de vida (R.11); cartazes permitidos fora de foco e ilegíveis |
 | Cara de propaganda | "premium", "cinematic", "moody", "editorial", "low-key" na bíblia | Registro documental (R.12) e luz real do lugar |
 | Todos os slides iguais na luz | Uma só fonte dramática para a série | Hora do dia diferente por slide, com a mesma luz física do lugar |
 | O genérico se espalha | A capa genérica vira referência dos demais | Portão da capa antes de usá-la como referência (R.13) |
@@ -143,31 +143,56 @@ Palavras que puxam o banco de imagem e só entram se a marca pedir:
 `Edison bulb`, `industrial concrete`, `leather apron`, `perfectly groomed`,
 `model`, `handsome`, `beautiful`.
 
+**Rodada 3 do Groomy (o erro oposto):** para fugir do banco de imagem, o
+prompt pediu azulejo trincado, assento remendado, porta de enrolar e tubos
+de LED frios. Saiu uma barbearia pobre e precária, que rebaixa a marca e o
+cliente. Realismo vem de **vida e uso**, nunca de **dano e pobreza** (R.11.0).
+
 ## R.10 Ficha de personagem (pessoa recorrente)
 
 Uma pessoa por ficha, repetida **palavra por palavra** em todo prompt:
 
 ```text
 {NOME}, {idade exata}, {nacionalidade/origem}, {tipo físico real: peso, postura},
-{cabelo com defeito real: entradas, fios brancos, corte de alguns dias},
-{2–3 marcas únicas: cicatriz, dente torto, tatuagem desbotada, sardas, óculos},
-{roupa comum com desgaste: gola laceada, bolinhas no tecido, tênis sujo},
-{um acessório barato e coerente com a renda}. Not a model: an ordinary {papel}.
+{cabelo real: entradas, fios brancos, corte de alguns dias},
+{2–3 marcas únicas: cicatriz, dente torto, tatuagem, sardas, óculos},
+{roupa limpa do dia a dia, coerente com o padrão do lugar (R.11.0)},
+{um acessório comum, coerente com o perfil}. Not a model: a real, likable {papel}.
 ```
 
 - Nome próprio ajuda o modelo a manter a mesma pessoa; não use nome de pessoa real conhecida.
 - Nunca escreva `identity`, `same face` ou `face of the reference` em prompt com imagem anexada: pode disparar o filtro de política (bloqueio observado no caso PlantMed). Use `the same {papel}'s general look and clothing`.
 - Coadjuvantes (clientes, família) em segundo plano, rosto parcial, idades variadas.
 
-## R.11 Ambiente vivo — cinco camadas
+## R.11 Ambiente vivo — padrão e cinco camadas
+
+### R.11.0 Padrão do lugar (regra)
+
+O lugar nunca é pobre, precário, sujo ou malcuidado, a menos que o cliente
+peça ou que a análise do produto exija (campanha social, antes/depois de
+reforma, denúncia). O padrão vem da análise da marca e do público
+(`briefing-perguntas.md` Q.0):
+
+| Padrão | Quando | Como descrever |
+|---|---|---|
+| **Mediano bem cuidado** (padrão) | Pequeno negócio, SaaS para PME, serviço de bairro, produto de preço médio | `well-kept, mid-market, successful and organized`; materiais simples e bons, luz agradável, móveis em bom estado |
+| Premium | Marca ou preço premium, público A | materiais nobres, design autoral, poucas peças, luz cuidada (sem cair no banco de imagem: mantenha as cinco camadas) |
+| Popular digno | Público C/D, quando a marca fala com ele | lugar simples, limpo e organizado, com orgulho do dono; nunca sujo ou quebrado |
+
+Na dúvida, mediano bem cuidado. Nunca abaixo do posicionamento da marca.
+Sempre proibir no bloco de realismo: `any run-down, cheap, dirty or
+precarious look (cracked tiles, patches, stains, bare fluorescent tubes,
+exposed wiring, broken furniture)`.
+
+### R.11.1 Cinco camadas de vida
 
 Descreva o lugar como ele **é usado**, não como seria fotografado para vender:
 
-1. **Estrutura com idade:** material, cor e defeito (azulejo trincado, parede remendada, piso riscado).
-2. **Objetos de uso real, desencontrados:** marcas diferentes, quantidades irregulares, fios embolados, copo de café.
-3. **Rastros de trabalho:** cabelo no chão, papel amassado, terra na bota, migalha, mancha.
+1. **Estrutura com personalidade:** materiais e cores reais do padrão escolhido (parede de tijolo, piso amadeirado, bancada de madeira), com sinais leves de uso diário; nunca dano.
+2. **Objetos de uso real, variados:** marcas diferentes, quantidades irregulares, fios, copo de café; organizado, não cenográfico.
+3. **Rastros de trabalho do momento:** cabelo perto da cadeira durante o corte, papel na bancada, terra na bota no campo; não sujeira acumulada.
 4. **Gente e movimento:** cliente esperando, alguém saindo, uma mão em movimento com leve desfoque.
-5. **Regionalidade:** o que só existe naquele país e classe social (porta de enrolar, ventilador de teto, cadeira plástica, TV pequena na parede).
+5. **Regionalidade:** o que só existe naquele país e segmento (banco de espera, TV na parede, planta, vitrine para a rua), escolhido dentro do padrão.
 
 Texto no ambiente: cartazes, preços e calendários existem, mas `soft, out of focus and unreadable`. Proibir só texto **legível** inventado e logotipos.
 
@@ -189,7 +214,7 @@ se repete em todos. Reprove e gere de novo se 2 ou mais falharem:
 
 - [ ] Passaria como foto de lugar real, não de banco de imagem.
 - [ ] A pessoa tem os traços únicos da ficha (R.10) visíveis.
-- [ ] O lugar tem as cinco camadas de vida (R.11).
+- [ ] O lugar tem as cinco camadas de vida (R.11.1) e o padrão definido (R.11.0): nem showroom vazio, nem lugar pobre ou precário.
 - [ ] A luz é a do lugar, não um efeito de propaganda.
 - [ ] Sem pele lisa, brilho, simetria ou grading de cinema.
 

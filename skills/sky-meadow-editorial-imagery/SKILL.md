@@ -182,6 +182,9 @@ Reprove a peça se qualquer item **crítico** falhar.
 - [ ] Capa aprovada no portão da capa antes de virar referência; nada de
       banco de imagem: personagem com ficha, lugar vivo, luz do lugar
       (`realismo-fotografico.md §R.9–R.13`, `nichos-e-ideias.md §N.5`).
+- [ ] Lugar e pessoas no padrão da marca (mediano bem cuidado por padrão):
+      nada pobre, sujo, quebrado ou precário, salvo pedido do cliente ou do
+      produto (`realismo-fotografico.md §R.11.0`).
 - [ ] Carrossel: 4+ layouts distintos em 8 slides, nenhum repetido em
       sequência, um slide de respiro; vozes tipográficas pelo papel do texto.
 - [ ] Imagens pertinentes realmente abertas antes do prompt; IDs e qualidades
