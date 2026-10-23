@@ -209,12 +209,16 @@ relógio gigante, guarda-chuvas, folhas de bananeira), saiu **bagunçado** e
 
 | Slide | Papel | O que muda | O que fica |
 |---|---|---|---|
-| 1 | Gancho (capa) | Plano mais próximo e mais emocional | Pessoas, luz, céu, acabamento, tipografia |
+| 1 | Gancho (capa) | Plano mais próximo e mais emocional | Pessoas, luz, céu, acabamento, famílias tipográficas (layout e voz variam) |
 | 2 | Tensão / problema | Outro gesto ou objeto da rotina do público | idem |
 | 3 | Virada / solução | Mudança de distância (abre o plano) | idem |
 | 4 | Prova / como funciona | Interface de vidro (tags, constelação, passos) | idem |
 | 5 | Para quem / benefício | Outro ângulo das mesmas pessoas | idem |
 | N | Ação | O plano mais calmo, maior espaço livre, botão | idem |
+
+Além de gesto e distância, o **layout da página e a voz tipográfica** também
+variam por slide (arquétipos L1–L12 em `variacao-de-layout.md`); o que não
+muda é pessoa, lugar, luz, paleta, acento e kit.
 
 **De onde vem a variedade** (combine 2 por slide, nunca a cena inteira):
 - **gesto:** testas, mãos, pulso, ombros, celular erguido, cabeça no ombro;

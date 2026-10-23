@@ -97,8 +97,9 @@ N+1    RESUMO     a lista inteira legível sem contexto (o slide do print/salvar
 ÚLTIMO CTA        uma ação só, a mesma do briefing
 ```
 
-Mostre o roteiro em uma linha por slide (papel · cena · título) e espere
-aprovação antes de escrever prompts.
+Mostre o roteiro em uma linha por slide (papel · cena · layout · voz ·
+título) e espere aprovação antes de escrever prompts. Layout e voz seguem
+`variacao-de-layout.md §V.2–V.5`.
 
 Qual esqueleto usar: **SaaS** → `saas.md §S.4`; **produto ou serviço** →
 papéis de `formatos-e-composicao.md §7.4`; **conteúdo educativo/opinião**

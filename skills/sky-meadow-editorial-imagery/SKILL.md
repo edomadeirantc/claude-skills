@@ -59,7 +59,12 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 5. **Prompt do formato mestre** (geralmente 9:16 ou 4:5; em carrossel, o
    mestre é a **capa**) com a arquitetura de `references/prompts.md §6`
    **e o bloco de realismo** de `references/realismo-fotografico.md §R.6` em
-   toda peça com pessoas ou close.
+   toda peça com pessoas ou close. Carrossel: cada slide recebe um
+   **arquétipo de layout e uma voz tipográfica** do roteiro, e a capa entra
+   nos slides seguintes só como referência de identidade
+   (`references/variacao-de-layout.md`). Confira a proporção do primeiro
+   arquivo gerado; se vier 3:4, reescreva as posições pela tabela de
+   `formatos-e-composicao.md §5.6`.
 6. **Gerar em 2K** e apresentar. Se a ideia não for aprovada, volte ao passo 3.
 7. **Editar** a peça aprovada com edições de 1 a 3 mudanças
    (`references/edicao-iterativa.md`), sempre a partir da última versão aprovada.
@@ -84,6 +89,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Ganchos (26 fórmulas), roteiro, CTA, anti-IA e legenda | `references/ganchos-e-copy.md` |
 | SaaS e apps: metáforas, carrossel, hero, o que não afirmar | `references/saas.md` |
 | Família F — carrossel social de conversão, kit de sequência | `references/familia-social-conversao.md` |
+| Variar layout, fontes e dispositivos sem trocar de universo (L1–L12, 3 vozes) | `references/variacao-de-layout.md` |
 | Família A — céu & campo, objeto monumental | `references/familia-ceu-campo.md` |
 | Família B — saúde com detalhe do corpo e interface de vidro | `references/familia-saude-vidro.md` |
 | Famílias C, D e E — produto, esporte, tipografia sobre paisagem | `references/familias-produto-esporte-tipo.md` |
@@ -171,6 +177,8 @@ Reprove a peça se qualquer item **crítico** falhar.
 - [ ] Ganchos, provas e números só com dado fornecido pela marca; sem urgência falsa.
 - [ ] Carrossel: mesmo universo em todos os slides, narrativa legível na
       sequência, paginação e "ARRASTE →" idênticas e legíveis no celular.
+- [ ] Carrossel: 4+ layouts distintos em 8 slides, nenhum repetido em
+      sequência, um slide de respiro; vozes tipográficas pelo papel do texto.
 - [ ] Imagens pertinentes realmente abertas antes do prompt; IDs e qualidades
       utilizadas registrados. Arquivos ausentes declarados, não imaginados.
 - [ ] Cabeçalho opcional: três textos exatos, âncoras consistentes, sem crédito

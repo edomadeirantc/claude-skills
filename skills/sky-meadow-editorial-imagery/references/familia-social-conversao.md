@@ -127,7 +127,7 @@ Detalhes de grade, escala e contraste em `microtipografia-editorial.md §2–§4
 | Elemento | Posição (altura) | Frase de prompt ou regra |
 |---|---|---|
 | Pílula de CTA de arraste | 83–88%, centrada | `a solid {ACCENT} pill button with dark uppercase sans text "ARRASTE PARA O LADO", next to a small solid {ACCENT} circle containing a dark right arrow` (só na capa) |
-| Pontos de página | 90%, centrados | `{N} small grey squares in a row, the active one replaced by a small {ACCENT} diamond` (N = nº de slides) |
+| Pontos de página | 90%, centrados | `{N} small grey squares in a row with ONLY the {k}th replaced by a small {ACCENT} diamond; all other squares plain grey` (N = nº de slides) |
 | Numeração | 92%, x = 6% | `"01/06" small grey sans` (sem espaços) |
 | Arraste | 92%, terminando em x = 94% | `"ARRASTE →" small grey uppercase sans` (some no último slide) |
 | Tag de categoria | 6–9%, terminando em x = 94% | `a small solid {ACCENT} pill with dark uppercase label "{CATEGORIA}"` |
@@ -146,6 +146,15 @@ Sempre: um único CTA por slide, a mesma ação pedida no briefing.
 Texto pequeno gerado pela IA erra com frequência: se a numeração, os pontos
 ou a tag saírem errados, gere sem eles e aplique em camada (caminho B de
 `microtipografia-editorial.md §4`).
+
+Erros observados no caso Groomy (8 slides gerados): (1) o gerador entregou
+3:4 (1792×2400) apesar de `4:5`, com o @ a ~4% e o rodapé a ~96%, o que um
+corte para 4:5 cortaria; (2) com `--ref` da capa, o primeiro ponto ficou
+lime em vários slides além do ponto atual; (3) com "keep typography
+exactly", os 8 slides saíram com a mesma diagramação. Correções: conferir a
+proporção do primeiro arquivo (`formatos-e-composicao.md §5.6`), frase
+"ONLY the current one" nos pontos, e referência só de identidade
+(`variacao-de-layout.md §V.4`).
 
 ---
 
@@ -192,12 +201,14 @@ Render only the exact text listed above; no additional lettering, dates, credits
 [REALISM BLOCK — realismo-fotografico.md §R.6]
 ```
 
-Miolo: mesma luz, paleta, fonte e kit; troque distância/gesto (§7.4 de
+Miolo: mesma luz, paleta e kit, com **layout e voz tipográfica diferentes a
+cada slide** (`variacao-de-layout.md`); troque distância/gesto (§7.4 de
 `formatos-e-composicao.md`), tire a pílula de arraste, mantenha pontos e
-numeração. Fechamento: F5 ou o plano mais calmo da série com o CTA da marca.
+numeração. Fechamento: F5/L12 ou o plano mais calmo da série com o CTA da marca.
 
-Ordem dos `--ref` nos slides depois da capa: **IMAGE 1 = capa aprovada**
-(luz, pele, tipografia, kit), **IMAGE 2 = foto real do produto** (rótulo),
+Ordem dos `--ref` nos slides depois da capa: **IMAGE 1 = capa aprovada**,
+só para identidade (pessoa, lugar, luz, paleta; nunca layout ou tipografia,
+`variacao-de-layout.md §V.4`), **IMAGE 2 = foto real do produto** (rótulo),
 como em `edicao-iterativa.md`. Corpo sem rosto: use o bloco R.6 sem as
 linhas de rosto, olhos e lábios, com foco no rótulo ou na pele mais próxima
 (`realismo-fotografico.md §R.6`).
