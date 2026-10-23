@@ -109,9 +109,9 @@ Ficam em `../assets/aprovadas/`. Estas **podem** ser usadas como `--ref`, porque
 ## 1.3 Terceira leva — IG01 a IG10 (carrossel social de conversão)
 
 Fonte: 10 imagens enviadas pelo usuário, todas 1080×1440 (3:4), JPEG.
-Base da Família F (`familia-social-conversao.md`). Arquivos só no pacote
-local, a partir da raiz da skill em `assets/referencias/carrosseis/`; índice
-em `assets/referencias/indice-carrosseis-ig.jpg`. Estudo apenas: não anexar
+Base da Família F (`familia-social-conversao.md`). Arquivos em
+`assets/carrosseis/` (raiz da skill); índice em
+`assets/indices/carrosseis-ig.jpg`. Consulta apenas: não anexar
 ao gerador, não copiar pessoas, nomes, @ ou textos. Cores medidas por
 amostragem de área 5×5 px.
 

@@ -6,11 +6,11 @@
     "fontes_estudo_distribuidas": 0,
     "geracoes_aprovadas_distribuidas": 2,
     "historicos_distribuidos": 0,
-    "imagens_unicas_distribuidas": 2,
-    "folhas_contato": 1,
+    "imagens_unicas_distribuidas": 12,
+    "folhas_contato": 2,
     "demonstracoes_derivadas": 1,
     "anexos_conversa_distribuidos": 0,
-    "fontes_estudo_locais_ig": 10
+    "referencias_carrossel_distribuidas": 10
   },
   "itens": [
     {
@@ -1059,10 +1059,9 @@
     {
       "id": "IG01",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig01-capa-retrato-handle-selo-perfil.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig01-capa-retrato-handle-selo-perfil.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1074,22 +1073,21 @@
         "arquivo_original": "transferir.jfif",
         "id": "IG01"
       },
-      "observacao_visual": "Capa 3:4: retrato de homem grisalho (pessoa pública reconhecível) em fundo escuro; @ de terceiro no topo esquerdo; selo avatar+nome+verificado; título condensado creme; pílula dourada #C8A063 'ARRASTE PARA O LADO' com círculo e seta; pontos com losango; 01/03 e ARRASTA.",
+      "observacao_visual": "Capa (original 1080×1440): retrato de homem grisalho (pessoa pública reconhecível) em fundo escuro; @ de terceiro no topo esquerdo; selo avatar+nome+verificado; título condensado creme; pílula dourada #C8A063 'ARRASTE PARA O LADO' com círculo e seta; pontos com losango; 01/03 e ARRASTA.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG02",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig02-capa-retrato-pilula-vermelha.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig02-capa-retrato-pilula-vermelha.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1101,22 +1099,21 @@
         "arquivo_original": "transferir (1).jfif",
         "id": "IG02"
       },
-      "observacao_visual": "Capa 3:4: retrato de mulher de cabelo cacheado, fundo marrom; título condensado branco na base escura; pílula vermelha #E0312E 'Arrasta para o lado'.",
+      "observacao_visual": "Capa (original 1080×1440): retrato de mulher de cabelo cacheado, fundo marrom; título condensado branco na base escura; pílula vermelha #E0312E 'Arrasta para o lado'.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG03",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig03-fechamento-salvar-post.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig03-fechamento-salvar-post.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1128,22 +1125,21 @@
         "arquivo_original": "transferir (2).jfif",
         "id": "IG03"
       },
-      "observacao_visual": "Fechamento 3:4: fundo preto #0A0A0A; tag vermelha 'AGORA'; título condensado à esquerda; botão de contorno com marcador 'SALVAR ESTE POST'; 03/03 sem arraste.",
+      "observacao_visual": "Fechamento (original 1080×1440): fundo preto #0A0A0A; tag vermelha 'AGORA'; título condensado à esquerda; botão de contorno com marcador 'SALVAR ESTE POST'; 03/03 sem arraste.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG04",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig04-capa-cabecalho-tres-ancoras-handle.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig04-capa-cabecalho-tres-ancoras-handle.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1155,22 +1151,21 @@
         "arquivo_original": "transferir (3).jfif",
         "id": "IG04"
       },
-      "observacao_visual": "Capa 3:4: cabeçalho de três âncoras com @ no centro; pílula escura com @ e verificado; título condensado com última linha #EE451A; linha de apoio com seta.",
+      "observacao_visual": "Capa (original 1080×1440): cabeçalho de três âncoras com @ no centro; pílula escura com @ e verificado; título condensado com última linha #EE451A; linha de apoio com seta.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG05",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig05-capa-noticia-urgente.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig05-capa-noticia-urgente.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1182,22 +1177,21 @@
         "arquivo_original": "transferir (4).jfif",
         "id": "IG05"
       },
-      "observacao_visual": "Capa 3:4: tag 'URGENTE'; rapaz iluminado pelo celular em multidão noturna; grotesca larga em minúsculas à esquerda sobre base escura.",
+      "observacao_visual": "Capa (original 1080×1440): tag 'URGENTE'; rapaz iluminado pelo celular em multidão noturna; grotesca larga em minúsculas à esquerda sobre base escura.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG06",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig06-capa-cartao-tweet.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig06-capa-cartao-tweet.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1209,22 +1203,21 @@
         "arquivo_original": "transferir (5).jfif",
         "id": "IG06"
       },
-      "observacao_visual": "Capa 3:4: cartão branco estilo post de texto com avatar, nome, verificado e @ de terceiro; losango azul #219BEE.",
+      "observacao_visual": "Capa (original 1080×1440): cartão branco estilo post de texto com avatar, nome, verificado e @ de terceiro; losango azul #219BEE.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG07",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig07-miolo-cartao-tweet.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig07-miolo-cartao-tweet.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1236,22 +1229,21 @@
         "arquivo_original": "transferir (6).jfif",
         "id": "IG07"
       },
-      "observacao_visual": "Miolo 3:4: cartão de texto com parágrafo e duas palavras destacadas em azul.",
+      "observacao_visual": "Miolo (original 1080×1440): cartão de texto com parágrafo e duas palavras destacadas em azul.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG08",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig08-fechamento-cartao-tweet.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig08-fechamento-cartao-tweet.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1263,22 +1255,21 @@
         "arquivo_original": "transferir (7).jfif",
         "id": "IG08"
       },
-      "observacao_visual": "Fechamento 3:4: cartão de texto com pedido de salvar; 03/03.",
+      "observacao_visual": "Fechamento (original 1080×1440): cartão de texto com pedido de salvar; 03/03.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG09",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig09-capa-nicho-nutricao.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig09-capa-nicho-nutricao.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1290,22 +1281,21 @@
         "arquivo_original": "transferir (8).jfif",
         "id": "IG09"
       },
-      "observacao_visual": "Capa 3:4: tag verde #5FBF6E 'NUTRIÇÃO'; nutricionista com salada em cozinha; título geométrico bold sobre o sujeito.",
+      "observacao_visual": "Capa (original 1080×1440): tag verde #5FBF6E 'NUTRIÇÃO'; nutricionista com salada em cozinha; título geométrico bold sobre o sujeito.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     },
     {
       "id": "IG10",
       "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "caminho_local": "assets/referencias/carrosseis/ig10-capa-nicho-clinica-constelacao.jpg",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/carrosseis/ig10-capa-nicho-clinica-constelacao.jpg",
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1317,18 +1307,19 @@
         "arquivo_original": "transferir (9).jfif",
         "id": "IG10"
       },
-      "observacao_visual": "Capa 3:4: tag bege #D9B994 'CLÍNICA'; retrato 3/4 com constelação pontilhada no rosto; serif display de alto contraste.",
+      "observacao_visual": "Capa (original 1080×1440): tag bege #D9B994 'CLÍNICA'; retrato 3/4 com constelação pontilhada no rosto; serif display de alto contraste.",
       "permissoes": {
-        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
     }
   ],
   "indices": [
-    "assets/indices/geracoes-aprovadas.jpg"
+    "assets/indices/geracoes-aprovadas.jpg",
+    "assets/indices/carrosseis-ig.jpg"
   ],
   "nao_recuperado": [
     {
@@ -1338,7 +1329,7 @@
       "motivo": "O arquivo de nome hexadecimal indicado no Desktop.rar é N12, imagem de terceiro, e não um desktop próprio aprovado."
     }
   ],
-  "direitos": "A licença do código da skill não concede licença MIT às imagens. Somente as duas gerações próprias autorizadas e sem marca visível são distribuídas.",
+  "direitos": "A licença do código da skill não concede licença MIT às imagens. São distribuídas as duas gerações próprias autorizadas (G01/G02) e, por decisão do usuário, os 10 carrosséis de referência IG01–IG10, somente para consulta.",
   "derivados": [
     {
       "id": "D01",
@@ -1391,8 +1382,5 @@
         "aprovado": false
       }
     }
-  ],
-  "indices_locais": [
-    "assets/referencias/indice-carrosseis-ig.jpg"
   ]
 }

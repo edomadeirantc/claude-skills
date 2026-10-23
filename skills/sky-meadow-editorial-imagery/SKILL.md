@@ -1,6 +1,6 @@
 ---
 name: sky-meadow-editorial-imagery
-description: Use para criar, dirigir, editar e finalizar imagens editoriais de nível profissional para hero desktop (16:9), hero mobile (9:16) e carrosséis (4:5, 3:4, 1:1) — céu e campo com objeto monumental, saúde premium com detalhe do corpo e interface de vidro fosco, produto em textura e na pele, esporte lifestyle, tipografia sobre paisagem e carrossel social de conversão para Instagram (@handle no centro do topo, ganchos, roteiro, legenda). Identifica o nicho e o branding pelo material, faz rodadas de perguntas com resposta recomendada e propõe conceitos fora da caixa; inclui preset para SaaS e apps. Cobre conceito com metáfora, copy aplicada na imagem, zonas seguras, prompts prontos, edição iterativa com duas referências, conversão entre formatos com as mesmas pessoas, realismo e upscale 4K, e montagem web (hero em tela cheia, botões, exportação AVIF). Não use para ícones, diagramas, UI de produto ou ilustração plana.
+description: Use para criar, dirigir, editar e finalizar imagens editoriais de nível profissional para hero desktop (16:9), hero mobile (9:16), carrossel de Instagram 1080×1350 (4:5, gerado em 4:5 ou em 3:4 composto para corte) e story 1080×1920 — céu e campo com objeto monumental, saúde premium com detalhe do corpo e interface de vidro fosco, produto em textura e na pele, esporte lifestyle, tipografia sobre paisagem e carrossel social de conversão (@handle no centro do topo, recorrência estratégica dos rótulos, ganchos, roteiro, legenda). Identifica o nicho e o branding pelo material, faz rodadas de perguntas com resposta recomendada e propõe conceitos fora da caixa; inclui preset para SaaS e apps. Cobre conceito com metáfora, copy aplicada na imagem, zonas seguras, prompts prontos, edição iterativa com duas referências, conversão entre formatos com as mesmas pessoas, realismo e upscale 4K, e montagem web (hero em tela cheia, botões, exportação AVIF). Não use para ícones, diagramas, UI de produto ou ilustração plana.
 ---
 
 # Editorial Imagery — hero e carrossel de nível de mercado
@@ -12,7 +12,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 ---
 
-> **Versão pública:** inclui as gerações próprias autorizadas pelo usuário, seus índices visuais e `assets/catalogo.json`. As 34 referências de terceiros R/N, os 10 carrosséis IG enviados para estudo e seus originais permanecem no pacote local; no público, suas fichas são descritivas e os arquivos são marcados como não distribuídos. Não alegue consulta visual a uma imagem ausente.
+> **Versão pública:** inclui as gerações próprias autorizadas pelo usuário (G01/G02), os 10 carrosséis de referência IG01–IG10 (publicados a pedido do usuário, só para consulta), seus índices visuais e `assets/catalogo.json`. As 34 referências de terceiros R/N e seus originais permanecem no pacote local; no público, suas fichas são descritivas e os arquivos são marcados como não distribuídos. Não alegue consulta visual a uma imagem ausente.
 
 ---
 
@@ -49,10 +49,13 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
    carrossel: 6 ganchos em ângulos diferentes, 3 levados ao usuário, roteiro
    em uma linha por slide aprovado antes dos prompts, legenda e alt text
    (`references/ganchos-e-copy.md`). **Instagram: o @handle exato vai no
-   centro do topo de todos os slides** (`microtipografia-editorial.md §2.1`).
-   Se o cabeçalho editorial for ativado em alguns slides, definir os textos
-   exatos, suas âncoras e quais slides o recebem; não adicionar data ou autor
-   das referências.
+   centro do topo de todos os slides** (`microtipografia-editorial.md §2.1`);
+   os demais rótulos do topo seguem a **recorrência por função** (§2.3):
+   categoria na capa e no slide 2, passo só no miolo, ação só no final,
+   gatilho só na capa. Defina a recorrência no YAML da série antes dos
+   prompts; não adicionar data ou autor das referências. **Entregas:**
+   1080×1350 (feed) e 1080×1920 (story); gerador sem 4:5 → 3:4 composto
+   para corte (`formatos-e-composicao.md §5.6`).
 5. **Prompt do formato mestre** (geralmente 9:16 ou 4:5; em carrossel, o
    mestre é a **capa**) com a arquitetura de `references/prompts.md §6`
    **e o bloco de realismo** de `references/realismo-fotografico.md §R.6` em
@@ -91,7 +94,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Modelos (Gemini, Midjourney), texto atrás do sujeito, hero web, exportação | `references/modelos-e-producao.md` |
 | Realismo de pessoas, pele, texturas e nitidez | `references/realismo-fotografico.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
-| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`; R/N e IG não distribuídos (IG em `assets/referencias/carrosseis/` no pacote local) |
+| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, índices em `assets/indices/`; R/N não distribuídos |
 
 **Precedência quando dois arquivos discordam:** (1) restrições legais e de
 ética (§13) e "nenhum dado inventado"; (2) arquivo do nicho específico
@@ -161,7 +164,10 @@ Reprove a peça se qualquer item **crítico** falhar.
 - [ ] Rostos idênticos aos da peça aprovada (em edições, conversões e upscale).
 - [ ] Não reproduz nenhuma composição-assinatura das referências R/N/IG nem o clichê do nicho sem subvertê-lo.
 - [ ] Instagram: @handle exato no centro do topo, idêntico em todos os slides;
-      selo verificado só se a conta for verificada.
+      selo verificado só se a conta for verificada; rótulos laterais só nos
+      slides definidos pela recorrência (`microtipografia-editorial.md §2.3`).
+- [ ] Entrega final exatamente 1080×1350 (feed) ou 1080×1920 (story); se
+      gerado em 3:4, conferido o PNG cortado: nada essencial perdido.
 - [ ] Ganchos, provas e números só com dado fornecido pela marca; sem urgência falsa.
 - [ ] Carrossel: mesmo universo em todos os slides, narrativa legível na
       sequência, paginação e "ARRASTE →" idênticas e legíveis no celular.

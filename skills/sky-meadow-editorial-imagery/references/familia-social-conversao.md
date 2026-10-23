@@ -15,9 +15,10 @@ atmosfera premium, mantenha A–E e aplique só o **kit de sequência** (§F.4).
 
 ## F.1 DNA observado (medido nas refs, 1080×1440)
 
-- **Formato das refs:** 3:4, 1080×1440. O padrão da skill continua 4:5
-  (1080×1350); as porcentagens abaixo valem para os dois. Gere na proporção
-  escolhida no briefing, nunca recorte de uma para a outra.
+- **Formato das refs:** 3:4, 1080×1440. **Entrega da skill: 1080×1350**
+  (feed) e 1080×1920 (story). As porcentagens desta família são do layout
+  4:5. Gerador que só entrega 3:4: componha para o corte e converta as
+  posições pela tabela de `formatos-e-composicao.md §5.6`.
 - **Foto que vira fundo de texto:** sujeito nos 75% superiores; a própria
   foto escurece em gradiente para quase preto (`#000000`–`#0A0A0A`) a partir
   de ~50% da altura, preto pleno por volta de 85%. Não é card nem tarja.
@@ -100,13 +101,16 @@ a cena a partir do produto.
 
 Onde as referências põem o nome da marca, a skill põe o **@ do Instagram**:
 
-- **Centro do topo, x = 50%**, linha-base a 6% (4:5) ou 7,5% (3:4), sans
+- **Centro do topo, x = 50%**, linha-base a 6% no 4:5 (8,8% se gerado em 3:4 para corte; ~15% no story), sans
   neutra 500–600, ~28–32 px a 1080 px de largura, sem fundo. Ex.: `@suamarca`.
 - Esquerda (x = 6%) e direita (x = 94%) são opcionais: tema/capítulo à
   esquerda e **tag de categoria** em pílula à direita (IG03/IG05/IG09/IG10)
   *ou* um rótulo de texto, nunca os dois do mesmo lado.
 - O @ aparece **em todos os slides**, na mesma posição; é a assinatura que
-  identifica o post quando ele é compartilhado.
+  identifica o post quando ele é compartilhado. Tag de categoria, gatilho,
+  passo e rótulo de ação **não** repetem em todos: seguem a tabela de
+  recorrência de `microtipografia-editorial.md §2.3` (nas refs, a tag
+  aparece só na capa e "AGORA" só no fechamento).
 - Grafia exata: minúsculas, com o ponto/sublinhado da conta real. Confirmar
   no briefing. Nada de @ inventado ou de marca de outra conta.
 - **Selo verificado** (✓ azul) só se a conta for verificada. Caso contrário,
@@ -162,17 +166,23 @@ especialista, passo a passo) ou como série inteira de autoridade.
 
 ---
 
-## F.6 Prompt base (capa F1, 3:4)
+## F.6 Prompt base (capa F1, entrega 1080×1350)
+
+Gerado em 4:5. Se o gerador só der 3:4, troque a primeira linha por
+`A portrait 3:4 photograph…`, acrescente `Keep the top 4% and bottom 4% as
+plain continuous background with nothing important; they will be cropped.`
+e substitua cada porcentagem pela coluna 3:4 de `formatos-e-composicao.md
+§5.6`.
 
 ```text
-A portrait 3:4 photograph for the cover slide of an Instagram carousel.
+A portrait 4:5 photograph for the cover slide of an Instagram carousel.
 {SUBJECT_SENTENCE: person or product from the brand universe, gesture, wardrobe}
 Camera: {50mm f/2 | 85mm f/1.8}, eye level, focus on the nearest eye or the product label.
 Light: one low-key directional light from {SIDE}, deep natural shadows, no flat light.
 Palette: {BRAND_NEUTRALS}; {ACCENT_NAME} ({ACCENT_HEX}) is the only accent; no other strong colors.
-Composition: the subject occupies 5% to 72% of the height. From 50% downward the photograph itself fades smoothly into near-black (#0A0A0A), fully dark from 85%; no box, card or band. Keep {4–9% (4:5) | 4–10% (3:4)} calm for the top identity line.
+Composition: the subject occupies 5% to 72% of the height. From 50% downward the photograph itself fades smoothly into near-black (#0A0A0A), fully dark from 85%; no box, card or band. Keep 4–9% calm for the top identity line.
 Text, rendered exactly:
-- "{@handle}" centered at the top, small neutral sans, white at 80% opacity, baseline at {6% (4:5) | 7.5% (3:4)} of the height.
+- "{@handle}" centered at the top, small neutral sans, white at 80% opacity, baseline at 6% of the height.
 - Headline in a heavy condensed uppercase sans, warm white, centered, 52% to 80% of the height: "{TÍTULO}", with "{PALAVRA_OU_LINHA}" in {ACCENT_HEX}.
 - {Optional subline in small uppercase sans with a thin right arrow, 81–84%: "{APOIO}".}
 - A solid {ACCENT_HEX} pill at 85% with dark uppercase sans "ARRASTE PARA O LADO" and a small {ACCENT_HEX} circle with a dark right arrow beside it.

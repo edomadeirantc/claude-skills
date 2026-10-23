@@ -37,15 +37,56 @@ Onde as referências põem o nome da marca ou o crédito (R08/R10/R14, IG04 `"Po
 
 - **Âncora central, x = 50%, centralizada**, na mesma linha-base das outras âncoras. Ex.: `@suamarca`.
 - **Grafia exata** da conta (minúsculas, pontos e sublinhados), confirmada no briefing. Sem caixa-alta forçada: o @ é escrito como a conta existe.
-- **Todos os slides**, mesma posição, mesmo tamanho; é a assinatura do post quando ele é compartilhado ou printado.
-- **Esquerda e direita continuam opcionais** e podem ficar vazias. Quando usadas: tema/capítulo à esquerda e categoria à direita (texto ou pílula de categoria da Família F, nunca as duas).
+- **Todos os slides**, mesma posição, mesmo tamanho; é a assinatura do post quando ele é compartilhado ou printado (§2.3).
+- **Esquerda e direita são opcionais** e entram só nos slides definidos pela recorrência (§2.3). Quando usadas: tema/capítulo à esquerda e categoria/ação à direita (texto ou pílula de categoria da Família F, nunca as duas).
 - **Escala:** o @ pode ser um degrau maior que os rótulos laterais (28–32 px a 1080 px de largura), peso 500–600, sem caixa-alta e sem tracking largo.
 - **Selo verificado** ao lado do @ só se a conta for verificada. Nunca simular.
 - Nome da marca por extenso, logotipo ou wordmark **não** substituem o @ nesta posição; logotipo só se o usuário pedir, e então fora da linha de microtipografia.
 
-### 2.2 Preset para 3:4 (1080×1440)
+### 2.2 Outros enquadramentos
 
-Faixa medida nas referências IG01–IG10 (onde há texto no topo): 4% a 10% da altura, **linha-base a 7,5%** (≈ 110 px), margens laterais de 5,5–6%. Só IG04 traz o @ no centro (IG01 o põe à esquerda); **@ no centro em todos os slides é decisão da skill**, não medição. Título só a partir de 13% (nas capas F, o título fica na base: `familia-social-conversao.md §F.1`). Demais regras iguais ao preset 4:5.
+- **Gerado em 3:4 para entrega 1080×1350:** linha-base em 8,8%, faixa 7–12%, e as faixas 0–4% / 96–100% vazias para o corte (`formatos-e-composicao.md §5.6`). As refs IG01–IG10 (1080×1440 nativos) têm a faixa do topo entre 4% e 10% com linha-base em ~7,5%; só IG04 traz o @ no centro (IG01 o põe à esquerda): **@ no centro em todos os slides é decisão da skill**, não medição.
+- **Story 1080×1920:** linha-base do @ em ~15% (abaixo da barra de perfil do Instagram), mesmas âncoras laterais.
+- Título só a partir de 13% no 4:5 (nas capas F, o título fica na base: `familia-social-conversao.md §F.1`).
+
+### 2.3 Recorrência: quais palavras do topo aparecem em quais slides
+
+Cada palavra no topo tem uma função e só aparece onde cumpre essa função.
+Base da decisão:
+
+1. **A capa disputa o feed; o miolo é lido por quem já parou; o final converte.** O topo da capa filtra interesse, o do miolo orienta, o do final prepara a ação.
+2. **O slide 2 é uma segunda capa:** o Instagram volta a mostrar o carrossel a partir do slide 2 para quem passou pela capa sem interagir. Ele recebe os mesmos sinais de tema/categoria da capa.
+3. **Slides circulam sozinhos** (print, repost no story, WhatsApp): a identidade (@) precisa estar em cada um.
+4. **Rótulo fixo repetido vira ruído** e rouba atenção do título; rótulo que **muda** (passo, capítulo) orienta e merece repetir a posição.
+5. **Urgência repetida perde força**, e urgência falsa é proibida (`ganchos-e-copy.md`).
+6. As refs confirmam o padrão: tag de categoria/urgência só na capa (IG05, IG09, IG10), rótulo de ação só no fechamento ("AGORA", IG03), cabeçalho completo de três âncoras na capa (IG04).
+
+| Elemento do topo | Função | Slides | Por quê |
+|---|---|---|---|
+| **@handle** (centro) | identidade e atribuição | **todos** | slide isolado continua assinado |
+| Categoria/nicho (`NUTRIÇÃO`, `CLÍNICA`, `SAAS`) | filtro de interesse | **capa + slide 2** | some no miolo para não competir com o conteúdo |
+| Gatilho (`URGENTE`, `LANÇAMENTO`, `NOVO`) | parar o polegar | **só capa**; no final só se houver prazo/oferta real | perde força repetido |
+| Tema ou série (`GUIA DE PROBIÓTICOS`, `EP. 04`) | moldura editorial | **capa + final**; no miolo só em séries de 8+ slides | abre e fecha a moldura |
+| Capítulo/passo (`PASSO 2/4`, `MITO`, `VERDADE`, `ANTES`) | navegação | **só miolo**, muda a cada slide | orienta quem está no meio |
+| Ação (`AGORA`, `SALVE`, `OFERTA`) | anunciar o CTA | **só final** | prepara o botão |
+| Data/edição | contexto temporal | capa (notícia, lançamento, evento); nunca no miolo | só quando o tempo faz parte da mensagem |
+| Nome da marca / "Powered by" | assinatura | **não usar no topo** (o @ já assina); se o cliente exigir, só no final | evita identidade duplicada |
+
+Receitas por objetivo (esquerda · centro · direita; `—` = vazio):
+
+| Objetivo | Capa | Slide 2 | Miolo | Resumo | Final |
+|---|---|---|---|---|---|
+| Alcance / salvar (educativo) | tema · @ · categoria | tema · @ · categoria | passo · @ · — | — · @ · `RESUMO` | — · @ · `SALVE` |
+| Conversão de produto (direct, compra) | — · @ · gatilho real ou categoria | — · @ · categoria | — · @ · — (ou passo) | — · @ · — | — · @ · `AGORA` |
+| SaaS (teste/demo) | — · @ · categoria | — · @ · categoria | passo · @ · — | — · @ · — | — · @ · `TESTE {N} DIAS` (só se for a oferta) |
+| Série recorrente / notícia | série · @ · data | série · @ · — | capítulo · @ · — | — · @ · — | série · @ · — |
+| Carrossel curto (≤ 4 slides) | — · @ · categoria | — · @ · — | — · @ · — | — | — · @ · ação |
+| Story único | — · @ · categoria | — | — | — | — |
+
+A receita sai do **objetivo** decidido na rodada 1 (ação única); não vira
+pergunta separada, salvo se o usuário quiser série/edição. Registre a
+recorrência no YAML da série (§3) antes dos prompts e escreva no prompt de
+cada slide **só** os rótulos daquele slide.
 
 ## 3. Aplicação na série
 
@@ -53,21 +94,19 @@ Defina antes dos prompts:
 
 ```yaml
 microtipografia:
-  ativa: true
-  slides: [1, 2, 3, 4, 5, 6]   # com @handle: todos os slides
-  esquerda: ""                 # opcional, ex.: tema ou capítulo
-  centro: "@suamarca"          # @handle exato da conta
-  direita: ""                  # opcional, ex.: "GUIA" ou pílula de categoria
-  verificado: false            # true só se a conta for verificada
+  linha_base: "6% (4:5) | 8,8% (3:4 para corte) | ~15% (story)"
+  centro:   { texto: "@suamarca", slides: todos, verificado: false }
+  esquerda: { funcao: capitulo, textos: { 3: "PASSO 1", 4: "PASSO 2", 5: "PASSO 3" } }
+  direita:  { funcao: categoria, texto: "NUTRIÇÃO", slides: [1, 2] }
+  final:    { direita: "SALVE" }           # rótulo de ação só no último slide
   alinhamento: "inicio / centro / fim"
-  linha_base: "6% da altura (4:5) | 7,5% (3:4)"
   cor: "definir após conferir o fundo de cada slide"
   renderizacao: "na imagem ou sobreposição tipográfica"
 ```
 
 Sem @handle (peça editorial, site), o cabeçalho volta a ser o de três rótulos próprios, opcional, como no exemplo original: `"CUIDADO INDIVIDUAL" | "SAÚDE EM FOCO" | "GUIA DE CUIDADO"`.
 
-Substitua a copy pelo tema real. Preserve posições, fonte, peso e espaçamento nos slides escolhidos. Texto lateral pode variar com o capítulo, sem mudar a grade; o @ não varia. Onde a microtipografia estiver desativada, deixe o topo vazio: não complete os espaços com texto inventado.
+Substitua a copy pelo tema real. Preserve posições, fonte, peso e espaçamento em todos os slides; o que varia é **quais** rótulos aparecem, conforme §2.3. O @ não varia. Onde a tabela deixa a âncora vazia, deixe o topo vazio: não complete os espaços com texto inventado.
 
 O cabeçalho e o rodapé têm funções diferentes:
 - Topo: identidade (@handle no centro), tema e capítulo nas laterais.

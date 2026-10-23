@@ -252,7 +252,7 @@ Finish: shot on 35mm color film, fine natural grain.
 Do not include any text, letters, numbers, logos, watermarks, signage, UI elements, borders or frames.
 ```
 
-### P11 · Carrossel 3:4 — capa de conversão (F1) com @handle
+### P11 · Carrossel 1080×1350 — capa de conversão (F1) com @handle
 
 Use o bloco de `familia-social-conversao.md §F.6` com a série preenchida.
 Exemplo de sujeito (produto na pele): `A {PERSON}'s hands, cropped at the wrists, cradle the {PRODUCT} against {BODY_PART}; {SKIN_AND_NAIL_DETAILS}; the label faces the camera and is reproduced exactly as in the reference image.`
@@ -262,10 +262,10 @@ Exemplo de sujeito (produto na pele): `A {PERSON}'s hands, cropped at the wrists
 ```text
 A portrait {3:4 | 4:5} photograph for an inner slide of the same Instagram carousel; match the reference image exactly in light, palette, typography and finish.
 {PROFESSIONAL of the niche, no recognizable real person}, {NICHE_GESTURE_OR_OBJECT that is not the niche cliché}, warm directional light, natural skin texture.
-Composition: the subject occupies 8% to 70% of the height; from 55% downward the photograph fades into near-black; keep 4–10% calm for the identity line.
+Composition: the subject occupies 8% to 70% of the height; from 55% downward the photograph fades into near-black; keep 4–9% calm for the identity line.
 Text, rendered exactly:
-- "{@handle}" centered at the top, baseline at {6% | 7.5%}.
-- A small solid {ACCENT_HEX} pill ending at 94% of the width, 6–9% of the height, with dark uppercase "{CATEGORIA}".
+- "{@handle}" centered at the top, baseline at {6% (4:5) | 8.8% (3:4 for crop)}.
+- Only the side labels this slide gets in the recurrence table (`microtipografia-editorial.md §2.3`); in a middle slide usually: "{PASSO 2/4}" left-aligned at 6% of the width, small uppercase sans, same baseline. Category pill only on slides 1–2.
 - Headline centered, 56% to 80%: "{TÍTULO}".
 - Subline, small sans, 82%: "{APOIO}".
 - At 90%, {N} tiny grey squares with the {k}th replaced by a {ACCENT_HEX} diamond; at 92% "0{k}/0{N}" at 6% of the width and "ARRASTE →" ending at 94%.
@@ -277,7 +277,7 @@ Render only the exact text listed above; no additional lettering, dates, credits
 ```text
 A portrait {3:4 | 4:5} closing slide of the same Instagram carousel, plain {#0A0A0A | #FFFFFF} background matching the series, no photograph.
 Text, rendered exactly, left-aligned at 8% of the width, block centered vertically:
-- "{@handle}" centered at the top, baseline at {6% | 7.5%}.
+- "{@handle}" centered at the top, baseline at {6% (4:5) | 8.8% (3:4 for crop)}; optional action label "{AGORA | SALVE}" right-aligned at 94% on the same baseline.
 - Headline in the series headline font: "{PERGUNTA OU CONVITE}".
 - Subline, small sans: "{APOIO}".
 - An outlined pill with a bookmark icon and "{CTA, ex.: SALVAR ESTE POST | PEÇA O SEU NO DIRECT}".

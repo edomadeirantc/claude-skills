@@ -41,8 +41,9 @@ aberta vai para a rodada seguinte.
 
 1. **Objetivo e ação única** (salvar, comentar PALAVRA, direct, seguir, teste/demo).
 2. **@handle exato** para o centro do topo, e se a conta é verificada.
-3. **Formato e tamanho**: 4:5 (1080×1350, padrão) ou 3:4 (1080×1440, como
-   IG01–IG10); nº de slides (6–10); precisa de story 9:16 ou hero web junto?
+3. **Entregas e gerador**: feed 1080×1350 e/ou story 1080×1920; nº de
+   slides (6–10). O gerador entrega 4:5 nativo ou só 3:4? (3:4 → compor para
+   o corte, `formatos-e-composicao.md §5.6`.) Precisa de hero web junto?
 4. **Linguagem visual**: editorial premium (A–E), social de conversão (F) ou
    A–E com kit de sequência da F. Recomende a família que você já escolheu
    no passo 2 do `SKILL.md`; a pergunta só confirma.

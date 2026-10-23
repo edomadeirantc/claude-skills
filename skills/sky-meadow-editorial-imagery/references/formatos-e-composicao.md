@@ -12,7 +12,7 @@ e o espaço negativo deixa de estar onde o texto vai ficar.
 | Hero mobile | 9:16 | 2K | 1080×1920, 750×1334 |
 | Hero mobile compacto / feed | 4:5 | 2K | 1080×1350 |
 | Carrossel Instagram/LinkedIn | 4:5 | 2K | 1080×1350 por slide |
-| Carrossel Instagram retrato alto | 3:4 | 2K | 1080×1440 por slide (formato das refs IG01–IG10) |
+| Carrossel gerado em 3:4 (gerador sem 4:5) | 3:4 | 2K | **não é entrega**: corte central para 1080×1350 (§5.6) |
 | Carrossel quadrado | 1:1 | 2K | 1080×1080 |
 | Story / Reels capa | 9:16 | 2K | 1080×1920 |
 | Panorama de carrossel | 21:9 ou 16:9 | 4K | fatiado (§7.3) |
@@ -87,8 +87,9 @@ Frase: `Vertical composition. The top 38% is clean deep blue sky for a headline,
 Frase: `Portrait 4:5. Keep the top 9% and bottom 10% visually calm for small interface text. Reserve 12% to 40% of the height as open sky for a headline; place the subject between 40% and 88%.`
 
 Carrossel de Instagram: o @ da conta vai no **centro do topo** em todos os
-slides (`microtipografia-editorial.md §2.1`). Layout 3:4 e capa de
-conversão com título na base: `familia-social-conversao.md §F.1–F.4`.
+slides (`microtipografia-editorial.md §2.1`). Capa de conversão com título
+na base: `familia-social-conversao.md §F.1–F.4`. Gerador que não entrega
+4:5: §5.6.
 
 ### 5.5 Margens de segurança
 
@@ -96,6 +97,50 @@ conversão com título na base: `familia-social-conversao.md §F.1–F.4`.
   `object-fit: cover`, safe areas do iPhone).
 - Ponto focal registrado em porcentagem (ex.: `50% 62%`) para usar em
   `object-position` ([modelos-e-producao.md §11](modelos-e-producao.md)).
+
+### 5.6 Entregas do Instagram e geração em 3:4
+
+**Entregas fixas:** feed/carrossel **1080×1350** (4:5) e story **1080×1920**
+(9:16). Nenhum outro tamanho vai para publicação.
+
+**Quando o gerador não entrega 4:5** (só 3:4, ex.: 1080×1440 ou
+1536×2048): gere em 3:4 já **composto para o corte**. O corte central tira
+3,125% de cima e 3,125% de baixo (45 px de cada lado a 1080×1440) e não
+mexe na largura. Regra do prompt 3:4: as faixas 0–4% e 96–100% da altura
+ficam só com fundo contínuo, e todas as posições do layout 4:5 são
+convertidas pela tabela (`y₃ₓ₄ = (y₄ₓ₅ × 1350 + 45) / 1440`):
+
+| Elemento (layout 4:5) | Posição no 4:5 | Escreva no prompt 3:4 |
+|---|---|---|
+| Faixa descartada | — | 0–4% e 96–100%: fundo contínuo, nada essencial |
+| Margem de segurança 5% | 5% / 95% | 8% / 92% |
+| Linha do @ (faixa / linha-base) | 4–9% / 6% | 7–12% / 8,8% |
+| Início do título no topo | 13% | 15% |
+| Título na base (Família F) | 52–80% | 52–78% |
+| Pílula de arraste | 83–88% | 81–86% |
+| Pontos | 90% | 87,5% |
+| Numeração e "ARRASTE" (F) | 92% | 89,5% |
+| Rodapé A–E | 94% | 91% |
+
+Exportação (centro exato; ajuste o deslocamento `y` só se o ponto focal
+pedir, nunca cortando texto):
+
+```bash
+ffmpeg -y -i slide-3x4.png -vf "crop=iw:trunc(iw*5/4/2)*2:0:(ih-trunc(iw*5/4/2)*2)/2,scale=1080:1350:flags=lanczos" slide-1080x1350.png
+```
+
+Confira o PNG final, não o 3:4: @, título, pontos e numeração inteiros e
+a 5% das bordas.
+
+**Story 1080×1920:** gere em 9:16 nativo (o `scripts/generate.py` aceita
+`--aspect 9:16`). Se o gerador só der 2:3 (ex.: 1024×1536), gere composto
+para corte lateral de 7,8% de cada lado (nada essencial fora de 8–92% da
+largura) e exporte com
+`crop=trunc(ih*9/16/2)*2:ih:(iw-trunc(ih*9/16/2)*2)/2:0,scale=1080:1920:flags=lanczos`.
+De 3:4 para 9:16 o corte lateral seria de 12,5% por lado com ampliação de
+33%: não faça; gere o story de novo, recomposto (§7.2). Zonas do story:
+topo 0–13% e base 82–100% ficam sob a interface do Instagram; @ no centro
+com linha-base em ~15%, título e CTA entre 15% e 80%.
 
 ---
 
@@ -184,7 +229,9 @@ relógio gigante, guarda-chuvas, folhas de bananeira), saiu **bagunçado** e
   pequeno, branco, caixa-alta espaçada. No último slide, só a paginação.
   Na Família F o kit inclui pontos com losango ativo e pílula de arraste
   na capa (`familia-social-conversao.md §F.4`).
-- O @handle no centro do topo é idêntico em todos os slides.
+- O @handle no centro do topo é idêntico em todos os slides; os rótulos
+  laterais seguem a recorrência de `microtipografia-editorial.md §2.3`
+  (categoria na capa e no slide 2, passo no miolo, ação no final).
 - Um elemento que **atravessa a borda** entre slides reforça o arrastar:
   a mão, o ombro ou a linha da constelação cortados na borda direita
   continuam na esquerda do próximo slide (use o panorama da §7.3 quando
