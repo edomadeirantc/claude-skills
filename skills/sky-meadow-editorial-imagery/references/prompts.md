@@ -260,15 +260,15 @@ Exemplo de sujeito (produto na pele): `A {PERSON}'s hands, cropped at the wrists
 ### P12 · Carrossel — miolo com especialista do nicho (F4)
 
 ```text
-A portrait {3:4 | 4:5} photograph for an inner slide of the same Instagram carousel; match the reference image exactly in light, palette, typography and finish.
+A portrait {3:4 | 4:5} photograph for an inner slide of the same Instagram carousel. Reference image 1 is the approved cover: keep the same place, the same person's general look and clothing, and the same colors; do not copy its layout or typography.
 {PROFESSIONAL of the niche, no recognizable real person}, {NICHE_GESTURE_OR_OBJECT that is not the niche cliché}, warm directional light, natural skin texture.
-Composition: the subject occupies 8% to 70% of the height; from 55% downward the photograph fades into near-black; keep 4–9% calm for the identity line.
+Composition: the subject occupies 8% to 70% of the height; from 55% downward the photograph fades into near-black; keep 4–9% calm for the handle line.
 Text, rendered exactly:
 - "{@handle}" centered at the top, baseline at {6% (4:5) | 8.8% (3:4 for crop)}.
 - Only the side labels this slide gets in the recurrence table (`microtipografia-editorial.md §2.3`); in a middle slide usually: "{PASSO 2/4}" left-aligned at 6% of the width, small uppercase sans, same baseline. Category pill only on slides 1–2.
 - Headline centered, 56% to 80%: "{TÍTULO}".
 - Subline, small sans, 82%: "{APOIO}".
-- At 90%, {N} tiny grey squares with the {k}th replaced by a {ACCENT_HEX} diamond; at 92% "0{k}/0{N}" at 6% of the width and "ARRASTE →" ending at 94%.
+- Reserved band: from 86% to 96% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (page counter added later as an overlay).
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 ```
 
@@ -281,7 +281,7 @@ Text, rendered exactly, left-aligned at 8% of the width, block centered vertical
 - Headline in the series headline font: "{PERGUNTA OU CONVITE}".
 - Subline, small sans: "{APOIO}".
 - An outlined pill with a bookmark icon and "{CTA, ex.: SALVAR ESTE POST | PEÇA O SEU NO DIRECT}".
-- At 90%, {N} tiny grey squares with the last replaced by a {ACCENT_HEX} diamond; at 92% "0{N}/0{N}" at 6% of the width; no "ARRASTE".
+- Reserved band: from 86% to 96% of the height keep only calm background, with no text, dots, squares, numbers or shapes (page counter added later as an overlay).
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 ```
 

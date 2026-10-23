@@ -61,7 +61,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
    **e o bloco de realismo** de `references/realismo-fotografico.md §R.6` em
    toda peça com pessoas ou close. Carrossel: cada slide recebe um
    **arquétipo de layout e uma voz tipográfica** do roteiro, e a capa entra
-   nos slides seguintes só como referência de identidade
+   nos slides seguintes só como referência de continuidade, nunca de layout
    (`references/variacao-de-layout.md`). Confira a proporção do primeiro
    arquivo gerado; se vier 3:4, reescreva as posições pela tabela de
    `formatos-e-composicao.md §5.6`.
@@ -98,7 +98,8 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Arquitetura de prompt, banco de frases, prompts prontos P1–P13 | `references/prompts.md` |
 | Método de edição, diagnóstico de erros, upscale, conversão | `references/edicao-iterativa.md` |
 | Modelos (Gemini, Midjourney), texto atrás do sujeito, hero web, exportação | `references/modelos-e-producao.md` |
-| Realismo de pessoas, pele, texturas e nitidez | `references/realismo-fotografico.md` |
+| Realismo de pessoas, pele, texturas e nitidez; antídoto do banco de imagem, ficha de personagem, ambiente vivo, portão da capa | `references/realismo-fotografico.md` (detalhes por nicho em `nichos-e-ideias.md §N.5`) |
+| Contador do carrossel (pontos, numeração, "ARRASTE") em camada | `scripts/kit_overlay.mjs` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
 | Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, índices em `assets/indices/`; R/N não distribuídos |
 
@@ -176,7 +177,11 @@ Reprove a peça se qualquer item **crítico** falhar.
       gerado em 3:4, conferido o PNG cortado: nada essencial perdido.
 - [ ] Ganchos, provas e números só com dado fornecido pela marca; sem urgência falsa.
 - [ ] Carrossel: mesmo universo em todos os slides, narrativa legível na
-      sequência, paginação e "ARRASTE →" idênticas e legíveis no celular.
+      sequência; pontos, numeração e "ARRASTE →" aplicados em camada
+      (`scripts/kit_overlay.mjs`), nunca pedidos ao gerador.
+- [ ] Capa aprovada no portão da capa antes de virar referência; nada de
+      banco de imagem: personagem com ficha, lugar vivo, luz do lugar
+      (`realismo-fotografico.md §R.9–R.13`, `nichos-e-ideias.md §N.5`).
 - [ ] Carrossel: 4+ layouts distintos em 8 slides, nenhum repetido em
       sequência, um slide de respiro; vozes tipográficas pelo papel do texto.
 - [ ] Imagens pertinentes realmente abertas antes do prompt; IDs e qualidades

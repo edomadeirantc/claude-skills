@@ -228,7 +228,8 @@ muda é pessoa, lugar, luz, paleta, acento e kit.
 - **posição do texto:** topo, centro, base, à esquerda.
 
 **Sequência (o que faz "arrastar"):**
-- Paginação idêntica em todos os slides, gerada na mesma posição:
+- Paginação idêntica em todos os slides, **aplicada em camada** (o gerador
+  erra a contagem; `scripts/kit_overlay.mjs`) na mesma posição:
   `"0N / 0T"` à esquerda e `"ARRASTE →"` à direita, no rodapé (94%),
   pequeno, branco, caixa-alta espaçada. No último slide, só a paginação.
   Na Família F o kit inclui pontos com losango ativo e pílula de arraste

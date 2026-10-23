@@ -127,9 +127,9 @@ Detalhes de grade, escala e contraste em `microtipografia-editorial.md §2–§4
 | Elemento | Posição (altura) | Frase de prompt ou regra |
 |---|---|---|
 | Pílula de CTA de arraste | 83–88%, centrada | `a solid {ACCENT} pill button with dark uppercase sans text "ARRASTE PARA O LADO", next to a small solid {ACCENT} circle containing a dark right arrow` (só na capa) |
-| Pontos de página | 90%, centrados | `{N} small grey squares in a row with ONLY the {k}th replaced by a small {ACCENT} diamond; all other squares plain grey` (N = nº de slides) |
-| Numeração | 92%, x = 6% | `"01/06" small grey sans` (sem espaços) |
-| Arraste | 92%, terminando em x = 94% | `"ARRASTE →" small grey uppercase sans` (some no último slide) |
+| Pontos de página | 90%, centrados | **camada, nunca no prompt** (`scripts/kit_overlay.mjs`) |
+| Numeração | 92%, x = 6% | **camada**: `"01/06"` sem espaços |
+| Arraste | 92%, terminando em x = 94% | **camada**: `"ARRASTE →"` (some no último slide) |
 | Tag de categoria | 6–9%, terminando em x = 94% | `a small solid {ACCENT} pill with dark uppercase label "{CATEGORIA}"` |
 | Salvar (último slide) | após o subtítulo | `an outlined white pill with a bookmark icon and the text "SALVAR ESTE POST"` |
 
@@ -143,18 +143,34 @@ toda a série). O botão final continua o **de contorno**
 (`interface-vidro.md §V.7`); a pílula sólida de arraste só aparece na capa.
 Sempre: um único CTA por slide, a mesma ação pedida no briefing.
 
-Texto pequeno gerado pela IA erra com frequência: se a numeração, os pontos
-ou a tag saírem errados, gere sem eles e aplique em camada (caminho B de
-`microtipografia-editorial.md §4`).
+**Pontos, numeração e "ARRASTE →" nunca entram no prompt.** O gerador não
+conta elementos pequenos repetidos: na rodada 2 do Groomy, mesmo com "ONLY
+the current one", 5 de 8 slides saíram com 6 ou 7 pontos, o ponto aceso na
+posição errada ou o contador deslocado. O prompt reserva a faixa vazia
+(`Reserved band: from 86% to 96% of the height keep only calm background,
+with no text, dots, squares, numbers or shapes`; em 3:4 para corte, 85–93%)
+e o kit é aplicado por cima, depois do corte para o tamanho final:
 
-Erros observados no caso Groomy (8 slides gerados): (1) o gerador entregou
+```bash
+node scripts/kit_overlay.mjs --total 8 --accent "#C8F028" --out ./kit      # feed 1080×1350
+node scripts/kit_overlay.mjs --total 8 --h 1920 --out ./kit-story          # story
+```
+
+Gera `kit-01.svg … kit-NN.svg` transparentes (Node ou Bun, sem dependências),
+importáveis no Canva, Figma ou Photoshop. O @, os rótulos do topo, a pílula de
+arraste da capa e o CTA continuam podendo ser gerados (acertaram nas duas rodadas).
+A tag de categoria também falhou uma vez (apareceu no slide 4 sem estar na
+recorrência): escreva `Nothing on the right` nos slides sem tag.
+
+Erros observados no caso Groomy, rodada 1 (8 slides): (1) o gerador entregou
 3:4 (1792×2400) apesar de `4:5`, com o @ a ~4% e o rodapé a ~96%, o que um
 corte para 4:5 cortaria; (2) com `--ref` da capa, o primeiro ponto ficou
 lime em vários slides além do ponto atual; (3) com "keep typography
 exactly", os 8 slides saíram com a mesma diagramação. Correções: conferir a
-proporção do primeiro arquivo (`formatos-e-composicao.md §5.6`), frase
-"ONLY the current one" nos pontos, e referência só de identidade
-(`variacao-de-layout.md §V.4`).
+proporção do primeiro arquivo (`formatos-e-composicao.md §5.6`), kit em
+camada e referência sem copiar layout (`variacao-de-layout.md §V.4`).
+Rodada 2: layouts variados funcionaram; o realismo ficou de banco de imagem
+(`realismo-fotografico.md §R.9–R.13`).
 
 ---
 
@@ -184,21 +200,20 @@ e substitua cada porcentagem pela coluna 3:4 de `formatos-e-composicao.md
 §5.6`.
 
 ```text
-A portrait 4:5 photograph for the cover slide of an Instagram carousel.
-{SUBJECT_SENTENCE: person or product from the brand universe, gesture, wardrobe}
-Camera: {50mm f/2 | 85mm f/1.8}, eye level, focus on the nearest eye or the product label.
-Light: one low-key directional light from {SIDE}, deep natural shadows, no flat light.
-Palette: {BRAND_NEUTRALS}; {ACCENT_NAME} ({ACCENT_HEX}) is the only accent; no other strong colors.
-Composition: the subject occupies 5% to 72% of the height. From 50% downward the photograph itself fades smoothly into near-black (#0A0A0A), fully dark from 85%; no box, card or band. Keep 4–9% calm for the top identity line.
+A portrait 4:5 documentary photograph for the cover slide of an Instagram carousel.
+{SUBJECT_SENTENCE: the person from the character sheet (realismo-fotografico.md §R.10) doing a real gesture of the trade, in the living place (§R.11)}
+Camera: {35mm f/2 | 50mm f/2}, eye level, documentary reportage, focus on the nearest eye or the product label.
+Light: the real available light of the place ({LIGHT_OF_THE_PLACE}, time of day), one dominant direction, natural uneven exposure; no spotlight, no moody grading.
+Palette: {BRAND_NEUTRALS}; {ACCENT_NAME} ({ACCENT_HEX}) appears only in the typography and interface, never on objects in the scene.
+Composition: the subject occupies 5% to 72% of the height. From 50% downward the photograph itself fades smoothly into near-black (#0A0A0A), fully dark from 85%; no box, card or band. Keep 4–9% calm for the top handle line.
 Text, rendered exactly:
 - "{@handle}" centered at the top, small neutral sans, white at 80% opacity, baseline at 6% of the height.
-- Headline in a heavy condensed uppercase sans, warm white, centered, 52% to 80% of the height: "{TÍTULO}", with "{PALAVRA_OU_LINHA}" in {ACCENT_HEX}.
-- {Optional subline in small uppercase sans with a thin right arrow, 81–84%: "{APOIO}".}
-- A solid {ACCENT_HEX} pill at 85% with dark uppercase sans "ARRASTE PARA O LADO" and a small {ACCENT_HEX} circle with a dark right arrow beside it.
-- At 90%, {N} tiny grey squares with the first replaced by a {ACCENT_HEX} diamond.
-- At 92%: "01/0{N}" small grey at 6% of the width; "ARRASTE →" small grey ending at 94%.
+- Headline in a heavy condensed uppercase sans, warm white, centered, 52% to 76% of the height: "{TÍTULO}", with "{PALAVRA_OU_LINHA}" in {ACCENT_HEX}.
+- {Optional subline in small uppercase sans with a thin right arrow, 77–79%: "{APOIO}".}
+- A solid {ACCENT_HEX} pill at 80–84% with dark uppercase sans "ARRASTE PARA O LADO" and a small {ACCENT_HEX} circle with a dark right arrow beside it.
+- Reserved band: from 86% to 96% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (page counter added later as an overlay).
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
-[REALISM BLOCK — realismo-fotografico.md §R.6]
+[REALISM BLOCK — realismo-fotografico.md §R.6 + §R.12; character sheet §R.10]
 ```
 
 Miolo: mesma luz, paleta e kit, com **layout e voz tipográfica diferentes a
@@ -207,7 +222,7 @@ cada slide** (`variacao-de-layout.md`); troque distância/gesto (§7.4 de
 numeração. Fechamento: F5/L12 ou o plano mais calmo da série com o CTA da marca.
 
 Ordem dos `--ref` nos slides depois da capa: **IMAGE 1 = capa aprovada**,
-só para identidade (pessoa, lugar, luz, paleta; nunca layout ou tipografia,
+só para continuidade (lugar, aparência e roupa da pessoa, cores; nunca layout ou tipografia,
 `variacao-de-layout.md §V.4`), **IMAGE 2 = foto real do produto** (rótulo),
 como em `edicao-iterativa.md`. Corpo sem rosto: use o bloco R.6 sem as
 linhas de rosto, olhos e lábios, com foco no rótulo ou na pele mais próxima

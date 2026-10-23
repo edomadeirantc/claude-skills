@@ -107,3 +107,27 @@ Risco: ...               Teste anti-réplica: passa (motivo)
 
 Teste anti-réplica: lado a lado com qualquer R/N/IG e com o clichê do
 nicho, alguém diria "é a mesma foto com outro texto"? Então descarte.
+
+## N.5 Realidade do nicho: o "visual de IA" e o que dá vida
+
+O gerador tem um cenário padrão para cada nicho; pedir o nicho de forma
+genérica devolve esse padrão. Use a coluna da direita na bíblia da série
+(`realismo-fotografico.md §R.10–R.11`).
+
+| Nicho | Padrão de IA a evitar | Detalhes de vida real (Brasil) |
+|---|---|---|
+| Barbearia | concreto escuro, lâmpada Edison, barbeiro de comercial com avental de couro | azulejo branco trincado, parede pintada remendada, porta de enrolar, ventilador de teto, cadeira hidráulica com assento remendado, potes de pomada desencontrados, fios embolados, cabelo no chão, TV pequena, cadeiras plásticas, tabela de preços fora de foco |
+| Clínica estética / odonto | sala branca impecável, profissional de capa de revista | maca com papel descartável amassado, luvas na caixa, armário com etiquetas à mão (ilegíveis), luz fria de teto, recepção com planta e bebedouro, profissional de jaleco com caneta no bolso e crachá virado |
+| Nutrição | nutricionista sorrindo com salada perfeita | consultório pequeno com balança e fita métrica, potes de comida de verdade com marcas de uso, geladeira de casa com ímãs, feira com caixotes, sacolas plásticas |
+| Suplemento / produto na pele | pele de vidro, gotas perfeitas, fundo infinito | banheiro ou quarto de casa real, luz da janela, pele com marcas e pelos, frasco com dedo marcado, copo d'água comum |
+| Fitness / pilates | academia de luxo vazia, corpo de modelo | aparelho com estofado gasto, garrafinha amassada, toalha no ombro, espelho com marcas de mão, gente comum de idades variadas, luz fluorescente |
+| Agro / pequeno produtor | fazenda de propaganda, trator gigante, produtor de figurino | terra vermelha na bota, cerca de madeira remendada, galpão com ferramentas, boné de cooperativa sem logo legível, celular com capa rachada, horta ao lado da casa |
+| SaaS / escritório | open space de vidro, pessoas de banco de imagem apontando para telas | escritório pequeno ou casa, mesa com fios, post-its ilegíveis, caneca, cadeira gasta, luz de janela misturada com monitor |
+| Finanças / contábil | gráfico subindo, moedas, terno | mesa com pastas e boletos (ilegíveis), calculadora com bobina, ventilador, pessoa conferindo extrato no celular |
+| Gastronomia / delivery | prato de chef em fundo escuro | cozinha pequena, panela com marca de uso, pano de prato no ombro, comanda presa na parede, vapor, motoboy esperando |
+| Pet | filhote de estúdio olhando para a câmera | pelo no sofá, coleira gasta, tigela arranhada, quintal de casa, tutor de chinelo |
+| Imobiliário | sala decorada sem ninguém | chaves com chaveiro de plástico, caixas de mudança, parede com marca de quadro retirado, luz da tarde entrando |
+| Educação / mentoria | palestrante apontando para slide | mesa de cozinha com caderno e notebook, caneca, criança ou gato passando ao fundo, luz de abajur |
+
+Para qualquer nicho novo: liste 5 itens que só quem trabalha lá conhece e
+2 defeitos visíveis do lugar antes de escrever o prompt.

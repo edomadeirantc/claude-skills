@@ -126,7 +126,7 @@ Add a discreet three-part editorial running header directly over the photograph,
 Variante **Instagram com @handle no centro** (laterais opcionais; remova a frase da lateral que não for usada):
 
 ```text
-Add a discreet identity line directly over the photograph, with no container. Render the exact Instagram handle "{@handle}" centered at 50% of the frame width, in a small neutral sans-serif, medium weight, lowercase exactly as written, about 30 px when the image is delivered at 1080 px wide. Optional side labels on the same baseline: "{ESQUERDA}" left-aligned at 6% of the width and "{DIREITA}" right-aligned at 94%, smaller, uppercase, subtle tracking. The shared baseline sits at {6% | 7.5%} of the frame height. One consistent ink color readable against the background. No verification badge, no logo, no pills or panels, no extra dates or credits.
+Add a discreet handle line directly over the photograph, with no container. Render the exact Instagram handle "{@handle}" centered at 50% of the frame width, in a small neutral sans-serif, medium weight, lowercase exactly as written, about 30 px when the image is delivered at 1080 px wide. Optional side labels on the same baseline: "{ESQUERDA}" left-aligned at 6% of the width and "{DIREITA}" right-aligned at 94%, smaller, uppercase, subtle tracking. The shared baseline sits at {6% | 7.5%} of the frame height. One consistent ink color readable against the background. No verification badge, no logo, no pills or panels, no extra dates or credits.
 ```
 
 Se a conta for verificada, troque `No verification badge` por `followed by a small blue verification check badge`. Edição cirúrgica de peça aprovada: use o prompt abaixo com `"{@handle}" at 50%, centered` no lugar dos três rótulos.

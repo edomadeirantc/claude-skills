@@ -121,3 +121,78 @@ aberto): mantenha só `real photograph`, materiais, luz e proibições.
 - [ ] Tecido com trama e rugas reais; superfícies sem aspecto de plástico.
 - [ ] Luz com direção única e sombras de contato.
 - [ ] Sem halos de nitidez, sem HDR, sem brilho em volta das pessoas.
+
+## R.9 Antídoto do "banco de imagem" (caso Groomy, rodada 2)
+
+O bloco R.6 resolve a **pele**, mas não resolve o **mundo**. Na rodada 2 do
+carrossel Groomy, pele e mãos saíram corretas e o resultado ainda parecia
+falso: barbeiro de comercial (rosto simétrico, barba perfeita, avental de
+couro, relógio caro), "barbearia de IA" (concreto escuro, lâmpada Edison,
+bancada de madeira vazia) e luz dramática igual em todos os slides.
+
+| Sintoma | Causa no prompt | Antídoto |
+|---|---|---|
+| Personagem genérico | Descrição média ("early thirties, clean fade, neatly trimmed beard") | Ficha de personagem com 3–5 traços marcantes e roupa com desgaste (R.10) |
+| Cenário sem vida | Bíblia descrevendo um arquétipo de revista (concreto, Edison, couro) e proibindo tudo que tem texto | Lugar específico e usado, com 5 camadas de vida (R.11); cartazes permitidos fora de foco e ilegíveis |
+| Cara de propaganda | "premium", "cinematic", "moody", "editorial", "low-key" na bíblia | Registro documental (R.12) e luz real do lugar |
+| Todos os slides iguais na luz | Uma só fonte dramática para a série | Hora do dia diferente por slide, com a mesma luz física do lugar |
+| O genérico se espalha | A capa genérica vira referência dos demais | Portão da capa antes de usá-la como referência (R.13) |
+
+Palavras que puxam o banco de imagem e só entram se a marca pedir:
+`premium`, `cinematic`, `moody`, `dramatic`, `luxury`, `sleek`, `stylish`,
+`Edison bulb`, `industrial concrete`, `leather apron`, `perfectly groomed`,
+`model`, `handsome`, `beautiful`.
+
+## R.10 Ficha de personagem (pessoa recorrente)
+
+Uma pessoa por ficha, repetida **palavra por palavra** em todo prompt:
+
+```text
+{NOME}, {idade exata}, {nacionalidade/origem}, {tipo físico real: peso, postura},
+{cabelo com defeito real: entradas, fios brancos, corte de alguns dias},
+{2–3 marcas únicas: cicatriz, dente torto, tatuagem desbotada, sardas, óculos},
+{roupa comum com desgaste: gola laceada, bolinhas no tecido, tênis sujo},
+{um acessório barato e coerente com a renda}. Not a model: an ordinary {papel}.
+```
+
+- Nome próprio ajuda o modelo a manter a mesma pessoa; não use nome de pessoa real conhecida.
+- Nunca escreva `identity`, `same face` ou `face of the reference` em prompt com imagem anexada: pode disparar o filtro de política (bloqueio observado no caso PlantMed). Use `the same {papel}'s general look and clothing`.
+- Coadjuvantes (clientes, família) em segundo plano, rosto parcial, idades variadas.
+
+## R.11 Ambiente vivo — cinco camadas
+
+Descreva o lugar como ele **é usado**, não como seria fotografado para vender:
+
+1. **Estrutura com idade:** material, cor e defeito (azulejo trincado, parede remendada, piso riscado).
+2. **Objetos de uso real, desencontrados:** marcas diferentes, quantidades irregulares, fios embolados, copo de café.
+3. **Rastros de trabalho:** cabelo no chão, papel amassado, terra na bota, migalha, mancha.
+4. **Gente e movimento:** cliente esperando, alguém saindo, uma mão em movimento com leve desfoque.
+5. **Regionalidade:** o que só existe naquele país e classe social (porta de enrolar, ventilador de teto, cadeira plástica, TV pequena na parede).
+
+Texto no ambiente: cartazes, preços e calendários existem, mas `soft, out of focus and unreadable`. Proibir só texto **legível** inventado e logotipos.
+
+## R.12 Registro documental (vocabulário)
+
+```text
+Documentary reportage photograph taken during a normal day for a {país} news magazine; full-frame camera, 35mm f/2 at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look. It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement.
+```
+
+Variantes: `phone snapshot taken by a coworker, slight tilt, direct light` (UGC);
+`35mm color film, slightly soft highlights` (memória/afeto). A família
+visual da marca (fade, tipografia, acento) continua na camada de design,
+não na luz da cena.
+
+## R.13 Portão da capa (antes de virar referência)
+
+A capa aprovada é a referência dos demais slides; o que ela tiver de genérico
+se repete em todos. Reprove e gere de novo se 2 ou mais falharem:
+
+- [ ] Passaria como foto de lugar real, não de banco de imagem.
+- [ ] A pessoa tem os traços únicos da ficha (R.10) visíveis.
+- [ ] O lugar tem as cinco camadas de vida (R.11).
+- [ ] A luz é a do lugar, não um efeito de propaganda.
+- [ ] Sem pele lisa, brilho, simetria ou grading de cinema.
+
+Quando houver foto real autorizada do lugar ou do tipo de pessoa (cliente,
+parceiro), anexe como imagem 2 só para `the look of the place, materials and
+light`: é a alavanca de realismo mais forte disponível.

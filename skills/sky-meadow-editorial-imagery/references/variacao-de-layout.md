@@ -12,9 +12,12 @@ layout repetido.
 |---|---|---|
 | Todos os slides com a mesma diagramação | Um único prompt-base de layout (F1) aplicado aos 8 | Cada slide recebe um **arquétipo de layout** diferente (V.2) |
 | Mesma fonte, mesmo peso, mesmo tamanho, sempre centrado | Uma só "voz" tipográfica na série | Sistema de **3 vozes** (V.3), alternadas por papel do slide |
-| Slides 2–8 copiaram a capa | `--ref` da capa com "keep typography and kit exactly" | Referência só de **identidade** (V.4) |
+| Slides 2–8 copiaram a capa | `--ref` da capa com "keep typography and kit exactly" | Referência só de **continuidade**, sem layout (V.4) |
 | Mesma distância e mesma câmera | Roteiro sem coluna de enquadramento | Roteiro com colunas layout · voz · distância (V.5) |
 | Arquivos 1792×2400 (3:4) apesar do pedido 4:5 | O gerador ignorou a proporção | Conferir a proporção do 1º arquivo; se vier 3:4, reescrever com a tabela de `formatos-e-composicao.md §5.6` |
+| **Rodada 2:** contador com 6–7 pontos ou ponto aceso errado em 5 de 8 slides | O gerador não conta elementos pequenos repetidos | Kit em camada, nunca no prompt (`familia-social-conversao.md §F.4`, `scripts/kit_overlay.mjs`) |
+| **Rodada 2:** personagem e cenário de banco de imagem | Bíblia genérica (arquétipo de revista, luz dramática, personagem médio) e capa genérica propagada | Ficha de personagem, ambiente vivo, registro documental e portão da capa (`realismo-fotografico.md §R.9–R.13`; detalhes por nicho em `nichos-e-ideias.md §N.5`) |
+| **Rodada 2:** tag "BARBEARIAS" no slide 4, fora da recorrência | Herdada da capa | `Nothing on the right` nos slides sem tag |
 
 ## V.1 O que fica fixo e o que varia
 
@@ -75,13 +78,17 @@ Pares por tom da marca:
 Mono e itálica nunca no mesmo bloco; cor de acento em no máximo uma linha
 ou palavra por slide.
 
-## V.4 Referência só para identidade
+## V.4 Referência de continuidade, nunca de layout
 
-Do slide 2 em diante, a capa aprovada entra como referência **de
-identidade**, nunca de layout:
+Do slide 2 em diante, a capa aprovada entra como referência de
+**continuidade** (lugar, aparência geral e roupa da pessoa, cores), nunca de
+layout. Não use as palavras `identity`, `same face` ou `face of the
+reference`: num teste da PlantMed, um prompt com essa formulação e imagem
+anexada foi bloqueado pelo filtro de política do gerador. Slides sem pessoa
+vão sem referência.
 
 ```text
-Reference image 1 is the approved cover. Use it ONLY for the identity of the person, the place, the light and the color palette. Do NOT copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "{LAYOUT}" layout described below.
+Reference image 1 is the approved cover: keep the same place, the same {PERSON_ROLE}'s general look and clothing, and the same colors. Do not copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "{LAYOUT}" layout described below.
 ```
 
 Proibido nos slides 2+: `keep the typography exactly`, `match the reference
