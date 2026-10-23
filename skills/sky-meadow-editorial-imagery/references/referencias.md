@@ -25,6 +25,11 @@ Use a coluna da direita: o que se pode aproveitar.
 | R13 | Mão do atleta na lente com título gigante atrás | Perspectiva forçada e título atrás, com outro gesto |
 | N03, N05 | Card de vidro centralizado sobre flores ou arrozal desfocado | Vidro sobre foto, com outro layout (degradê, aba, painel que sangra) |
 | N12 | Mão dele e mão dela com os mindinhos enganchados | Detalhe do corpo do casal, com outro gesto |
+| IG01 | Retrato frontal de pessoa pública com selo de perfil de outra conta | Selo de perfil acima do título; título condensado na base escura |
+| IG04 | Modelo em jaqueta de couro olhando de cima, low-key | Cabeçalho com @ no centro; última linha do título no acento |
+| IG05 | Jovem de capuz lendo o celular numa multidão noturna | Manchete à esquerda sobre base escura; tag de urgência |
+| IG09 | Profissional de jaleco segurando uma tigela de salada | Especialista do nicho + tag de categoria |
+| IG10 | Retrato 3/4 com linhas pontilhadas no rosto | Constelação sobre a área explicada; serif display |
 
 As peças aprovadas G01/G02 **podem** ser reutilizadas (mesmo casal e
 estilo), mas um slide novo deve mostrar **outro gesto ou outra cena**.
@@ -98,3 +103,30 @@ Ficam em `../assets/aprovadas/`. Estas **podem** ser usadas como `--ref`, porque
 |---|---|---|
 | G01 | `g01-casal-grama-mobile.png` | Família A, vista de cima na grama, vidro em degradê no topo, botão de contorno. Fonte de rosto/luz para novas peças do casal |
 | G02 | `g02-perfis-frente-a-frente-mobile.jpg` | Família B, perfis frente a frente, tags de vidro, constelação, botão de contorno. Base para a conversão desktop |
+
+---
+
+## 1.3 Terceira leva — IG01 a IG10 (carrossel social de conversão)
+
+Fonte: 10 imagens enviadas pelo usuário, todas 1080×1440 (3:4), JPEG.
+Base da Família F (`familia-social-conversao.md`). Arquivos só no pacote
+local, a partir da raiz da skill em `assets/referencias/carrosseis/`; índice
+em `assets/referencias/indice-carrosseis-ig.jpg`. Estudo apenas: não anexar
+ao gerador, não copiar pessoas, nomes, @ ou textos. Cores medidas por
+amostragem de área 5×5 px.
+
+| ID | Papel | Conteúdo observado | O que extrair |
+|---|---|---|---|
+| IG01 | Capa | Retrato de homem grisalho (pessoa pública reconhecível) sobre fundo escuro; `@` no topo à esquerda; selo avatar+nome+verificado; título condensado creme em 4 linhas; pílula dourada `#C8A063` "ARRASTE PARA O LADO" + círculo com seta; pontos com losango; "01/03" e "ARRASTA →" | Kit de sequência completo; selo de perfil; base escura |
+| IG02 | Capa | Retrato de mulher de cabelo cacheado, fundo marrom quente; título condensado branco; pílula vermelha `#E0312E` "Arrasta para o lado ›" | Retrato próximo + manchete; pílula de acento |
+| IG03 | Fechamento | Fundo preto `#0A0A0A`; tag "AGORA" vermelha no topo direito; título condensado à esquerda; subtítulo; botão de contorno com ícone de marcador "SALVAR ESTE POST"; "03/03" sem arraste | Slide final F5; um CTA |
+| IG04 | Capa | Cabeçalho de 3 âncoras "Powered by sua marca · @suamarca · Outubro 2026"; pílula de vidro escuro com @ e verificado; título condensado com a última linha em `#EE451A`; linha de apoio com seta | **@ no centro do topo**; acento na linha final |
+| IG05 | Capa | Tag "URGENTE"; rapaz iluminado pelo celular em multidão noturna com bokeh azul; grotesca larga pesada em minúsculas à esquerda | Arquétipo F2 manchete |
+| IG06 | Capa | Cartão estilo post de texto branco: avatar, nome, verificado, @; título sans bold; subtítulo; losango azul `#219BEE` | Arquétipo F3 (montar em design) |
+| IG07 | Miolo | Mesmo cartão; título + parágrafo com duas palavras em azul | Destaque de palavra no acento |
+| IG08 | Fechamento | Mesmo cartão; "Quer aplicar isso hoje mesmo?" + pedido de salvar; "03/03" | Fechamento sem botão |
+| IG09 | Capa | Tag verde `#5FBF6E` "NUTRIÇÃO"; nutricionista sorrindo com salada em cozinha com plantas; geométrica bold sobre o sujeito | Arquétipo F4; título sobre o corpo |
+| IG10 | Capa | Tag bege `#D9B994` "CLÍNICA"; retrato 3/4 com constelação pontilhada no rosto; serif display de alto contraste | F4 + constelação (`interface-vidro.md §V.4`) |
+
+Medidas comuns (fração da altura): @/tag 6–10%; título 52–80%; pílula de
+CTA 83–88%; pontos 90%; numeração e "ARRASTA →" 92%, margens laterais 5,5%.

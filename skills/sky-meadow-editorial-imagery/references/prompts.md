@@ -40,6 +40,11 @@ gerador, substitua a última frase por uma lista fechada dos textos exatos
 the exact text listed above; no additional lettering, dates, credits, logos
 or watermarks.` Não misture a lista com a proibição geral de letras/números.
 
+A frase `Palette:` e o "for a website {USE}" do template são da Família A
+em hero. Em outras famílias ou em carrossel, troque a paleta pela do arquivo
+da família/marca e o uso por `for the {N}th slide of an Instagram carousel`;
+a ordem dos slots não muda.
+
 ### 6.3 Banco de frases por slot
 
 **Câmera**
@@ -103,6 +108,11 @@ Se a peça pedir microlegendas no topo, inclua o bloco e as três strings exatas
 de `microtipografia-editorial.md §4`, adaptadas ao tema. Defina os slides
 escolhidos e reutilize as mesmas âncoras. No modo sobreposição, gere a faixa
 vazia e entregue os rótulos separadamente para composição tipográfica.
+
+Carrossel de Instagram: o @handle exato entra na lista fechada de textos,
+centralizado no topo, em todos os slides (`microtipografia-editorial.md §2.1`
+e §4, variante Instagram). Família F: bloco base em
+`familia-social-conversao.md §F.6`; SaaS: `saas.md §S.6`.
 
 ---
 
@@ -240,6 +250,39 @@ The leaves leave an irregular diamond-shaped opening of smooth pale-to-medium bl
 Light: bright midday sun shining through the leaves, translucent green highlights, slightly browned leaf edges for realism.
 Finish: shot on 35mm color film, fine natural grain.
 Do not include any text, letters, numbers, logos, watermarks, signage, UI elements, borders or frames.
+```
+
+### P11 · Carrossel 3:4 — capa de conversão (F1) com @handle
+
+Use o bloco de `familia-social-conversao.md §F.6` com a série preenchida.
+Exemplo de sujeito (produto na pele): `A {PERSON}'s hands, cropped at the wrists, cradle the {PRODUCT} against {BODY_PART}; {SKIN_AND_NAIL_DETAILS}; the label faces the camera and is reproduced exactly as in the reference image.`
+
+### P12 · Carrossel — miolo com especialista do nicho (F4)
+
+```text
+A portrait {3:4 | 4:5} photograph for an inner slide of the same Instagram carousel; match the reference image exactly in light, palette, typography and finish.
+{PROFESSIONAL of the niche, no recognizable real person}, {NICHE_GESTURE_OR_OBJECT that is not the niche cliché}, warm directional light, natural skin texture.
+Composition: the subject occupies 8% to 70% of the height; from 55% downward the photograph fades into near-black; keep 4–10% calm for the identity line.
+Text, rendered exactly:
+- "{@handle}" centered at the top, baseline at {6% | 7.5%}.
+- A small solid {ACCENT_HEX} pill ending at 94% of the width, 6–9% of the height, with dark uppercase "{CATEGORIA}".
+- Headline centered, 56% to 80%: "{TÍTULO}".
+- Subline, small sans, 82%: "{APOIO}".
+- At 90%, {N} tiny grey squares with the {k}th replaced by a {ACCENT_HEX} diamond; at 92% "0{k}/0{N}" at 6% of the width and "ARRASTE →" ending at 94%.
+Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
+```
+
+### P13 · Carrossel — fechamento (F5)
+
+```text
+A portrait {3:4 | 4:5} closing slide of the same Instagram carousel, plain {#0A0A0A | #FFFFFF} background matching the series, no photograph.
+Text, rendered exactly, left-aligned at 8% of the width, block centered vertically:
+- "{@handle}" centered at the top, baseline at {6% | 7.5%}.
+- Headline in the series headline font: "{PERGUNTA OU CONVITE}".
+- Subline, small sans: "{APOIO}".
+- An outlined pill with a bookmark icon and "{CTA, ex.: SALVAR ESTE POST | PEÇA O SEU NO DIRECT}".
+- At 90%, {N} tiny grey squares with the last replaced by a {ACCENT_HEX} diamond; at 92% "0{N}/0{N}" at 6% of the width; no "ARRASTE".
+Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 ```
 
 ---

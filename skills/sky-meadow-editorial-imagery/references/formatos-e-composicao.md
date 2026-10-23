@@ -12,6 +12,7 @@ e o espaço negativo deixa de estar onde o texto vai ficar.
 | Hero mobile | 9:16 | 2K | 1080×1920, 750×1334 |
 | Hero mobile compacto / feed | 4:5 | 2K | 1080×1350 |
 | Carrossel Instagram/LinkedIn | 4:5 | 2K | 1080×1350 por slide |
+| Carrossel Instagram retrato alto | 3:4 | 2K | 1080×1440 por slide (formato das refs IG01–IG10) |
 | Carrossel quadrado | 1:1 | 2K | 1080×1080 |
 | Story / Reels capa | 9:16 | 2K | 1080×1920 |
 | Panorama de carrossel | 21:9 ou 16:9 | 4K | fatiado (§7.3) |
@@ -74,7 +75,7 @@ Frase: `Vertical composition. The top 38% is clean deep blue sky for a headline,
 
 ```
 ┌────────────────────┐ 0%
-│ meta-linha (4–9%)  │  três rótulos próprios, opcionais
+│ @handle (4–9%)     │  @ no centro em todos os slides; laterais opcionais
 │ TÍTULO  12–40%     │
 │                    │
 │  [ SUJEITO ] 40–88%│
@@ -84,6 +85,10 @@ Frase: `Vertical composition. The top 38% is clean deep blue sky for a headline,
 ```
 
 Frase: `Portrait 4:5. Keep the top 9% and bottom 10% visually calm for small interface text. Reserve 12% to 40% of the height as open sky for a headline; place the subject between 40% and 88%.`
+
+Carrossel de Instagram: o @ da conta vai no **centro do topo** em todos os
+slides (`microtipografia-editorial.md §2.1`). Layout 3:4 e capa de
+conversão com título na base: `familia-social-conversao.md §F.1–F.4`.
 
 ### 5.5 Margens de segurança
 
@@ -177,6 +182,9 @@ relógio gigante, guarda-chuvas, folhas de bananeira), saiu **bagunçado** e
 - Paginação idêntica em todos os slides, gerada na mesma posição:
   `"0N / 0T"` à esquerda e `"ARRASTE →"` à direita, no rodapé (94%),
   pequeno, branco, caixa-alta espaçada. No último slide, só a paginação.
+  Na Família F o kit inclui pontos com losango ativo e pílula de arraste
+  na capa (`familia-social-conversao.md §F.4`).
+- O @handle no centro do topo é idêntico em todos os slides.
 - Um elemento que **atravessa a borda** entre slides reforça o arrastar:
   a mão, o ombro ou a linha da constelação cortados na borda direita
   continuam na esquerda do próximo slide (use o panorama da §7.3 quando

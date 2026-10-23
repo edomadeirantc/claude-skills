@@ -95,6 +95,12 @@ REALISM (highest priority)
 - Forbidden: plastic or waxy skin, airbrushing, beauty filter, symmetrical doll-like faces, glowing skin, CGI or 3D-render look, over-sharpening halos, HDR, oversaturated color.
 ```
 
+Variante **corpo sem rosto** (mãos, pernas, torso com produto): retire do
+bloco as linhas de rosto, olhos, lábios e "focus on the nearest eye"; use
+`focus locked on the product label` ou `on the nearest knuckles`, e mantenha
+pele, mãos, materiais, luz e proibições. Pessoa pequena no quadro (plano
+aberto): mantenha só `real photograph`, materiais, luz e proibições.
+
 ## R.7 Pipeline de nitidez
 
 1. **Gerar em 2K com o bloco R.6** (nunca 1K para peças finais).

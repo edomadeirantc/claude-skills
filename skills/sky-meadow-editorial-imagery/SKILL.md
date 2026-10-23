@@ -1,6 +1,6 @@
 ---
 name: sky-meadow-editorial-imagery
-description: Use para criar, dirigir, editar e finalizar imagens editoriais de nível profissional para hero desktop (16:9), hero mobile (9:16) e carrosséis (4:5, 1:1) — céu e campo com objeto monumental, saúde premium com detalhe do corpo e interface de vidro fosco, produto em textura e na pele, esporte lifestyle e tipografia sobre paisagem. Cobre conceito com metáfora, copy aplicada na imagem, zonas seguras, prompts prontos, edição iterativa com duas referências, conversão entre formatos com as mesmas pessoas, realismo e upscale 4K, e montagem web (hero em tela cheia, botões, exportação AVIF). Não use para ícones, diagramas, UI de produto ou ilustração plana.
+description: Use para criar, dirigir, editar e finalizar imagens editoriais de nível profissional para hero desktop (16:9), hero mobile (9:16) e carrosséis (4:5, 3:4, 1:1) — céu e campo com objeto monumental, saúde premium com detalhe do corpo e interface de vidro fosco, produto em textura e na pele, esporte lifestyle, tipografia sobre paisagem e carrossel social de conversão para Instagram (@handle no centro do topo, ganchos, roteiro, legenda). Identifica o nicho e o branding pelo material, faz rodadas de perguntas com resposta recomendada e propõe conceitos fora da caixa; inclui preset para SaaS e apps. Cobre conceito com metáfora, copy aplicada na imagem, zonas seguras, prompts prontos, edição iterativa com duas referências, conversão entre formatos com as mesmas pessoas, realismo e upscale 4K, e montagem web (hero em tela cheia, botões, exportação AVIF). Não use para ícones, diagramas, UI de produto ou ilustração plana.
 ---
 
 # Editorial Imagery — hero e carrossel de nível de mercado
@@ -12,35 +12,51 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 ---
 
-> **Versão pública:** inclui as gerações próprias autorizadas pelo usuário, seus índices visuais e `assets/catalogo.json`. As 34 referências de terceiros R/N e seus originais permanecem no pacote local; no público, suas fichas são descritivas e os arquivos são marcados como não distribuídos. Não alegue consulta visual a uma imagem ausente.
+> **Versão pública:** inclui as gerações próprias autorizadas pelo usuário, seus índices visuais e `assets/catalogo.json`. As 34 referências de terceiros R/N, os 10 carrosséis IG enviados para estudo e seus originais permanecem no pacote local; no público, suas fichas são descritivas e os arquivos são marcados como não distribuídos. Não alegue consulta visual a uma imagem ausente.
 
 ---
 
 ## 0. Fluxo obrigatório
 
-1. **Brief:** marca, público, mensagem, formatos (desktop, mobile, carrossel
-   e nº de slides), cor de marca, se o texto vai na imagem ou em HTML.
-   Pergunte só o que não puder deduzir; marque o que for inferido.
-2. **Família e consulta visual:** escolha a família pela tabela e leia seu
-   arquivo. Antes de **cada novo prompt**, inclusive quando a entrega for só
-   texto, siga `references/acervo-visual.md`: abra o índice visual disponível
-   e 2–4 imagens pertinentes em tamanho integral. Registre IDs, o que extrair
-   e o que mudar. Consulta não é envio automático ao gerador. Para as
-   letrinhas no topo, leia `references/microtipografia-editorial.md` e confira
-   R08/R10/R14 quando disponíveis. Um arquétipo por peça. **Carrossel = um
-   universo só**: mesma família, pessoas, luz, paleta e acabamento; varie
-   gesto, distância e interface (`references/formatos-e-composicao.md §7.4`).
+1. **Brief em rodadas:** leia todo o material (produto, PDF, site, @, posts)
+   e preencha sozinho o que for fato, marcando `[INFERIDO]`. Depois pergunte
+   só as decisões, em rodadas numeradas com resposta recomendada
+   (`references/briefing-perguntas.md`): ação única, @handle, formato e nº de
+   slides, linguagem visual, texto na imagem ou em camada. Pergunte só o que
+   não puder deduzir.
+2. **Nicho, branding, família e consulta visual:** identifique nicho,
+   público, acento da marca e restrições legais
+   (`references/nichos-e-ideias.md §N.1–N.3`; SaaS: `references/saas.md`).
+   Escolha a família pela tabela e leia seu arquivo. Antes de **cada novo
+   prompt**, inclusive quando a entrega for só texto, siga
+   `references/acervo-visual.md`: abra o índice visual disponível e 2–4
+   imagens pertinentes em tamanho integral (carrossel de feed: também IG).
+   Registre IDs, o que extrair e o que mudar. Consulta não é envio
+   automático ao gerador. Para as letrinhas no topo, leia
+   `references/microtipografia-editorial.md` e confira R08/R10/R14 quando
+   disponíveis. Um arquétipo por peça. **Carrossel = um universo só**: mesma
+   família, pessoas, luz, paleta e acabamento; varie gesto, distância e
+   interface (`references/formatos-e-composicao.md §7.4`).
 3. **Conceito com ideia:** antes de escrever prompt, responda "qual é a ideia
    que faz alguém parar?" (metáfora, escala, ponto de vista ou entrelaçamento
-   de texto e imagem). Sem ideia, a peça vira banco de imagem.
+   de texto e imagem). Sem ideia, a peça vira banco de imagem. Leve **3
+   conceitos** (seguro, ousado, fora da curva) com as alavancas de
+   `nichos-e-ideias.md §N.4` e o teste anti-réplica contra R/N/IG e contra o
+   clichê do nicho.
 4. **Copy:** título de 3–7 palavras com uma palavra em itálico, subtítulo de
-   uma frase, CTA com verbo. Sem promessa que a marca não confirmou. Se o
-   cabeçalho editorial for ativado em alguns slides, definir os três textos
+   uma frase, CTA com verbo (capa da Família F: limite próprio em
+   `ganchos-e-copy.md §G.1`). Sem promessa que a marca não confirmou. Capa de
+   carrossel: 6 ganchos em ângulos diferentes, 3 levados ao usuário, roteiro
+   em uma linha por slide aprovado antes dos prompts, legenda e alt text
+   (`references/ganchos-e-copy.md`). **Instagram: o @handle exato vai no
+   centro do topo de todos os slides** (`microtipografia-editorial.md §2.1`).
+   Se o cabeçalho editorial for ativado em alguns slides, definir os textos
    exatos, suas âncoras e quais slides o recebem; não adicionar data ou autor
    das referências.
-5. **Prompt do formato mestre** (geralmente 9:16 ou 4:5) com a arquitetura de
-   `references/prompts.md §6` **e o bloco de realismo** de
-   `references/realismo-fotografico.md §R.6` em toda peça com pessoas ou close.
+5. **Prompt do formato mestre** (geralmente 9:16 ou 4:5; em carrossel, o
+   mestre é a **capa**) com a arquitetura de `references/prompts.md §6`
+   **e o bloco de realismo** de `references/realismo-fotografico.md §R.6` em
+   toda peça com pessoas ou close.
 6. **Gerar em 2K** e apresentar. Se a ideia não for aprovada, volte ao passo 3.
 7. **Editar** a peça aprovada com edições de 1 a 3 mudanças
    (`references/edicao-iterativa.md`), sempre a partir da última versão aprovada.
@@ -57,20 +73,35 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 | Precisa de… | Leia |
 |---|---|
-| Fichas das 34 referências e das peças aprovadas | `references/referencias.md` |
+| Fichas das 34 referências R/N, dos 10 carrosséis IG e das peças aprovadas | `references/referencias.md` |
 | Consulta obrigatória, permissões e catálogo das imagens | `references/acervo-visual.md` e `assets/catalogo.json` |
-| Letrinhas no topo: esquerda, centro e direita | `references/microtipografia-editorial.md` |
+| Letrinhas no topo: esquerda, centro (@handle no Instagram) e direita | `references/microtipografia-editorial.md` |
+| Rodadas de perguntas do briefing, com resposta recomendada | `references/briefing-perguntas.md` |
+| Nicho, branding e gerador de ideias fora da caixa | `references/nichos-e-ideias.md` |
+| Ganchos (26 fórmulas), roteiro, CTA, anti-IA e legenda | `references/ganchos-e-copy.md` |
+| SaaS e apps: metáforas, carrossel, hero, o que não afirmar | `references/saas.md` |
+| Família F — carrossel social de conversão, kit de sequência | `references/familia-social-conversao.md` |
 | Família A — céu & campo, objeto monumental | `references/familia-ceu-campo.md` |
 | Família B — saúde com detalhe do corpo e interface de vidro | `references/familia-saude-vidro.md` |
 | Famílias C, D e E — produto, esporte, tipografia sobre paisagem | `references/familias-produto-esporte-tipo.md` |
 | Vidro em degradê, cards, tags, constelação, botões | `references/interface-vidro.md` |
 | Zonas seguras por formato, séries, carrossel panorâmico, tipografia | `references/formatos-e-composicao.md` |
-| Arquitetura de prompt, banco de frases, prompts prontos P1–P10 | `references/prompts.md` |
+| Arquitetura de prompt, banco de frases, prompts prontos P1–P13 | `references/prompts.md` |
 | Método de edição, diagnóstico de erros, upscale, conversão | `references/edicao-iterativa.md` |
 | Modelos (Gemini, Midjourney), texto atrás do sujeito, hero web, exportação | `references/modelos-e-producao.md` |
 | Realismo de pessoas, pele, texturas e nitidez | `references/realismo-fotografico.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
-| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`; R/N não distribuídos |
+| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`; R/N e IG não distribuídos (IG em `assets/referencias/carrosseis/` no pacote local) |
+
+**Precedência quando dois arquivos discordam:** (1) restrições legais e de
+ética (§13) e "nenhum dado inventado"; (2) arquivo do nicho específico
+(`saas.md`, linha do nicho em `nichos-e-ideias.md`); (3) arquivo da família
+escolhida (zonas, tipografia, rodapé, paleta); (4) regras genéricas de
+`formatos-e-composicao.md` e `prompts.md`. Família A–E com o kit da F: a
+foto, a paleta e a tipografia seguem a família A–E; posição e desenho de
+pontos, numeração e pílula seguem `familia-social-conversao.md §F.4`.
+Todos os caminhos de `assets/` são relativos à **raiz da skill** (a pasta
+deste `SKILL.md`).
 
 ---
 
@@ -83,6 +114,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | **C · Produto em textura** | Produto sobre musgo ou na pele, luz recortada, monocromia | Suplemento, cosmético, kit | N06, N08, N13, N15, N16 |
 | **D · Esporte lifestyle** | Quadra azul, branco esportivo, lime, forma gráfica que entrelaça o sujeito | Esporte, energia, protetor solar | R06, R13, N10, N11, N14, N18 |
 | **E · Tipografia sobre paisagem** | Paisagem escurecida virando cartaz, pilha tipográfica | Manifesto, evento, capa | N04, N09, R09, R10 |
+| **F · Social de conversão** | Foto que escurece na base, título gigante, um acento, @ no topo, pontos e pílula de arraste | Feed de alcance: salvar, comentar, direct, teste/demo | IG01–IG10 |
 | *Vidro sobre paisagem* (transversal) | Paisagem desfocada atrás de painel de vidro | Slides de conteúdo, stories | N01, N02, N03, N05 |
 
 Ao combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
@@ -127,7 +159,10 @@ Reprove a peça se qualquer item **crítico** falhar.
       extra (marca, ano, meta-linha que vazou, letras inventadas em embalagem).
 - [ ] Nenhuma pessoa real, celebridade, personagem ou logotipo de terceiros.
 - [ ] Rostos idênticos aos da peça aprovada (em edições, conversões e upscale).
-- [ ] Não reproduz nenhuma composição-assinatura das referências R/N.
+- [ ] Não reproduz nenhuma composição-assinatura das referências R/N/IG nem o clichê do nicho sem subvertê-lo.
+- [ ] Instagram: @handle exato no centro do topo, idêntico em todos os slides;
+      selo verificado só se a conta for verificada.
+- [ ] Ganchos, provas e números só com dado fornecido pela marca; sem urgência falsa.
 - [ ] Carrossel: mesmo universo em todos os slides, narrativa legível na
       sequência, paginação e "ARRASTE →" idênticas e legíveis no celular.
 - [ ] Imagens pertinentes realmente abertas antes do prompt; IDs e qualidades
@@ -174,10 +209,12 @@ Correção: diagnóstico e micro-prompts em `edicao-iterativa.md §E.4`.
 
 ## 14. Contrato de entrega
 
-1. **Conceito**: família, arquétipo e a ideia em uma frase.
+1. **Conceito**: família, arquétipo e a ideia em uma frase; nicho detectado
+   e decisões das rodadas de perguntas.
    **Referências consultadas:** IDs, qualidades extraídas, diferenças propostas
    e arquivos ausentes; registrar separadamente as imagens anexadas ao gerador.
-2. **Copy** aplicada (título, subtítulo, CTA, tags) e alternativas avaliadas.
+2. **Copy** aplicada (título, subtítulo, CTA, tags, @handle) e alternativas
+   avaliadas; carrossel: roteiro, legenda e alt text.
 3. **Tabela de peças**: arquivo, formato, proporção, ponto focal, cor do texto.
 4. **Prompts finais** exatos de geração e de cada edição, com parâmetros
    (modelo, `--aspect`, `--size`, ordem dos `--ref`).

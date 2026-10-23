@@ -9,7 +9,8 @@
     "imagens_unicas_distribuidas": 2,
     "folhas_contato": 1,
     "demonstracoes_derivadas": 1,
-    "anexos_conversa_distribuidos": 0
+    "anexos_conversa_distribuidos": 0,
+    "fontes_estudo_locais_ig": 10
   },
   "itens": [
     {
@@ -1054,6 +1055,276 @@
         "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
       },
       "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
+    },
+    {
+      "id": "IG01",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig01-capa-retrato-handle-selo-perfil.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "041ce831bef34f7b56cd3b55fff9867357c8e1cf4e613ab0c4330eed7a1798b4",
+      "bytes": 121056,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir.jfif",
+        "id": "IG01"
+      },
+      "observacao_visual": "Capa 3:4: retrato de homem grisalho (pessoa pública reconhecível) em fundo escuro; @ de terceiro no topo esquerdo; selo avatar+nome+verificado; título condensado creme; pílula dourada #C8A063 'ARRASTE PARA O LADO' com círculo e seta; pontos com losango; 01/03 e ARRASTA.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG02",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig02-capa-retrato-pilula-vermelha.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "a64412f390359f2772851293a0988ddc9f0cd1796a0da72eed700dbaf2658c71",
+      "bytes": 121113,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (1).jfif",
+        "id": "IG02"
+      },
+      "observacao_visual": "Capa 3:4: retrato de mulher de cabelo cacheado, fundo marrom; título condensado branco na base escura; pílula vermelha #E0312E 'Arrasta para o lado'.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG03",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig03-fechamento-salvar-post.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "385d9c364f5580640c7be06e092ea37a2c4b9953152b5e27af6203883f3112db",
+      "bytes": 37525,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (2).jfif",
+        "id": "IG03"
+      },
+      "observacao_visual": "Fechamento 3:4: fundo preto #0A0A0A; tag vermelha 'AGORA'; título condensado à esquerda; botão de contorno com marcador 'SALVAR ESTE POST'; 03/03 sem arraste.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG04",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig04-capa-cabecalho-tres-ancoras-handle.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "9f3f05628dd283065098a8879237507cc330663b97656429c4d51dd5926903a6",
+      "bytes": 126610,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (3).jfif",
+        "id": "IG04"
+      },
+      "observacao_visual": "Capa 3:4: cabeçalho de três âncoras com @ no centro; pílula escura com @ e verificado; título condensado com última linha #EE451A; linha de apoio com seta.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG05",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig05-capa-noticia-urgente.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "ea7b4dfcbb42385951735b3496a9a7a50786246b50ff984a636aca195b9a2cb9",
+      "bytes": 89878,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (4).jfif",
+        "id": "IG05"
+      },
+      "observacao_visual": "Capa 3:4: tag 'URGENTE'; rapaz iluminado pelo celular em multidão noturna; grotesca larga em minúsculas à esquerda sobre base escura.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG06",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig06-capa-cartao-tweet.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "cae77dba7b4d6a424e3822fabcfb518510df2fa20e1c8d8980e53e93c6a4a1bd",
+      "bytes": 39483,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (5).jfif",
+        "id": "IG06"
+      },
+      "observacao_visual": "Capa 3:4: cartão branco estilo post de texto com avatar, nome, verificado e @ de terceiro; losango azul #219BEE.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG07",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig07-miolo-cartao-tweet.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "a778539b09c733f61b90d41519739c34b559393b0506ba9bbeb0dd2117933ca5",
+      "bytes": 61146,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (6).jfif",
+        "id": "IG07"
+      },
+      "observacao_visual": "Miolo 3:4: cartão de texto com parágrafo e duas palavras destacadas em azul.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG08",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig08-fechamento-cartao-tweet.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "26a54acd8b3e9f93d468c0552647f6c1cb6c4ce09a90871c31e06aea855986bb",
+      "bytes": 38811,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (7).jfif",
+        "id": "IG08"
+      },
+      "observacao_visual": "Fechamento 3:4: cartão de texto com pedido de salvar; 03/03.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG09",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig09-capa-nicho-nutricao.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "741aaab33ae7167af8535e8b0c8ff7cccb6b2d05a202db8f49247c519bcad5d1",
+      "bytes": 123628,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (8).jfif",
+        "id": "IG09"
+      },
+      "observacao_visual": "Capa 3:4: tag verde #5FBF6E 'NUTRIÇÃO'; nutricionista com salada em cozinha; título geométrico bold sobre o sujeito.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
+    },
+    {
+      "id": "IG10",
+      "papel": "estudo",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "caminho_local": "assets/referencias/carrosseis/ig10-capa-nicho-clinica-constelacao.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1440
+      },
+      "sha256": "5e1a3729f9f6b726eb4246a0b71a257cc228c9957c2f50aa336378ff1a73308a",
+      "bytes": 125669,
+      "origem": {
+        "tipo": "carrossel de referência enviado pelo usuário (Desktop.rar)",
+        "arquivo_original": "transferir (9).jfif",
+        "id": "IG10"
+      },
+      "observacao_visual": "Capa 3:4: tag bege #D9B994 'CLÍNICA'; retrato 3/4 com constelação pontilhada no rosto; serif display de alto contraste.",
+      "permissoes": {
+        "uso": "estudo de estrutura, zonas, tipografia e kit de sequência",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "não estabelecida; direitos de terceiros e de imagem preservados"
+      },
+      "motivo": "Não redistribuído: modelo/pessoas/@ de terceiros; procedência de publicação não estabelecida. Arquivo existe só no pacote local."
     }
   ],
   "indices": [
@@ -1120,5 +1391,8 @@
         "aprovado": false
       }
     }
+  ],
+  "indices_locais": [
+    "assets/referencias/indice-carrosseis-ig.jpg"
   ]
 }

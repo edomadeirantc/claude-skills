@@ -1,6 +1,6 @@
 # Microtipografia editorial — três âncoras no topo
 
-Use quando o briefing pedir “letrinhas no topo”, ficha editorial, metadados discretos ou o acabamento de R08, R10 e R14. É um recurso **opcional**, não uma marca d'água automática de toda peça. Leia também `acervo-visual.md` para abrir as imagens disponíveis antes de escrever o prompt.
+Use quando o briefing pedir “letrinhas no topo”, ficha editorial, metadados discretos ou o acabamento de R08, R10 e R14. É um recurso **opcional**, não uma marca d'água automática de toda peça. **Exceção: em carrossel de Instagram com @ informado, a âncora central é o @handle e aparece em todos os slides** (§2.1). Leia também `acervo-visual.md` para abrir as imagens disponíveis antes de escrever o prompt.
 
 ## 1. Evidência e adaptação
 
@@ -31,6 +31,22 @@ Essas posições são estimativas visuais, não coordenadas extraídas de um arq
 
 A regra de contraste é a de texto pequeno: buscar pelo menos 4,5:1 contra o pior trecho do fundo, não contra a média da imagem. Sem medição, declarar o contraste pendente. Não afirmar acessibilidade só por usar caixa-alta ou fonte semibold. Informações essenciais de saúde não ficam exclusivamente em microtexto rasterizado.
 
+### 2.1 Centro = @handle do Instagram
+
+Onde as referências põem o nome da marca ou o crédito (R08/R10/R14, IG04 `"Powered by sua marca | @suamarca | Outubro 2026"`), a peça para Instagram põe o **@ da conta**:
+
+- **Âncora central, x = 50%, centralizada**, na mesma linha-base das outras âncoras. Ex.: `@suamarca`.
+- **Grafia exata** da conta (minúsculas, pontos e sublinhados), confirmada no briefing. Sem caixa-alta forçada: o @ é escrito como a conta existe.
+- **Todos os slides**, mesma posição, mesmo tamanho; é a assinatura do post quando ele é compartilhado ou printado.
+- **Esquerda e direita continuam opcionais** e podem ficar vazias. Quando usadas: tema/capítulo à esquerda e categoria à direita (texto ou pílula de categoria da Família F, nunca as duas).
+- **Escala:** o @ pode ser um degrau maior que os rótulos laterais (28–32 px a 1080 px de largura), peso 500–600, sem caixa-alta e sem tracking largo.
+- **Selo verificado** ao lado do @ só se a conta for verificada. Nunca simular.
+- Nome da marca por extenso, logotipo ou wordmark **não** substituem o @ nesta posição; logotipo só se o usuário pedir, e então fora da linha de microtipografia.
+
+### 2.2 Preset para 3:4 (1080×1440)
+
+Faixa medida nas referências IG01–IG10 (onde há texto no topo): 4% a 10% da altura, **linha-base a 7,5%** (≈ 110 px), margens laterais de 5,5–6%. Só IG04 traz o @ no centro (IG01 o põe à esquerda); **@ no centro em todos os slides é decisão da skill**, não medição. Título só a partir de 13% (nas capas F, o título fica na base: `familia-social-conversao.md §F.1`). Demais regras iguais ao preset 4:5.
+
 ## 3. Aplicação na série
 
 Defina antes dos prompts:
@@ -38,20 +54,23 @@ Defina antes dos prompts:
 ```yaml
 microtipografia:
   ativa: true
-  slides: [1, 3, 6]
-  esquerda: "CUIDADO INDIVIDUAL"
-  centro: "SAÚDE EM FOCO"
-  direita: "GUIA DE CUIDADO"
+  slides: [1, 2, 3, 4, 5, 6]   # com @handle: todos os slides
+  esquerda: ""                 # opcional, ex.: tema ou capítulo
+  centro: "@suamarca"          # @handle exato da conta
+  direita: ""                  # opcional, ex.: "GUIA" ou pílula de categoria
+  verificado: false            # true só se a conta for verificada
   alinhamento: "inicio / centro / fim"
-  linha_base: "6% da altura"
+  linha_base: "6% da altura (4:5) | 7,5% (3:4)"
   cor: "definir após conferir o fundo de cada slide"
   renderizacao: "na imagem ou sobreposição tipográfica"
 ```
 
-O exemplo é editorial genérico, não uma alegação sobre um serviço específico. Substitua a copy pelo tema real; só use o nome da marca quando solicitado. Preserve posições, fonte, peso e espaçamento nos slides escolhidos. Texto pode variar com o capítulo, sem mudar a grade. Onde estiver desativada, deixe o topo sem os três rótulos: não complete os espaços com texto inventado.
+Sem @handle (peça editorial, site), o cabeçalho volta a ser o de três rótulos próprios, opcional, como no exemplo original: `"CUIDADO INDIVIDUAL" | "SAÚDE EM FOCO" | "GUIA DE CUIDADO"`.
+
+Substitua a copy pelo tema real. Preserve posições, fonte, peso e espaçamento nos slides escolhidos. Texto lateral pode variar com o capítulo, sem mudar a grade; o @ não varia. Onde a microtipografia estiver desativada, deixe o topo vazio: não complete os espaços com texto inventado.
 
 O cabeçalho e o rodapé têm funções diferentes:
-- Topo: identificação editorial, tema e capítulo.
+- Topo: identidade (@handle no centro), tema e capítulo nas laterais.
 - Rodapé: `01 / 06` à esquerda e `ARRASTE →` à direita, conforme `formatos-e-composicao.md §7.4`. No último slide, retirar apenas `ARRASTE →`.
 - Botão final: CTA principal com o material pedido; o cabeçalho não altera o botão. Vidro sutil translúcido e contorno transparente são tratamentos distintos (`interface-vidro.md`).
 
@@ -64,6 +83,14 @@ Inclua os três rótulos por extenso no prompt, em aspas, e descreva as âncoras
 ```text
 Add a discreet three-part editorial running header directly over the photograph, with no container. Render these exact Portuguese labels: "CUIDADO INDIVIDUAL" left-aligned at 6% of the frame width, "SAÚDE EM FOCO" centered at 50%, and "GUIA DE CUIDADO" right-aligned at 94%. All three share one horizontal baseline at 6% of the frame height. Use a small neutral sans-serif, uppercase, medium weight and subtle tracking; target about 24 px when the image is delivered at 1080 px wide. Keep each label on one line within its own third, with clear gaps. Choose one consistent ink color that remains readable against all three background areas. Keep the header visually subordinate to the headline, which begins below 13% of the frame height. No pills, panels, extra dates, credits, logos, watermarks or additional lettering. Render only the header and the other exact text explicitly listed in this prompt.
 ```
+
+Variante **Instagram com @handle no centro** (laterais opcionais; remova a frase da lateral que não for usada):
+
+```text
+Add a discreet identity line directly over the photograph, with no container. Render the exact Instagram handle "{@handle}" centered at 50% of the frame width, in a small neutral sans-serif, medium weight, lowercase exactly as written, about 30 px when the image is delivered at 1080 px wide. Optional side labels on the same baseline: "{ESQUERDA}" left-aligned at 6% of the width and "{DIREITA}" right-aligned at 94%, smaller, uppercase, subtle tracking. The shared baseline sits at {6% | 7.5%} of the frame height. One consistent ink color readable against the background. No verification badge, no logo, no pills or panels, no extra dates or credits.
+```
+
+Se a conta for verificada, troque `No verification badge` por `followed by a small blue verification check badge`. Edição cirúrgica de peça aprovada: use o prompt abaixo com `"{@handle}" at 50%, centered` no lugar dos três rótulos.
 
 Prompt de **edição cirúrgica**, para arte aprovada que ainda não tem cabeçalho:
 
