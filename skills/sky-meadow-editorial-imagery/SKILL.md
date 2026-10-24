@@ -18,6 +18,22 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 ## 0. Fluxo obrigatório
 
+0. **Preflight do acervo, em toda ativação e antes de cada novo prompt**
+   (inclusive entrega só de texto): execute
+   `python "<raiz-da-skill>/scripts/check_assets.py"` usando a pasta desta
+   instalação, não o diretório de trabalho. O catálogo é a configuração:
+   caminhos relativos, SHA256 e permissões de cada imagem. Se houver erro
+   em arquivo declarado presente, pare e informe o ID/caminho; restaure a
+   partir da cópia local conhecida, sem baixar substitutos. Em pacote público,
+   itens explicitamente não distribuídos são limites, não imagens consultadas.
+   Depois abra o índice e 2–4 imagens pertinentes validadas, seguindo
+   `references/acervo-visual.md`. Registre IDs, duas observações visuais,
+   princípio a extrair e permissão de anexo. Conferir hash não substitui
+   olhar os pixels. `scripts/generate.py` também executa a checagem
+   automaticamente, inclusive em `--dry-run`, e bloqueia geração com acervo
+   ausente ou divergente. Instalação local: use os arquivos privados
+   catalogados para estudo, respeitando `anexar_ao_gerador=false`.
+
 1. **Brief em rodadas:** leia todo o material (produto, PDF, site, @, posts)
    e preencha sozinho o que for fato, marcando `[INFERIDO]`. Depois pergunte
    só as decisões, em rodadas numeradas com resposta recomendada
@@ -86,6 +102,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 |---|---|
 | Fichas das 34 referências R/N, dos 10 carrosséis IG e das peças aprovadas | `references/referencias.md` |
 | Consulta obrigatória, permissões e catálogo das imagens | `references/acervo-visual.md` e `assets/catalogo.json` |
+| Verificar arquivos e hashes antes de usar qualquer imagem | `python "<raiz-da-skill>/scripts/check_assets.py"` (use `--json` para relatório estruturado) |
 | Letrinhas no topo: esquerda, centro (@handle no Instagram) e direita | `references/microtipografia-editorial.md` |
 | Rodadas de perguntas do briefing, com resposta recomendada | `references/briefing-perguntas.md` |
 | Nicho, branding e gerador de ideias fora da caixa | `references/nichos-e-ideias.md` |

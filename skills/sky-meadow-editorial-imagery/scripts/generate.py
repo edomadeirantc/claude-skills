@@ -23,6 +23,8 @@ import sys
 from io import BytesIO
 from pathlib import Path
 
+from check_assets import check_assets
+
 ASPECTS = ["1:1", "2:3", "3:2", "3:4", "4:3", "4:5", "5:4", "9:16", "16:9", "21:9"]
 SIZES = ["1K", "2K", "4K"]
 DEFAULT_MODEL = "gemini-3-pro-image-preview"
@@ -56,6 +58,9 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
+    acervo = check_assets(Path(__file__).resolve().parents[1])
+    if acervo["erros"]:
+        sys.exit("Erro no acervo; geração bloqueada:\n" + "\n".join(acervo["erros"]))
 
     prompt = args.prompt if args.prompt is not None else args.prompt_file.read_text(encoding="utf-8")
     prompt = prompt.strip()
