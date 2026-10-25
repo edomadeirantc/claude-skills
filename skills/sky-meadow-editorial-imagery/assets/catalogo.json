@@ -6,12 +6,12 @@
     "fontes_estudo_distribuidas": 0,
     "geracoes_aprovadas_distribuidas": 2,
     "historicos_distribuidos": 0,
-    "imagens_unicas_distribuidas": 41,
+    "imagens_unicas_distribuidas": 38,
     "folhas_contato": 2,
     "demonstracoes_derivadas": 1,
     "anexos_conversa_distribuidos": 0,
     "referencias_carrossel_distribuidas": 10,
-    "historicos_teste_distribuidos": 3,
+    "historicos_teste_distribuidos": 0,
     "referencias_mercado_distribuidas": 26,
     "artes_cliente_distribuidas": 0
   },
@@ -883,183 +883,6 @@
       }
     },
     {
-      "id": "H01",
-      "papel": "historico",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1536,
-        "altura": 2752
-      },
-      "sha256": "686e046cbb4a2e2cb53c3392c3780dabf13dccdef0f80407287c3f19f13b783e",
-      "bytes": 3338034,
-      "origem": {
-        "tipo": "geração própria autorizada pelo usuário",
-        "id": "H01"
-      },
-      "observacao_visual": "Mulher sozinha deitada na grama, título sobre saúde feminina; nome do cliente visível na margem superior.",
-      "marca_cliente_visivel": true,
-      "permissoes": {
-        "uso": "histórico; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      },
-      "motivo": "Versão histórica contém marca do cliente; não foi editada, recortada nem publicada."
-    },
-    {
-      "id": "H02",
-      "papel": "historico",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1536,
-        "altura": 2752
-      },
-      "sha256": "77f86a13773cc0483c5e5ca27df902554384434daf45e506add2e85a4fa37df2",
-      "bytes": 3374545,
-      "origem": {
-        "tipo": "geração própria autorizada pelo usuário",
-        "id": "H02"
-      },
-      "observacao_visual": "Perfis do casal contra céu; painel superior de contorno e rodapé com nome do cliente. Versão anterior à G02.",
-      "marca_cliente_visivel": true,
-      "permissoes": {
-        "uso": "histórico; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      },
-      "motivo": "Versão histórica contém marca do cliente; não foi editada, recortada nem publicada."
-    },
-    {
-      "id": "S01",
-      "papel": "historico",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 636,
-        "altura": 708
-      },
-      "sha256": "9434a11883345c96b89b514b4b6a0b841855c53620bc157863e7a9dda1067212",
-      "bytes": 32222,
-      "origem": {
-        "tipo": "anexo de conversa preservado apenas no acervo privado",
-        "id": "S01"
-      },
-      "observacao_visual": "Captura de interface com casal deitado na grama; card de vidro retangular no alto, título de saúde feminina, CTA de contorno e miniaturas da interface. Histórico, não golden.",
-      "permissoes": {
-        "uso": "consulta local de histórico/estudo; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
-      },
-      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
-    },
-    {
-      "id": "S02",
-      "papel": "historico",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 478,
-        "altura": 645
-      },
-      "sha256": "e297f672411d9e0f1857c395820ce7afa5f2d0014a4cf48427f20eff83b8c6cc",
-      "bytes": 27574,
-      "origem": {
-        "tipo": "anexo de conversa preservado apenas no acervo privado",
-        "id": "S02"
-      },
-      "observacao_visual": "Captura vertical de mulher sozinha na grama; topo verde desfocado, título sobre saúde para ele e ela e CTA branco preenchido. Histórico, não golden.",
-      "permissoes": {
-        "uso": "consulta local de histórico/estudo; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
-      },
-      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
-    },
-    {
-      "id": "S03",
-      "papel": "historico",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 469,
-        "altura": 694
-      },
-      "sha256": "3d0ac7d703602f214f564cebbe3c8796e9731c3b5638a9b9e7986e80ca532a16",
-      "bytes": 26850,
-      "origem": {
-        "tipo": "anexo de conversa preservado apenas no acervo privado",
-        "id": "S03"
-      },
-      "observacao_visual": "Captura de interface com casal na grama; título sobre saúde para ele e ela, CTA fino e controles do aplicativo ao redor. Histórico, não golden.",
-      "permissoes": {
-        "uso": "consulta local de histórico/estudo; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
-      },
-      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
-    },
-    {
-      "id": "S04",
-      "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1568,
-        "altura": 524
-      },
-      "sha256": "7bd422bf18e54f1e19691405e8a5e2d641fdccdf00c9ff6f02f71d8034fb2a5c",
-      "bytes": 137916,
-      "origem": {
-        "tipo": "anexo de conversa preservado apenas no acervo privado",
-        "id": "S04"
-      },
-      "observacao_visual": "Colagem de 16 painéis em duas linhas, incluindo céu emoldurado por folhas, multidão com acento vermelho, casal no campo, caminho verde, relógio, cadeira e mãos. Mistura visual de estudo; procedência individual não estabelecida. Não golden.",
-      "permissoes": {
-        "uso": "consulta local de histórico/estudo; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
-      },
-      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
-    },
-    {
-      "id": "S05",
-      "papel": "estudo",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1568,
-        "altura": 677
-      },
-      "sha256": "a4598f79ede91cddfb6bb78d09454d9ad9811b815cc31b25dfaa80333bf95235",
-      "bytes": 37390,
-      "origem": {
-        "tipo": "anexo de conversa preservado apenas no acervo privado",
-        "id": "S05"
-      },
-      "observacao_visual": "Captura de seção de site: telefone e xícara sobre mesa clara à esquerda, título com marca do cliente à direita e trilho de processo no rodapé. Estudo de interface, não golden.",
-      "permissoes": {
-        "uso": "consulta local de histórico/estudo; não usar como alvo final",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "não estabelecida; screenshot não transfere direitos dos elementos retratados"
-      },
-      "motivo": "Screenshot privado; contém interface, marca ou material de terceiros. Não publicar imagem nem miniatura."
-    },
-    {
       "id": "IG01",
       "papel": "estudo",
       "disponibilidade": "incluida_no_pacote",
@@ -1318,78 +1141,6 @@
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
       "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
-    },
-    {
-      "id": "TG-R1",
-      "papel": "historico_teste",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/templates/groomy-rodada1.jpg",
-      "dimensoes": {
-        "largura": 1440,
-        "altura": 1052
-      },
-      "sha256": "03d707b2dfaf09965be8586b261de0529fa10c4329894a03344853a47a50c2f3",
-      "bytes": 290518,
-      "origem": {
-        "tipo": "gerações do usuário no teste do template T1 (caso Groomy), publicadas a pedido dele",
-        "id": "TG-R1"
-      },
-      "observacao_visual": "Folha de contato da rodada 1 do template T1 (8 slides Groomy): universo consistente aprovado; mesma diagramação em todos; contador errado; arquivos 3:4.",
-      "permissoes": {
-        "uso": "histórico de teste: mostrar o que aprovou e o que reprovou; não é golden",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
-        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      }
-    },
-    {
-      "id": "TG-R2",
-      "papel": "historico_teste",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/templates/groomy-rodada2.jpg",
-      "dimensoes": {
-        "largura": 1440,
-        "altura": 1052
-      },
-      "sha256": "5d064a472495c521039ea36fabc3fda9311f5746e4418524bd7d190a5dfec4c3",
-      "bytes": 254909,
-      "origem": {
-        "tipo": "gerações do usuário no teste do template T1 (caso Groomy), publicadas a pedido dele",
-        "id": "TG-R2"
-      },
-      "observacao_visual": "Folha de contato da rodada 2 do template T1: layouts variados aprovados; contador errado em 5 de 8; personagem e barbearia com cara de banco de imagem.",
-      "permissoes": {
-        "uso": "histórico de teste: mostrar o que aprovou e o que reprovou; não é golden",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
-        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      }
-    },
-    {
-      "id": "TG-R3",
-      "papel": "historico_teste",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/templates/groomy-rodada3-capas.png",
-      "dimensoes": {
-        "largura": 1493,
-        "altura": 244
-      },
-      "sha256": "5d754ac686545ff6a36d05d36cc21cf16f5c60d4b14a209c47022c97e68f1842",
-      "bytes": 713618,
-      "origem": {
-        "tipo": "gerações do usuário no teste do template T1 (caso Groomy), publicadas a pedido dele",
-        "id": "TG-R3"
-      },
-      "observacao_visual": "Captura das 8 capas da rodada 3 do template T1: barbearia pobre e precária, reprovada; originou a regra do padrão do lugar.",
-      "permissoes": {
-        "uso": "histórico de teste: mostrar o que aprovou e o que reprovou; não é golden",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
-        "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      }
     },
     {
       "id": "MK01",
@@ -2115,7 +1866,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC02",
@@ -2139,7 +1891,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC03",
@@ -2163,7 +1916,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC04",
@@ -2187,7 +1941,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC05",
@@ -2211,7 +1966,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC06",
@@ -2235,79 +1991,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
-    },
-    {
-      "id": "RC07",
-      "papel": "cliente_aprovada",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1080,
-        "altura": 1350
-      },
-      "sha256": "0bbf81e4574389aecfbdc18449c454406e58c5f4f22e1e76d4cccc69d12bdbc6",
-      "bytes": 157029,
-      "origem": {
-        "colecao": "artes aprovadas de cliente de saúde",
-        "id": "RC07"
-      },
-      "permissoes": {
-        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
-      },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
-    },
-    {
-      "id": "RC08",
-      "papel": "cliente_aprovada",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1080,
-        "altura": 1350
-      },
-      "sha256": "06d26ac19f539ae61541e58ae6af026df85e89bfc89858cce8db126e1e2cc926",
-      "bytes": 154072,
-      "origem": {
-        "colecao": "artes aprovadas de cliente de saúde",
-        "id": "RC08"
-      },
-      "permissoes": {
-        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
-      },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
-    },
-    {
-      "id": "RC09",
-      "papel": "cliente_aprovada",
-      "disponibilidade": "somente_acervo_local_privado",
-      "distribuido": false,
-      "caminho": null,
-      "dimensoes": {
-        "largura": 1080,
-        "altura": 1350
-      },
-      "sha256": "c582d70c6bd923e677bd08ef176bbf941be9d01e85c28a8acb6c6f0f71dee817",
-      "bytes": 161183,
-      "origem": {
-        "colecao": "artes aprovadas de cliente de saúde",
-        "id": "RC09"
-      },
-      "permissoes": {
-        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
-        "anexar_ao_gerador": false,
-        "redistribuicao_publica": false,
-        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
-      },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC10",
@@ -2331,7 +2016,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC11",
@@ -2355,7 +2041,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC12",
@@ -2379,7 +2066,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC13",
@@ -2403,7 +2091,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC14",
@@ -2427,7 +2116,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC15",
@@ -2451,7 +2141,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC16",
@@ -2475,7 +2166,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC17",
@@ -2499,7 +2191,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC18",
@@ -2523,7 +2216,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC19",
@@ -2547,7 +2241,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC20",
@@ -2571,7 +2266,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC21",
@@ -2595,7 +2291,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC22",
@@ -2619,7 +2316,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC23",
@@ -2643,7 +2341,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC24",
@@ -2667,7 +2366,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC25",
@@ -2691,7 +2391,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC26",
@@ -2715,7 +2416,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC27",
@@ -2739,7 +2441,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC28",
@@ -2763,7 +2466,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC29",
@@ -2787,7 +2491,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC30",
@@ -2811,7 +2516,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC31",
@@ -2835,7 +2541,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC32",
@@ -2859,7 +2566,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     },
     {
       "id": "RC33",
@@ -2883,7 +2591,8 @@
         "redistribuicao_publica": false,
         "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
       },
-      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local.",
+      "ativacao": "somente quando o usuário nomear a cliente no chat"
     }
   ],
   "indices": [
@@ -2952,5 +2661,15 @@
         "aprovado": false
       }
     }
-  ]
+  ],
+  "curadoria": {
+    "data": "2026-10-25",
+    "fonte": "seleção do usuário",
+    "removidos_publicos": [
+      "TG-R1",
+      "TG-R2",
+      "TG-R3"
+    ]
+  },
+  "regra_clientes": "Material de cliente (RC e pasta clientes/) fica desligado por padrão: só é consultado quando o usuário nomeia o cliente no chat."
 }
