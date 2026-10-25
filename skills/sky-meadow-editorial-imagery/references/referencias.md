@@ -33,12 +33,12 @@ vale contra **todas** as R/N/IG/MK, não só contra a referência citada.
 | IG10 | Retrato 3/4 com linhas pontilhadas no rosto | Constelação sobre a área explicada; serif display |
 | MK01 | Pilha de 4 vozes tipográficas sobre figura pequena na colina, filme 35 mm | Pilha de vozes (TM5) sobre uma cena do cliente, com outra figura e outro lugar |
 | MK02 | Tecido laranja atravessando a palavra gigante "controlar" num campo | Objeto do universo da marca entrelaçado com a palavra-chave; caixa de seleção como metáfora de escolha |
-| MK03 | Arquibancada cinza com uma única cadeira lime | "Um se destaca" com outro objeto repetido do mundo do cliente |
+| MK03 | Arquibancada cinza com uma única cadeira lime e todo o texto em lime | "Um se destaca" com outro objeto repetido do mundo do cliente |
 | MK06 | Bolas de papel amassado e uma vira lâmpada | Objeto do ofício que se transforma no resultado, com outro objeto |
 | MK08 | "Comment the word" com a palavra-chave gigante em serif itálica vermelha sobre grama escura | CTA como peça inteira, com a palavra do cliente, outra cena e outro acento |
 | MK09 | Trilha sinuosa com 6 nós em monocromia de veludo vermelho | Caminho com nós para passos, com outro material e o percurso do serviço do cliente |
 | MK10 | Xícara lime com vapor em pixel art e menu de contexto "Atualizar" | Interface do sistema como metáfora, com outro objeto e outro comando |
-| MK11 | Tecla 3D "Ctrl" substituindo letra da palavra CTRL | Letra trocada por objeto, com outra palavra e outro objeto do nicho |
+| MK11 | Tecla 3D "Ctrl" na frente do "T" da palavra CTRL (as quatro letras existem; sanduíche de profundidade, não troca) | Objeto do nicho na frente de uma letra da palavra, com outra palavra e outro objeto |
 | MK13 | Olho iluminado por fenda de luz dentro de colchetes de foco | Recorte de luz revelando só o essencial no preto, com outra parte/objeto |
 | MK14 | "A grama do vizinho" com a última linha engolida pelo campo | Literalizar uma expressão do nicho; título parcialmente coberto pela paisagem |
 | MK19 | Mulher no capim cercada de telas de celular flutuando | Órbita de objetos em volta da pessoa, com outros objetos do serviço |
@@ -162,7 +162,7 @@ G–J e método de transferência em `repertorio-mercado.md`.
 |---|---|---|---|
 | MK01 | H | Filme 35 mm, figura pequena na colina ao entardecer; pilha "4 TYPES / of carousels that are going / VIRAL / IN 2026" | Pilha tipográfica de 4 vozes (condensada pesada, serif itálica, numeral serif gigante); rodapé de 3 âncoras |
 | MK02 | H | Campo e céu teal; tecido laranja atravessa "controlar"; "escolher" dentro de caixa de seleção com alças | Entrelaçamento objeto-letra; interface do editor como metáfora |
-| MK03 | G | Cadeiras cinza, uma lime; texto fino lime; última frase espalhada em grade | Um se destaca; texto leve que respira; grade justificada |
+| MK03 | G | Cadeiras cinza, uma lime; todo o texto em lime fino (acento no objeto e no texto); última frase espalhada em grade | Um se destaca; texto leve que respira; grade justificada |
 | MK04 | J | Papel bege; "Video Slides:"; 3 miniaturas e setas vermelhas manuscritas | Página-caderno para processo; seta manuscrita como único acento |
 | MK05 | J | Mesmo sistema em papel de linho; "Compilations:"; 3 fotos | Textura de papel muda o tom sem mudar a grade |
 | MK06 | G | Fundo branco; papel amassado vira lâmpada lime; marca-texto lime na frase-chave | Objeto do ofício transformado; marca-texto como acento |
@@ -170,7 +170,7 @@ G–J e método de transferência em `repertorio-mercado.md`.
 | MK08 | H | Grama escura com margaridas, homem deitado na base; "Comment the word" + palavra gigante em serif itálica vermelha | CTA como peça inteira: a palavra-chave é o título |
 | MK09 | H | Monocromia vermelha de veludo; "06 PASSOS … posicionar"; trilha sinuosa com 6 nós | Caminho com nós para passos; monocromia total da foto |
 | MK10 | G | Cinza claro; xícara lime com vapor em pixel art; menu de contexto com "Atualizar" | Interface do sistema como metáfora; foto + pixel art |
-| MK11 | G | Palavra "CTRL" com letra trocada por tecla de vidro lime | Letra-objeto; trocadilho visual legível em 1 segundo |
+| MK11 | G | Palavra "CTRL" inteira com a tecla de vidro lime na frente do "T", cobrindo parte dele | Letra-objeto em sanduíche de profundidade (objeto na frente da letra, não no lugar); trocadilho legível em 1 segundo |
 | MK12 | I | Barra de menus de editor no topo; oceano, nuvem e pessoa minúscula; "save" gigante | App como moldura; escala surreal |
 | MK13 | G | Preto; só o olho iluminado por uma fenda; colchetes de foco; "VISION." estendida | Recorte de luz; microrrótulos espalhados; extensa pesada |
 | MK14 | H | Vale escuro; "A grama do vizinho" com linha engolida pelo campo | Literalizar ditado; título coberto pela paisagem |
@@ -188,7 +188,7 @@ G–J e método de transferência em `repertorio-mercado.md`.
 | MK26 | I | Céu estrelado e cabana iluminada; janela de site | Série I noturna: a janela é a luz da cena |
 
 Notas transversais medidas a olho nas MK (confira nos pixels antes de usar):
-o acento é **um** por peça (lime, vermelho ou laranja), sempre num objeto
-**ou** numa palavra, raramente nos dois; a palavra emocional troca de família
+o acento é **um** por peça (lime, vermelho ou laranja), num objeto, numa
+palavra ou nos dois quando o objeto e todo o texto dividem a mesma cor (MK03); a palavra emocional troca de família
 (sans → serif itálica) no meio da frase; quase todo texto pequeno fica em
 três âncoras (topo ou rodapé) e o centro fica para uma única ideia.

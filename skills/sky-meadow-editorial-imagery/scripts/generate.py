@@ -8,10 +8,13 @@
 # ///
 """Gera imagens com Gemini 3 Pro Image em proporcao nativa, com referencias opcionais.
 
-Uso:
-    uv run generate.py --prompt-file prompt.txt --out hero-desktop.png --aspect 16:9 --size 2K
-    uv run generate.py --prompt-file mobile.txt --out hero-mobile.png --aspect 9:16 --ref hero-desktop.png
-    uv run generate.py --prompt "..." --out teste.png --aspect 4:5 --dry-run
+Uso (python ou uv run):
+    python generate.py --prompt-file prompt.txt --out hero-desktop.png --aspect 16:9 --size 2K
+    python generate.py --prompt-file mobile.txt --out hero-mobile.png --aspect 9:16 --ref hero-desktop.png
+    python generate.py --prompt-file slide-01.txt --out teste.png --aspect 4:5 --dry-run
+
+Linhas do arquivo que começam com "#" são notas e não vão ao gerador. O --dry-run
+confere acervo, argumentos, referências e termos proibidos sem importar o SDK.
 
 A chave vem somente de GEMINI_API_KEY, para nao ficar no historico do shell.
 """
@@ -24,6 +27,7 @@ from io import BytesIO
 from pathlib import Path
 
 from check_assets import check_assets
+from lint_prompts import lint_prompt, split_prompt
 
 ASPECTS = ["1:1", "2:3", "3:2", "3:4", "4:3", "4:5", "5:4", "9:16", "16:9", "21:9"]
 SIZES = ["1K", "2K", "4K"]
@@ -66,8 +70,9 @@ def main(argv: list[str] | None = None) -> None:
     if acervo["erros"]:
         sys.exit("Erro no acervo; geração bloqueada:\n" + "\n".join(acervo["erros"]))
 
-    prompt = args.prompt if args.prompt is not None else args.prompt_file.read_text(encoding="utf-8")
-    prompt = prompt.strip()
+    raw = args.prompt if args.prompt is not None else args.prompt_file.read_text(encoding="utf-8")
+    # Linhas iniciadas por "#" são notas do storyboard (movimento MK etc.): nunca vão ao gerador.
+    notes, prompt = split_prompt(raw)
     if not prompt:
         sys.exit("Erro: prompt vazio.")
     if args.out.suffix.lower() != ".png":
@@ -76,12 +81,9 @@ def main(argv: list[str] | None = None) -> None:
         if not ref.is_file():
             sys.exit(f"Erro: referencia nao encontrada: {ref}")
 
-    from google.genai import types
-
-    config = types.GenerateContentConfig(
-        response_modalities=["TEXT", "IMAGE"],
-        image_config=types.ImageConfig(aspect_ratio=args.aspect, image_size=args.size),
-    )
+    lint = lint_prompt(raw)
+    if lint["banned"]:
+        sys.exit("Erro: termos proibidos no prompt (SKILL.md §12.1): " + ", ".join(lint["banned"]))
 
     if args.dry_run:
         print(
@@ -90,14 +92,24 @@ def main(argv: list[str] | None = None) -> None:
                     "model": args.model,
                     "out": str(args.out),
                     "refs": [str(ref) for ref in args.ref],
-                    "image_config": config.image_config.model_dump(exclude_none=True),
+                    "image_config": {"aspect_ratio": args.aspect, "image_size": args.size},
                     "prompt_chars": len(prompt),
+                    "notas_removidas": len(notes),
+                    "camera": lint["camera"] or "AVISO: sem linha Camera:",
+                    "movimento_registrado": lint["movement"],
                 },
                 ensure_ascii=False,
                 indent=2,
             )
         )
         return
+
+    from google.genai import types
+
+    config = types.GenerateContentConfig(
+        response_modalities=["TEXT", "IMAGE"],
+        image_config=types.ImageConfig(aspect_ratio=args.aspect, image_size=args.size),
+    )
 
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:

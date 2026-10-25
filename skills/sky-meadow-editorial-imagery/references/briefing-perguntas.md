@@ -46,12 +46,16 @@ aberta vai para a rodada seguinte.
 2. **@handle exato** (vai em todos os slides; centro do topo por padrão), e
    se a conta é verificada.
 3. **Entregas e gerador**: feed 1080×1350 e/ou story 1080×1920; nº de
-   slides (6–10). O gerador entrega 4:5 nativo ou só 3:4? (3:4 → compor para
-   o corte, `formatos-e-composicao.md §5.6`.) Precisa de hero web junto?
+   slides (6–10). O gerador entrega 4:5 nativo, só 3:4 ou ChatGPT 2:3
+   (1024×1536)? (3:4 ou 2:3 → compor para o corte com a tabela de
+   `formatos-e-composicao.md §5.6`.) Precisa de hero web junto?
 4. **Texto**: na imagem (gerado) ou em camada (Figma/Canva/HTML) — recomende
    camada para miolos com muito texto e cartão de autor.
 5. **Confirmações do `[INFERIDO]`**: nicho, público, acento, alegações
    permitidas. Peça correção só do que estiver errado.
+6. **Saúde** (só se o nicho for saúde): nome do profissional, conselho, UF
+   e nº de registro (ex.: `Dra. {Nome} · CD · CRO-{UF} {nº}`). Sem eles a
+   peça sai com placeholder e não é publicável.
 
 A linguagem visual (família) **não** é perguntada aqui: ela nasce do
 conceito e é confirmada na rodada 2.

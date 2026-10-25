@@ -32,8 +32,10 @@ A ideia vem antes da família, e a variação é planejada antes do prompt.
    formato e nº de slides. Nicho, público, acento da marca e restrições
    legais: `references/nichos-e-ideias.md §N.1–N.3` (SaaS: `saas.md`).
 2. **Salto + 3 conceitos:** abra referências reais conforme
-   `references/acervo-visual.md` (até 4 por peça; carrossel: índice MK
-   obrigatório e 1–2 IG do papel da capa). Rode o salto de
+   `references/acervo-visual.md` (até 4 imagens em tamanho integral por
+   peça; carrossel: índice MK obrigatório e 1–2 IG do papel da capa; as
+   demais MK do storyboard podem vir do índice + ficha, registradas como
+   "vista no índice"). Rode o salto de
    `references/repertorio-mercado.md §R.3` (verbo de cada MK, inventário do
    cliente, busca fora do nicho) e leve **3 conceitos** (seguro, ousado,
    fora da curva) com as alavancas de `nichos-e-ideias.md §N.4`. As
@@ -97,7 +99,7 @@ A ideia vem antes da família, e a variação é planejada antes do prompt.
 | Realismo de pessoas, pele, texturas e nitidez; antídoto do banco de imagem, ficha de personagem, ambiente vivo, portão da capa | `references/realismo-fotografico.md` (detalhes por nicho em `nichos-e-ideias.md §N.5`) |
 | Contador do carrossel (pontos, numeração, "ARRASTE") em camada | `scripts/kit_overlay.mjs` |
 | Templates por tipo de peça (T1 carrossel de conversão, T2 pitch 16:9, T3 produto na pele, T4 clínica premium em fundo preto, T5 segurança eletrônica), com prompts | `references/templates/README.md` |
-| Cliente com ficha, diagnóstico e prompts prontos (só na instalação local, fora do Git; **só quando o usuário nomear o cliente**) | `clientes/{cliente}/ficha.md` |
+| Cliente com ficha, diagnóstico e prompts prontos (só na instalação local, fora do Git; **proibido abrir sem o usuário nomear o cliente**) | `clientes/{cliente}/ficha.md` |
 | Protocolo de teste: rubrica, briefs de teste e registro de rodadas | `references/testes.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
 | Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, MK01–MK26 em `assets/mercado/`, planilha de pitch em `assets/templates/`, índices em `assets/indices/`; R/N e RC não distribuídos |
@@ -174,8 +176,14 @@ combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
    com parágrafo (carrossel de 7+ slides).
 4. Busca nos prompts por `cerulean|grassy hill|35mm f/2 at eye level|identity|same face|match the reference exactly`:
    cada ocorrência justificada ou removida.
-5. Cada prompt traz, fora do texto do prompt, o movimento MK que o originou.
+5. Cada prompt traz, numa linha de nota `# slide N · MK## · L#` (linhas com
+   `#` não vão ao gerador; tire-as antes de colar em outra IA), o movimento
+   que o originou.
 6. Anti-réplica contra a MK citada: a cena não é a cena dela.
+
+Itens 2, 4 e 5 são automáticos: `python "<raiz-da-skill>/scripts/lint_prompts.py" prompts/*.txt`
+(o `generate.py --dry-run` também bloqueia termos proibidos). Os itens 1, 3
+e 6 são leitura sua.
 
 ### 12.2 Rubrica de teste (0–2 por critério; passa com 9/12 e sem 0 nos dois primeiros)
 
@@ -284,8 +292,11 @@ Correção: diagnóstico e micro-prompts em `edicao-iterativa.md §E.4`.
 Gerar pelo script da skill:
 
 ```bash
-uv run ~/.claude/skills/sky-meadow-editorial-imagery/scripts/generate.py \
+python ~/.claude/skills/sky-meadow-editorial-imagery/scripts/generate.py \
   --prompt-file peca.txt --out peca.png --aspect 9:16 --size 2K [--ref aprovada.png] [--ref fonte.png]
 ```
 
-`--dry-run` valida sem chamar a API. Chave em `GEMINI_API_KEY`.
+`--dry-run` confere acervo, argumentos, referências e termos proibidos sem
+chamar a API; não substitui a leitura dos itens 1, 3 e 6 da §12.1. Chave em
+`GEMINI_API_KEY`. Gerador que entrega 2:3 ou 3:4: posições pela tabela de
+`formatos-e-composicao.md §5.6`.

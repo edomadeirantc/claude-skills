@@ -57,7 +57,7 @@ camera: varia por slide (storyboard)
 SE1 · ponto cego (post único ou capa; a câmera é a da linha 1 de §SE.6):
 
 ```text
-A portrait 4:5 cinematic night photograph for a security consultancy's Instagram post.
+A portrait 4:5 documentary night photograph for a security consultancy's Instagram post.
 The back door of a small closed shop in an ordinary Brazilian street, seen from a high corner angle as if from a security camera; only a narrow cone of cold white light from a wall lamp reaches the door, everything else falls into deep graphite shadow (#111214).
 Light: real urban night light, one sodium street lamp far away, the wall lamp as key; slight wet ground reflections; no people.
 Camera: 24mm wide, high corner angle, deep focus, subtle surveillance-camera barrel distortion.
@@ -66,10 +66,10 @@ Finish: shot on digital cinema camera, fine grain, true-to-life color, no neon, 
 Do not include any text, logos, timestamps, UI, people or weapons.
 ```
 
-SE3 · letra-objeto (anúncio ou slide 2 de §SE.6):
+SE3 · letra-objeto (slide 2 de §SE.6, em 4:5; para anúncio quadrado troque a primeira linha por "A square 1:1 premium still life"):
 
 ```text
-A square 1:1 premium still life on a matte graphite background (#111214).
+A portrait 4:5 premium still life on a matte graphite background (#111214).
 The word "VISTO" in very large extended heavy white letters, centered, where the letter "O" is replaced by a real white dome security camera of the same size, photographed with soft studio light and a realistic contact shadow.
 {ACCENT_HEX} appears only as the small status LED on the camera.
 Render only the exact text "VIST" plus the camera as the final letter; no other lettering, logos or watermarks.
@@ -80,17 +80,17 @@ Nos outros slides, monte o prompt pela família do slide em
 
 ## SE.6 Carrossel 9 slides
 
-Storyboard de partida no formato canônico de `../variacao-de-layout.md
+Exemplo de variação; não copie: pelo menos 6 de 9 linhas devem mudar de cena e de copy. Formato canônico de `../variacao-de-layout.md
 §V.5`. Cada slide usa um movimento MK diferente e uma câmera diferente; a
 página J aparece uma vez e a janela I uma vez. Troque cena, copy e paleta
-pela marca; mantenha a variação.
+pela marca e pelo conceito da rodada; mantenha só a regra de variação.
 
 | # | papel | movimento (MK## + verbo) | escala/cena | câmera (lente · altura · ângulo) | layout L# | voz | nº palavras | cabeçalho | mesmo lugar da capa? (--ref sim/não) |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | capa | SE1 · MK13 recortar com luz | porta dos fundos da loja fechada à noite, vista pela câmera | 24mm · canto alto do muro · plongée de câmera de segurança | L8 | display + mono nos rótulos | 6 | 3 âncoras (PONTO CEGO · @ · CAM 02) | é a capa (sem --ref) |
-| 2 | stake | SE3 · MK11 trocar a letra pelo objeto | still life em estúdio grafite, câmera dome como a letra "O" | 85mm · altura do objeto · frontal | L2 | display | 5 | só o @ | não |
-| 3 | dor | SE4 · MK21 literalizar | plano médio: o dono baixando a porta de enrolar na frente da loja às 22h | grande-angular de câmera dome (equiv. 16mm) · 3 m · plongée forte | L3 | utilitária (mono) | 9 | microrrótulos na cena (REC ● 22:04 · CAM 01) · @ no topo | não |
-| 4 | como funciona | SE6 · J (MK16 caderno de processo) | página de laudo técnico sobre o balcão da loja, 3 fotos reais em camada | 35mm · de cima · top-down a 90° | L10 | contraponto (serif itálica) | 17 | rodapé J (@ · salvar · →) | não |
+| 2 | stake | SE3 · MK11 trocar a letra pelo objeto | still life em estúdio grafite, câmera dome como a letra "O" | 85mm · altura do objeto · frontal | letra-objeto (estrutura própria da MK11, sem pilha L2) | display | 5 | só o @ | não |
+| 3 | dor | SE4 · MK21 literalizar | plano médio: o dono baixando a porta de enrolar na frente da loja às 22h | 28mm · altura do olho, do outro lado da calçada · frontal | L3 | utilitária (mono) | 8 | @ no topo | não |
+| 4 | como funciona | SE6 · J (MK16 caderno de processo) | página de laudo técnico sobre o balcão da loja, 3 fotos reais em camada | 35mm · de cima · top-down a 90° | L10 | utilitária (mono impressa no laudo) | 4 | rodapé J (@ · salvar · →) | não |
 | 5 | respiro | TM2 escala extrema (só tipografia) | sem foto, fundo da série | sem câmera | L5 | display | 5 | só o @ | não |
 | 6 | prova de rotina | SE2 · MK03 um se destaca | plano aberto: fileira de fachadas à noite, uma sem o LED de monitoramento | 50mm · do outro lado da rua, altura do olho · frontal com fachadas paralelas | L1 | display + contraponto | 7 | 2 âncoras (@ · RUA COMERCIAL) | não |
 | 7 | virada | SE5 · família I (MK26 janela noturna) | a cidade de cima à noite, janela real do app em camada | 70mm teleobjetiva · alto de um prédio · plongée leve | janela I em camada | utilitária + display | 9 | 3 âncoras em camada (CENTRAL · @ · AO VIVO) | não |
@@ -99,16 +99,18 @@ pela marca; mantenha a variação.
 
 Conferência (regras de §V.5): nenhum movimento, câmera ou layout repete em
 linhas seguidas; o objeto-símbolo (câmera dome/visor) aparece em 3 de 9
-linhas (1, 2, 9); 4 linhas com até 6 palavras (1, 2, 5, 9), 1 só
-tipográfica (5), 1 com parágrafo (4); nenhuma linha usa a capa como
+linhas (1, 2, 9); 5 linhas com até 6 palavras (1, 2, 4, 5, 9), 1 só
+tipográfica (5); a explicação do laudo vai na legenda, porque o L10 aceita
+no máximo 4 palavras; a capa (plongée de vigilância) e a dor (altura do olho)
+não repetem câmera nem ideia de copy; nenhuma linha usa a capa como
 `--ref`, porque nenhuma volta à porta dos fundos.
 
-Copy de partida (troque pela da marca; contagem igual à tabela):
+Copy de exemplo (não copie; troque pela da marca e do conceito):
 
 1. "Câmera gravando não é câmera vendo."
 2. "VISTO" (o "O" é a câmera) + "Gravar não é ver."
-3. "22h04. A loja fechou. A câmera gravou, ninguém viu."
-4. "Diagnóstico:" + "Três fotos da vistoria: a câmera, o ângulo e o que ficou fora dele, no laudo."
+3. "22h04. A porta desce. O risco começa agora."
+4. "PONTO CEGO: 3 ÂNGULOS" (impresso no laudo; o resto vai na legenda)
 5. "Alarme sem resposta é barulho."
 6. "Na sua rua, qual fachada ninguém monitora?"
 7. "{Marca}" + "A central vê o alerta e alguém responde."

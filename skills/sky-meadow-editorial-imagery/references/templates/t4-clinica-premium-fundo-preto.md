@@ -16,6 +16,13 @@ Regras legais por conselho em `../nichos-e-ideias.md §N.3` (linhas médico e
 cirurgião-dentista). Em caso de dúvida, a peça sai sem o elemento e com nota
 "conferir com o conselho".
 
+Procedimento dentro da competência do conselho? Lipo/lipoplastia de papada
+por cirurgião-dentista está em disputa CFO × CFM (Res. CFO 198/2019 e
+230/2020; parecer CREMESP 2026 contrário à lipoaspiração de papada por
+dentista): a peça não usa termo cirúrgico (lipoaspiração), descreve o método
+real informado pela cliente e pede revisão jurídica; nunca afirma que é
+permitido.
+
 ---
 
 ## K.1 Estrutura aprovada (o que fica fixo)
@@ -27,7 +34,7 @@ cliente (valores transcritos na tabela; não abrir as artes).
 |---|---|---|
 | Fundo | inteiro | preto puro `#000000` (antes/depois) ou preto quente `#0B0B08` (retrato, tipografia) |
 | Topo | 3–6% | @ da profissional no centro do topo, com a mesma grafia e o mesmo tamanho em toda a série; logo real em camada à esquerda, se couber; rótulo opcional em caixa-alta espaçada dourado `#B8A67C` à direita |
-| Título | conforme o layout | serif de alto contraste (Playfair Display 700, Libre Caslon Display, Bodoni Moda 700), branco, com uma palavra em itálico dourado (movimento TM1) |
+| Título | conforme o layout | serif de alto contraste (Playfair Display 700, Libre Caslon Display, Bodoni Moda 700), branco, com uma palavra em itálico dourado (TM1 é o padrão da K; outro TM de `../repertorio-mercado.md §R.2` é permitido quando o movimento da peça pedir) |
 | Antes/depois | 4–92% | dois painéis lado a lado, rótulos ANTES/DEPOIS em sans espaçada branca acima, contorno fino branco desenhando o perfil no painel "depois", logo pequeno no canto do "depois", "RESULTADO REAL" centrado na base |
 | Identificação | 92–95% | nome + conselho no rodapé: `Dra. {Nome} · CD · CRO-{UF} {nº}` em sans pequena cinza |
 
@@ -67,11 +74,14 @@ antes/depois; o dourado discreto só no logo e em uma palavra.
   palavras, sem promessa. Ex.: "O perfil que você evita nas fotos." ·
   "Contorno é proporção, não só volume." · "Antes de tirar, avaliar a pele."
   · "Seu ângulo favorito tem um motivo."
-- **Troca de família na palavra emocional** (`../repertorio-mercado.md §R.2`
-  TM1): título serif branco com uma palavra em serif itálica dourada.
+- **Troca de família na palavra emocional** (`../repertorio-mercado.md §R.2`):
+  padrão TM1, título serif branco com uma palavra em serif itálica dourada;
+  outro TM quando o movimento da peça pedir.
 - **Subtítulo educativo** (exigência do CFM para antes/depois e boa
   prática no CFO): indicação, fator que muda o resultado, tempo entre as
-  fotos.
+  fotos. Em post único e anúncio (limite de 12 palavras na peça,
+  `../formatos-e-composicao.md`), a educação pode ir para a legenda; a
+  identificação do rodapé não conta no limite.
 - **Card sem preço:** coluna 1 = "Avaliação individual" + o que é avaliado
   (pele, volume, proporção); coluna 2 = CTA ("Falar no direct", "Agendar
   avaliação"). Médico pode pôr valor de consulta (CFM 2.336/2023); dentista não.
@@ -93,14 +103,14 @@ antes/depois; o dourado discreto só no logo e em uma palavra.
 Carrossel: K3 (capa) → K4 (stake) → K1 ou K2 (prova, uma só) → K5 (critério)
 → K6, com um movimento e uma câmera diferentes por slide no storyboard de
 `../variacao-de-layout.md §V.5`. Post único: K3 ou K4. Anúncio: K4
-(entende-se sem texto) com card K1 sem preço.
+(entende-se sem texto) com título curto e identificação; sem card K1.
 
 ## K.5 Prompts base
 
-K3 · retrato de autoridade (IMAGE 1 = foto real da profissional, só identidade):
+K3 · retrato de autoridade (IMAGE 1 = foto real da profissional; preserva a aparência geral, sem alterar traços):
 
 ```text
-A portrait 4:5 editorial photograph for a premium clinic's Instagram post. The woman is the same person as in reference image 1: keep her exact face, hair and skin tone; do not beautify or change her features.
+A portrait 4:5 editorial photograph for a premium clinic's Instagram post. Reference image 1 shows the real dental surgeon: keep her general look, hair, skin tone and age; do not change or beautify any feature.
 She sits upright in a cream armchair in a light {beige|ivory} tailored suit, hands resting naturally, calm direct gaze, a slight closed-mouth smile.
 Setting: a dark room that falls into pure warm black (#0B0B08); no visible walls, no marble, no gold props.
 Light: a single soft window light from camera-left, narrow and directional, so only her face, hands and the front of the suit are lit and the rest falls to black (low-key, chiaroscuro); natural skin texture with pores and fine lines, no glow.
@@ -109,17 +119,22 @@ Composition: the left 40% of the width from 6% to 60% of the height is pure blac
 Do not include any text, logos, frames, borders or UI.
 ```
 
-K4 · ideia conceitual (sem pessoa real):
+K4 · ideia conceitual (sem pessoa real). Exemplo de variação; não copie:
+escolha uma das 3 sementes abaixo (ou crie outra a partir do conceito da
+rodada) e monte o prompt pela família G de `../repertorio-mercado.md §R.6`,
+com a câmera da linha do storyboard. Nunca reuse a mesma semente em duas
+séries seguidas.
 
-```text
-A portrait 4:5 fine-art still life on a pure warm black background (#0B0B08) for a premium facial-harmony clinic.
-A white plaster bust in strict side profile, from forehead to collarbone, lit by a single grazing light from the right that draws a thin bright line along the jaw and neck while the rest of the face stays in deep shadow.
-A thin brushed-gold measuring rule rests diagonally in front of the neck, catching one highlight.
-Camera: 100mm macro-portrait, eye level, the bust occupies the right 60% of the frame from 12% to 92% of the height.
-Composition: the left 38% of the width from 8% to 55% of the height stays pure black for a headline; the bottom 10% stays black.
-Finish: high-end editorial still life, subtle film grain, no glow, no gold dust.
-Do not include any text, logos, frames, people or medical instruments.
-```
+1. **Luz rasante:** um objeto da área tratada (escultura, molde, tecido)
+   em perfil, só uma linha de luz desenhando o contorno no preto.
+2. **Espelho de mão:** um espelho de mão no preto refletindo só uma faixa
+   de luz, sem rosto; a pergunta do paciente no título.
+3. **Fotografia evitada:** uma foto de família impressa, virada para baixo
+   sobre uma mesa escura, um canto levantado pela luz.
+
+Base fixa de qualquer semente: `A portrait 4:5 fine-art still life on a pure
+warm black background (#0B0B08)`, zona de título preta à esquerda, `Do not
+include any text, logos, frames, people or medical instruments.`
 
 Adaptadores para outros geradores: `../modelos-e-producao.md §9`.
 

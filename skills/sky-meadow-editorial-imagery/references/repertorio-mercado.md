@@ -131,7 +131,8 @@ Siga os quatro passos **antes** dos três conceitos de `nichos-e-ideias.md
 3. **Busca fora do nicho.** Com ferramenta de busca disponível, procure
    peças premiadas ou de marcas líderes de **dois nichos vizinhos** e de
    uma linguagem de fora (cinema, sinalização, museu, embalagem, editorial
-   de moda). Registre 3 achados com link e o verbo de cada um. São
+   de moda). Registre 3 achados com link e o verbo de cada um. Sem achado
+   verificável, registre "nenhum"; nunca complete com link não aberto. São
    vocabulário de estudo: não baixe nem anexe ao gerador.
 4. **Cruzamento.** Combine verbo × inventário em 6 ideias e reduza a 3
    (seguro, ousado, fora da curva). Cada uma passa por:
@@ -215,8 +216,10 @@ Antes de colar:
 - Texto em camada? Troque a linha `Text:` por `Do not include any text,
   letters, numbers, logos, watermarks, signage, UI elements, borders or
   frames.`
-- Escreva o movimento numa linha de comentário fora do prompt, por exemplo
-  `# slide 3 · MK06 transformar · L8`.
+- Escreva o movimento numa linha de comentário no topo do `.txt`, por
+  exemplo `# slide 3 · MK06 transformar · L8`. Linhas que começam com `#`
+  não vão ao gerador (`scripts/generate.py` as remove); em outro gerador,
+  apague essas linhas antes de colar.
 
 ### G · Metáfora de objeto
 

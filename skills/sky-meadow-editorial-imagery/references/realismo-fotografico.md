@@ -18,7 +18,11 @@ O "visual de IA" vem de quatro causas, e cada uma tem um antídoto:
 
 ## R.1 Palavras proibidas (puxam para o visual artificial)
 
-Remova de todos os prompts de peças com pessoas:
+Remova de todos os prompts de peças com pessoas, **como descritor positivo**
+(o que se pede para a imagem ser). Em negação a palavra é permitida: "not a
+render", "no CGI look" e as linhas `Forbidden:` dos blocos R.6/R.10 ficam;
+a frase da lista fechada "Render only the exact text listed" (prompts.md)
+também fica. A checagem por grep confere o contexto, não a palavra solta.
 
 `hyperreal 3D render`, `CGI`, `octane`, `unreal engine`, `render`,
 `clean retouching`, `flawless`, `perfect skin`, `beautiful`, `gorgeous`,
@@ -135,13 +139,14 @@ bancada de madeira vazia) e luz dramática igual em todos os slides.
 | Personagem genérico | Descrição média ("early thirties, clean fade, neatly trimmed beard") | Ficha de personagem com 3–5 traços marcantes (R.10) |
 | Cenário sem vida | Bíblia descrevendo um arquétipo de revista (concreto, Edison, couro) e proibindo tudo que tem texto | Lugar específico, bem cuidado e em uso, com 5 camadas de vida (R.11); cartazes permitidos fora de foco e ilegíveis |
 | Cara de propaganda | "premium", "cinematic", "moody", "editorial", "low-key" na bíblia | Registro documental (R.12) e luz real do lugar |
-| Todos os slides iguais na luz | Uma só fonte dramática para a série | Hora do dia diferente por slide, com a mesma luz física do lugar |
+| Todos os slides iguais na luz | Uma só fonte dramática para a série | Luz física do lugar fixa (na bíblia); hora e fonte variam por slide |
 | O genérico se espalha | A capa genérica vira referência dos demais | Portão da capa antes de usá-la como referência (R.13) |
 
 Palavras que puxam o banco de imagem e só entram se a marca pedir:
 `premium`, `cinematic`, `moody`, `dramatic`, `luxury`, `sleek`, `stylish`,
 `Edison bulb`, `industrial concrete`, `leather apron`, `perfectly groomed`,
-`model`, `handsome`, `beautiful`. Exceção: famílias H e K e o movimento
+`model`, `handsome`, `beautiful` (como descritor positivo; "Not a model"
+da ficha R.10 é negação e fica). Exceção: famílias H e K e o movimento
 MK13 (recorte de luz) pedem `cinematic`/low-key por definição.
 
 **Rodada 3 do Groomy (o erro oposto):** para fugir do banco de imagem, o
@@ -163,6 +168,7 @@ Uma pessoa por ficha, repetida **palavra por palavra** em todo prompt:
 
 - Nome próprio ajuda o modelo a manter a mesma pessoa; não use nome de pessoa real conhecida.
 - Nunca escreva `identity`, `same face` ou `face of the reference` em prompt com imagem anexada: pode disparar o filtro de política (bloqueio observado no caso PlantMed). Use `the same {papel}'s general look and clothing`.
+- Foto de pessoa real anexada (cliente, profissional de saúde): `Reference image 1 shows the real {ROLE}: keep her/his general look, hair, skin tone and age; do not change or beautify any feature.`
 - Coadjuvantes (clientes, família) em segundo plano, rosto parcial, idades variadas.
 
 ## R.11 Ambiente vivo — padrão e cinco camadas

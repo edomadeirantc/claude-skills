@@ -40,6 +40,11 @@ melhores para o usuário escolher (`briefing-perguntas.md`, rodada 2):
 invente. Troque por uma fórmula de G.3 que não depende de dado (#2, #3, #7,
 #10, #17, #20, #22, #24) e marque `[ângulo substituído]` na entrega.
 
+Variante curta (post único e anúncio): escreva **3 ganchos** de ângulos
+diferentes e leve os 3 ao usuário. Na peça, no máximo 12 palavras no total
+(título + linha de apoio; identificação do rodapé não conta); um núcleo de
+até 6 palavras que se lê na miniatura; o resto vai na legenda.
+
 ## G.3 As 26 fórmulas (vocabulário para nomear e variar)
 
 | # | Fórmula | Tela (≤ 6 palavras) | Serve para | Estraga quando |

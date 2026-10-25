@@ -143,6 +143,12 @@ tabela (o rodapé fica a 92% em todas as famílias, como em
 (`interface-vidro.md §V.7`); a pílula sólida de arraste só aparece na capa.
 Sempre: um único CTA por slide, a mesma ação pedida no briefing.
 
+**Slide da Família J dentro de um carrossel com kit:** o rodapé J
+(`@handle · salvar · →`) e a numeração/"ARRASTE →" do kit disputariam a
+linha de 92%. Escolha um: o rodapé J sobe para 88% (e o prompt reserva
+86–94% livres), ou o kit é suprimido naquele slide (não aplique o SVG do
+kit sobre ele).
+
 **Pontos, numeração e "ARRASTE →" nunca entram no prompt.** O gerador não
 conta elementos pequenos repetidos: na rodada 2 do Groomy, mesmo com "ONLY
 the current one", 5 de 8 slides saíram com 6 ou 7 pontos, o ponto aceso na

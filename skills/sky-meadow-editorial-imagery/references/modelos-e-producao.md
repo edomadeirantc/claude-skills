@@ -7,18 +7,22 @@
 Gera na proporção nativa e aceita referências. Chave em `GEMINI_API_KEY`.
 
 ```bash
-uv run ~/.claude/skills/sky-meadow-editorial-imagery/scripts/generate.py \
+python ~/.claude/skills/sky-meadow-editorial-imagery/scripts/generate.py \
   --prompt-file prompts/hero-desktop.txt --out out/hero-desktop.png --aspect 16:9 --size 4K
 
-uv run ~/.claude/skills/sky-meadow-editorial-imagery/scripts/generate.py \
+python ~/.claude/skills/sky-meadow-editorial-imagery/scripts/generate.py \
   --prompt-file prompts/hero-mobile.txt --out out/hero-mobile.png --aspect 9:16 --size 2K \
   --ref out/hero-desktop.png
 ```
 
 - Proporções: `1:1 2:3 3:2 3:4 4:3 4:5 5:4 9:16 16:9 21:9`. Tamanhos: `1K 2K 4K`.
 - `--ref` é repetível: master aprovado, slide anterior, foto real do produto.
-- `--dry-run` valida entradas e mostra a configuração sem chamar a API.
+- `--dry-run` valida argumentos, acervo e `--ref`, e roda a autochecagem
+  automática da §12.1 do SKILL.md (itens 2 e 4) sem chamar a API. Os demais
+  itens da §12.1 continuam manuais.
 - Salve prompts em arquivos `.txt` (versionáveis e sem problemas de aspas no shell).
+  Linhas que começam com `#` (notas de movimento, `# slide 3 · MK06 · L8`)
+  não vão ao gerador.
 
 ### 9.2 Script `nano-banana-pro` (instalado)
 
@@ -53,15 +57,17 @@ terminal chegue ao mesmo resultado:
 
 1. **CLI/API (esta skill):** o prompt salvo em `prompts/{peca}.txt` e o
    comando `generate.py` com `--aspect`, `--size` e os `--ref` na ordem
-   (rode `--dry-run` antes para validar acervo e parâmetros).
+   (rode `--dry-run` antes para validar acervo, refs e a autochecagem).
 2. **Chat de imagem** (ChatGPT/GPT Image, app Gemini, Flux, Firefly, Ideogram):
-   o mesmo prompt-mestre; a proporção vai no seletor do app ou como
-   primeira frase. Peças com mais de 6 palavras na imagem: prefira modelos
-   fortes em texto e confira acentos letra a letra.
+   o mesmo prompt-mestre, com as posições em % convertidas para a proporção
+   que o gerador-alvo entrega (ChatGPT entrega 2:3 `[INFERÊNCIA]`; 3:4 e 2:3
+   têm tabela em `formatos-e-composicao.md §5.6`); a proporção vai no seletor
+   do app ou como primeira frase. Peças com mais de 6 palavras na imagem:
+   prefira modelos fortes em texto e confira acentos letra a letra.
 3. **Midjourney:** versão curta da §9.3, com `--ar` e `--no text` quando o
    texto for em camada.
 4. **Anexos:** quais arquivos acompanham o prompt e com que função (foto
-   real da profissional = identidade; foto do produto = rótulo). Um caminho
+   real da profissional = referência da pessoa real; foto do produto = rótulo). Um caminho
    no texto não envia a imagem; MK/IG/R/N nunca vão como anexo.
 
 Texto longo, números, preço, CRO/CRM e logo continuam em camada em

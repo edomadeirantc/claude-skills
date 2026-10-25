@@ -67,7 +67,7 @@ Base da decisão:
 | Categoria/nicho (`NUTRIÇÃO`, `CLÍNICA`, `SAAS`) | filtro de interesse | **capa + slide 2** | some no miolo para não competir com o conteúdo |
 | Gatilho (`URGENTE`, `LANÇAMENTO`, `NOVO`) | parar o polegar | **só capa**; no final só se houver prazo/oferta real | perde força repetido |
 | Tema ou série (`GUIA DE PROBIÓTICOS`, `EP. 04`) | moldura editorial | **capa + final**; no miolo só em séries de 8+ slides | abre e fecha a moldura |
-| Capítulo/passo (`PASSO 2/4`, `MITO`, `VERDADE`, `ANTES`) | navegação | **só miolo**, muda a cada slide | orienta quem está no meio |
+| Capítulo/passo (`PASSO 2/4`, `MITO`, `VERDADE`, `ANTES`) | navegação | **só miolo**, muda a cada slide; em carrossel de lista ocupa a âncora lateral no lugar da terceira âncora, e o slide ainda pode cair para `— · @ · —` quando a variação de cabeçalho pedir (`variacao-de-layout.md` V.5, regra 7) | orienta quem está no meio |
 | Ação (`AGORA`, `SALVE`, `OFERTA`) | anunciar o CTA | **só final** | prepara o botão |
 | Data/edição | contexto temporal | capa (notícia, lançamento, evento); nunca no miolo | só quando o tempo faz parte da mensagem |
 | Nome da marca / "Powered by" | assinatura | **não usar no topo** (o @ já assina); se o cliente exigir, só no final | evita identidade duplicada |
@@ -81,7 +81,13 @@ Receitas por objetivo (esquerda · centro · direita; `—` = vazio):
 | SaaS (teste/demo) | — · @ · categoria | — · @ · categoria | passo · @ · — | — · @ · — | — · @ · `TESTE {N} DIAS` (só se for a oferta) |
 | Série recorrente / notícia | série · @ · data | série · @ · — | capítulo · @ · — | — · @ · — | série · @ · — |
 | Carrossel curto (≤ 4 slides) | — · @ · categoria | — · @ · — | — · @ · — | — | — · @ · ação |
+| Comentar palavra (`comente PALAVRA`) | — · @ · categoria | — · @ · — | passo · @ · — (ou — · @ · —) | — · @ · — | — · @ · `COMENTE` |
+| Post único / anúncio feed | — · @ · — (ou categoria; nunca passo nem `ARRASTE`) | — | — | — | — |
 | Story único | — · @ · categoria | — | — | — | — |
+
+No post único e no anúncio a peça é capa e final ao mesmo tempo: só o @
+(com categoria opcional); a ação fica no CTA da peça, não no topo. No
+anúncio, o rótulo de oferta só entra se a oferta for real.
 
 A receita sai do **objetivo** decidido na rodada 1 (ação única); não vira
 pergunta separada, salvo se o usuário quiser série/edição. Registre a
@@ -110,7 +116,7 @@ Substitua a copy pelo tema real. Preserve posições, fonte, peso e espaçamento
 
 O cabeçalho e o rodapé têm funções diferentes:
 - Topo: identidade (@handle no centro), tema e capítulo nas laterais.
-- Rodapé: `01 / 06` à esquerda e `ARRASTE →` à direita, com linha-base a 92% da altura, conforme `formatos-e-composicao.md §7.4`. No último slide, retirar apenas `ARRASTE →`.
+- Rodapé: `01 / 06` à esquerda e `ARRASTE →` à direita, com linha-base a 92% da altura, conforme `formatos-e-composicao.md §7.4`. No último slide, retirar apenas `ARRASTE →`. Slide da Família J dentro de carrossel com kit: ver `familia-social-conversao.md §F.4` (rodapé J sobe para 88% ou o kit sai daquele slide).
 - Botão final: CTA principal com o material pedido; o cabeçalho não altera o botão. Vidro sutil translúcido e contorno transparente são tratamentos distintos (`interface-vidro.md`).
 
 ## 4. Dois caminhos de produção

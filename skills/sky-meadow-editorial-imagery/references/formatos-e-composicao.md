@@ -135,6 +135,27 @@ ffmpeg -y -i slide-3x4.png -vf "crop=iw:trunc(iw*5/4/2)*2:0:(ih-trunc(iw*5/4/2)*
 Confira o PNG final, não o 3:4: @, título, pontos e numeração inteiros e
 a 5% das bordas.
 
+**Quando o gerador entrega 2:3** (ChatGPT/GPT Image, 1024×1536)
+`[INFERÊNCIA, conferir no app]`: gere já composto para o corte central a
+4:5 (1024×1280), que tira 8,33% de cima e 8,33% de baixo (128 px de cada
+lado). As faixas 0–8,5% e 91,5–100% da altura ficam só com fundo contínuo.
+Converta as posições com `y₂ₓ₃ = (y₄ₓ₅ × 1280 + 128) / 1536`:
+
+| Elemento (layout 4:5) | Posição no 4:5 | Escreva no prompt 2:3 |
+|---|---|---|
+| Faixa descartada | — | 0–8,5% e 91,5–100%: fundo contínuo, nada essencial |
+| Margem de segurança 5% | 5% / 95% | 12,5% / 87,5% |
+| Linha do @ (faixa / linha-base) | 4–9% / 6% | 11,7–15,8% / 13,3% |
+| Início do título no topo | 13% | 19,2% |
+| Título na base (Família F) | 52–76% | 51,7–71,7% |
+| Pílula de arraste | 80–84% | 75–78,3% |
+| Pontos | 90% | 83,3% |
+| Numeração, "ARRASTE" e rodapé (todas as famílias) | 92% | 85% |
+
+A exportação usa o mesmo comando `ffmpeg` do 3:4 acima (o corte `iw*5/4`
+serve aos dois). Um prompt escrito para 4:5 não pode ir sem conversão ao
+ChatGPT: as posições em % ficam erradas.
+
 **Story 1080×1920:** gere em 9:16 nativo (o `scripts/generate.py` aceita
 `--aspect 9:16`). Se o gerador só der 2:3 (ex.: 1024×1536), gere composto
 para corte lateral de 7,8% de cada lado (nada essencial fora de 8–92% da
@@ -150,10 +171,14 @@ com linha-base em ~15%, título e CTA entre 15% e 80%.
 | Peça | Gerar em | Entrega | Zona de texto | Regra própria |
 |---|---|---|---|---|
 | Post único de alto impacto | 4:5 | 1080×1350 | uma ideia + até 12 palavras na peça | é capa e final ao mesmo tempo: gancho, prova e assinatura na mesma imagem; sem pílula de arraste nem contador |
-| Anúncio feed (Meta) | 4:5 (ou 1:1) | 1080×1350 / 1080×1080 | até ~20% da área com texto | oferta + 1 CTA; logo pequeno; entende-se sem a legenda |
+| Anúncio feed (Meta) | 4:5 (ou 1:1) | 1080×1350 / 1080×1080 | até ~20% da área com texto (recomendação de leitura, não regra da Meta: a regra dos 20% foi retirada em 2020 `[INFERÊNCIA]`) | oferta + 1 CTA; logo pequeno; entende-se sem a legenda |
 | Anúncio Stories/Reels (Meta) | 9:16 | 1080×1920 | entre ~14% e ~65–80% da altura | topo ~14% e base livres (≈ 20% em Stories, até ~35% em Reels por causa de legenda e botões); confira a especificação atual do Meta na entrega |
 | Display / Google | 1,91:1 e 1:1 | 1200×628 e 1200×1200 | lado oposto ao sujeito | 3 versões da mesma cena; texto curto, sem letra miúda |
 | Slide 16:9 | 16:9 | 1920×1080 | coluna esquerda (§5.2) | um slide, uma ideia; dados em camada; ver template T2 |
+
+No post único, a identificação obrigatória (nome, conselho, UF e nº em
+peça de saúde; @ da marca) **não conta** no limite de 12 palavras. Texto
+educativo que não cabe nas 12 palavras vai para a legenda, não para a peça.
 
 Tudo que for número, preço, CRO/CRM, endereço, telefone ou texto longo vai
 em camada (HTML/Figma), nunca pedido ao gerador. Família G e H em anúncio:
@@ -170,7 +195,7 @@ não 3 ideias diferentes.
 serie: "{nome}"
 familia: "{G–J ou A–F, derivada do conceito escolhido}"   # sem padrão; nasce da ideia
 acabamento: "{AC: CGI | filme | moda | editorial real}"  # único para a série
-luz: "{frase de luz}"                                     # única para a série
+luz: "{luz física do lugar: sol pela janela, poste, luz da loja}"  # fixa para a série; hora e fonte variam por slide
 paleta: "{PALETTE_SENTENCE: cores dominantes da marca/conceito}"
 acento: "{uma cor} em {elemento}"                         # um só
 materiais: "{materiais recorrentes}"

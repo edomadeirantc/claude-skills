@@ -42,19 +42,37 @@ or watermarks.` Não misture a lista com a proibição geral de letras/números.
 
 ### 6.3 Banco de frases por slot
 
-**Câmera** (exemplos; a escolha vem da linha do storyboard, e dois slides seguidos não repetem a mesma)
+**Câmera** (exemplos; a escolha vem da linha do storyboard, e dois slides seguidos não repetem a mesma). Família A (campo e céu):
 - Rente ao chão: `low camera height just above the grass, slight upward angle, 28mm lens, deep focus on the subject`
 - Herói monumental: `camera placed below the crest looking up, 35mm lens, subject silhouetted against the sky`
 - Perspectiva forçada: `very low angle, 20mm wide lens, the nearest hand/object almost touching the lens, strong perspective`
 - Aérea: `high aerial view, 50mm equivalent, looking down at a shallow angle`
 - Para cima: `worm's-eye view pointing straight up`
 
-**Luz**
+Família G (still life de estúdio, macro):
+- Still life frontal: `camera at table height, 90mm macro lens, object centered on a seamless sweep, shallow depth of field`
+- Macro de textura: `extreme close-up, 100mm macro lens, focus on the material surface, background fully out of focus`
+- Plano de cima: `top-down flat lay, 50mm lens, camera parallel to the tabletop`
+
+Família H (cinema interior):
+- Interior em plano aberto: `wide interior shot, 24mm lens at chest height, the room's depth leading to the subject`
+- Plongée: `high angle looking down at the subject from above, 35mm lens, floor pattern visible`
+- Contra-plongée: `low angle looking up from knee height, 28mm lens, ceiling visible above the subject`
+
+Família K (low-key, recorte) e CFTV:
+- Retrato 85mm: `head-and-shoulders portrait, 85mm lens at eye level, background falling to black`
+- Detalhe recortado: `tight crop on hands or profile, 100mm lens, everything outside the light lost in shadow`
+- CFTV / vigilância: `fixed security-camera view from a high ceiling corner, wide lens with slight barrel distortion, flat deep focus`
+
+**Luz** (L1–L3 são da Família A; L4–L8 servem G, H e K)
 - L1 Meio-dia limpo (padrão): `clear bright midday sunlight from high above, soft natural shadows, crisp air`
 - L2 Contraluz dourada: `late-afternoon sun low behind the subject, warm golden rim light on grass tips and edges, gentle glow`
 - L3 Entardecer pastel (R11): `soft pastel dusk, pink and lavender clouds, diffuse warm light`
 - L4 Estúdio (R01): `large soft studio key light from the front-left, subtle fill, soft contact shadow on the seamless floor`
 - L5 Noir (R02): `low-key moody light, deep shadows, a single soft spotlight on the accent figure`
+- L6 Interior com janela (H): `daylight from a single side window, soft falloff across the room, practical lamps off`
+- L7 Recorte low-key (K, MK13): `one hard narrow beam from the side cutting across the subject, the rest of the frame near black`
+- L8 Luz de CFTV: `flat overhead fluorescent light, slight green cast, no dramatic shadows`
 
 **Acabamento**
 - F1 CGI limpo: `hyperreal 3D render with photographic lighting, physically accurate materials, crisp detail, clean and calm, subtle atmospheric haze at the horizon` — **só para peças sem pessoas**; com pessoas gera pele de cera.

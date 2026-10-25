@@ -44,7 +44,7 @@ saem do storyboard (V.5).
 |---|---|---|---|---|
 | L1 | **Manchete na base** | capa | IG01, IG02, IG04 | `photo fades into near-black from 50% down; huge headline centered at 52–80%` |
 | L2 | **Pilha tipográfica** | stake, virada | N09, E1 | `three stacked lines filling 20–75% of the height: a heavy sans line, a giant serif italic line, a heavy sans line, over the darkened photograph` |
-| L3 | **Legenda de cinema** | dor, história | — | `cinematic 2.39:1 frame: solid black letterbox bars cover the top 14% and bottom 22%; the scene lives in the band between; a film subtitle in white (or pale yellow) sans, centered in the lower bar, two short lines, like a movie subtitle` |
+| L3 | **Legenda de cinema** | dor, história | — | `cinematic 2.39:1 frame: solid black letterbox bars cover the top 14% and bottom 22%; the scene lives in the band between; a film subtitle in white sans, centered in the lower bar, two short lines, like a movie subtitle` (legenda branca; amarelo só se não for a cor da marca) |
 | L4 | **Balão de mensagem** | dor, objeção, prova de rotina | — | `one or two generic chat message bubbles (rounded, no app logo, no app interface) floating over the scene at 30–50% of the height, with a small timestamp; the headline below` |
 | L5 | **Cartão de autor** (sem foto) | respiro, opinião | IG06–IG08, F3 | aplicar em camada (`familia-social-conversao.md §F.5`) ou `plain #0A0A0A background, left-aligned headline and paragraph block` |
 | L6 | **Tags de vidro + constelação** | como funciona | G02, V.3–V.4 | `three frosted-glass pill tags linked by 1-px lines placed on the scene` (`interface-vidro.md`) |
@@ -123,7 +123,11 @@ Regras (conferir antes de escrever prompts):
 5. Câmeras distintas em pelo menos metade dos slides (arredonde para cima).
 6. 4+ layouts distintos, um respiro, capa e final distintos.
 7. O cabeçalho varia (3 âncoras, 2 âncoras, microrrótulos, só o @); o @
-   está em todas as linhas, com a mesma grafia e o mesmo tamanho.
+   está em todas as linhas, com a mesma grafia e o mesmo tamanho. Em
+   carrossel de lista (passos, falhas, mitos), o rótulo de passo ocupa a
+   âncora lateral nos slides de conteúdo no lugar da terceira âncora; mesmo
+   assim um slide de conteúdo pode cair para `— · @ · —` (precedência em
+   `microtipografia-editorial.md §2.3`).
 
 A câmera de cada prompt vem da coluna "câmera" desta tabela, nunca da
 bíblia da série. Mostre o storyboard e espere aprovação antes dos prompts

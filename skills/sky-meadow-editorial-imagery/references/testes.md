@@ -42,10 +42,12 @@ ser o mesmo recorte com outro texto.
 
 Brief: "Carrossel de 9 slides para uma empresa de monitoramento e CFTV de
 bairro. Objetivo: comentários pedindo diagnóstico. Sem nome de cliente, sem
-logo; acento e @ fictícios." Partida: `templates/t5-seguranca-eletronica.md
-§SE.6`.
+logo; acento e @ fictícios." Exemplo (não ponto de partida): `templates/t5-seguranca-eletronica.md
+§SE.6`; pelo menos 6 de 9 linhas devem mudar de cena e de copy.
 
 Checagens esperadas:
+- Não reaproveitou as linhas do §SE.6: pelo menos 6 de 9 mudam de cena e
+  de copy.
 - 9 linhas no storyboard, cada uma com um MK diferente; nenhum movimento,
   câmera ou layout repetido em linhas seguidas.
 - Página J em no máximo 1 slide, janela I em no máximo 1 slide; o
@@ -86,7 +88,9 @@ natural. Objetivo: salvar o post." O nicho não está em
 Checagens esperadas:
 - Salto de `repertorio-mercado.md §R.3` registrado: verbos das MK,
   inventário (10 objetos, 5 expressões do público, 3 interfaces ou
-  documentos), 3 achados externos com link quando houver busca, 6 ideias
+  documentos), 3 achados externos com link quando houver busca
+  (sem achado verificável, registre "nenhum"; nunca complete com link não
+  aberto), 6 ideias
   reduzidas a 3.
 - Cada conceito cita MK + verbo; a família vem depois do conceito.
 - Procedimento de nicho novo de `nichos-e-ideias.md §N.5`: 5 itens que só
