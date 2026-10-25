@@ -45,7 +45,7 @@ CONCRETE_RE = re.compile(r"(?:R?\$)\s?\d|\b\d[\d,.]*\b|(?<!^)\b[A-ZÀ-Ý][a-zà-
 # English and Brazilian Portuguese share one entry per kind of ask, so a
 # bilingual caption still counts one ask as one.
 ASKS = [
-    (re.compile(r"\b(?i:comment|comente|comenta|escreva|digite) (?i:the word |a palavra |aqui )?\"?[A-Z0-9]{2,}\b"),
+    (re.compile(r"\b(?i:comment|comente|comenta|escreva|digite) (?i:the word |a palavra |aqui )?\"?[A-ZÀ-Ý0-9]{2,}\b"),
      "comment a keyword"),
     (re.compile(r"(?i)\b(?:dm|message) me\b|\b(?:me chama|me manda|mande|manda) (?:uma )?(?:dm|direct|mensagem)\b"),
      "DM me"),
