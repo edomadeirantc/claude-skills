@@ -45,6 +45,28 @@ Use o parâmetro nativo de proporção/tamanho do modelo e o template da [prompt
 inteiro. Se o modelo não aceitar referência de imagem, repita a bíblia da série
 literalmente em cada prompt.
 
+### 9.5 Pacote multi-IA (entrega padrão quando o usuário pede prompts)
+
+Cada peça sai com os quatro blocos abaixo, a partir de **um** prompt-mestre
+em inglês (template de `prompts.md §6`), para que qualquer modelo ou
+terminal chegue ao mesmo resultado:
+
+1. **CLI/API (esta skill):** o prompt salvo em `prompts/{peca}.txt` e o
+   comando `generate.py` com `--aspect`, `--size` e os `--ref` na ordem
+   (rode `--dry-run` antes para validar acervo e parâmetros).
+2. **Chat de imagem** (ChatGPT/GPT Image, app Gemini, Flux, Firefly, Ideogram):
+   o mesmo prompt-mestre; a proporção vai no seletor do app ou como
+   primeira frase. Peças com mais de 6 palavras na imagem: prefira modelos
+   fortes em texto e confira acentos letra a letra.
+3. **Midjourney:** versão curta da §9.3, com `--ar` e `--no text` quando o
+   texto for em camada.
+4. **Anexos:** quais arquivos acompanham o prompt e com que função (foto
+   real da profissional = identidade; foto do produto = rótulo). Um caminho
+   no texto não envia a imagem; MK/IG/R/N nunca vão como anexo.
+
+Texto longo, números, preço, CRO/CRM e logo continuam em camada em
+qualquer modelo.
+
 ---
 
 ## 10. Texto atrás do sujeito (sanduíche de profundidade)

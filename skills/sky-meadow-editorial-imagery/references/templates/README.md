@@ -10,6 +10,8 @@ combinar com um deles; as regras gerais continuam nos módulos de `../`.
 | T1 | Carrossel de conversão para Instagram (serviço, SaaS, negócio local) | 1080×1350 + story 1080×1920 | **Testado, 3 rodadas** | Groomy (SaaS para barbearias) | `t1-carrossel-conversao.md`, `casos/groomy-carrossel-v4.md`, `../../assets/templates/groomy-rodada1.jpg`, `../../assets/templates/groomy-rodada2.jpg`, `../../assets/templates/groomy-rodada3-capas.png` |
 | T2 | Pitch deck de 5 minutos | 16:9, 9 slides | **Testado, aprovado** | PlantMed (agro) | `t2-pitch-deck-16x9.md`, `casos/plantmed-pitch.md`, `../../assets/templates/modelo-financeiro-pitch.xlsx` |
 | T3 | Carrossel de produto na pele | 1080×1350, 6 slides | Prompts entregues, não testados | Femini Care (suplemento) | `t3-carrossel-produto-na-pele.md`, `casos/femini-care-carrossel.md` |
+| T4 | Clínica premium em fundo preto (HOF, odonto, estética, dermatologia) | 1080×1350, story, anúncio | **Estrutura aprovada pela cliente; texto reprovado** | Cirurgiã-dentista HOF (acervo local RC) | `t4-clinica-premium-fundo-preto.md` |
+| T5 | Segurança eletrônica e consultoria de segurança | post único, carrossel, anúncio | Prompts entregues, não testados | Consultoria de segurança eletrônica | `t5-seguranca-eletronica.md` |
 
 ## Linha do tempo do que foi aprendido
 
@@ -19,6 +21,8 @@ combinar com um deles; as regras gerais continuam nos módulos de `../`.
 4. **PlantMed:** pitch 16:9 aprovado; bloqueio de política resolvido com prompt enxuto em slide sem pessoa.
 5. **Groomy rodada 3:** lugar precário (erro oposto); regra do padrão mediano bem cuidado.
 6. **Groomy v4:** prompts atuais com todas as correções (aguardando nova rodada).
+7. **Clínica HOF (T4):** fundo preto, linha dourada, painel e card aprovados; títulos-rótulo, preço de dentista e rosto da profissional inconsistente entre séries reprovados.
+8. **Referências de mercado MK01–MK26:** famílias G–J e o salto fora da caixa (`../repertorio-mercado.md`).
 
 ## Regras que todos os templates herdam
 

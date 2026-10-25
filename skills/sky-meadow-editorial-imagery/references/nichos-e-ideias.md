@@ -54,9 +54,9 @@ Clichê = o que todo mundo do nicho posta. Evite, ou subverta de propósito.
 | Nicho | Família / arquétipo inicial | Clichê do nicho | Sementes fora da caixa | Cuidado legal |
 |---|---|---|---|---|
 | Suplemento / nutracêutico | C3, C5, B6, F1 | cápsulas espalhadas na mesa branca | o corpo como moldura do frasco; o frasco como monumento num lugar íntimo da rotina; a cápsula em escala gigante na palma | ANVISA: sem alegação de tratamento; usar só o que está no rótulo |
-| Clínica estética / harmonização | F4, B2, B4 | rosto com linhas e "antes/depois" | o gesto de se olhar (espelho de mão, reflexo na colher); proporção mostrada por luz e sombra, não por setas | CFM/CRO: sem antes/depois de paciente, sem promessa |
+| Clínica estética / harmonização (médico) | F4, B2, B4, K | rosto com linhas e "antes/depois" | o gesto de se olhar (espelho de mão, reflexo na colher); proporção mostrada por luz e sombra, não por setas | CFM 2.336/2023: antes/depois só educativo, foto real sem manipulação, mesma pose/luz, paciente não identificável, com texto educativo; nome + CRM + "MÉDICO" (+ RQE); sem promessa nem superlativo |
 | Nutrição | F4, C5, A·H | nutricionista segurando salada | a geladeira aberta como palco; prato visto de cima virando relógio do dia; mercado em escala | sem promessa de emagrecimento |
-| Odontologia | F4, B4 | sorriso branco em close | o riso escondido atrás da mão (dor) vs. sem a mão (virada) | CRO: sem antes/depois |
+| Odontologia / HOF (cirurgião-dentista) | F4, B4, K | sorriso branco em close; "paciente modelo R$ X" | o perfil desenhado pela luz; a régua de proporção como objeto; o detalhe que só o dentista vê | CFO 196/2019: antes/depois com TCLE, só a área tratada, sem identificar o paciente; nome + CRO + "CD" em toda peça. **Código de Ética Odontológica art. 44, I: sem preço, gratuidade ou forma de pagamento.** Nunca gerar ou retocar antes/depois por IA |
 | Telemedicina / saúde | B1–B5, A·A | médico de jaleco com estetoscópio | o cuidado a dois contra o céu (G01/G02) | CFM: sem diagnóstico |
 | Fitness / academia / pilates | D1–D4, F1 | corpo sarado no espelho | o equipamento como monumento na colina; o suor em macro; a rotina às 6h | sem antes/depois corporal com promessa; CREF: sem prescrição de treino na peça; avaliação física sem diagnóstico |
 | Moda / beleza / cosmético | C2, C3, F1 | flat lay com flores | produto na pele com gotas; textura em macro; produto gigante em estúdio monocromático | sem "efeito garantido" |
@@ -68,8 +68,9 @@ Clichê = o que todo mundo do nicho posta. Evite, ou subverta de propósito.
 | Gastronomia / delivery | C1, C5, F1 | prato perfeito de cima | o ingrediente em escala monumental; a mão pegando o último pedaço | — |
 | Pet | A·H, F1 | filhote fofo olhando a câmera | o mundo do ponto de vista do pet (câmera rente ao chão) | — |
 | E-commerce / varejo | C1–C5, D2, F2 | produto em fundo branco | o produto fora de lugar (deslocamento) no universo do cliente | preço e frete reais |
+| Segurança eletrônica / consultoria de segurança | G, H, I, F2 | câmera de CFTV genérica, cadeado, ladrão encapuzado | o ponto cego visto pela câmera; a rotina que o sistema guarda (a loja fechando, a chave virando); a central de monitoramento como janela (I) | sem medo sensacionalista nem estatística sem fonte; sem imagem de crime; equipamentos reais do cliente; sem prometer "risco zero" |
 
-IDs: A·A–A·H = arquétipos da Família A (`familia-ceu-campo.md §4`); B1–B6; C1–C5; D1–D4; E1–E2; F1–F5.
+IDs: A·A–A·H = arquétipos da Família A (`familia-ceu-campo.md §4`); B1–B6; C1–C5; D1–D4; E1–E2; F1–F5; G–J = famílias de `repertorio-mercado.md`; K = clínica premium fundo preto (`templates/t4-clinica-premium-fundo-preto.md`).
 
 ## N.4 Gerador de ideia fora da caixa
 
@@ -92,6 +93,14 @@ Alavancas (combine no máximo duas por peça):
 6. **Um se destaca** — repetição neutra com um único elemento no acento da marca.
 7. **Entrelaçamento** — o título passa atrás do sujeito ou a tag pousa na pele.
 8. **Mesma cena, outra luz** — antes/depois sem trocar de cenário (luz fria → quente).
+9. **Literalizar a expressão** — a frase que o público usa vira a cena (MK14, MK21).
+10. **Interface como metáfora** — caixa de seleção, menu do sistema, colchetes de foco, barra de app (MK02, MK10, MK12, MK13).
+11. **Letra-objeto** — uma letra da palavra-chave é trocada por um objeto do ofício (MK11).
+12. **Objeto do ofício transformado** — o material de trabalho vira o resultado (MK06) ou mostra o tempo (MK24).
+13. **Recorte de luz** — fundo preto, só o essencial iluminado (MK13); ótimo em premium e segurança.
+
+Antes de escolher as alavancas, rode o salto de `repertorio-mercado.md §R.3`
+(verbo da referência, inventário do cliente, busca fora do nicho).
 
 Cada conceito sai assim:
 
@@ -120,6 +129,8 @@ para premium ou popular digno só se a análise da marca pedir.
 |---|---|---|
 | Barbearia | concreto escuro, lâmpada Edison, barbeiro de comercial com avental de couro | parede cinza quente com um painel de tijolo, piso amadeirado, vitrine para a rua, spots quentes em trilho, cadeiras hidráulicas pretas em bom estado, potes de pomada de marcas diferentes, máquinas na base com os fios, cabelo perto da cadeira durante o corte, banco de espera, planta, TV na parede, tabela de preços fora de foco |
 | Clínica estética / odonto | sala branca impecável, profissional de capa de revista | maca com papel descartável, luvas na caixa, armário com etiquetas (ilegíveis), recepção com planta e bebedouro, profissional de jaleco com caneta no bolso e crachá virado |
+| Clínica premium (HOF, fundo preto) | consultório de mármore genérico, profissional de revista, luz dourada em tudo | retrato real da profissional (foto como `--ref`), cadeira e bancada reais, luz de janela lateral + recorte, linha dourada fina só na interface |
+| Segurança eletrônica | sala de monitoramento de filme, hacker de capuz, câmeras em toda parede | técnico de uniforme da empresa instalando câmera numa fachada comum, caixa de passagem, cabo passado em canaleta, app de monitoramento no celular do dono, loja baixando a porta de enrolar à noite |
 | Nutrição | nutricionista sorrindo com salada perfeita | consultório com balança e fita métrica, potes de comida de verdade, geladeira de casa com ímãs, feira com caixotes, sacola reutilizável |
 | Suplemento / produto na pele | pele de vidro, gotas perfeitas, fundo infinito | banheiro ou quarto de casa bem cuidado, luz da janela, pele com marcas e pelos, frasco com marca de dedo, copo d'água comum |
 | Fitness / pilates | academia de luxo vazia, corpo de modelo | aparelhos em bom estado com sinais de uso, garrafinha, toalha no ombro, espelho com marcas de mão, gente comum de idades variadas, luz natural e de teto |

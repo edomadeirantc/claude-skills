@@ -142,6 +142,21 @@ De 3:4 para 9:16 o corte lateral seria de 12,5% por lado com ampliação de
 topo 0–13% e base 82–100% ficam sob a interface do Instagram; @ no centro
 com linha-base em ~15%, título e CTA entre 15% e 80%.
 
+### 5.7 Post único, anúncios e slides
+
+| Peça | Gerar em | Entrega | Zona de texto | Regra própria |
+|---|---|---|---|---|
+| Post único de alto impacto | 4:5 | 1080×1350 | uma ideia + até 12 palavras na peça | é capa e final ao mesmo tempo: gancho, prova e assinatura na mesma imagem; sem pílula de arraste nem contador |
+| Anúncio feed (Meta) | 4:5 (ou 1:1) | 1080×1350 / 1080×1080 | até ~20% da área com texto | oferta + 1 CTA; logo pequeno; entende-se sem a legenda |
+| Anúncio Stories/Reels (Meta) | 9:16 | 1080×1920 | entre ~14% e ~65–80% da altura | topo ~14% e base livres (≈ 20% em Stories, até ~35% em Reels por causa de legenda e botões); confira a especificação atual do Meta na entrega |
+| Display / Google | 1,91:1 e 1:1 | 1200×628 e 1200×1200 | lado oposto ao sujeito | 3 versões da mesma cena; texto curto, sem letra miúda |
+| Slide 16:9 | 16:9 | 1920×1080 | coluna esquerda (§5.2) | um slide, uma ideia; dados em camada; ver template T2 |
+
+Tudo que for número, preço, CRO/CRM, endereço, telefone ou texto longo vai
+em camada (HTML/Figma), nunca pedido ao gerador. Família G e H em anúncio:
+faça 2–3 variações da mesma ideia (objeto, enquadramento, frase) para teste,
+não 3 ideias diferentes.
+
 ---
 
 ## 7. Consistência: séries, formatos e carrosséis

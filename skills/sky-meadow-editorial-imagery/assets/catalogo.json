@@ -6,12 +6,14 @@
     "fontes_estudo_distribuidas": 0,
     "geracoes_aprovadas_distribuidas": 2,
     "historicos_distribuidos": 0,
-    "imagens_unicas_distribuidas": 12,
+    "imagens_unicas_distribuidas": 41,
     "folhas_contato": 2,
     "demonstracoes_derivadas": 1,
     "anexos_conversa_distribuidos": 0,
     "referencias_carrossel_distribuidas": 10,
-    "historicos_teste_distribuidos": 3
+    "historicos_teste_distribuidos": 3,
+    "referencias_mercado_distribuidas": 26,
+    "artes_cliente_distribuidas": 0
   },
   "itens": [
     {
@@ -1388,11 +1390,1506 @@
         "redistribuicao_publica": true,
         "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
       }
+    },
+    {
+      "id": "MK01",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk01-pilha-viral-filme-colina.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "5103c8bd8ce44fa880d2a58bc3a8d3fbb045b9d30f6bfcfa8c45eaf4943977d7",
+      "bytes": 84003,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "06ca8afe244bfbdddd3d7fc9c79f5902.jpg",
+        "id": "MK01"
+      },
+      "observacao_visual": "Foto de filme: figura pequena numa colina ao entardecer; pilha tipográfica mista (sans condensada pesada vermelha \"4 TYPES\"/\"VIRAL\", serif itálica branca, numeral \"2026\" em serif itálica gigante); pílula de métricas vermelha; rodapé @ · save for later · seta.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK02",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk02-tecido-atravessa-palavra-selecao.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "f79a0b731603b3770cee154c66e20162804e627b2973af5cfbbea3a64eda70a3",
+      "bytes": 297986,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "0dc4cf9eccc75035c8ab0a327ebf6c23.jpg",
+        "id": "MK02"
+      },
+      "observacao_visual": "Campo verde e céu teal; tecido laranja atravessa a palavra gigante \"controlar\" (entrelaçamento objeto-letra); \"escolher\" dentro de caixa de seleção de editor com alças (interface como metáfora de escolha); sans fina + serif itálica.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK03",
+      "papel": "estudo_mercado",
+      "familia": "G",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk03-um-se-destaca-cadeira-lime.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "40ff0b9ce64d49f8645b70a59e9f3e48643891ea370bf71fa9ce5814ef809b4e",
+      "bytes": 114734,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "2b52cf6a2cf7b05d8c0635a0d5d6d69d.jpg",
+        "id": "MK03"
+      },
+      "observacao_visual": "Arquibancada de cadeiras cinza com uma única cadeira lime (um se destaca); texto fino lime em sans + serif itálica; frase final distribuída em grade justificada na base; cabeçalho de 3 âncoras.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK04",
+      "papel": "estudo_mercado",
+      "familia": "J",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk04-caderno-video-slides.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "f6f567e220354ce9d974cd7ffe41475c4d472a593f80ace18df0e5c39f76820a",
+      "bytes": 117164,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "3b2eb006e402ebb3b7afa45ece64e174.jpg",
+        "id": "MK04"
+      },
+      "observacao_visual": "Papel bege texturizado; título serif condensada itálica com dois-pontos; parágrafo itálico; 3 miniaturas ligadas por setas vermelhas manuscritas; rodapé @ · save for later · seta.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK05",
+      "papel": "estudo_mercado",
+      "familia": "J",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk05-caderno-compilations-linho.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "3092f7bd60577617f3ccb79b79f9c35302ea43c1c268f141eaaec63c3de7445d",
+      "bytes": 156507,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "44cb2aded73e4c7827ba0bb9dc787853.jpg",
+        "id": "MK05"
+      },
+      "observacao_visual": "Mesma série editorial em papel de linho: título serif itálica condensada, parágrafo, citação, 3 fotos com setas vermelhas manuscritas.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK06",
+      "papel": "estudo_mercado",
+      "familia": "G",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk06-papel-amassado-vira-lampada.jpg",
+      "dimensoes": {
+        "largura": 1122,
+        "altura": 1402
+      },
+      "sha256": "bcae58e37973000772900c0f75e9770412767eb504398fe35b687c0e78f93885",
+      "bytes": 134098,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "4618de4d6a5768d80344de55aaa9b2b6.jpg",
+        "id": "MK06"
+      },
+      "observacao_visual": "Fundo branco; bolas de papel amassado e uma delas vira lâmpada lime (objeto do ofício transformado); grotesca preta compacta; marca-texto lime atrás da frase-chave; tags em linha; assinatura da agência no rodapé.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK07",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk07-janela-ui-ceu-azul.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "4f65fd769ca820593d8f9b8c59e686cb2bc2e9fa9c574cfc2790259158e6d9a5",
+      "bytes": 63004,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "5fafdae0543c871d06340c75756140b1.jpg",
+        "id": "MK07"
+      },
+      "observacao_visual": "Céu azul limpo; janela de navegador branca com site real flutuando; marca em grotesca gigante acima; cabeçalho de 3 âncoras (data · autor · categoria); paginação BACK 01–08 NEXT com seta fina.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK08",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk08-cta-palavra-gigante-grama.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "5b9a49091aba09422ce0b3d71363563c3d826de7b99498886bcaa1b41521c27f",
+      "bytes": 140211,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "642d2cf202250400c5493c8e793732f1.jpg",
+        "id": "MK08"
+      },
+      "observacao_visual": "Grama escura com margaridas, homem deitado na base; CTA como peça: \"Comment the word\" em serif condensada branca e a palavra-chave gigante em serif itálica vermelha entre aspas; ícone de flor no topo.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK09",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk09-trilha-passos-veludo-vermelho.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "aa0ada42aeeb5db81d3e326dadf0e808f6fd4d2ca5db8dbeb063837aee525bd5",
+      "bytes": 175414,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "752b13ad8e2ab6086cfc8ce1d993d432.jpg",
+        "id": "MK09"
+      },
+      "observacao_visual": "Monocromia vermelha (poltrona e cortina de veludo); \"06 PASSOS\" em sans + \"posicionar\" em script; caminho sinuoso fino com 6 nós ligando os passos; rótulos de topo e rodapé.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK10",
+      "papel": "estudo_mercado",
+      "familia": "G",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk10-menu-contexto-atualizar-cafe.jpg",
+      "dimensoes": {
+        "largura": 1122,
+        "altura": 1402
+      },
+      "sha256": "b1ef2d4b5a0284bea0bed1c3712aa0cfa0277ead96163d6db6cb972748cd8982",
+      "bytes": 106753,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "7b439f8297745129771c68d035bab1e7.jpg",
+        "id": "MK10"
+      },
+      "observacao_visual": "Fundo cinza claro; xícara lime com vapor em pixel art (foto + pixel); menu de contexto do sistema com \"Atualizar\" destacado em lime e cursor; grotesca preta compacta com marca-texto lime.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK11",
+      "papel": "estudo_mercado",
+      "familia": "G",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk11-tecla-ctrl-substitui-letra.jpg",
+      "dimensoes": {
+        "largura": 1122,
+        "altura": 1402
+      },
+      "sha256": "88a4a479d74a5830a37a0e686c4025a2b5fa6e9de03ba27f52a7f5722aac4a6d",
+      "bytes": 78325,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "8c0576722b0ad9885a8a5625ef66550a.jpg",
+        "id": "MK11"
+      },
+      "observacao_visual": "Palavra gigante \"CTRL\" em preto com uma letra substituída por tecla 3D de vidro lime (letra-objeto); trocadilho \"tudo sob CTRL\"; marca-texto lime no título.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK12",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk12-menubar-app-nuvem-save.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "931be482cdb1f9345c1da2b5bd449e8c6ac6bff2e7e26d6f1615790b312abb92",
+      "bytes": 92666,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "a19aaa9e5cadb5deec98dac49d953172.jpg",
+        "id": "MK12"
+      },
+      "observacao_visual": "Barra de menus de editor no topo como moldura; oceano e nuvem com pessoa minúscula sentada nela; palavra gigante \"save\"; cartão de perfil flutuando; \"save for later\" manuscrito com ícone de marcador.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK13",
+      "papel": "estudo_mercado",
+      "familia": "G",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk13-olho-fenda-luz-moldura-foco.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "cdca6a78c0d356fdb59ae15ebd9554a57d6f10e89058cff962718869a773cb5f",
+      "bytes": 30565,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "b1642314d6e771445ca4bc14864cd895.jpg",
+        "id": "MK13"
+      },
+      "observacao_visual": "Fundo preto; só o olho iluminado por uma fenda de luz; colchetes de foco de câmera em volta; título estendido pesado \"VISION.\" com microrrótulos espalhados (FOCUS, DEFINES, DIRECTION).",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK14",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk14-ditado-grama-vizinho-titulo-engolido.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "aa019f06adfcbb0ef5f3d9bbda2694580fcafc0bd46334241e8fa88416a9627c",
+      "bytes": 401220,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "b781bc8a247cdcc18034d6f032a005a4.jpg",
+        "id": "MK14"
+      },
+      "observacao_visual": "Vale verde escuro e plantação dividida por uma linha; título em serif itálica gigante com a linha de baixo engolida pela paisagem; subtítulo sans com palavras em bold (literaliza um ditado).",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK15",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk15-titulo-gigante-campo-cavalo.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "5934232f8802eba409ca57c7f210f4392102c5735e41c03b5bd9ec54bb2acb1f",
+      "bytes": 125055,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "bba2179c720d1188b074b296d3a7e626.jpg",
+        "id": "MK15"
+      },
+      "observacao_visual": "Campo verde ensolarado com cavalo branco; título grotesco gigante sobreposto com linha de apoio em 3 colunas; cabeçalho de 3 âncoras; parágrafo pequeno centrado na base.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK16",
+      "papel": "estudo_mercado",
+      "familia": "J",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk16-caderno-step-by-step-furos.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "b716b7d594edd9b7fcf101011005546863a81c6902e8c0a444844548b1992a87",
+      "bytes": 82149,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "bf9af949016b3f6fd918f86b5793b1fe.jpg",
+        "id": "MK16"
+      },
+      "observacao_visual": "Papel com furos de fichário; título serif itálica condensada com dois-pontos; citação; 3 capturas com setas vermelhas manuscritas.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK17",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk17-janela-ui-colina-dieline.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "26e5f636081b7c45df433fef3cf94e08f9b4b4eab6280b3e56e9856d096a5f87",
+      "bytes": 120074,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "c5e7e5e11343e160cd7c8cdade60e0bb.jpg",
+        "id": "MK17"
+      },
+      "observacao_visual": "Colina verde e céu azul; janela escura de site com grade de produtos; marca em grotesca branca; frase de apoio; paginação inferior.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK18",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk18-janela-ui-penhasco-cosmos.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "f36a4ec8d040587884137789bfaa51c38eb6c6a3013a3f95628835ddcc1f2e99",
+      "bytes": 73380,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "c6baaa3e18d0fbd2aa5a0949e06f634b.jpg",
+        "id": "MK18"
+      },
+      "observacao_visual": "Céu claro, figura sentada na ponta de uma rocha; janela escura de site; frase com trecho em bold; paginação inferior.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK19",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk19-orbita-telas-vidro-campo.jpg",
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1439
+      },
+      "sha256": "30d80141c78aaad78a7f636afc41ae1fe0b0483a194c7dab2c03f870366a7b8f",
+      "bytes": 171307,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "ca87e39671c69050f3cb32db9560d899.jpg",
+        "id": "MK19"
+      },
+      "observacao_visual": "Mulher sorrindo num campo de capim alto cercada por telas de celular de vidro flutuando; título gigante branco em duas linhas entrelaçado com a figura; pílula escura de CTA.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK20",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk20-janela-grade-fotos-deserto.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "cae53e3d0aa4f7dc649ce4c48146573a3c472caaf59bb2fa30e4bc20619efb1f",
+      "bytes": 110537,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "cbbc868500dd77931859bb035266082c.jpg",
+        "id": "MK20"
+      },
+      "observacao_visual": "Paisagem árida com carro e pessoa no teto; janela com grade densa de fotos; marca em grotesca; frase com trecho em bold; paginação.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK21",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk21-plateia-vermelha-publico-certo.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "4e9e3f7afec4c23359d0510787d16ff001935d4519a1cb49be658f85fb909d55",
+      "bytes": 91146,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "ce8df70a0b970481463f7e0b034603db.jpg",
+        "id": "MK21"
+      },
+      "observacao_visual": "Cinema de poltronas vermelhas com uma espectadora comendo pipoca (literaliza \"público certo\"); ícone de olho; serif itálica creme gigante no contraponto; botão oval de contorno com ícone; cabeçalho e rodapé de 2 âncoras.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK22",
+      "papel": "estudo_mercado",
+      "familia": "H",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk22-calendario-vidro-grade-escura.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "6c0be0b5b37929148a77d31e49f90c7f833ec02a0788309617e95454caffc522",
+      "bytes": 84086,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "d0d0c83e99dadac2c4ceb1b7661d3310.jpg",
+        "id": "MK22"
+      },
+      "observacao_visual": "Poltronas teal desfocadas; grade de calendário com ladrilhos de vidro (datas, nomes, horários) e dois ladrilhos lime; título fino + \"events\" grande; selo da marca na base.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK23",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk23-janela-ui-montanhas-behance.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "3179c209d33be991fac7ec17160062e9b143a8ec72ef432959e994685ae82997",
+      "bytes": 97969,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "d6641bd832fcadff96f7c84792af6f29.jpg",
+        "id": "MK23"
+      },
+      "observacao_visual": "Montanhas e lago; janela de portfólio colorida; marca em grotesca branca; frase com trecho em bold; paginação.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK24",
+      "papel": "estudo_mercado",
+      "familia": "G",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk24-crt-tomado-musgo-algoritmo.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "7c385233ccdeda68b9fad470a60548f9cf661f4edaa70f38e950f9a8b6f08c2a",
+      "bytes": 88927,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "dfcec995589142a7c36087c2fa175e35.jpg",
+        "id": "MK24"
+      },
+      "observacao_visual": "Campo de grama; computador antigo bege coberto de musgo e cogumelos (objeto obsoleto tomado pela natureza); serif condensada branca + \"algoritmo\" em serif itálica lime; texto sublinhado justificado.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK25",
+      "papel": "estudo_mercado",
+      "familia": "J",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk25-caderno-personal-growth-grade.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 981
+      },
+      "sha256": "4350b62bdb1157ea2712f0658cb76724663ae42b8501a2a3e0843ba27b2c4337",
+      "bytes": 110467,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "e1339a0d4841a24679d047b3a1ae2faa.jpg",
+        "id": "MK25"
+      },
+      "observacao_visual": "Papel quadriculado creme com marcador \"#\" vermelho; título serif itálica condensada com dois-pontos; parágrafo; 3 capas com setas vermelhas manuscritas; rodapé de 3 âncoras.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "MK26",
+      "papel": "estudo_mercado",
+      "familia": "I",
+      "disponibilidade": "incluida_no_pacote",
+      "distribuido": true,
+      "caminho": "assets/mercado/mk26-janela-ui-noite-cabana.jpg",
+      "dimensoes": {
+        "largura": 736,
+        "altura": 920
+      },
+      "sha256": "332078baf5835e1cfe4d7e8619137140bd6a2b235db6e164d9be176c11a4d3be",
+      "bytes": 86916,
+      "origem": {
+        "tipo": "referência de mercado validada pelo usuário (Desktop.rar, 2026-10-25)",
+        "arquivo_original": "e6c3501a1f224f963ae4761b6ea4e9ce.jpg",
+        "id": "MK26"
+      },
+      "observacao_visual": "Céu estrelado azul-noite e cabana iluminada; janela de site de e-mails; marca em grotesca branca; frase com trecho em bold; paginação.",
+      "permissoes": {
+        "uso": "referência de consulta: movimento de ideia, tipografia, composição e acabamento; nunca a cena-assinatura",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": true,
+        "licenca": "publicação no repositório por decisão expressa do usuário; obras, marcas, @ e pessoas de terceiros sem transferência de direitos; não atribuir licença MIT à imagem"
+      },
+      "motivo": "Publicado a pedido do usuário como padrão de qualidade de mercado. Consultar os pixels; não reproduzir composição, marca, @, pessoas ou textos, nem anexar ao gerador."
+    },
+    {
+      "id": "RC01",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 900,
+        "altura": 1600
+      },
+      "sha256": "30f9366c082ebea82566eb243f0b4f1b4970dc5bbc3ab9aadea30b71c9a6ea4b",
+      "bytes": 219301,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC01"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC02",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 900,
+        "altura": 1600
+      },
+      "sha256": "d72ef197642fb77b00e92b12b8f58f848d6214f7c04bad906bef46686ed728c2",
+      "bytes": 257015,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC02"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC03",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "c1b51c9131acfd3432dc4a1b3b0a5c78e9186051c0933df1e085734099c80ad1",
+      "bytes": 240917,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC03"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC04",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 900,
+        "altura": 1600
+      },
+      "sha256": "bcb8fd1fd5741e1ebb30382ff28e312b366efc5f31d62f6876de0d83118828b9",
+      "bytes": 215292,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC04"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC05",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "d65f5b3cffee5b17ef9af7a9003014192e8e3953df7459f4769f62293433e967",
+      "bytes": 251983,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC05"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC06",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "e4fe12239d20c66c17aeb0d0244a58fc04bce9776cc60d0b920af91deda3069e",
+      "bytes": 226517,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC06"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC07",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "0bbf81e4574389aecfbdc18449c454406e58c5f4f22e1e76d4cccc69d12bdbc6",
+      "bytes": 157029,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC07"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC08",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "06d26ac19f539ae61541e58ae6af026df85e89bfc89858cce8db126e1e2cc926",
+      "bytes": 154072,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC08"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC09",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "c582d70c6bd923e677bd08ef176bbf941be9d01e85c28a8acb6c6f0f71dee817",
+      "bytes": 161183,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC09"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC10",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "132169c79cf52b6b91e122acf4f2bd515ddafbf82e8e384073aa48f1b7fb9b6e",
+      "bytes": 272501,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC10"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC11",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "328c3dc47d10a8f08349e0f026a5f2ad2eb4a5b7ed637278e094e79e2e29b76e",
+      "bytes": 251396,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC11"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC12",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "ff5d6db34b32fb2db8eccce43292393b517c76e033aaadb4150251c0c646491c",
+      "bytes": 263712,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC12"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC13",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "b36bde4283e648400c477bda72c950c40be9997854b12e124ee1ec2a0d01ded5",
+      "bytes": 245888,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC13"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC14",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "aa67b49e49522aef2aba7cdecf514a9896a44ca91728ffe6e88f6d9c3bfad729",
+      "bytes": 252857,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC14"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC15",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "4de8239008daa48b43bd92769e3fa33763607ea62074683446a1aaf967c4b603",
+      "bytes": 184386,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC15"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC16",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "08dbc113887d9788c8f5b797e2c3287f25615176eaddbcfa5033c5083a692abc",
+      "bytes": 195710,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC16"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC17",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "e08cd3a0346a0d6c865c15c181b714225e1239e82a9b5a1b28972ff3fd475352",
+      "bytes": 198840,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC17"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC18",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "8ece2e759ba928f728f8fdcf459ec916e089507ce960a6e760eaeb4ba63b96c9",
+      "bytes": 200456,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC18"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC19",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "8140155616505404b940eb0e3859b2c3be1be60371dffc8005201006d26dea64",
+      "bytes": 183749,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC19"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC20",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "17c7203efb9c94a49dc974661b2c4579de10abcfe203f07986cbb21a741bb119",
+      "bytes": 189712,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC20"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC21",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "f6f84185c71da60f2cbd185b49eca7ba6de77058a1ff9946dd4bbf4d761e5f15",
+      "bytes": 188993,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC21"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC22",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "96b1c18ff286a04b9692964463e3258c6d34583cc7bafc6d1b2b1525bbbd71cf",
+      "bytes": 197546,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC22"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC23",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "839ae7ff24f5f14e92b41a4cec97c481c24d6dc296a9fda3543c6b56d62ff0d3",
+      "bytes": 193691,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC23"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC24",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "ebebdd0d5c51a374e57a1a52dec69c15ef8880e1811522d1ef832916ea6da6fd",
+      "bytes": 191256,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC24"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC25",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "10d321fd2342f245a2dce7c85860ad693f848800f68affbf0ef579d799c8c411",
+      "bytes": 185692,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC25"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC26",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1122,
+        "altura": 1402
+      },
+      "sha256": "3f328b0eac36a06c2c74ca575c1842839d6d1bd24014850bd826536b5d980dca",
+      "bytes": 288533,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC26"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC27",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1122,
+        "altura": 1402
+      },
+      "sha256": "631aa3c1658469c969f669b346276a6aed283eea154052fc69c0a3bb5a05bf23",
+      "bytes": 197149,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC27"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC28",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1122,
+        "altura": 1402
+      },
+      "sha256": "53ba7daaa2a71dd0959d77db7cefc3c27351e5c76e24809ac91caf8e0a489ad6",
+      "bytes": 180180,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC28"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC29",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "8101d3a8da639b6b0e68dac3777a8e5f7025b23bc46ce498c128695053446b9f",
+      "bytes": 286321,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC29"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC30",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "94b960d74b55118c304b9a895a378690ff4a90457000446dde63666d14b3c6ea",
+      "bytes": 271446,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC30"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC31",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "b3894e34d57549bc2f5108e29c55e8f9214ffbc27b2734ec2cc33e3d34caada6",
+      "bytes": 278864,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC31"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC32",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "f2df7f7532bdfa99fd03a090f50bca35b8e8310766585872ed71455eb61979e0",
+      "bytes": 312044,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC32"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
+    },
+    {
+      "id": "RC33",
+      "papel": "cliente_aprovada",
+      "disponibilidade": "somente_acervo_local_privado",
+      "distribuido": false,
+      "caminho": null,
+      "dimensoes": {
+        "largura": 1080,
+        "altura": 1350
+      },
+      "sha256": "d98da7b267a7e4e1c679deb392964e97a6efdf37f007e50bc305da7b39634d47",
+      "bytes": 270630,
+      "origem": {
+        "colecao": "artes aprovadas de cliente de saúde",
+        "id": "RC33"
+      },
+      "permissoes": {
+        "uso": "estudo do caso da cliente: estrutura aprovada; texto não é modelo",
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
+        "licenca": "contém rostos de pacientes (dado de saúde) e retrato da profissional; somente local"
+      },
+      "motivo": "Não redistribuído: rostos de pacientes (dado de saúde) e retrato da profissional. Arquivo só na instalação local."
     }
   ],
   "indices": [
     "assets/indices/geracoes-aprovadas.jpg",
-    "assets/indices/carrosseis-ig.jpg"
+    "assets/indices/carrosseis-ig.jpg",
+    "assets/indices/mercado-mk.jpg"
   ],
   "nao_recuperado": [
     {
@@ -1402,7 +2899,7 @@
       "motivo": "O arquivo de nome hexadecimal indicado no Desktop.rar é N12, imagem de terceiro, e não um desktop próprio aprovado."
     }
   ],
-  "direitos": "A licença do código da skill não concede licença MIT às imagens. São distribuídas as duas gerações próprias autorizadas (G01/G02) e, por decisão do usuário, os 10 carrosséis de referência IG01–IG10, somente para consulta.",
+  "direitos": "A licença do código da skill não concede licença MIT às imagens. São distribuídas as duas gerações próprias autorizadas (G01/G02) e, por decisão do usuário, os 10 carrosséis de referência IG01–IG10, somente para consulta. Também são distribuídas, por decisão do usuário, as 26 referências de mercado MK01–MK26, só para consulta. As artes de cliente RC01–RC33 ficam somente no acervo local (rostos de pacientes).",
   "derivados": [
     {
       "id": "D01",

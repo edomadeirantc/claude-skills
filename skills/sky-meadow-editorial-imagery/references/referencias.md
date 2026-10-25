@@ -1,11 +1,11 @@
 # Referências analisadas
 
-Duas levas de referências analisadas. As imagens R/N são de terceiros e não
-são distribuídas no pacote público; as fichas abaixo são descrições, não
-substituem a abertura visual. Consulte `acervo-visual.md` e
-`../assets/catalogo.json` para os arquivos efetivamente disponíveis. R/N
-servem **só para estudo**: nunca as use como `--ref` de geração nem copie
-composições, marcas ou textos.
+Quatro levas de referências analisadas. As imagens R/N são de terceiros e não
+são distribuídas no pacote público; IG e MK foram publicadas por decisão do
+usuário, só para consulta. As fichas abaixo são descrições, não substituem a
+abertura visual. Consulte `acervo-visual.md` e `../assets/catalogo.json` para
+os arquivos efetivamente disponíveis. R/N/IG/MK servem **só para estudo**:
+nunca as use como `--ref` de geração nem copie composições, marcas ou textos.
 
 ## 0. Composições-assinatura — não repetir
 
@@ -30,6 +30,18 @@ Use a coluna da direita: o que se pode aproveitar.
 | IG05 | Jovem de capuz lendo o celular numa multidão noturna | Manchete à esquerda sobre base escura; tag de urgência |
 | IG09 | Profissional de jaleco segurando uma tigela de salada | Especialista do nicho + tag de categoria |
 | IG10 | Retrato 3/4 com linhas pontilhadas no rosto | Constelação sobre a área explicada; serif display |
+| MK02 | Tecido laranja atravessando a palavra gigante "controlar" num campo | Objeto do universo da marca entrelaçado com a palavra-chave; caixa de seleção como metáfora de escolha |
+| MK03 | Arquibancada cinza com uma única cadeira lime | "Um se destaca" com outro objeto repetido do mundo do cliente |
+| MK06 | Bolas de papel amassado e uma vira lâmpada | Objeto do ofício que se transforma no resultado, com outro objeto |
+| MK10 | Xícara lime com vapor em pixel art e menu de contexto "Atualizar" | Interface do sistema como metáfora, com outro objeto e outro comando |
+| MK11 | Tecla 3D "Ctrl" substituindo letra da palavra CTRL | Letra trocada por objeto, com outra palavra e outro objeto do nicho |
+| MK13 | Olho iluminado por fenda de luz dentro de colchetes de foco | Recorte de luz revelando só o essencial no preto, com outra parte/objeto |
+| MK14 | "A grama do vizinho" com a última linha engolida pelo campo | Literalizar uma expressão do nicho; título parcialmente coberto pela paisagem |
+| MK19 | Mulher no capim cercada de telas de celular flutuando | Órbita de objetos em volta da pessoa, com outros objetos do serviço |
+| MK21 | Espectadora comendo pipoca sozinha em cinema vermelho | Literalizar "público"/"plateia"; serif itálica de contraponto |
+| MK24 | Computador antigo tomado por musgo no campo | Objeto obsoleto ou durável como ideia de tempo, com outro objeto |
+| MK07, MK12, MK15, MK17–MK18, MK20, MK23, MK26 | Janela de site real flutuando sobre paisagem com paginação BACK 01–08 NEXT | A estrutura (janela + cabeçalho de 3 âncoras + paginação) com a tela e a paisagem do cliente |
+| MK04, MK05, MK16, MK25 | Folha de papel com título serif itálico com dois-pontos e 3 miniaturas com setas vermelhas | A página-caderno para explicar processo, com outro papel, outro acento e conteúdo do cliente |
 
 As peças aprovadas G01/G02 **podem** ser reutilizadas (mesmo casal e
 estilo), mas um slide novo deve mostrar **outro gesto ou outra cena**.
@@ -130,3 +142,46 @@ amostragem de área 5×5 px.
 
 Medidas comuns (fração da altura): @/tag 6–10%; título 52–80%; pílula de
 CTA 83–88%; pontos 90%; numeração e "ARRASTA →" 92%, margens laterais 5,5%.
+
+## 1.4 Quarta leva — MK01 a MK26 (padrão de mercado, alto impacto)
+
+Fonte: 26 imagens validadas pelo usuário como nível profissional (736–1122 px
+de largura; 4:5 e 3:4). Arquivos em `assets/mercado/`; índice em
+`assets/indices/mercado-mk.jpg`. Consulta apenas: elas fixam a **régua de
+qualidade** e o **movimento** da ideia; a cena nasce do cliente. Famílias
+G–J e método de transferência em `repertorio-mercado.md`.
+
+| ID | Fam. | Conteúdo observado | O que extrair |
+|---|---|---|---|
+| MK01 | H | Filme 35 mm, figura pequena na colina ao entardecer; pilha "4 TYPES / of carousels that are going / VIRAL / IN 2026" | Pilha tipográfica de 4 vozes (condensada pesada, serif itálica, numeral serif gigante); rodapé de 3 âncoras |
+| MK02 | H | Campo e céu teal; tecido laranja atravessa "controlar"; "escolher" dentro de caixa de seleção com alças | Entrelaçamento objeto-letra; interface do editor como metáfora |
+| MK03 | G | Cadeiras cinza, uma lime; texto fino lime; última frase espalhada em grade | Um se destaca; texto leve que respira; grade justificada |
+| MK04 | J | Papel bege; "Video Slides:"; 3 miniaturas e setas vermelhas manuscritas | Página-caderno para processo; seta manuscrita como único acento |
+| MK05 | J | Mesmo sistema em papel de linho; "Compilations:"; 3 fotos | Textura de papel muda o tom sem mudar a grade |
+| MK06 | G | Fundo branco; papel amassado vira lâmpada lime; marca-texto lime na frase-chave | Objeto do ofício transformado; marca-texto como acento |
+| MK07 | I | Céu azul; janela branca de site; marca em grotesca gigante; paginação | Janela de interface sobre paisagem; cabeçalho de 3 âncoras |
+| MK08 | H | Grama escura com margaridas, homem deitado na base; "Comment the word" + palavra gigante em serif itálica vermelha | CTA como peça inteira: a palavra-chave é o título |
+| MK09 | H | Monocromia vermelha de veludo; "06 PASSOS … posicionar"; trilha sinuosa com 6 nós | Caminho com nós para passos; monocromia total da foto |
+| MK10 | G | Cinza claro; xícara lime com vapor em pixel art; menu de contexto com "Atualizar" | Interface do sistema como metáfora; foto + pixel art |
+| MK11 | G | Palavra "CTRL" com letra trocada por tecla de vidro lime | Letra-objeto; trocadilho visual legível em 1 segundo |
+| MK12 | I | Barra de menus de editor no topo; oceano, nuvem e pessoa minúscula; "save" gigante | App como moldura; escala surreal |
+| MK13 | G | Preto; só o olho iluminado por uma fenda; colchetes de foco; "VISION." estendida | Recorte de luz; microrrótulos espalhados; extensa pesada |
+| MK14 | H | Vale escuro; "A grama do vizinho" com linha engolida pelo campo | Literalizar ditado; título coberto pela paisagem |
+| MK15 | I | Campo ensolarado com cavalo branco; "stop using pinterest" gigante; linha em 3 colunas | Manchete-provocação sobre paisagem limpa |
+| MK16 | J | Papel com furos de fichário; "Step-by-step:"; 3 capturas com setas | Página-caderno; furos como sinal físico |
+| MK17 | I | Colina e céu; janela escura de site; frase com trecho em bold | Janela escura sobre paisagem clara |
+| MK18 | I | Céu claro, figura na ponta da rocha; janela escura | Figura pequena dá escala à janela |
+| MK19 | H | Mulher no capim com telas de vidro em órbita; título gigante entrelaçado | Órbita de objetos; título atrás/na frente da pessoa |
+| MK20 | I | Paisagem árida com carro; janela com grade de fotos | Grade densa contra paisagem vazia |
+| MK21 | H | Cinema vermelho, espectadora com pipoca; "público certo" em serif itálica creme; botão oval de contorno | Literalizar a palavra-chave; serif de contraponto; botão oval |
+| MK22 | H | Poltronas teal desfocadas; calendário de ladrilhos de vidro, dois lime | Informação útil (agenda) virando design; vidro sobre foto escura |
+| MK23 | I | Montanhas e lago; janela de portfólio colorida | Mesma série I com outra paisagem |
+| MK24 | G | Campo; computador antigo coberto de musgo; "O algoritmo muda" com "algoritmo" em itálica lime; texto sublinhado | Objeto e tempo; serif condensada + itálica acento; sublinhado justificado |
+| MK25 | J | Papel quadriculado com "#" vermelho; "Personal Growth:"; 3 capas | Página-caderno com grade técnica |
+| MK26 | I | Céu estrelado e cabana iluminada; janela de site | Série I noturna: a janela é a luz da cena |
+
+Notas transversais medidas a olho nas MK (confira nos pixels antes de usar):
+o acento é **um** por peça (lime, vermelho ou laranja), sempre num objeto
+**ou** numa palavra, raramente nos dois; a palavra emocional troca de família
+(sans → serif itálica) no meio da frase; quase todo texto pequeno fica em
+três âncoras (topo ou rodapé) e o centro fica para uma única ideia.
