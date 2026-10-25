@@ -110,7 +110,7 @@ Substitua a copy pelo tema real. Preserve posições, fonte, peso e espaçamento
 
 O cabeçalho e o rodapé têm funções diferentes:
 - Topo: identidade (@handle no centro), tema e capítulo nas laterais.
-- Rodapé: `01 / 06` à esquerda e `ARRASTE →` à direita, conforme `formatos-e-composicao.md §7.4`. No último slide, retirar apenas `ARRASTE →`.
+- Rodapé: `01 / 06` à esquerda e `ARRASTE →` à direita, com linha-base a 92% da altura, conforme `formatos-e-composicao.md §7.4`. No último slide, retirar apenas `ARRASTE →`.
 - Botão final: CTA principal com o material pedido; o cabeçalho não altera o botão. Vidro sutil translúcido e contorno transparente são tratamentos distintos (`interface-vidro.md`).
 
 ## 4. Dois caminhos de produção
@@ -126,7 +126,7 @@ Add a discreet three-part editorial running header directly over the photograph,
 Variante **Instagram com @handle no centro** (laterais opcionais; remova a frase da lateral que não for usada):
 
 ```text
-Add a discreet handle line directly over the photograph, with no container. Render the exact Instagram handle "{@handle}" centered at 50% of the frame width, in a small neutral sans-serif, medium weight, lowercase exactly as written, about 30 px when the image is delivered at 1080 px wide. Optional side labels on the same baseline: "{ESQUERDA}" left-aligned at 6% of the width and "{DIREITA}" right-aligned at 94%, smaller, uppercase, subtle tracking. The shared baseline sits at {6% | 7.5%} of the frame height. One consistent ink color readable against the background. No verification badge, no logo, no pills or panels, no extra dates or credits.
+Add a discreet handle line directly over the photograph, with no container. Render the exact Instagram handle "{@handle}" centered at 50% of the frame width, in a small neutral sans-serif, medium weight, lowercase exactly as written, about 30 px when the image is delivered at 1080 px wide. Optional side labels on the same baseline: "{ESQUERDA}" left-aligned at 6% of the width and "{DIREITA}" right-aligned at 94%, smaller, uppercase, subtle tracking. The shared baseline sits at {6% (4:5) | 8.8% (3:4 for crop)} of the frame height. One consistent ink color readable against the background. No verification badge, no logo, no pills or panels, no extra dates or credits.
 ```
 
 Se a conta for verificada, troque `No verification badge` por `followed by a small blue verification check badge`. Edição cirúrgica de peça aprovada: use o prompt abaixo com `"{@handle}" at 50%, centered` no lugar dos três rótulos.
@@ -134,7 +134,7 @@ Se a conta for verificada, troque `No verification badge` por `followed by a sma
 Prompt de **edição cirúrgica**, para arte aprovada que ainda não tem cabeçalho:
 
 ```text
-Edit only the upper editorial header of the supplied approved image. Preserve the people, identities, skin texture, scene, lighting, colors, headline, existing copy, CTA, footer and crop exactly as they are. In the existing calm upper margin, add only these three labels on one shared baseline at 6% height: "CUIDADO INDIVIDUAL" at 6% width, left-aligned; "SAÚDE EM FOCO" at 50%, centered; "GUIA DE CUIDADO" at 94%, right-aligned. Use discreet uppercase neutral sans-serif lettering, medium weight, subtle tracking and one high-contrast ink color, without a background container. If there is not enough empty space above the existing headline, do not squeeze in or move existing content: report that the header requires recomposition instead. Add no other text or graphic elements.
+Edit only the upper editorial header of the supplied approved image. Preserve the same people, unchanged (facial features, expressions), skin texture, scene, lighting, colors, headline, existing copy, CTA, footer and crop exactly as they are. In the existing calm upper margin, add only these three labels on one shared baseline at 6% height: "CUIDADO INDIVIDUAL" at 6% width, left-aligned; "SAÚDE EM FOCO" at 50%, centered; "GUIA DE CUIDADO" at 94%, right-aligned. Use discreet uppercase neutral sans-serif lettering, medium weight, subtle tracking and one high-contrast ink color, without a background container. If there is not enough empty space above the existing headline, do not squeeze in or move existing content: report that the header requires recomposition instead. Add no other text or graphic elements.
 ```
 
 A última frase é um limite para o agente que prepara a edição; se a API apenas produzir imagens, faça a avaliação do espaço **antes** da chamada e não espere uma resposta textual do gerador.

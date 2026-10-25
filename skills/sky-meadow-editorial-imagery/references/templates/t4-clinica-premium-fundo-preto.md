@@ -1,10 +1,14 @@
 # T4 · Clínica premium em fundo preto (Família K)
 
-Estrutura visual aprovada por uma cliente real (cirurgiã-dentista com HOF,
-arquivos RC07–RC09 e RC26–RC33 no acervo **local** da instalação; não
-distribuídos por conterem pacientes). O que foi aprovado é a **estrutura**:
-fundo preto, interface dourada fina, foto real em painel e card claro. O
-**texto** daquelas peças não é modelo (diagnóstico em K.2). Serve para
+Estrutura visual aprovada por uma cliente real (cirurgiã-dentista com HOF).
+Estrutura medida em artes locais da cliente; os valores já estão transcritos
+abaixo e não é preciso abrir as artes. O material da cliente (`clientes/`,
+RC) só é lido quando o usuário nomeia a cliente no chat; pedido de clínica
+sem esse nome usa só este template. O que foi aprovado é a **estrutura**:
+fundo preto, contorno fino desenhado no perfil, dourado discreto e a
+profissional sentada de terno claro como imagem de autoridade. O card claro
+com preço foi **retirado pelo usuário na curadoria de 25/10/2026** e não é
+modelo. O **texto** das peças também não é modelo (K.2). Serve para
 qualquer clínica ou profissional premium: HOF, odontologia, dermatologia,
 estética, cirurgia plástica, nutrologia.
 
@@ -16,18 +20,19 @@ cirurgião-dentista). Em caso de dúvida, a peça sai sem o elemento e com nota
 
 ## K.1 Estrutura aprovada (o que fica fixo)
 
-Medidas sobre 1080×1350; cores amostradas por mediana de área em RC07 e RC29.
+Medidas sobre 1080×1350; cores amostradas por mediana de área nas artes da
+cliente (valores transcritos na tabela; não abrir as artes).
 
 | Elemento | Posição (altura) | Especificação |
 |---|---|---|
-| Fundo | inteiro | preto quente `#0B0B08` (peças com card) ou preto puro `#000000` (antes/depois) |
-| Topo | 3–6% | à esquerda: monograma + nome da profissional (logo real, em camada); à direita: rótulo em caixa-alta espaçada dourado `#C1A773`; linha fina 1 px dourada a 50% abaixo, de margem a margem (5,5%) |
-| Título | 8–13% | serif de alto contraste em caixa-alta, branco, à esquerda (Playfair Display 700, Libre Caslon Display, Bodoni Moda 700) |
-| Subtítulo | 14–16% | sans neutra cinza-claro, uma frase |
-| Painel de foto | 18–70% | foto **real**, borda 1 px dourada, cantos 6–8 px; rótulo pequeno no canto superior esquerdo; antes em círculo com borda clara no canto inferior direito |
-| Card claro | 71–88% | creme `#F4F0E7`, cantos 6 px; duas colunas separadas por fio; botão preto `#131210` com texto branco e seta |
-| Rodapé | 92–95% | aviso pequeno centralizado cinza |
-| Antes/depois (variante) | 4–92% | dois painéis lado a lado, rótulos ANTES/DEPOIS em sans espaçada branca acima, contorno fino branco desenhando o perfil no painel "depois", logo pequeno no canto do "depois", "RESULTADO REAL" centrado na base |
+| Fundo | inteiro | preto puro `#000000` (antes/depois) ou preto quente `#0B0B08` (retrato, tipografia) |
+| Topo | 3–6% | @ da profissional no centro do topo, com a mesma grafia e o mesmo tamanho em toda a série; logo real em camada à esquerda, se couber; rótulo opcional em caixa-alta espaçada dourado `#B8A67C` à direita |
+| Título | conforme o layout | serif de alto contraste (Playfair Display 700, Libre Caslon Display, Bodoni Moda 700), branco, com uma palavra em itálico dourado (movimento TM1) |
+| Antes/depois | 4–92% | dois painéis lado a lado, rótulos ANTES/DEPOIS em sans espaçada branca acima, contorno fino branco desenhando o perfil no painel "depois", logo pequeno no canto do "depois", "RESULTADO REAL" centrado na base |
+| Identificação | 92–95% | nome + conselho no rodapé: `Dra. {Nome} · CD · CRO-{UF} {nº}` em sans pequena cinza |
+
+Card de oferta é opcional e **não aprovado**: se usar, é claro, sem preço
+(dentista) e nunca repetido em série.
 
 Tudo isso é **camada de design** (Figma/HTML), não pedido ao gerador: logo,
 números, CRO/CRM, rótulos e fotos de pacientes. O gerador entra só nos
@@ -53,8 +58,8 @@ Observado nas 33 peças da cliente:
   real dela como `--ref` e a ficha de personagem (`../realismo-fotografico.md §R.10`).
 
 O que estava bom e fica: a cadeira e o terno claro como assinatura de
-autoridade; a linha dourada fina; o contorno desenhado sobre o perfil; o
-painel com borda; o card claro que separa oferta de imagem.
+autoridade; o contorno desenhado sobre o perfil; o preto puro do
+antes/depois; o dourado discreto só no logo e em uma palavra.
 
 ## K.3 Copy: como sair do genérico
 
@@ -62,8 +67,8 @@ painel com borda; o card claro que separa oferta de imagem.
   palavras, sem promessa. Ex.: "O perfil que você evita nas fotos." ·
   "Contorno é proporção, não só volume." · "Antes de tirar, avaliar a pele."
   · "Seu ângulo favorito tem um motivo."
-- **Troca de família na palavra emocional** (`../repertorio-mercado.md`
-  T1): título serif branco com uma palavra em serif itálica dourada.
+- **Troca de família na palavra emocional** (`../repertorio-mercado.md §R.2`
+  TM1): título serif branco com uma palavra em serif itálica dourada.
 - **Subtítulo educativo** (exigência do CFM para antes/depois e boa
   prática no CFO): indicação, fator que muda o resultado, tempo entre as
   fotos.
@@ -78,16 +83,17 @@ painel com borda; o card claro que separa oferta de imagem.
 
 | ID | Peça | Como fazer | Gerador? |
 |---|---|---|---|
-| K1 | Card de caso | estrutura K.1 com foto real e card sem preço | não (camada) |
+| K1 | Card de caso (opcional, não aprovado) | foto real e card claro sem preço; no máximo 1 por série | não (camada) |
 | K2 | Antes/depois | dois painéis, mesma pose e luz, recortados na área tratada, TCLE arquivado | **nunca** gerar ou retocar |
 | K3 | Retrato de autoridade no preto | profissional real em recorte de luz (MK13), título serif à esquerda | sim, com foto real como `--ref` |
 | K4 | Ideia conceitual | alavancas 9–13 (`../nichos-e-ideias.md §N.4`) sem paciente: a luz rasante desenhando um perfil de escultura, a régua de proporção dourada, o espelho de mão no preto | sim |
-| K5 | Manifesto tipográfico | só tipografia no preto, pilha T5 com uma palavra dourada | não (camada) ou gerador com lista fechada |
+| K5 | Manifesto tipográfico | só tipografia no preto, pilha TM5 com uma palavra dourada | não (camada) ou gerador com lista fechada |
 | K6 | Fechamento | preto, título curto, botão de contorno dourado, identificação | camada |
 
 Carrossel: K3 (capa) → K4 (stake) → K1 ou K2 (prova, uma só) → K5 (critério)
-→ K6. Post único: K3 ou K4. Anúncio: K4 (entende-se sem texto) com card K1 sem
-preço.
+→ K6, com um movimento e uma câmera diferentes por slide no storyboard de
+`../variacao-de-layout.md §V.5`. Post único: K3 ou K4. Anúncio: K4
+(entende-se sem texto) com card K1 sem preço.
 
 ## K.5 Prompts base
 

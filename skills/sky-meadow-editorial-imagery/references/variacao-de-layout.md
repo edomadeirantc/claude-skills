@@ -1,10 +1,11 @@
 # Variação dentro do universo — layouts, vozes tipográficas e referência
 
 Um carrossel aprovado em consistência pode cansar em sequência: todo slide
-com foto em cima, título gigante centrado na base e subtítulo embaixo. A
-regra de `formatos-e-composicao.md §7.4` continua valendo (**um universo
-só**), mas universo é pessoa, lugar, luz, paleta e acento, **não** o mesmo
-layout repetido.
+com foto em cima, título gigante centrado na base e subtítulo embaixo.
+**Carrossel = um universo, não uma cena**: fixos na série só luz, paleta,
+acento, materiais e pares tipográficos (`repertorio-mercado.md §R.5`);
+cena, escala, câmera, densidade de texto e cabeçalho variam por slide e
+saem do storyboard (V.5).
 
 ## V.0 Diagnóstico do caso Groomy (8 slides gerados, aprovados em consistência)
 
@@ -13,7 +14,7 @@ layout repetido.
 | Todos os slides com a mesma diagramação | Um único prompt-base de layout (F1) aplicado aos 8 | Cada slide recebe um **arquétipo de layout** diferente (V.2) |
 | Mesma fonte, mesmo peso, mesmo tamanho, sempre centrado | Uma só "voz" tipográfica na série | Sistema de **3 vozes** (V.3), alternadas por papel do slide |
 | Slides 2–8 copiaram a capa | `--ref` da capa com "keep typography and kit exactly" | Referência só de **continuidade**, sem layout (V.4) |
-| Mesma distância e mesma câmera | Roteiro sem coluna de enquadramento | Roteiro com colunas layout · voz · distância (V.5) |
+| Mesma distância e mesma câmera | Roteiro sem coluna de enquadramento | Storyboard com movimento, escala, câmera, layout, voz e densidade por slide (V.5) |
 | Arquivos 1792×2400 (3:4) apesar do pedido 4:5 | O gerador ignorou a proporção | Conferir a proporção do 1º arquivo; se vier 3:4, reescrever com a tabela de `formatos-e-composicao.md §5.6` |
 | **Rodada 2:** contador com 6–7 pontos ou ponto aceso errado em 5 de 8 slides | O gerador não conta elementos pequenos repetidos | Kit em camada, nunca no prompt (`familia-social-conversao.md §F.4`, `scripts/kit_overlay.mjs`) |
 | **Rodada 2:** personagem e cenário de banco de imagem | Bíblia genérica (arquétipo de revista, luz dramática, personagem médio) e capa genérica propagada | Ficha de personagem, ambiente vivo, registro documental e portão da capa (`realismo-fotografico.md §R.9–R.13`; detalhes por nicho em `nichos-e-ideias.md §N.5`) |
@@ -23,10 +24,11 @@ layout repetido.
 
 | Fixo na série (bíblia) | Varia por slide |
 |---|---|
-| Pessoa(s), lugar, luz, paleta, um acento | Arquétipo de layout (V.2) |
-| @ no centro do topo; recorrência dos rótulos (`microtipografia-editorial.md §2.3`) | Voz tipográfica do título (V.3) |
-| Kit de sequência: pontos, numeração, "ARRASTE" | Posição do bloco de texto: base, topo, esquerda, centro, sobre o objeto |
-| Pares tipográficos escolhidos (no máximo 2 famílias + 1 mono) | Distância e ângulo: detalhe, meio corpo, plano aberto, de cima |
+| Luz, paleta, um acento, materiais; pessoa só se houver personagem | Arquétipo de layout (V.2) |
+| (nada fixo aqui) | Lugar e escala: cenário principal em até 2/3 dos slides; os outros em macro, só tipografia, objeto-herói ou outro lugar do mesmo mundo (R.5) |
+| @ em todos os slides, mesma grafia e tamanho (posição pelo movimento: centro do topo por padrão, rodapé na J, microrrótulo no MK13); recorrência dos rótulos (`microtipografia-editorial.md §2.3`) | Voz tipográfica do título (V.3) |
+| Kit de sequência: pontos, numeração, "ARRASTE" (em camada) | Posição do bloco de texto: base, topo, esquerda, centro, sobre o objeto |
+| Pares tipográficos escolhidos (no máximo 2 famílias + 1 mono) | Câmera (lente · altura · ângulo) e distância: detalhe, meio corpo, plano aberto, de cima. Nunca na bíblia |
 | Tratamento da base escura (ou neutro da marca) | Dispositivo de interface: nenhum, tags, balão, legenda, botões, número gigante |
 
 **Regras de variação**
@@ -34,7 +36,7 @@ layout repetido.
 2. Nenhum layout aparece mais de 2 vezes em 6–10 slides; use pelo menos 4 layouts num carrossel de 8.
 3. Capa e final têm layouts próprios; o final é o mais calmo.
 4. Um slide de **respiro** (sem foto, ou foto quase sem texto) a cada 4–5 slides.
-5. A variação vem do papel do slide, não do acaso: cada escolha tem um motivo na coluna do roteiro.
+5. A variação vem do papel do slide, não do acaso: cada escolha tem um motivo na linha do storyboard (V.5).
 
 ## V.2 Arquétipos de layout para slides
 
@@ -82,7 +84,9 @@ ou palavra por slide.
 
 Do slide 2 em diante, a capa aprovada entra como referência de
 **continuidade** (lugar, aparência geral e roupa da pessoa, cores), nunca de
-layout. Não use as palavras `identity`, `same face` ou `face of the
+layout, e só nas linhas do storyboard marcadas "mesmo lugar da capa? sim".
+Slide em outro lugar ou outra escala vai sem a capa, senão o gerador copia
+o cenário. Não use as palavras `identity`, `same face` ou `face of the
 reference`: num teste da PlantMed, um prompt com essa formulação e imagem
 anexada foi bloqueado pelo filtro de política do gerador. Slides sem pessoa
 vão sem referência.
@@ -95,15 +99,32 @@ Proibido nos slides 2+: `keep the typography exactly`, `match the reference
 exactly`. A consistência tipográfica vem da descrição das vozes (V.3)
 repetida palavra por palavra na bíblia da série, não da imagem.
 
-## V.5 Roteiro com variação (antes dos prompts)
+## V.5 Storyboard por slide (canônico, antes de copy e prompts)
 
-```
-#  papel    layout  voz            distância/ângulo     topo (§2.3)
-1  capa     L9      display        meio corpo, baixo    — · @ · categoria
-2  stake    L2      display+serif  detalhe das mãos     — · @ · categoria
-3  dor      L3      utilitária     plano aberto         A DOR · @ · —
-...
-```
+Esta é a única tabela de roteiro da skill; `briefing-perguntas.md`,
+`ganchos-e-copy.md` e os templates apontam para cá. Preencha uma linha por
+slide depois do conceito escolhido e antes da copy final e dos prompts.
 
-Antes de escrever prompts, confira: 4+ layouts distintos, nenhum repetido
-em sequência, um respiro, capa e final distintos.
+| # | papel | movimento (MK## + verbo) | escala/cena | câmera (lente · altura · ângulo) | layout L# | voz | nº palavras | cabeçalho | mesmo lugar da capa? (--ref sim/não) |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | capa | MK06 transformar | objeto-herói em estúdio | 50mm · altura da mesa · frontal | L9 | display | 5 | 3 âncoras · @ no centro | é a capa (sem --ref) |
+| 2 | stake | MK14 literalizar | plano aberto, outro lugar do mesmo mundo | 24mm · altura do peito · leve contra-plongée | L3 | utilitária | 9 | só o @ | não |
+| 3 | dor | MK13 recortar com luz | macro de mão no escuro | 100mm macro · rente · lateral | L8 | contraponto | 18 | microrrótulos na cena · @ em microrrótulo | não |
+| 4 | respiro | só tipografia (TM2 escala extrema) | sem foto | sem câmera | L5 | display + contraponto | 4 | só o @ | não |
+| … | | | | | | | | | |
+
+Regras (conferir antes de escrever prompts):
+
+1. Duas linhas seguidas nunca repetem movimento, câmera ou layout.
+2. O objeto-símbolo da família aparece em no máximo 1/3 das linhas.
+3. Pelo menos 3 linhas com até 6 palavras, 1 linha só tipográfica, no
+   máximo 3 linhas com parágrafo.
+4. `--ref` "sim" só quando o slide está no mesmo lugar da capa.
+5. Câmeras distintas em pelo menos metade dos slides (arredonde para cima).
+6. 4+ layouts distintos, um respiro, capa e final distintos.
+7. O cabeçalho varia (3 âncoras, 2 âncoras, microrrótulos, só o @); o @
+   está em todas as linhas, com a mesma grafia e o mesmo tamanho.
+
+A câmera de cada prompt vem da coluna "câmera" desta tabela, nunca da
+bíblia da série. Mostre o storyboard e espere aprovação antes dos prompts
+(no atalho "decide você", entregue junto e avise que pode ser ajustado).

@@ -30,11 +30,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "A IDEIA" top-right; page "01/09".
+- Logo area top-left left empty; section label "A IDEIA" top-right.
 - Title, centered, white, very large, at 18–30% of the height: "O agrônomo no celular do pequeno produtor."
 - Subtitle, centered, white, at 36%: "Vistoria guiada toda semana, inteligência artificial e um agrônomo de verdade por trás."
 
@@ -67,11 +67,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "O PROBLEMA" top-right; page "02/09".
+- Logo area top-left left empty; section label "O PROBLEMA" top-right.
 - Left column, left-aligned at 6% of the width, from 22% to 80% of the height:
   title, white, large: "A doença chega antes do agrônomo."
   three short lines, white, each with a small deep-green dot:
@@ -108,11 +108,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "A SOLUÇÃO" top-right; page "03/09".
+- Logo area top-left left empty; section label "A SOLUÇÃO" top-right.
 - Title, white, left-aligned at 6% of the width, at 14–22% of the height: "A telemedicina da lavoura."
 - The three tag labels above, exactly.
 - Small line, white, left-aligned at 6%, at 88%: "No fim da safra: histórico da lavoura e receituário assinado."
@@ -142,11 +142,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "ASSINATURA" top-right; page "04/09".
+- Logo area top-left left empty; section label "ASSINATURA" top-right.
 - Title, white, centered, at 12–20%: "Mensalidade do produtor, sem fidelidade."
 - Card 1: "ESSENCIAL" / "R$ 150/mês" / "1 cultura" / "área pequena"
 - Card 2 (recommended band "MAIS ESCOLHIDO"): "PRODUTOR" / "R$ 250/mês" / "até 3 culturas" / "mais talhões"
@@ -175,11 +175,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "O AGRÔNOMO" top-right; page "05/09".
+- Logo area top-left left empty; section label "O AGRÔNOMO" top-right.
 - Title, white, left-aligned at 6%, at 14–24%: "Como o agrônomo é pago"
 - Block 1 at 34–54%, left-aligned at 6%: a small deep-green pill "FIXO" then, white: "2 agrônomos a campo" / "piso legal: R$ 13.779/mês cada (8,5 salários mínimos)"
 - Block 2 at 60–80%, left-aligned at 6%: a small deep-green pill "POR CASO" then, white: "Rede de agrônomos parceiros" / "R$ 40 por caso resolvido ou receituário, sem vínculo"
@@ -209,11 +209,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "CUSTOS" top-right; page "06/09".
+- Logo area top-left left empty; section label "CUSTOS" top-right.
 - Left side, white, left-aligned at 6%, at 30–45%: title "Custo fixo por mês" and below it, very large: "R$ 66.847"
 - Panel rows (label left, value right), white:
   "2 agrônomos (com encargos)" — "R$ 46.847"
@@ -241,7 +241,7 @@ Composition: keep the top-left corner, from 3% to 16% of the width and 3% to 12%
 
 Text, rendered exactly, in Brazilian Portuguese with correct accents:
 - Top-right, ending at 96% of the width, small spaced uppercase sans, white: "RESULTADO"
-- Bottom-right, at 94% of the height, small grey sans: "07/09"
+- Bottom-right corner, from 90% to 97% of the height: calm background only (page number added later as an overlay).
 - Small white line, left-aligned at 6%, at 18%: "De cada R$ 150, sobram"
 - Giant number, bold slab serif, white, left-aligned at 6%, spanning 24% to 52% of the height: "R$ 113"
 - Right column, left-aligned at 56% of the width:
@@ -264,7 +264,7 @@ Composition: keep the top-left corner, from 3% to 16% of the width and 3% to 12%
 
 Text, rendered exactly, in Brazilian Portuguese with correct accents:
 - Top-right, ending at 96% of the width, small spaced uppercase sans, white: "POTENCIAL"
-- Bottom-right, at 94% of the height, small grey sans: "08/09"
+- Bottom-right corner, from 90% to 97% of the height: calm background only (page number added later as an overlay).
 - Stacked and centered, from 36% to 86% of the height:
   bold slab serif, white, very large: "228.866"
   white sans: "pequenos produtores no Paraná (75% das propriedades)"
@@ -293,11 +293,11 @@ SERIES BIBLE (identical in every slide with people; layout changes per slide)
 - Light: clear morning or late-afternoon sun, one direction, natural shadows, crisp air.
 - Palette: deep cerulean sky, natural green crops, warm red-brown earth, white. One accent only: deep PlantMed green from the logo (#1F4A20) used as the fill of small interface pills and cards, never as text over the green crops. No other strong colors.
 - Typography: titles in a bold slab serif that echoes the PlantMed logo lettering (clean, not distressed), white (or deep ink #10231A on light backgrounds); one key word may sit inside a deep-green (#1F4A20) highlight pill; small text in a neutral sans-serif. All text in Brazilian Portuguese with correct accents.
-- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right at 94% of the height and 96% of the width, the page number "0N/09" in small grey sans.
+- Running elements on every slide: top-left, a clean empty area from 3% to 16% of the width and 3% to 12% of the height reserved for the real PlantMed logo, applied later (do not draw any logo, symbol or wordmark there); top-right, ending at 96% of the width, the section label of this slide in small spaced uppercase; bottom-right corner, from 90% to 97% of the height and 88% to 97% of the width, keep only calm background (the page number is added later as an overlay; do not draw any number there).
 - Keep every essential element inside 5% margins. No logos, brand marks, watermarks or signage in the scene.
 
 Text, rendered exactly:
-- Logo area top-left left empty; section label "FECHAMENTO" top-right; page "09/09".
+- Logo area top-left left empty; section label "FECHAMENTO" top-right.
 - Title, white, centered, at 20–34%: "Um agrônomo no bolso de quem nunca teve assistência técnica."
 - Centered, white, at 41%: "Tecnologia e assistência agronômica na palma da mão do pequeno produtor."
 - Centered, a deep-green (#1F4A20) pill with white text, at 50%: "PRÓXIMO PASSO: PILOTO COM OS PRODUTORES DO PROGRAMA DE INTEGRAÇÃO"

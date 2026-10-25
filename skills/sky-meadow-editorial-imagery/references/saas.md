@@ -2,7 +2,7 @@
 
 SaaS não tem embalagem nem procedimento para fotografar: o que se vende é
 **tempo, controle, dinheiro ou tranquilidade**. Por isso a peça de SaaS
-depende ainda mais da regra da skill: **uma ideia, um monumento, um acento**.
+depende ainda mais da regra da skill: **uma ideia, um herói, um acento**.
 A metáfora carrega o benefício; a interface real do produto, quando aparece,
 entra como camada de design.
 
@@ -30,7 +30,7 @@ desenhada pelo modelo. `landing-page-design` confirma: o hero mostra o
 
 | Objetivo | Família / arquétipo | Por quê |
 |---|---|---|
-| Hero de landing, lançamento | A · Monumento na colina (metáfora da feature) | calma, premium, espaço para título |
+| Hero de landing, lançamento | G · Metáfora de objeto ou I · Janela de interface | calma, premium, espaço para título |
 | Feature com dados/insight | B · detalhe do corpo + tags de vidro | humaniza o dado; tags = métricas do produto |
 | Manifesto, posicionamento | E1 pilha tipográfica | opinião forte da categoria |
 | Feed de alcance | F1/F2 manchete; F3 cartão do fundador | linguagem nativa do Instagram |
@@ -38,16 +38,17 @@ desenhada pelo modelo. `landing-page-design` confirma: o hero mostra o
 
 ## S.3 Banco de metáforas por categoria
 
-Uma por peça; o objeto vira o monumento da Família A ou o "objeto erguido"
-de B6. Material sugerido entre parênteses.
+Uma por peça; o objeto vira o herói (G · objeto transformado; A só se o
+conceito for natureza/território) ou o "objeto erguido" de B6. Material
+sugerido entre parênteses.
 
 | Categoria | Dor | Metáfora-monumento |
 |---|---|---|
-| Gestão / ERP | caos de planilhas | uma única mesa limpa no topo da colina, um só papel sobre ela (madeira, linho) |
+| Gestão / ERP | caos de planilhas | a pilha de planilhas impressas virando uma única folha (G · objeto transformado, MK06) (papel, linho) |
 | Financeiro / cobrança | dinheiro escapando | uma ampulheta de vidro em que a areia sobe (vidro, latão) |
 | CRM / vendas | lead esquecido | um farol aceso sobre o campo ao entardecer (pedra, vidro) |
 | Marketing / automação | tarefa repetida | um dominó gigante ainda de pé, os outros já deitados em fila (cerâmica fosca) |
-| RH / pessoas | time disperso | cadeiras de mesmo modelo em círculo na grama, uma no acento |
+| RH / pessoas | time disperso | crachás soltos se alinhando em uma única fila, um no acento (G · objeto transformado) |
 | Segurança / dados | medo de vazamento | uma chave de vidro monumental cravada na grama (vidro com refração) |
 | IA / produtividade | tempo perdido | um relógio de parede deitado na grama, ponteiros parados no fim do expediente |
 | Saúde-tech / gestão de clínica, academia ou estúdio | agenda e cobrança manuais | dezenas de fichas de papel levadas pelo vento sobre o campo, enquanto uma mão segura o celular em primeiro plano (dor literal + escala; sem objeto isolado no topo do morro) |
@@ -83,7 +84,8 @@ e `formatos-e-composicao.md §7.4` em peças de SaaS.
 - CTA específico ("Comece o teste de {N} dias", "Ver demonstração"); um
   principal, o secundário vira link de texto.
 - Prova social logo abaixo do hero, só com número/logos reais.
-- Layout: P1 (centralizado) ou P3 (texto à esquerda) de `prompts.md`. O
+- Layout: A-P1 (centralizado) ou A-P3 (texto à esquerda) do Apêndice A de
+  `familia-ceu-campo.md`, ou o layout do conceito G–J. O
   screenshot, se houver, vai em HTML à direita ou abaixo, nunca gerado.
 - Mobile: CTA de largura total, fonte ≥ 16 px, alvo ≥ 48 px.
 
@@ -95,7 +97,7 @@ A single monumental key made of clear glass with soft internal refractions, its 
 It is set on a hill covered in dense lush grass with individually defined blades; the hill fills the lower 30% of the frame.
 Camera: slightly below the crest looking up, 35mm lens, everything in sharp focus except the nearest grass blades.
 Light: clear bright midday sunlight from high above and slightly behind the camera, soft natural shadows.
-Palette: deep saturated cerulean sky graduating to pale blue near the horizon, lush natural green grass, crisp white clouds, with a single {ACCENT_HEX} accent on the key's bow; no other strong colors.
+Palette: {PALETTE_SENTENCE from the series bible}, with a single {ACCENT_HEX} accent on the key's bow; no other strong colors.
 Composition: keep the left 48% of the frame as calm open sky with no clouds and no objects, reserved for text. Place the key in the right third, centered around 72% of the width, its top at about 30% and its base at about 75% of the height.
 Finish: hyperreal 3D render with photographic lighting, physically accurate glass and grass, calm and clean.
 Do not include any text, letters, numbers, logos, watermarks, signage, UI elements, borders or frames.

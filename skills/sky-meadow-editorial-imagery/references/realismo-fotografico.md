@@ -141,7 +141,8 @@ bancada de madeira vazia) e luz dramática igual em todos os slides.
 Palavras que puxam o banco de imagem e só entram se a marca pedir:
 `premium`, `cinematic`, `moody`, `dramatic`, `luxury`, `sleek`, `stylish`,
 `Edison bulb`, `industrial concrete`, `leather apron`, `perfectly groomed`,
-`model`, `handsome`, `beautiful`.
+`model`, `handsome`, `beautiful`. Exceção: famílias H e K e o movimento
+MK13 (recorte de luz) pedem `cinematic`/low-key por definição.
 
 **Rodada 3 do Groomy (o erro oposto):** para fugir do banco de imagem, o
 prompt pediu azulejo trincado, assento remendado, porta de enrolar e tubos
@@ -199,8 +200,11 @@ Texto no ambiente: cartazes, preços e calendários existem, mas `soft, out of f
 ## R.12 Registro documental (vocabulário)
 
 ```text
-Documentary reportage photograph taken during a normal day for a {país} news magazine; full-frame camera, 35mm f/2 at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look. It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement.
+Documentary reportage photograph taken during a normal day for a {país} news magazine; full-frame camera, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look. It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement.
 ```
+
+Lente, altura e ângulo vêm da linha do slide no storyboard
+(`variacao-de-layout.md §V.5`), nunca da bíblia.
 
 Variantes: `phone snapshot taken by a coworker, slight tilt, direct light` (UGC);
 `35mm color film, slightly soft highlights` (memória/afeto). A família

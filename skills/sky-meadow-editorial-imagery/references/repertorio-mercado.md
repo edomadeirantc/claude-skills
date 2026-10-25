@@ -52,8 +52,9 @@ engolida, orbita ou literaliza uma expressão.
 **Assinatura:** paisagem ampla e calma (céu, campo, montanha, noite) com uma
 janela de app ou site **real do cliente** flutuando no centro; nome ou marca
 em grotesca grande acima; uma frase com trecho em bold abaixo; cabeçalho de
-3 âncoras (data · autor · categoria) e paginação `BACK 01–08 NEXT` com seta
-fina na base.
+3 âncoras (tema · @ · categoria, pela recorrência de
+`microtipografia-editorial.md §2.3`) e paginação com seta fina na base. O
+cabeçalho e a paginação entram **em camada**, nunca no prompt.
 **Refs:** MK07, MK12, MK15, MK17, MK18, MK20, MK23, MK26.
 
 - **Regra de produção:** a janela é **captura real** do produto aplicada em
@@ -72,30 +73,37 @@ parágrafo curto em itálico, 3 miniaturas em fila ligadas por setas
 manuscritas no acento, rodapé `@handle · salvar · →`.
 **Refs:** MK04, MK05, MK16, MK25.
 
+- **Exceção do @:** na J o @ pode descer para o rodapé, e no movimento MK13
+  pode virar um microrrótulo na cena. A grafia e o tamanho são os mesmos dos
+  outros slides da série; só a posição muda.
+
 - **Regra de produção:** a página e as setas podem ser geradas; miniaturas
   são fotos reais do cliente aplicadas em camada.
 - **Quando usar:** passo a passo, bastidor de processo, "como funciona",
   estudo de caso, comparação.
 
-Ao combinar G–J com A–F, mantenha **uma** luz, **uma** paleta e **um**
-acabamento por série (`SKILL.md`, Famílias).
+Numa série, troque de família só dentro de G–J (ou G–J com o kit da F),
+mantendo uma luz, uma paleta, um acento, os mesmos materiais e os mesmos
+pares tipográficos (§R.5). Não misture A–E com G–J na mesma série.
 
 ---
 
 ## R.2 Sistema tipográfico de contraste
 
 Os movimentos que mais aparecem nas MK. Use no máximo **dois** por peça.
+Os IDs TM1–TM8 são movimentos tipográficos; não confundir com os templates
+T1–T5 de `templates/README.md`.
 
 | Movimento | O que é | Refs | Frase de prompt |
 |---|---|---|---|
-| T1 Troca no meio da frase | a palavra emocional muda de sans para serif itálica (ou vice-versa) | MK02, MK21, MK24 | `"{FRASE}" in a light grotesque sans, with the word "{PALAVRA}" set in a large high-contrast serif italic` |
-| T2 Escala extrema | uma palavra gigante (60–90% da largura) e o resto em corpo pequeno | MK02, MK12, MK15 | `the word "{X}" fills 85% of the width; all other lines are small` |
-| T3 Marca-texto | bloco do acento atrás de 2–3 palavras | MK06, MK10, MK11 | `a flat {ACCENT_HEX} highlighter block sits behind "{TRECHO}"` |
-| T4 Palavra-objeto | uma letra ou palavra substituída/atravessada por objeto real | MK02, MK11 | `the letter "{L}" is replaced by a realistic {OBJECT} at the same size` |
-| T5 Pilha de vozes | 3–4 linhas, cada uma numa voz (condensada, serif itálica, numeral) | MK01 | ver `variacao-de-layout.md` L2 |
-| T6 Engolida pela cena | a última linha some atrás do horizonte, da grama ou do sujeito | MK14, MK19 | ver `modelos-e-producao.md §10` (sanduíche) |
-| T7 Âncoras e microrrótulos | texto pequeno só nas bordas (3 âncoras) ou espalhado em pontos da cena | MK03, MK13 | ver `microtipografia-editorial.md` |
-| T8 Sublinhado editorial | parágrafo justificado com sublinhado fino | MK24 | aplicar em camada |
+| TM1 Troca no meio da frase | a palavra emocional muda de sans para serif itálica (ou vice-versa) | MK02, MK21, MK24 | `"{FRASE}" in a light grotesque sans, with the word "{PALAVRA}" set in a large high-contrast serif italic` |
+| TM2 Escala extrema | uma palavra gigante (60–90% da largura) e o resto em corpo pequeno | MK02, MK12, MK15 | `the word "{X}" fills 85% of the width; all other lines are small` |
+| TM3 Marca-texto | bloco do acento atrás de 2–3 palavras | MK06, MK10, MK11 | `a flat {ACCENT_HEX} highlighter block sits behind "{TRECHO}"` |
+| TM4 Palavra-objeto | uma letra ou palavra substituída/atravessada por objeto real | MK02, MK11 | `the letter "{L}" is replaced by a realistic {OBJECT} at the same size` |
+| TM5 Pilha de vozes | 3–4 linhas, cada uma numa voz (condensada, serif itálica, numeral) | MK01 | ver `variacao-de-layout.md` L2 |
+| TM6 Engolida pela cena | a última linha some atrás do horizonte, da grama ou do sujeito | MK14, MK19 | ver `modelos-e-producao.md §10` (sanduíche) |
+| TM7 Âncoras e microrrótulos | texto pequeno só nas bordas (3 âncoras) ou espalhado em pontos da cena | MK03, MK13 | ver `microtipografia-editorial.md` |
+| TM8 Sublinhado editorial | parágrafo justificado com sublinhado fino | MK24 | aplicar em camada |
 
 Famílias livres equivalentes: extensa pesada (Unbounded 800, Syne 800,
 Archivo Expanded 800); grotesca compacta (Inter Tight 800, Manrope 800);
@@ -128,7 +136,8 @@ Siga os quatro passos **antes** dos três conceitos de `nichos-e-ideias.md
 4. **Cruzamento.** Combine verbo × inventário em 6 ideias e reduza a 3
    (seguro, ousado, fora da curva). Cada uma passa por:
    - **2 segundos:** a ideia é entendida sem ler o subtítulo.
-   - **Anti-réplica:** lado a lado com a MK de origem, não é a mesma cena.
+   - **Anti-réplica:** lado a lado com a MK de origem e com qualquer R/N/IG/MK
+     citada, não é a mesma cena.
    - **Assinatura:** trocando o logo por um concorrente, a peça perderia
      sentido. Se continuar servindo para qualquer marca, volte ao passo 2.
 
@@ -142,7 +151,7 @@ Registro no conceito (`nichos-e-ideias.md §N.4`):
 | Formato | G · Objeto | H · Cinema | I · Janela | J · Caderno |
 |---|---|---|---|---|
 | Post único 4:5 | objeto central, frase em 2 linhas, assinatura no rodapé | foto inteira + título entrelaçado | 1 janela, 1 frase | página com 1 miniatura grande |
-| Carrossel | capa G, miolo alterna H/J | capa H, miolo L1–L12 com a mesma foto-base | uma janela por slide com paginação 01–08 | a prancheta/página em no máximo 2–3 slides; o resto em outras escalas (R.5) |
+| Carrossel | capa G, miolo alterna H/J; o objeto-símbolo em no máximo 1/3 dos slides | capa H, miolo alterna escalas (macro, plano aberto, só tipografia), nunca a mesma foto-base | janela em no máximo 1/3 dos slides; os demais em G/H ou só tipografia; paginação em camada | a prancheta/página em no máximo 2–3 slides; o resto em outras escalas (R.5) |
 | Story/Reels 9:16 | objeto no terço central | título no meio; topo e base livres | janela menor, centro | evitar: texto pequeno demais |
 | Anúncio | o melhor: entende-se sem ler | bom para marca; teste com G | bom para app/SaaS | fraco em mídia paga |
 | Slide 16:9 | objeto à direita, texto à esquerda | foto de fundo, título em L8 | janela grande à direita | pouco indicado |
@@ -154,13 +163,16 @@ Zonas, proporções e áreas da plataforma em `formatos-e-composicao.md §5.7`.
 Erro visto no caso de consultoria de segurança, carrossel em caderno: os 9
 slides saíram com a mesma prancheta vista de cima, o mesmo bloco de texto
 no topo e a mesma densidade de texto. O universo estava certo; a série
-estava morta. Uma família define **luz, paleta, acento e materiais**; ela
-não define cena, escala nem quantidade de texto. Regras para qualquer
-carrossel:
+estava morta. **Carrossel = um universo, não uma cena.** Uma família define
+**luz, paleta, acento, materiais e pares tipográficos**; ela não define
+cena, escala, câmera, densidade de texto nem cabeçalho. Esses vêm da linha
+de cada slide no storyboard (`variacao-de-layout.md §V.5`). Regras para
+qualquer carrossel:
 
 1. **Um movimento por slide.** Cada slide nasce de uma MK diferente (ou de
    uma alavanca de `nichos-e-ideias.md §N.4`); dois slides seguidos nunca
-   usam o mesmo movimento. Registre o movimento ao lado do prompt.
+   usam o mesmo movimento. Registre o movimento na coluna do storyboard e
+   numa linha de comentário fora do texto do prompt.
 2. **O objeto-símbolo da família aparece em no máximo 1/3 dos slides**
    (prancheta, janela, papel, painel). Nos outros, mude a escala: foto em
    tela cheia, macro, página só de tipografia, objeto como herói, recorte de
@@ -169,8 +181,10 @@ carrossel:
    menos 3 com até 6 palavras (manchete sozinha), 1 de respiro só
    tipográfico, no máximo 3 com parágrafo.
 4. **O cabeçalho varia:** 3 âncoras (capa, falha numerada, checklist), 2
-   âncoras, microrrótulos espalhados na cena (MK13) ou só o @. O @ continua
-   no centro do topo em todos.
+   âncoras, microrrótulos espalhados na cena (MK13) ou só o @. O @ está
+   presente em todos os slides; a posição vem do movimento: centro do topo
+   por padrão, rodapé na J, microrrótulo no MK13, sempre com a mesma grafia
+   e o mesmo tamanho.
 5. **Vozes tipográficas pelo papel** (`variacao-de-layout.md §V.3`): serif
    itálica nas frases de reflexão, extensa pesada nos golpes curtos, mono
    nos rótulos.
@@ -179,4 +193,88 @@ carrossel:
    copia a mesa.
 
 Teste antes de entregar: ponha as 9 miniaturas lado a lado. Se três
-seguidas parecem a mesma foto com outro texto, refaça o roteiro.
+seguidas parecem a mesma foto com outro texto, refaça o storyboard
+(`variacao-de-layout.md §V.5`).
+
+---
+
+## R.6 Prompts base completos G, H, I, J
+
+Um prompt completo por família, na ordem de slots de `prompts.md §6.1`.
+Cliente fictício: tudo entre `{}` sai do briefing, do storyboard ou da
+bíblia da série. Nenhum deles é Família A: céu cerúleo, grama verde e lime
+só entram se a bíblia da marca pedir.
+
+Antes de colar:
+
+- `Camera:` vem da linha do slide no storyboard (`variacao-de-layout.md
+  §V.5`), nunca da bíblia. Dois slides seguidos não repetem a câmera.
+- `Palette:` e `Light:` vêm da bíblia da série; o acento aparece num só
+  elemento.
+- As zonas em % são exemplo; a zona do texto vem do layout L# da linha.
+- Texto em camada? Troque a linha `Text:` por `Do not include any text,
+  letters, numbers, logos, watermarks, signage, UI elements, borders or
+  frames.`
+- Escreva o movimento numa linha de comentário fora do prompt, por exemplo
+  `# slide 3 · MK06 transformar · L8`.
+
+### G · Metáfora de objeto
+
+```text
+A portrait 4:5 premium still-life image for {USE: the cover slide of an Instagram carousel | a single Instagram post | a paid ad} of {CLIENT: a small {NICHE} business}.
+Subject: a single {OBJECT_OF_THE_TRADE} {TRANSFORMATION from the chosen concept: turning into {RESULT_OBJECT} at its upper end | the only {ACCENT_NAME} one among {N} identical grey ones | lit only by a narrow slit of light}, real materials with small signs of use, correct proportions and a soft contact shadow.
+Setting: {BACKGROUND: a seamless matte {NEUTRAL} studio sweep | one ordinary place from the client's world, kept simple}; nothing else in the frame.
+Camera: {CAMERA from the storyboard row: lens · height · angle}.
+Light: {LIGHT_SENTENCE from the series bible}, one soft directional key with gentle falloff.
+Palette: {PALETTE_SENTENCE from the series bible}; {ACCENT_HEX} appears only on {ELEMENT}; no other strong colors.
+Composition: the object sits from {OBJECT_ZONE, e.g. 45% to 88%} of the height, centered; the band from {TEXT_ZONE from layout L#, e.g. 8% to 32%} of the height stays calm and empty for the headline.
+Text: render only these exact lines: "{HEADLINE}" in {TYPE_MOVEMENT from §R.2, e.g. TM3: a compact heavy grotesque with a flat {ACCENT_HEX} highlighter block behind "{KEY_WORDS}"}; "{@handle}" small, {HANDLE_POSITION from the storyboard row}. Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
+Do not include: extra objects, props on the background, a second accent color, glow, lens flare, people.
+```
+
+### H · Cinema com contraponto tipográfico
+
+```text
+A portrait 4:5 cinematic photograph for {USE} of {CLIENT}.
+Subject: {SCENE_THAT_LITERALIZES_THE_KEY_PHRASE, built from the client's inventory (§R.3): who, doing what, with which real object}; natural poses, real clothing with creases, nobody looking at the camera.
+Setting: {PLACE from the client's world, ordinary and well kept}, with {TWO_LIVED_IN_DETAILS from nichos-e-ideias.md §N.5}.
+Camera: {CAMERA from the storyboard row: lens · height · angle}.
+Light: {LIGHT_SENTENCE from the series bible}; low-key where the scene asks for it.
+Palette: {PALETTE_SENTENCE or MONOCHROME_SENTENCE from the series bible}; {ACCENT_HEX} appears only on {ELEMENT}.
+Composition: the subject occupies {SUBJECT_ZONE, e.g. the lower 55% of the frame}; the band from {TEXT_ZONE from layout L#, e.g. 14% to 46%} of the height is left for a giant headline that {passes behind the subject's head | is partly swallowed by {the horizon | the seat backs | the counter} at its last line}.
+Layering: {the subject's head | the foreground element} overlaps the headline letters with a crisp edge; the rest of the headline stays fully readable.
+Finish: shot on {35mm film stock | anamorphic cinema camera}, real grain, true-to-life color, slight halation on highlights; no teal-orange grading, no glow.
+Text: render only these exact lines: "{HEADLINE}" in {TYPE_MOVEMENT from §R.2, e.g. TM1: a light grotesque sans with the word "{WORD}" in a large high-contrast serif italic}; "{@handle}" small, {HANDLE_POSITION from the storyboard row}. Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
+Do not include: logos, readable signage, watermarks, borders.
+```
+
+### I · Janela de interface sobre paisagem (só a paisagem)
+
+```text
+A portrait 4:5 calm wide landscape photograph for {USE} of {CLIENT: a {PRODUCT_TYPE} app}, made to receive a real screenshot of the product as a floating window added later.
+Subject: {LANDSCAPE the client's users recognize}, {SMALL_HUMAN_FOR_SCALE optional: one tiny figure at {POSITION}}.
+Setting: {TIME_OF_DAY}; a quiet scene with one clear horizon.
+Camera: {CAMERA from the storyboard row: lens · height · angle}.
+Light: {LIGHT_SENTENCE from the series bible}.
+Palette: {PALETTE_SENTENCE from the series bible}; no accent color in the landscape (the accent lives in the window).
+Composition: the central 70% of the width from 28% to 72% of the height is soft, low-detail {sky | field | water | night sky} for the window; the top 4% to 12% and the bottom 88% to 96% stay calm for the header line and the pagination, both added later as layers.
+Finish: {FINISH_SENTENCE from the series bible}, natural grain, no HDR look.
+Do not include any text, letters, numbers, UI, windows, screens, logos, watermarks, borders or frames.
+```
+
+### J · Caderno editorial
+
+```text
+A portrait 4:5 photograph of a single {PAPER: beige textured | linen | graph | ring-binder} page for {USE} of {CLIENT}.
+Subject: the page fills 90% of the frame; three empty rectangular frames with thin pencil borders sit in a row from 50% to 76% of the height, left blank for real client photos added later; two hand-drawn arrows in {ACCENT_HEX} marker link frame 1 to frame 2 and frame 2 to frame 3.
+Setting: the page rests on {SURFACE from the client's world}, visible only at the edges.
+Camera: {CAMERA from the storyboard row: lens · height · angle, e.g. straight top-down | 30-degree tilt from the lower edge}.
+Light: {LIGHT_SENTENCE from the series bible}, soft enough to show the paper texture.
+Palette: {PALETTE_SENTENCE from the series bible}; {ACCENT_HEX} appears only on the arrows.
+Composition: title from 10% to 22% of the height, left-aligned at 8% of the width; short paragraph from 26% to 40%; footer line at 92%.
+Text: render only these exact lines: "{TITLE ending with a colon}" in a condensed serif italic; "{PARAGRAPH, max 18 words}" in a small serif italic; "{@handle} · salvar · →" small in the footer. Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
+Do not include: photos inside the frames, extra handwriting, sticky notes, logos, a second accent color.
+```
+
+A J vale para no máximo 1/3 dos slides de uma série (§R.5.2); as miniaturas
+reais entram em camada.

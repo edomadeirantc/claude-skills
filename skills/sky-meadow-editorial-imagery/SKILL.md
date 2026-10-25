@@ -18,85 +18,56 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 ## 0. Fluxo obrigatório
 
-0. **Preflight do acervo, em toda ativação e antes de cada novo prompt**
-   (inclusive entrega só de texto): execute
-   `python "<raiz-da-skill>/scripts/check_assets.py"` usando a pasta desta
-   instalação, não o diretório de trabalho. O catálogo é a configuração:
-   caminhos relativos, SHA256 e permissões de cada imagem. Se houver erro
-   em arquivo declarado presente, pare e informe o ID/caminho; restaure a
-   partir da cópia local conhecida, sem baixar substitutos. Em pacote público,
-   itens explicitamente não distribuídos são limites, não imagens consultadas.
-   Depois abra o índice e 2–4 imagens pertinentes validadas, seguindo
-   `references/acervo-visual.md`. Registre IDs, duas observações visuais,
-   princípio a extrair e permissão de anexo. Conferir hash não substitui
-   olhar os pixels. `scripts/generate.py` também executa a checagem
-   automaticamente, inclusive em `--dry-run`, e bloqueia geração com acervo
-   ausente ou divergente. Instalação local: use os arquivos privados
-   catalogados para estudo, respeitando `anexar_ao_gerador=false`.
+A ideia vem antes da família, e a variação é planejada antes do prompt.
 
-1. **Brief em rodadas:** leia todo o material (produto, PDF, site, @, posts)
-   e preencha sozinho o que for fato, marcando `[INFERIDO]`. Depois pergunte
-   só as decisões, em rodadas numeradas com resposta recomendada
-   (`references/briefing-perguntas.md`): ação única, @handle, formato e nº de
-   slides, linguagem visual, texto na imagem ou em camada. Pergunte só o que
-   não puder deduzir.
-2. **Template, nicho, branding, família e consulta visual:** se o pedido
-   combina com um template (carrossel de conversão, pitch 16:9, produto na
-   pele, clínica premium em fundo preto, segurança eletrônica), comece por
-   ele (`references/templates/README.md`). Cliente com pasta em `clientes/`
-   (só na instalação local): leia a `ficha.md` dele antes de tudo.
-   Identifique nicho, público, acento da marca, padrão do lugar e
-   restrições legais
-   (`references/nichos-e-ideias.md §N.1–N.3`; SaaS: `references/saas.md`).
-   Escolha a família pela tabela e leia seu arquivo. Antes de **cada novo
-   prompt**, inclusive quando a entrega for só texto, siga
-   `references/acervo-visual.md`: abra o índice visual disponível e 2–4
-   imagens pertinentes em tamanho integral (carrossel de feed: também IG;
-   post único, anúncio ou capa de alto impacto: também MK).
-   Registre IDs, o que extrair e o que mudar. Consulta não é envio
-   automático ao gerador. Para as letrinhas no topo, leia
-   `references/microtipografia-editorial.md` e confira R08/R10/R14 quando
-   disponíveis. Um arquétipo por peça. **Carrossel = um universo só**: mesma
-   família, pessoas, luz, paleta e acabamento; varie gesto, distância e
-   interface (`references/formatos-e-composicao.md §7.4`).
-3. **Conceito com ideia:** antes de escrever prompt, responda "qual é a ideia
-   que faz alguém parar?" Rode o **salto** de
-   `references/repertorio-mercado.md §R.3` (verbo da referência, inventário
-   do cliente, busca fora do nicho) e leve **3 conceitos** (seguro, ousado,
-   fora da curva) com as alavancas de `nichos-e-ideias.md §N.4` e o teste
-   anti-réplica contra R/N/IG/MK e contra o clichê do nicho. As referências
-   são a régua de qualidade, não o molde: a cena nasce do cliente.
-4. **Copy:** título de 3–7 palavras com uma palavra em itálico, subtítulo de
-   uma frase, CTA com verbo (capa da Família F: limite próprio em
-   `ganchos-e-copy.md §G.1`). Sem promessa que a marca não confirmou. Capa de
-   carrossel: 6 ganchos em ângulos diferentes, 3 levados ao usuário, roteiro
-   em uma linha por slide aprovado antes dos prompts, legenda e alt text
-   (`references/ganchos-e-copy.md`). **Instagram: o @handle exato vai no
-   centro do topo de todos os slides** (`microtipografia-editorial.md §2.1`);
-   os demais rótulos do topo seguem a **recorrência por função** (§2.3):
-   categoria na capa e no slide 2, passo só no miolo, ação só no final,
-   gatilho só na capa. Defina a recorrência no YAML da série antes dos
-   prompts; não adicionar data ou autor das referências. **Entregas:**
-   1080×1350 (feed) e 1080×1920 (story); gerador sem 4:5 → 3:4 composto
-   para corte (`formatos-e-composicao.md §5.6`).
-5. **Prompt do formato mestre** (geralmente 9:16 ou 4:5; em carrossel, o
-   mestre é a **capa**) com a arquitetura de `references/prompts.md §6`
-   **e o bloco de realismo** de `references/realismo-fotografico.md §R.6` em
-   toda peça com pessoas ou close. Carrossel: cada slide recebe um
-   **arquétipo de layout e uma voz tipográfica** do roteiro, e a capa entra
-   nos slides seguintes só como referência de continuidade, nunca de layout
-   (`references/variacao-de-layout.md`). Confira a proporção do primeiro
-   arquivo gerado; se vier 3:4, reescreva as posições pela tabela de
-   `formatos-e-composicao.md §5.6`.
-6. **Gerar em 2K** e apresentar. Se a ideia não for aprovada, volte ao passo 3.
-7. **Editar** a peça aprovada com edições de 1 a 3 mudanças
-   (`references/edicao-iterativa.md`), sempre a partir da última versão aprovada.
-8. **Realismo + upscale 4K** da versão final (`edicao-iterativa.md §E.5`),
-   seguindo o pipeline de nitidez de `realismo-fotografico.md §R.7`.
-9. **Converter formatos** com `--ref` da aprovada, recompondo nativamente
-   (`edicao-iterativa.md §E.6`). Nunca recorte o mobile para fazer o desktop.
-10. **QA** (§12), **produção web** (`references/modelos-e-producao.md`) e
-    **entrega** (§14).
+0. **Preflight**, uma vez por sessão: `python "<raiz-da-skill>/scripts/check_assets.py"`
+   (pasta da instalação). Erro bloqueia: informe o ID. O `generate.py`
+   repete a checagem antes de gerar. **Material de cliente fica desligado:**
+   só se o usuário **nomear** um cliente que tenha pasta em `clientes/`,
+   leia a `ficha.md` dele e rode com `--cliente <pasta>`. Sem o nome no chat,
+   não liste, procure nem abra `clientes/`; nicho parecido usa T4/T5.
+1. **Brief em rodadas:** leia todo o material e preencha sozinho os fatos
+   (`[INFERIDO]` quando deduzido). Pergunte só as decisões, com resposta
+   recomendada (`references/briefing-perguntas.md`): ação única, @handle,
+   formato e nº de slides. Nicho, público, acento da marca e restrições
+   legais: `references/nichos-e-ideias.md §N.1–N.3` (SaaS: `saas.md`).
+2. **Salto + 3 conceitos:** abra referências reais conforme
+   `references/acervo-visual.md` (até 4 por peça; carrossel: índice MK
+   obrigatório e 1–2 IG do papel da capa). Rode o salto de
+   `references/repertorio-mercado.md §R.3` (verbo de cada MK, inventário do
+   cliente, busca fora do nicho) e leve **3 conceitos** (seguro, ousado,
+   fora da curva) com as alavancas de `nichos-e-ideias.md §N.4`. As
+   referências são a régua, não o molde: a cena nasce do cliente; teste
+   anti-réplica contra R/N/IG/MK e contra o clichê do nicho.
+3. **Família e template a partir do conceito escolhido:** só agora escolha
+   a família (tabela abaixo) e, se o pedido combinar, um template
+   (`references/templates/README.md`). A família fixa luz, paleta, acento,
+   materiais e par tipográfico. **Ela não fixa cena, escala nem câmera.**
+4. **Storyboard por slide** (`references/variacao-de-layout.md §V.5`): uma
+   linha por slide com movimento MK, escala/cena, câmera (lente · altura ·
+   ângulo), layout, voz, nº de palavras, cabeçalho e se repete o lugar da
+   capa. **Carrossel = um universo, não uma cena** (`repertorio-mercado.md §R.5`).
+   Post único e anúncio: uma linha, com 2–3 variações para teste.
+5. **Copy:** título de 3–7 palavras; o contraste tipográfico vem do
+   movimento (`repertorio-mercado.md §R.2`), não de itálico obrigatório.
+   CTA com verbo; nada que a marca não confirmou. Ganchos, legenda e alt
+   text: `references/ganchos-e-copy.md`. **@handle** exato em todos os
+   slides, no centro do topo por padrão (o movimento pode levá-lo ao rodapé
+   ou a um microrrótulo, sem mudar grafia nem tamanho); demais rótulos pela
+   recorrência de `microtipografia-editorial.md §2.3`. Entregas 1080×1350 e
+   1080×1920 (`formatos-e-composicao.md §5.6–§5.7`).
+6. **Prompts:** um por linha do storyboard, na ordem de slots de
+   `references/prompts.md §6`; paleta e materiais da bíblia, câmera da
+   linha do storyboard; bloco de realismo (`realismo-fotografico.md §R.6`)
+   em peças com pessoas ou close. A capa aprovada entra como `--ref` só nos
+   slides do mesmo lugar, para continuidade, nunca para layout. Prompts
+   para outras IAs: pacote multi-IA (`modelos-e-producao.md §9.5`).
+7. **Autochecagem antes de entregar** (§12.1): responda os 6 itens na
+   entrega. Reprovou um, refaça o storyboard ou o prompt antes de mostrar.
+8. **Gerar em 2K**, aprovar a capa, **editar** com 1–3 mudanças
+   (`edicao-iterativa.md`), **4K** na final (`§E.5`, `realismo-fotografico.md §R.7`),
+   **converter formatos** recompondo (`§E.6`), **QA** (§12), produção web
+   (`modelos-e-producao.md`) e **entrega** (§14). Ideia reprovada: volte ao 2.
 
 ---
 
@@ -107,28 +78,29 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 | Fichas das 34 referências R/N, dos 10 carrosséis IG, das 26 referências de mercado MK e das peças aprovadas | `references/referencias.md` |
 | Famílias G–J (metáfora de objeto, cinema com contraponto, janela de interface, caderno), tipografia de contraste e o salto fora da caixa | `references/repertorio-mercado.md` |
 | Consulta obrigatória, permissões e catálogo das imagens | `references/acervo-visual.md` e `assets/catalogo.json` |
-| Verificar arquivos e hashes antes de usar qualquer imagem | `python "<raiz-da-skill>/scripts/check_assets.py"` (use `--json` para relatório estruturado) |
+| Verificar arquivos e hashes (uma vez por sessão) | `python "<raiz-da-skill>/scripts/check_assets.py"` (`--json`, `--detalhe`; `--cliente <pasta>` só com o cliente nomeado) |
 | Letrinhas no topo: esquerda, centro (@handle no Instagram) e direita | `references/microtipografia-editorial.md` |
 | Rodadas de perguntas do briefing, com resposta recomendada | `references/briefing-perguntas.md` |
 | Nicho, branding e gerador de ideias fora da caixa | `references/nichos-e-ideias.md` |
 | Ganchos (26 fórmulas), roteiro, CTA, anti-IA e legenda | `references/ganchos-e-copy.md` |
 | SaaS e apps: metáforas, carrossel, hero, o que não afirmar | `references/saas.md` |
 | Família F — carrossel social de conversão, kit de sequência | `references/familia-social-conversao.md` |
-| Variar layout, fontes e dispositivos sem trocar de universo (L1–L12, 3 vozes) | `references/variacao-de-layout.md` |
+| Storyboard por slide (tabela canônica), layouts L1–L12, 3 vozes, referência de continuidade | `references/variacao-de-layout.md` |
 | Família A — céu & campo, objeto monumental | `references/familia-ceu-campo.md` |
 | Família B — saúde com detalhe do corpo e interface de vidro | `references/familia-saude-vidro.md` |
 | Famílias C, D e E — produto, esporte, tipografia sobre paisagem | `references/familias-produto-esporte-tipo.md` |
 | Vidro em degradê, cards, tags, constelação, botões | `references/interface-vidro.md` |
 | Zonas seguras por formato (feed, story, post único, anúncio, display, slide), séries, carrossel panorâmico, tipografia | `references/formatos-e-composicao.md` |
-| Arquitetura de prompt, banco de frases, prompts prontos P1–P13 | `references/prompts.md` |
+| Arquitetura de prompt e banco de frases (prompts prontos da Família A no apêndice de `familia-ceu-campo.md`) | `references/prompts.md` |
 | Método de edição, diagnóstico de erros, upscale, conversão | `references/edicao-iterativa.md` |
 | Modelos (Gemini, Midjourney, outras IAs), pacote multi-IA, texto atrás do sujeito, hero web, exportação | `references/modelos-e-producao.md` |
 | Realismo de pessoas, pele, texturas e nitidez; antídoto do banco de imagem, ficha de personagem, ambiente vivo, portão da capa | `references/realismo-fotografico.md` (detalhes por nicho em `nichos-e-ideias.md §N.5`) |
 | Contador do carrossel (pontos, numeração, "ARRASTE") em camada | `scripts/kit_overlay.mjs` |
 | Templates por tipo de peça (T1 carrossel de conversão, T2 pitch 16:9, T3 produto na pele, T4 clínica premium em fundo preto, T5 segurança eletrônica), com prompts | `references/templates/README.md` |
-| Cliente com ficha, diagnóstico e prompts prontos (só na instalação local, fora do Git) | `clientes/{cliente}/ficha.md` |
+| Cliente com ficha, diagnóstico e prompts prontos (só na instalação local, fora do Git; **só quando o usuário nomear o cliente**) | `clientes/{cliente}/ficha.md` |
+| Protocolo de teste: rubrica, briefs de teste e registro de rodadas | `references/testes.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
-| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, MK01–MK26 em `assets/mercado/`, rodadas de teste e planilha de pitch em `assets/templates/`, índices em `assets/indices/`; R/N e RC não distribuídos |
+| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, MK01–MK26 em `assets/mercado/`, planilha de pitch em `assets/templates/`, índices em `assets/indices/`; R/N e RC não distribuídos |
 
 **Precedência quando dois arquivos discordam:** (1) restrições legais e de
 ética (§13) e "nenhum dado inventado"; (2) arquivo do nicho específico
@@ -146,26 +118,27 @@ deste `SKILL.md`).
 
 | Família | Assinatura | Melhor para | Refs. |
 |---|---|---|---|
-| **A · Céu & Campo** | Céu cerúleo, colina, um objeto ou figura monumental, um acento | Marca, lançamento, bem-estar, "fora da caixa" | R01–R16, N04, G01 |
-| **B · Saúde & Vidro** | Detalhe do corpo (mãos, perfis) contra céu aço liso, tags de vidro e constelação | Saúde, telemedicina, cuidado a dois | N07, N12, N17, G02 |
+| **G · Metáfora de objeto** | Um objeto do ofício transformado diz a frase; fundo limpo; um acento | Serviço abstrato, anúncio, post único, carrossel (um movimento por slide) | MK03, MK06, MK10, MK11, MK13, MK24 |
+| **H · Cinema com contraponto** | Foto de cinema em que a tipografia atravessa, é engolida ou literaliza a cena | Manifesto, capa, autoridade, carrossel | MK01, MK02, MK08, MK09, MK14, MK19, MK21, MK22 |
+| **I · Janela de interface** | Paisagem calma com a tela real do cliente flutuando | SaaS, app, monitoramento, ferramentas | MK07, MK12, MK15, MK17, MK18, MK20, MK23, MK26 |
+| **J · Caderno editorial** | Papel com textura, título serif itálico com dois-pontos, miniaturas e setas manuscritas | Passo a passo, bastidor, estudo de caso, carrossel | MK04, MK05, MK16, MK25 |
+| **K · Clínica premium no preto** | Preto, contorno fino no perfil, dourado discreto, foto real | Clínica, HOF, odonto, estética | `templates/t4-clinica-premium-fundo-preto.md` |
+| **F · Social de conversão** | Foto que escurece na base, título gigante, um acento, @ no topo, pontos e pílula de arraste | Feed de alcance: salvar, comentar, direct, teste/demo | IG01–IG10 |
+| **A · Céu & Campo** | Céu cerúleo, colina, um objeto ou figura monumental, um acento | Natureza, bem-estar, território | R01–R16, N04, G01 |
+| **B · Saúde & Vidro** | Detalhe do corpo contra céu aço liso, tags de vidro e constelação | Saúde, telemedicina | N07, N12, N17, G02 |
 | **C · Produto em textura** | Produto sobre musgo ou na pele, luz recortada, monocromia | Suplemento, cosmético, kit | N06, N08, N13, N15, N16 |
 | **D · Esporte lifestyle** | Quadra azul, branco esportivo, lime, forma gráfica que entrelaça o sujeito | Esporte, energia, protetor solar | R06, R13, N10, N11, N14, N18 |
 | **E · Tipografia sobre paisagem** | Paisagem escurecida virando cartaz, pilha tipográfica | Manifesto, evento, capa | N04, N09, R09, R10 |
-| **F · Social de conversão** | Foto que escurece na base, título gigante, um acento, @ no topo, pontos e pílula de arraste | Feed de alcance: salvar, comentar, direct, teste/demo | IG01–IG10 |
 | *Vidro sobre paisagem* (transversal) | Paisagem desfocada atrás de painel de vidro | Slides de conteúdo, stories | N01, N02, N03, N05 |
-| **G · Metáfora de objeto** | Um objeto do ofício transformado diz a frase; fundo limpo; um acento | Serviço abstrato, anúncio, post único | MK03, MK06, MK10, MK11, MK13, MK24 |
-| **H · Cinema com contraponto** | Foto de cinema em que a tipografia atravessa, é engolida ou literaliza a cena | Manifesto, capa, autoridade | MK01, MK02, MK08, MK09, MK14, MK19, MK21, MK22 |
-| **I · Janela de interface** | Paisagem calma com a tela real do cliente flutuando; 3 âncoras e paginação | SaaS, app, monitoramento, ferramentas | MK07, MK12, MK15, MK17, MK18, MK20, MK23, MK26 |
-| **J · Caderno editorial** | Papel com textura, título serif itálico com dois-pontos, miniaturas e setas manuscritas | Passo a passo, bastidor, estudo de caso | MK04, MK05, MK16, MK25 |
-| **K · Clínica premium no preto** | Preto quente, fio dourado, foto real em painel, card claro | Clínica, HOF, odonto, estética | `templates/t4-clinica-premium-fundo-preto.md` |
 
-Ao combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
+Nenhuma família é padrão: ela sai do conceito escolhido no passo 2. Ao
+combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
 
 ---
 
 ## Princípios de nível de mercado
 
-1. **Uma ideia, um monumento, um acento.** Tudo o mais é silêncio.
+1. **Uma ideia, um herói, um acento.** Tudo o mais é silêncio.
 2. **O texto tem lugar reservado.** Zona limpa em porcentagem no prompt;
    contraste calculado para a cor do texto (`formatos-e-composicao.md`).
 3. **Texto e imagem se entrelaçam** quando possível: título atrás da cabeça,
@@ -174,22 +147,43 @@ Ao combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
    poros e imperfeições, tecido com trama, luz com direção. Nada de render,
    retoque ou "pele perfeita" (`realismo-fotografico.md`).
 5. **Mesmas pessoas em todos os formatos**, convertidas da peça aprovada.
-6. **Interface fina:** 1 px, pontilhado, vidro fosco; ela comenta a foto.
+6. **Interface só quando o movimento pede** (1 px, pontilhado, vidro fosco);
+   nunca como ornamento padrão.
 7. **Edite, não regenere.** Composição aprovada se preserva; corrige-se o resto.
 8. **Prompt diz o que fica vazio** com a mesma precisão do que aparece, e
    proíbe por nome os erros já vistos (card, halo, linhas, textos que vazam).
-9. **Referência é vocabulário, não composição.** Das referências R e N tire
-   luz, paleta, material, ponto de vista e interface; o **sujeito e a cena
+9. **Referência é vocabulário, não composição.** Das R/N/IG/MK tire o
+   movimento, a luz, a tipografia e o acabamento; o **sujeito e a cena
    nascem do universo da marca**. Nunca reproduza uma composição-assinatura
    (`references/referencias.md §0`). Teste: lado a lado com a referência,
    alguém diria "é a mesma foto com outro texto"? Então descarte.
-10. **Carrossel conta uma história.** Cada slide é uma etapa (gancho →
-    desenvolvimento → virada → ação), não um pôster solto. "Totalmente
-    diferente" significa outra cena dentro do mesmo universo.
+10. **Carrossel conta uma história em cenas diferentes.** Cada slide é uma
+    etapa (gancho → desenvolvimento → virada → ação) e um movimento próprio;
+    o fio é a luz, a paleta e o acento, não a cena (`repertorio-mercado.md §R.5`).
 
 ---
 
-## 12. QA — checklist de aprovação
+## 12. QA
+
+### 12.1 Autochecagem antes de entregar prompts (responda na entrega)
+
+1. Storyboard lado a lado: três linhas seguidas parecem "a mesma foto com
+   outro texto"? Refaça.
+2. Linhas `Camera:` distintas nos prompts: pelo menos metade do nº de slides.
+3. Densidade: 3+ slides com até 6 palavras, 1 só tipográfico, no máximo 3
+   com parágrafo (carrossel de 7+ slides).
+4. Busca nos prompts por `cerulean|grassy hill|35mm f/2 at eye level|identity|same face|match the reference exactly`:
+   cada ocorrência justificada ou removida.
+5. Cada prompt traz, fora do texto do prompt, o movimento MK que o originou.
+6. Anti-réplica contra a MK citada: a cena não é a cena dela.
+
+### 12.2 Rubrica de teste (0–2 por critério; passa com 9/12 e sem 0 nos dois primeiros)
+
+Ideia em 2 s · variação da série · assinatura do cliente (o logo de um
+concorrente não serviria) · contraste tipográfico do movimento · realismo ·
+texto e regras legais exatos. Registro de rodadas: `references/testes.md`.
+
+### 12.3 Checklist de aprovação da peça
 
 Reprove a peça se qualquer item **crítico** falhar.
 
@@ -204,15 +198,17 @@ Reprove a peça se qualquer item **crítico** falhar.
       dele como `--ref` e com o rosto conferido lado a lado com essa foto.
 - [ ] Rostos idênticos aos da peça aprovada (em edições, conversões e upscale).
 - [ ] Não reproduz nenhuma composição-assinatura das referências R/N/IG/MK nem o clichê do nicho sem subvertê-lo.
-- [ ] Instagram: @handle exato no centro do topo, idêntico em todos os slides;
-      selo verificado só se a conta for verificada; rótulos laterais só nos
-      slides definidos pela recorrência (`microtipografia-editorial.md §2.3`).
+- [ ] Instagram: @handle exato em todos os slides (centro do topo por padrão;
+      rodapé ou microrrótulo quando o movimento pede); selo verificado só se a
+      conta for verificada; rótulos laterais pela recorrência
+      (`microtipografia-editorial.md §2.3`).
 - [ ] Entrega final exatamente 1080×1350 (feed) ou 1080×1920 (story); se
       gerado em 3:4, conferido o PNG cortado: nada essencial perdido.
 - [ ] Ganchos, provas e números só com dado fornecido pela marca; sem urgência falsa.
-- [ ] Carrossel: mesmo universo em todos os slides, narrativa legível na
-      sequência; pontos, numeração e "ARRASTE →" aplicados em camada
-      (`scripts/kit_overlay.mjs`), nunca pedidos ao gerador.
+- [ ] Carrossel: mesmo universo (luz, paleta, acento, materiais), cenas
+      diferentes, narrativa legível na sequência; pontos, numeração e
+      "ARRASTE →" aplicados em camada (`scripts/kit_overlay.mjs`), nunca
+      pedidos ao gerador.
 - [ ] Capa aprovada no portão da capa antes de virar referência; nada de
       banco de imagem: personagem com ficha, lugar vivo, luz do lugar
       (`realismo-fotografico.md §R.9–R.13`, `nichos-e-ideias.md §N.5`).

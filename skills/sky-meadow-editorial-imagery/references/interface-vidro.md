@@ -62,7 +62,7 @@ Three frosted-glass pill tags with soft backdrop blur and a thin semi-transparen
 - "{TAG_3}" ….
 ```
 
-- Sempre **3 tags**, com posições em porcentagem, distribuídas em triângulo.
+- **1–3 tags, só quando o movimento pede**; nunca como ornamento padrão. Posições em porcentagem; com 3, distribua em triângulo.
 - Rótulos curtos (1–2 palavras). Confira acentos.
 - Tags sobrepostas à pele ficam mais bonitas que sobre o céu puro.
 

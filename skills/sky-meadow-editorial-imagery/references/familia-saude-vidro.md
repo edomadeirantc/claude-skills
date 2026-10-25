@@ -13,8 +13,9 @@ Prompts aprovados completos: `caso-telemedicina.md`.
 
 1. **Detalhe, não retrato.** Mãos, perfis, ombros, pulso, nuca, cabelo. O corpo
    aparece cortado pelas bordas; a pessoa inteira quase nunca.
-2. **Ele e ela.** O par masculino/feminino aparece pelo contraste de textura:
-   pelos e pele mais grossa de um lado, pele lisa e traço fino do outro (N12).
+2. **Detalhe do corpo do público real** (um, dois ou mais; par
+   masculino/feminino só se o briefing pedir). Com duas pessoas, o contraste
+   de textura (pelos e pele mais grossa, pele lisa e traço fino) as distingue (N12).
 3. **Céu como fundo de estúdio.** Liso, sem nuvens, em azul acinzentado ou
    aço. Nunca o cerúleo saturado da Família A.
 4. **Sol quente de fim de tarde vindo do alto à esquerda**, com rim light
@@ -85,7 +86,7 @@ Bloco de foto comum (aprovado):
 | Faixa da altura | Conteúdo |
 |---|---|
 | 9–25% | Título (com ou sem caixa pontilhada) |
-| 30–70% | Detalhe do corpo + 3 tags de vidro + constelação |
+| 30–70% | Detalhe do corpo + 1–3 tags de vidro, se o movimento pedir |
 | 73–89% | Rodapé (marca + frase) **ou** um botão único |
 
 ### 9:16 (hero mobile) — aprovado em G02

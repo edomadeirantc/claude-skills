@@ -15,10 +15,10 @@ tenha fornecido**. Gancho forte com dado inventado reprova no QA.
 
 | Peça | Limite | Observação |
 |---|---|---|
-| Capa A–E (editorial), inclusive A–E com kit F | título de 3–7 palavras, uma em itálico | regra original da skill (`SKILL.md` passo 4) |
+| Capa A–E e G–J (editorial), inclusive com kit F | título de 3–7 palavras; o contraste tipográfico vem do movimento escolhido (`repertorio-mercado.md §R.2`), não de itálico obrigatório | regra da skill (`SKILL.md`, passo de copy) |
 | Capa F (social de conversão) | manchete de até 14 palavras em 3–4 linhas, sem itálico obrigatório | o **núcleo** (linha ou palavra em acento) tem ≤ 6 palavras e se lê na miniatura do grid |
 | Slide 2 | uma frase de stake | é a "segunda capa": o Instagram reexibe o carrossel a partir do slide 2 |
-| Miolo | título 3–7 palavras + até 25 palavras | itálico obrigatório só nas famílias A–E; precisa de parágrafo? São dois slides |
+| Miolo | título 3–7 palavras + até 25 palavras | contraste pelo movimento do slide (§R.2), sem itálico obrigatório; a densidade segue a coluna "nº palavras" do storyboard (`variacao-de-layout.md §V.5`); precisa de parágrafo? São dois slides |
 | Legenda, linha 1 | até 125 caracteres visíveis | gancho **novo** (Job B), não repete a capa |
 
 Teste da miniatura: reduza a capa a ~320 px de largura. Se o núcleo não se
@@ -86,24 +86,26 @@ Fórmulas de título de conversão (landing/SaaS): "[Resultado] sem [dor]",
 
 ## G.4 Roteiro (6–10 slides)
 
-Combina a história de `formatos-e-composicao.md §7.4` com a estrutura de
-leitura do feed:
+Conta uma história em etapas (gancho → desenvolvimento → virada → ação) com
+a estrutura de leitura do feed:
 
 ```
-1      CAPA       gancho (G.1) + linha de promessa; @handle no topo; pílula de arraste
+1      CAPA       gancho (G.1) + linha de promessa; @handle (centro do topo por padrão); pílula de arraste
 2      STAKE      por que importa, em uma frase — segunda capa
-3..N   UMA IDEIA  um passo/argumento por slide; gesto ou distância muda, universo não
+3..N   UMA IDEIA  um passo/argumento por slide; movimento, escala e câmera mudam; luz, paleta e acento não
 N+1    RESUMO     a lista inteira legível sem contexto (o slide do print/salvar)
 ÚLTIMO CTA        uma ação só, a mesma do briefing
 ```
 
-Mostre o roteiro em uma linha por slide (papel · cena · layout · voz ·
-título) e espere aprovação antes de escrever prompts. Layout e voz seguem
-`variacao-de-layout.md §V.2–V.5`.
+O roteiro vira o storyboard canônico de `variacao-de-layout.md §V.5` (uma
+linha por slide com movimento, escala, câmera, layout, voz, nº de palavras,
+cabeçalho e `--ref`). Espere aprovação do storyboard antes de escrever
+prompts.
 
 Qual esqueleto usar: **SaaS** → `saas.md §S.4`; **produto ou serviço** →
-papéis de `formatos-e-composicao.md §7.4`; **conteúdo educativo/opinião**
-→ o esqueleto acima. Papel que exige prova sem prova disponível (PROVA,
+o esqueleto acima com os papéis GANCHO · DOR · COMO FUNCIONA · PROVA ·
+RESUMO · CTA; **conteúdo educativo/opinião** → o esqueleto acima. Papel que
+exige prova sem prova disponível (PROVA,
 resultado, depoimento) vira RESUMO ou COMO FUNCIONA; nunca slide com dado
 inventado ou placeholder.
 

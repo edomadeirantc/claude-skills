@@ -3,9 +3,8 @@
 **Status:** testado em 3 rodadas reais (caso Groomy, SaaS de gestão para
 barbearias). Rodada 1 aprovada em direção e consistência; rodada 2 aprovada
 em variação de layout; rodada 3 reprovada pelo padrão do lugar, corrigida na
-v4. Prompts finais: `casos/groomy-carrossel-v4.md`. Folhas de contato:
-`../../assets/templates/groomy-rodada1.jpg`,
-`../../assets/templates/groomy-rodada2.jpg`, `../../assets/templates/groomy-rodada3-capas.png`.
+v4. Prompts finais: `casos/groomy-carrossel-v4.md`. As folhas de contato das
+rodadas saíram do acervo na curadoria de 25/10/2026; as lições ficaram no texto.
 
 **Use quando:** a peça é um carrossel de feed que precisa de alcance e ação
 (direct, teste, salvar) para um serviço ou software, com uma pessoa real do
@@ -28,40 +27,32 @@ apresentação 16:9 use T2.
 2. **Uma rodada de perguntas** com resposta recomendada: @ exato, nº de
    slides, gerador (4:5 ou 3:4), prova social e prints. Prints e prova social
    são opcionais; sem eles o slide de prova vira resumo.
-3. **Família F** quando a marca é escura com acento forte (Groomy: `#0A0A0A` + lime `#C8F028`).
-4. **3 conceitos** (seguro, ousado, fora da curva) e 3 ganchos; aprovado no caso: "O rolo do dia" (fita de comanda gigante) + "PARE DE FECHAR O CAIXA DE CABEÇA."
-5. **Roteiro SaaS de 8 slides** (`saas.md §S.4`) com **um layout diferente por slide** (`variacao-de-layout.md`).
-6. **Bíblia da série** com ficha de personagem, lugar vivo no padrão da marca e registro documental (T1.4).
+3. **Salto + 3 conceitos** (seguro, ousado, fora da curva) com verbos MK (`repertorio-mercado.md §R.3`) e 3 ganchos; aprovado no caso: "O rolo do dia" (fita de comanda gigante) + "PARE DE FECHAR O CAIXA DE CABEÇA."
+4. **Família derivada do conceito**: F quando a marca é escura com acento forte (Groomy: `#0A0A0A` + lime `#C8F028`).
+5. **Storyboard por slide** na tabela canônica de `variacao-de-layout.md §V.5`, partindo do roteiro SaaS de 8 slides (`saas.md §S.4`): movimento, escala/cena, câmera e layout mudam a cada slide.
+6. **Bíblia da série** com ficha de personagem, padrão do lugar, luz, paleta, acento e registro documental (T1.4); sem câmera.
 7. **Capa primeiro**, sem referência; passa no portão da capa (`realismo-fotografico.md §R.13`) antes de servir de referência.
-8. **Slides com pessoa** com a capa como referência de continuidade; **slides sem pessoa** sem referência e sem bloco de pele.
+8. **Referência da capa** só nos slides que o storyboard marca como "mesmo lugar da capa = sim"; slides em outra escala ou lugar e **slides sem pessoa** vão sem referência e sem bloco de pele.
 9. **Corte** para 1080×1350 e **contador em camada** (T1.6).
 10. **Story** a partir da capa aprovada, 9:16 nativo (T1.7).
 
-## T1.3 Roteiro aprovado (8 slides, layouts distintos)
+## T1.3 Storyboard (8 slides)
 
-| # | Papel | Layout | Vozes | Topo (recorrência) | Ref. |
-|---|---|---|---|---|---|
-| 01 | Capa | L1 manchete na base | display + utilitária | — · @ · BARBEARIAS (pílula) | nenhuma |
-| 02 | Stake | L2 pilha tipográfica | display + contraponto | — · @ · BARBEARIAS | capa |
-| 03 | Dor | L3 legenda de cinema | utilitária + display | A DOR · @ · — | capa |
-| 04 | Virada | L8 coluna lateral | display + contraponto + utilitária | A VIRADA · @ · — | capa |
-| 05 | Como | L11 fileira de botões | display + interface | COMO FUNCIONA · @ · — | capa |
-| 06 | Resumo (respiro) | L7 número gigante | display + utilitária | — · @ · — | nenhuma |
-| 07 | Objeção | L4 balões de mensagem | interface + utilitária | DÚVIDAS · @ · — | capa |
-| 08 | CTA | L12 fechamento liso | display + contraponto + utilitária | — · @ · TESTE 7 DIAS | nenhuma |
-
-Em todo slide sem tag à direita, escreva `Nothing on the right`: a tag da
-capa vazou para o slide 4 na rodada 2.
+Use a tabela de `variacao-de-layout.md §V.5`. No caso Groomy aprovado, os
+layouts por slide foram L1, L2, L3, L8, L11, L7, L4 e L12, e o topo seguiu a
+recorrência de `microtipografia-editorial.md §2.3`. Em todo slide sem tag à
+direita, escreva `Nothing on the right`: a tag da capa vazou para o slide 4
+na rodada 2.
 
 ## T1.4 Bíblia da série (modelo)
 
 ```text
-SERIES BIBLE (same place and same {PAPEL} in every slide; layout changes per slide)
-- Place: a well-kept, mid-market {TIPO DE LUGAR} in a Brazilian city, {tamanho}, successful and organized. {3–4 materiais do padrão}; {luz real do lugar}; {móveis em bom estado}; {objetos de uso variados e organizados}; {área de espera/gente}. {Rastro de trabalho do momento}. Posters, price board and calendar stay soft, out of focus and unreadable.
+SERIES BIBLE (fixed in every slide: light, palette, accent, materials, type voices and, when the slide has a person, the {PAPEL}; place, scale, camera and layout come from each slide's storyboard row)
+- Main place (used only in the slides the storyboard marks as the cover's place): a well-kept, mid-market {TIPO DE LUGAR} in a Brazilian city, {tamanho}, successful and organized. {3–4 materiais do padrão}; {luz real do lugar}; {móveis em bom estado}; {objetos de uso variados e organizados}; {área de espera/gente}. {Rastro de trabalho do momento}. Posters, price board and calendar stay soft, out of focus and unreadable.
 - The {PAPEL}: {ficha de personagem: nome, idade exata, origem, tipo físico real, cabelo real, 2–3 marcas únicas, roupa limpa coerente com o padrão, acessório comum}. Not a model: a real, likable professional.
 - Other people: ordinary customers of varied ages, faces not the focus, partly turned away.
 - Light: the real light of the place, {fonte 1} mixed with {fonte 2}, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color, no color-grading look.
+- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, available light, visible ISO grain, slightly imperfect framing, true-to-life color, no color-grading look. Lens, height and angle come from each slide's storyboard row.
 - Brand treatment lives only in the design layer: {ACCENT} never appears on objects in the scene.
 - Type voices: DISPLAY = {sans pesada}. COUNTERPOINT = {serif itálica}. UTILITY = {mono}. Use only the voices the slide names.
 - Frame: portrait 3:4, composed to be center-cropped to 4:5: top 4% and bottom 4% only background.
@@ -108,7 +99,7 @@ a figurinha de link (aplicada no app). Sem contador. Prompt pronto no fim de
 ## T1.8 Checklist de entrega
 
 - [ ] Capa passou no portão (nem banco de imagem, nem lugar precário).
-- [ ] 8 layouts distintos, um respiro, recorrência do topo correta.
+- [ ] 4+ layouts distintos (no caso Groomy: 8), um respiro, recorrência do topo correta; storyboard §V.5 cumprido (nada repetido em slides seguidos).
 - [ ] Textos com acento, @ exato, sem selo indevido.
 - [ ] Corte 1080×1350 conferido; contador aplicado em camada.
 - [ ] Legenda (Job B), 5 hashtags no máximo, alt text da capa.

@@ -71,7 +71,11 @@ Frase: `Keep the left 48% of the frame as calm open sky with no clouds and no ob
 
 Frase: `Vertical composition. The top 38% is clean deep blue sky for a headline, below a small 8% margin. The subject is centered, occupying roughly 40% to 80% of the frame height. The bottom 18% is calm, evenly shaded grass with no bright flowers, reserved for a button.`
 
-### 5.4 Carrossel 4:5
+### 5.4 Carrossel 4:5 (exemplo da Família A)
+
+Este diagrama é só um exemplo da Família A. A zona do texto vem do layout L
+da linha do storyboard (`variacao-de-layout.md §V.5`); não reutilize 12–40%
+em slides seguidos.
 
 ```
 ┌────────────────────┐ 0%
@@ -84,7 +88,7 @@ Frase: `Vertical composition. The top 38% is clean deep blue sky for a headline,
 └────────────────────┘
 ```
 
-Frase: `Portrait 4:5. Keep the top 9% and bottom 10% visually calm for small interface text. Reserve 12% to 40% of the height as open sky for a headline; place the subject between 40% and 88%.`
+Frase (exemplo da Família A): `Portrait 4:5. Keep the top 9% and bottom 10% visually calm for small interface text. Reserve 12% to 40% of the height as open background for a headline; place the subject between 40% and 88%.`
 
 Carrossel de Instagram: o @ da conta vai no **centro do topo** em todos os
 slides (`microtipografia-editorial.md §2.1`). Capa de conversão com título
@@ -116,11 +120,10 @@ convertidas pela tabela (`y₃ₓ₄ = (y₄ₓ₅ × 1350 + 45) / 1440`):
 | Margem de segurança 5% | 5% / 95% | 8% / 92% |
 | Linha do @ (faixa / linha-base) | 4–9% / 6% | 7–12% / 8,8% |
 | Início do título no topo | 13% | 15% |
-| Título na base (Família F) | 52–80% | 52–78% |
-| Pílula de arraste | 83–88% | 81–86% |
+| Título na base (Família F) | 52–76% | 52–74% |
+| Pílula de arraste | 80–84% | 78–82% |
 | Pontos | 90% | 87,5% |
-| Numeração e "ARRASTE" (F) | 92% | 89,5% |
-| Rodapé A–E | 94% | 91% |
+| Numeração, "ARRASTE" e rodapé (todas as famílias) | 92% | 89,5% |
 
 Exportação (centro exato; ajuste o deslocamento `y` só se o ponto focal
 pedir, nunca cortando texto):
@@ -165,21 +168,22 @@ não 3 ideias diferentes.
 
 ```yaml
 serie: "{nome}"
-arquetipo: A            # A–H ([familia-ceu-campo.md §4](familia-ceu-campo.md)); carrossel pode usar até 2
-acabamento: F1          # F1 CGI | F2 filme | F3 moda — único para a série
-luz: L1                 # L1–L5 — única para a série
-hora_e_sol: "midday, sun high behind camera-left"
-ceu: "deep cerulean, few cumulus at edges"
-terreno: "rounded grassy hill, short dense grass, small yellow and white wildflowers"
-camera: "low, 28mm, slight upward angle"
-acento: "lime #D4FF1A on {elemento}"   # um só
-objeto_heroi: "{descrição exata e reutilizada palavra por palavra}"
-texto_branco_ou_tinta: branco          # define o tipo de céu na zona do título
-proibidos: [texto, logos, pessoas reconhecíveis, segundo acento]
+familia: "{G–J ou A–F, derivada do conceito escolhido}"   # sem padrão; nasce da ideia
+acabamento: "{AC: CGI | filme | moda | editorial real}"  # único para a série
+luz: "{frase de luz}"                                     # única para a série
+paleta: "{PALETTE_SENTENCE: cores dominantes da marca/conceito}"
+acento: "{uma cor} em {elemento}"                         # um só
+materiais: "{materiais recorrentes}"
+par_tipografico: "{voz do título + voz de apoio}"
+camera: "varia por slide (storyboard §V.5)"               # nunca fixe lente, altura ou ângulo aqui
+objeto_heroi: "{descrição exata, se houver; aparece em no máximo 1/3 dos slides}"
+texto_branco_ou_tinta: "{branco | tinta}"
+proibidos: [texto não listado, logos, pessoas reconhecíveis, segundo acento]
 ```
 
-Copie os campos **palavra por palavra** em todos os prompts da série.
-Sinônimos geram variações.
+Copie os campos fixos **palavra por palavra** em todos os prompts da série
+(sinônimos geram variações). Cena, escala, câmera, layout e densidade de
+texto vêm da linha de cada slide no storyboard.
 
 ### 7.2 Desktop → mobile → carrossel
 
@@ -214,54 +218,13 @@ done
 
 Dois slides 4:5 de um 16:9: troque `2.4` por `1.6` e use `i` em `0 1`.
 
-### 7.4 Carrossel: um universo, uma história
+### 7.4 Carrossel: um universo, não uma cena
 
-**Regra validada pelo cliente (caso de telemedicina):** o carrossel 1, com o
-mesmo casal e o mesmo céu em todos os slides, "seguiu um sentido" e foi
-preferido. O carrossel 2, com um mundo diferente por slide (cadeira no morro,
-relógio gigante, guarda-chuvas, folhas de bananeira), saiu **bagunçado** e
-**copiou as referências**. Nunca troque de família entre slides.
-
-| Slide | Papel | O que muda | O que fica |
-|---|---|---|---|
-| 1 | Gancho (capa) | Plano mais próximo e mais emocional | Pessoas, luz, céu, acabamento, famílias tipográficas (layout e voz variam) |
-| 2 | Tensão / problema | Outro gesto ou objeto da rotina do público | idem |
-| 3 | Virada / solução | Mudança de distância (abre o plano) | idem |
-| 4 | Prova / como funciona | Interface de vidro (tags, constelação, passos) | idem |
-| 5 | Para quem / benefício | Outro ângulo das mesmas pessoas | idem |
-| N | Ação | O plano mais calmo, maior espaço livre, botão | idem |
-
-Além de gesto e distância, o **layout da página e a voz tipográfica** também
-variam por slide (arquétipos L1–L12 em `variacao-de-layout.md`); o que não
-muda é pessoa, lugar, luz, paleta, acento e kit.
-
-**De onde vem a variedade** (combine 2 por slide, nunca a cena inteira):
-- **gesto:** testas, mãos, pulso, ombros, celular erguido, cabeça no ombro;
-- **distância:** rosto → mãos → meio corpo → as duas figuras pequenas no céu;
-- **ângulo:** perfil, de costas, de baixo, de cima;
-- **interface:** título solto, tags, constelação, passos numerados, botão;
-- **posição do texto:** topo, centro, base, à esquerda.
-
-**Sequência (o que faz "arrastar"):**
-- Paginação idêntica em todos os slides, **aplicada em camada** (o gerador
-  erra a contagem; `scripts/kit_overlay.mjs`) na mesma posição:
-  `"0N / 0T"` à esquerda e `"ARRASTE →"` à direita, no rodapé (94%),
-  pequeno, branco, caixa-alta espaçada. No último slide, só a paginação.
-  Na Família F o kit inclui pontos com losango ativo e pílula de arraste
-  na capa (`familia-social-conversao.md §F.4`).
-- O @handle no centro do topo é idêntico em todos os slides; os rótulos
-  laterais seguem a recorrência de `microtipografia-editorial.md §2.3`
-  (categoria na capa e no slide 2, passo no miolo, ação no final).
-- Um elemento que **atravessa a borda** entre slides reforça o arrastar:
-  a mão, o ombro ou a linha da constelação cortados na borda direita
-  continuam na esquerda do próximo slide (use o panorama da §7.3 quando
-  quiser continuidade real).
-- O título de cada slide termina "aberto" para o próximo (pergunta,
-  dois-pontos, frase que pede continuação), exceto o último.
-
-**Antes de gerar, escreva o roteiro em uma linha por slide** (papel, gesto,
-distância, texto). Se dois slides tiverem o mesmo gesto e a mesma distância,
-mude um. Se algum slide pedir outro cenário, a ideia não cabe neste carrossel.
+Fixos na série: luz, paleta, acento, materiais e par tipográfico. Variam por
+slide: cena, escala, câmera, densidade de texto e cabeçalho, conforme
+`repertorio-mercado.md §R.5` e o storyboard de `variacao-de-layout.md §V.5`.
+Troque de família só dentro de G–J com a mesma luz/paleta/acento; nunca misture A–E com G–J.
+Paginação e "ARRASTE →" em camada (`scripts/kit_overlay.mjs`), no rodapé a 92%; @ e rótulos laterais por `microtipografia-editorial.md §2.3`.
 
 Grade, setas complexas e fitas curvas continuam sendo camada de design (§8).
 Para o cabeçalho de três âncoras, consulte `microtipografia-editorial.md`:
@@ -285,17 +248,8 @@ Para os elementos complexos abaixo, prefira HTML/Figma por cima da imagem:
 
 Linhas e chips: branco com 40–70% de opacidade, 1 px, sem sombra pesada.
 
-### Pares tipográficos das referências
-
-| Par observado | Ref. | Alternativa livre (Google Fonts) |
-|---|---|---|
-| Serifa de exibição + sans neutra | R09, R10 | Instrument Serif + Inter |
-| Serifa itálica + sans pesada | R04, R15 | Playfair Display Italic + Inter Bold |
-| Script formal + sans | R08 | Pinyon Script + Inter |
-| Condensada esportiva em lime | R13 | Anton ou Bebas Neue |
-| Display larga pesada + serifa | R14 | Archivo Black + Instrument Serif |
-| Display retrô + geométrica | R02 | Abril Fatface + Montserrat |
-
+Pares tipográficos: use os movimentos de `repertorio-mercado.md §R.2` e as
+vozes de `variacao-de-layout.md §V.3`.
 As fontes usadas nas peças originais (Athelas, Moara, Tan Headlines) podem
 exigir licença comercial; confirme antes de usar.
 

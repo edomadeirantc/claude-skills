@@ -43,34 +43,40 @@ aberta vai para a rodada seguinte.
 ## Q.2 Rodada 1 — fundação (fronteira inicial)
 
 1. **Objetivo e ação única** (salvar, comentar PALAVRA, direct, seguir, teste/demo).
-2. **@handle exato** para o centro do topo, e se a conta é verificada.
+2. **@handle exato** (vai em todos os slides; centro do topo por padrão), e
+   se a conta é verificada.
 3. **Entregas e gerador**: feed 1080×1350 e/ou story 1080×1920; nº de
    slides (6–10). O gerador entrega 4:5 nativo ou só 3:4? (3:4 → compor para
    o corte, `formatos-e-composicao.md §5.6`.) Precisa de hero web junto?
-4. **Linguagem visual**: editorial premium (A–E), social de conversão (F) ou
-   A–E com kit de sequência da F. Recomende a família que você já escolheu
-   no passo 2 do `SKILL.md`; a pergunta só confirma.
-5. **Texto**: na imagem (gerado) ou em camada (Figma/Canva/HTML) — recomende
+4. **Texto**: na imagem (gerado) ou em camada (Figma/Canva/HTML) — recomende
    camada para miolos com muito texto e cartão de autor.
-6. **Confirmações do `[INFERIDO]`**: nicho, público, acento, alegações
+5. **Confirmações do `[INFERIDO]`**: nicho, público, acento, alegações
    permitidas. Peça correção só do que estiver errado.
+
+A linguagem visual (família) **não** é perguntada aqui: ela nasce do
+conceito e é confirmada na rodada 2.
 
 SaaS: acrescente as perguntas de `saas.md §S.1` que o material não respondeu.
 
 ## Q.3 Rodada 2 — ideia e capa
 
 1. **Conceito**: apresente os 3 conceitos (seguro, ousado, fora da curva) de
-   `nichos-e-ideias.md §N.4`, com a recomendação.
-2. **Capa**: 3 ganchos (dos 6 ângulos de `ganchos-e-copy.md §G.2`), cada um
+   `nichos-e-ideias.md §N.4`, cada um com os movimentos MK, e a recomendação.
+2. **Linguagem visual**: confirmada aqui, junto do conceito (a família nasce
+   da ideia). Para cada conceito, diga a família que ele pede (G–J, F, A–E
+   ou K) e recomende a do conceito recomendado.
+3. **Capa**: 3 ganchos (dos 6 ângulos de `ganchos-e-copy.md §G.2`), cada um
    com a fórmula nomeada.
-3. **Pessoa em cena**: modelo gerado sem rosto, rosto gerado, ou foto real
+4. **Pessoa em cena**: modelo gerado sem rosto, rosto gerado, ou foto real
    fornecida (nunca pessoa real gerada).
 
-## Q.4 Rodada 3 — roteiro
+## Q.4 Rodada 3 — storyboard
 
-Mostre o roteiro em uma linha por slide (papel · cena/gesto · título ·
-texto de apoio) e a legenda. Pergunte só o que mudar. **Nenhum prompt antes
-da aprovação do roteiro.**
+Mostre o storyboard por slide na tabela canônica de
+`variacao-de-layout.md §V.5` (movimento, escala, câmera, layout, voz, nº de
+palavras, cabeçalho, `--ref`), com título e texto de apoio de cada slide, e
+a legenda. Pergunte só o que mudar. **Nenhum prompt antes da aprovação do
+storyboard.**
 
 ## Q.5 Encerramento
 
@@ -79,7 +85,8 @@ assumido em silêncio. Registre as decisões no topo da entrega (`SKILL.md
 §14`, item 1) e siga para os prompts.
 
 Atalho: se o usuário disser "decide você" ou já trouxer brief completo,
-aplique as recomendações de **todas** as rodadas (conceito, capa e
-roteiro inclusive), declare cada uma como decisão tomada e entregue
-roteiro + prompts juntos, avisando que o roteiro ainda pode ser ajustado.
+aplique as recomendações de **todas** as rodadas (conceito, linguagem
+visual, capa e storyboard inclusive), declare cada uma como decisão tomada
+e entregue storyboard + prompts juntos, avisando que o storyboard ainda
+pode ser ajustado.
 Sem resposta sobre verificação da conta, trate como **não verificada**.

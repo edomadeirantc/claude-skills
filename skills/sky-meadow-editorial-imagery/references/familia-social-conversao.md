@@ -22,14 +22,14 @@ atmosfera premium, mantenha A–E e aplique só o **kit de sequência** (§F.4).
 - **Foto que vira fundo de texto:** sujeito nos 75% superiores; a própria
   foto escurece em gradiente para quase preto (`#000000`–`#0A0A0A`) a partir
   de ~50% da altura, preto pleno por volta de 85%. Não é card nem tarja.
-- **Título gigante na base**, 3–4 linhas, ocupando 52–80% da altura, centrado
+- **Título gigante na base**, 3–4 linhas, ocupando 52–76% da altura, centrado
   (IG01, IG02, IG04, IG09, IG10) ou alinhado à esquerda (IG03, IG05).
 - **Um acento por série**, repetido no botão, no losango dos pontos, na tag
   e numa palavra/linha do título (IG04: a última linha inteira no acento).
 - **Selo de identidade:** @handle no topo (ver §F.3) e, opcional, selo de
   perfil acima do título (avatar redondo + nome + verificado, IG01) ou pílula
   de vidro escuro com o @ (IG04).
-- **Sinais de sequência:** pílula de CTA "ARRASTE PARA O LADO" (83–88%),
+- **Sinais de sequência:** pílula de CTA "ARRASTE PARA O LADO" (80–84%),
   pontos com losango ativo (90%), "01/0N" à esquerda e "ARRASTE →" à direita
   (92%). No último slide: pontos (losango no último) e numeração ficam; sai
   só o "ARRASTE →"; entra o CTA final.
@@ -126,7 +126,7 @@ Detalhes de grade, escala e contraste em `microtipografia-editorial.md §2–§4
 
 | Elemento | Posição (altura) | Frase de prompt ou regra |
 |---|---|---|
-| Pílula de CTA de arraste | 83–88%, centrada | `a solid {ACCENT} pill button with dark uppercase sans text "ARRASTE PARA O LADO", next to a small solid {ACCENT} circle containing a dark right arrow` (só na capa) |
+| Pílula de CTA de arraste | 80–84%, centrada (3:4 para corte: 78–82%) | `a solid {ACCENT} pill button with dark uppercase sans text "ARRASTE PARA O LADO", next to a small solid {ACCENT} circle containing a dark right arrow` (só na capa) |
 | Pontos de página | 90%, centrados | **camada, nunca no prompt** (`scripts/kit_overlay.mjs`) |
 | Numeração | 92%, x = 6% | **camada**: `"01/06"` sem espaços |
 | Arraste | 92%, terminando em x = 94% | **camada**: `"ARRASTE →"` (some no último slide) |
@@ -138,8 +138,8 @@ Cor do kit: cinza claro (~`#A0A0A0`) sobre base escura; cinza médio
 
 **Kit aplicado às famílias A–E:** foto, paleta e tipografia continuam da
 família; posições e desenho de pontos, numeração e pílula seguem esta
-tabela (substituem o rodapé a 94% de `formatos-e-composicao.md §7.4` para
-toda a série). O botão final continua o **de contorno**
+tabela (o rodapé fica a 92% em todas as famílias, como em
+`formatos-e-composicao.md §7.4`). O botão final continua o **de contorno**
 (`interface-vidro.md §V.7`); a pílula sólida de arraste só aparece na capa.
 Sempre: um único CTA por slide, a mesma ação pedida no briefing.
 
@@ -193,6 +193,10 @@ especialista, passo a passo) ou como série inteira de autoridade.
 
 ## F.6 Prompt base (capa F1, entrega 1080×1350)
 
+Só a capa usa este bloco; o miolo usa o layout do storyboard
+(`variacao-de-layout.md §V.5`). A linha `Camera:` vem da linha do slide no
+storyboard, nunca da bíblia.
+
 Gerado em 4:5. Se o gerador só der 3:4, troque a primeira linha por
 `A portrait 3:4 photograph…`, acrescente `Keep the top 4% and bottom 4% as
 plain continuous background with nothing important; they will be cropped.`
@@ -202,7 +206,7 @@ e substitua cada porcentagem pela coluna 3:4 de `formatos-e-composicao.md
 ```text
 A portrait 4:5 documentary photograph for the cover slide of an Instagram carousel.
 {SUBJECT_SENTENCE: the person from the character sheet (realismo-fotografico.md §R.10) doing a real gesture of the trade, in the living place (§R.11)}
-Camera: {35mm f/2 | 50mm f/2}, eye level, documentary reportage, focus on the nearest eye or the product label.
+Camera: {CAMERA from this slide's storyboard row: lens · height · angle}, documentary reportage, focus on the nearest eye or the product label.
 Light: the real available light of the place ({LIGHT_OF_THE_PLACE}, time of day), one dominant direction, natural uneven exposure; no spotlight, no moody grading.
 Palette: {BRAND_NEUTRALS}; {ACCENT_NAME} ({ACCENT_HEX}) appears only in the typography and interface, never on objects in the scene.
 Composition: the subject occupies 5% to 72% of the height. From 50% downward the photograph itself fades smoothly into near-black (#0A0A0A), fully dark from 85%; no box, card or band. Keep 4–9% calm for the top handle line.

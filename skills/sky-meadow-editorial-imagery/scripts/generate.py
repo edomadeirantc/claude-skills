@@ -49,6 +49,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--model", default=DEFAULT_MODEL, help="Modelo de imagem.")
     parser.add_argument(
+        "--cliente",
+        help="Incluir clientes/<nome> na checagem do acervo (so quando o usuario nomeia o cliente).",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Valida entradas e mostra a requisicao sem chamar a API.",
@@ -58,7 +62,7 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
-    acervo = check_assets(Path(__file__).resolve().parents[1])
+    acervo = check_assets(Path(__file__).resolve().parents[1], args.cliente)
     if acervo["erros"]:
         sys.exit("Erro no acervo; geração bloqueada:\n" + "\n".join(acervo["erros"]))
 

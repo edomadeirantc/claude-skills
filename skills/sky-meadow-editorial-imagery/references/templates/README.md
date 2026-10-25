@@ -7,11 +7,11 @@ combinar com um deles; as regras gerais continuam nos módulos de `../`.
 
 | ID | Template | Formato | Status | Caso | Arquivos |
 |---|---|---|---|---|---|
-| T1 | Carrossel de conversão para Instagram (serviço, SaaS, negócio local) | 1080×1350 + story 1080×1920 | **Testado, 3 rodadas** | Groomy (SaaS para barbearias) | `t1-carrossel-conversao.md`, `casos/groomy-carrossel-v4.md`, `../../assets/templates/groomy-rodada1.jpg`, `../../assets/templates/groomy-rodada2.jpg`, `../../assets/templates/groomy-rodada3-capas.png` |
+| T1 | Carrossel de conversão para Instagram (serviço, SaaS, negócio local) | 1080×1350 + story 1080×1920 | **Testado, 3 rodadas** | Groomy (SaaS para barbearias) | `t1-carrossel-conversao.md`, `casos/groomy-carrossel-v4.md` |
 | T2 | Pitch deck de 5 minutos | 16:9, 9 slides | **Testado, aprovado** | PlantMed (agro) | `t2-pitch-deck-16x9.md`, `casos/plantmed-pitch.md`, `../../assets/templates/modelo-financeiro-pitch.xlsx` |
 | T3 | Carrossel de produto na pele | 1080×1350, 6 slides | Prompts entregues, não testados | Femini Care (suplemento) | `t3-carrossel-produto-na-pele.md`, `casos/femini-care-carrossel.md` |
-| T4 | Clínica premium em fundo preto (HOF, odonto, estética, dermatologia) | 1080×1350, story, anúncio | **Estrutura aprovada pela cliente; texto reprovado** | Cirurgiã-dentista HOF (acervo local RC) | `t4-clinica-premium-fundo-preto.md` |
-| T5 | Segurança eletrônica e consultoria de segurança | post único, carrossel, anúncio | Prompts entregues, não testados | Consultoria de segurança eletrônica | `t5-seguranca-eletronica.md` |
+| T4 | Clínica premium em fundo preto (HOF, odonto, estética, dermatologia) | 1080×1350, story, anúncio | **Estrutura aprovada pela cliente; texto reprovado** | Clínica HOF real (estrutura transcrita) | `t4-clinica-premium-fundo-preto.md` |
+| T5 | Segurança eletrônica e consultoria de segurança | post único, carrossel, anúncio | Prompts entregues, não testados | Consultoria de segurança eletrônica | `t5-seguranca-eletronica.md` (storyboard de 9 slides em §SE.6) |
 
 ## Linha do tempo do que foi aprendido
 
@@ -21,12 +21,14 @@ combinar com um deles; as regras gerais continuam nos módulos de `../`.
 4. **PlantMed:** pitch 16:9 aprovado; bloqueio de política resolvido com prompt enxuto em slide sem pessoa.
 5. **Groomy rodada 3:** lugar precário (erro oposto); regra do padrão mediano bem cuidado.
 6. **Groomy v4:** prompts atuais com todas as correções (aguardando nova rodada).
-7. **Clínica HOF (T4):** fundo preto, linha dourada, painel e card aprovados; títulos-rótulo, preço de dentista e rosto da profissional inconsistente entre séries reprovados.
+7. **Clínica HOF (T4):** fundo preto, linha dourada e painel aprovados; card com preço retirado na curadoria; títulos-rótulo, preço de dentista e rosto da profissional inconsistente entre séries reprovados.
 8. **Referências de mercado MK01–MK26:** famílias G–J e o salto fora da caixa (`../repertorio-mercado.md`).
+9. **Curadoria de 25/10/2026:** folhas de contato das rodadas e artes retiradas saíram do pacote; as lições ficaram em texto (T1.5, V.0, K.2 e esta linha do tempo).
 
 ## Regras que todos os templates herdam
 
 - Contador do carrossel sempre em camada (`../../scripts/kit_overlay.mjs`).
+- Carrossel passa pelo storyboard canônico (`../variacao-de-layout.md §V.5`) antes dos prompts; câmera, lente, altura e ângulo vêm da linha do slide, nunca da bíblia.
 - Capa (ou slide 1) passa no portão antes de virar referência (`../realismo-fotografico.md §R.13`).
 - Lugar e pessoas no padrão da marca, nunca precários sem pedido (`§R.11.0`).
 - Referência de continuidade sem `identity`; slides sem pessoa sem referência.
@@ -34,5 +36,14 @@ combinar com um deles; as regras gerais continuam nos módulos de `../`.
 - Gerador entrega 3:4? Prompt composto para o corte (`../formatos-e-composicao.md §5.6`).
 
 Ao fechar um novo caso: crie `tN-*.md` ou atualize o template existente,
-salve os prompts finais em `casos/`, uma folha de contato por rodada em
-`assets/templates/` e a linha correspondente na tabela acima.
+salve os prompts finais em `casos/` e a linha correspondente na tabela
+acima. Não salve imagens de rodada no pacote.
+
+Cada rodada de teste é registrada no próprio caso, numa seção `## Rodadas`
+de `casos/{caso}.md`, uma linha por rodada:
+
+```
+data · gerador · MK por slide · nota da rubrica · falha principal · correção na skill
+```
+
+A nota da rubrica e o protocolo dos próximos testes estão em `../testes.md`.

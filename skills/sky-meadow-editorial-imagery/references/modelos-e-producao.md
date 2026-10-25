@@ -32,7 +32,7 @@ formato certo, por exemplo:
 Formato de lista curta, parâmetros no fim:
 
 ```text
-{subject}, {setting}, {camera}, {light}, deep cerulean sky, lush green grass, {accent}, {finish}, generous empty sky in the upper {N}% --ar 16:9 --style raw --stylize 150 --chaos 5 --no text, letters, logo, watermark, frame
+{subject}, {setting}, {camera}, {light}, {palette from the series bible}, {accent}, {finish}, generous empty space in the upper {N}% --ar 16:9 --style raw --stylize 150 --chaos 5 --no text, letters, logo, watermark, frame
 ```
 
 - Série: aprove um master e use `--sref <URL do master> --seed <n>` nas

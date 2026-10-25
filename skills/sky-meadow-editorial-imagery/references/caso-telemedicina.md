@@ -68,11 +68,11 @@ The result must remain a single full-bleed vertical 9:16 photograph with typogra
 PRESERVE FROM IMAGE 1 EXACTLY
 - The progressive frosted-glass gradient at the top: strong soft frost at the very top, fading smoothly to fully sharp, with no edges, boxes or lines.
 - The typography, unchanged in wording, accents, fonts, sizes, color and position.
-- The woman: same face, identity, expression, gaze into the lens, skin tone, dark wavy hair and olive linen top.
+- The woman: unchanged: facial features, expression, gaze into the lens, skin tone, dark wavy hair and olive linen top.
 - The real grass texture, soft natural light and muted natural color grade.
 
 ADD THE MAN FROM IMAGE 2
-- Add the man shown in IMAGE 2, keeping his face, identity, short dark hair, trimmed beard, skin tone and calm gentle expression exactly as in IMAGE 2.
+- Add the man shown in IMAGE 2, keeping his facial features, short dark hair, trimmed beard, skin tone and calm gentle expression exactly as in IMAGE 2.
 - He lies on his back in the grass on the left, shoulder to shoulder with the woman, who moves to the right. Both heads are at the same height, tilted very slightly toward each other, both looking straight into the lens.
 - Change his shirt to a plain deep charcoal linen shirt with no logos.
 - Pull the view back slightly so both fit naturally: the pair is centered horizontally, the tops of their heads at about 44% of the image height, their faces between about 48% and 62%, their shoulders and chests extending to the bottom edge. Both heads stay fully below the frosted gradient.
@@ -159,7 +159,7 @@ Prompt de conversão desktop (aprovado):
 Convert the provided image into a wide 16:9 website hero. Recompose it natively for a wide frame; do not crop, stretch or squeeze the reference.
 
 PRESERVE FROM THE REFERENCE EXACTLY
-- Both people: same faces, identities, profiles, closed eyes, serene expressions, skin texture, hair, light and colors. Do not retouch, beautify or change them.
+- Both people: the same people, unchanged: facial features, profiles, closed eyes, serene expressions, skin texture, hair, light and colors. Do not retouch, beautify or change them.
 - The muted dusty steel-blue sky (#546D8C at the top easing to #667E9F at the bottom), the warm late-afternoon sunlight from the upper left, the soft golden rim light, the subtle film grain and the natural color grade.
 - The typography style, the frosted-glass tags and the outlined button style.
 

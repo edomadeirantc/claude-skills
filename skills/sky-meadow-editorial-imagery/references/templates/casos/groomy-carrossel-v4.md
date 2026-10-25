@@ -1,5 +1,49 @@
 # Groomy · carrossel v4 · realismo documental, padrão mediano bem cuidado, contador em camada
 
+## Blocos para colar
+
+Cole os blocos do topo no lugar dos marcadores `{BÍBLIA}`, `{REALISMO}` e
+`{REALISMO-SEM-PESSOA}` em cada prompt. A câmera não está na bíblia: cada
+slide traz a sua linha `Camera:`. As linhas `Camera:` abaixo são as do caso
+aprovado e repetem 35mm na altura dos olhos em slides seguidos; em caso novo,
+cada slide segue a sua linha do storyboard (`variacao-de-layout.md §V.5`).
+
+BÍBLIA
+
+```text
+SERIES BIBLE (fixed: light, palette, accent, materials, type voices and the barber when he appears; place, scale, camera and layout come from each slide)
+- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
+- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
+- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
+- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
+- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look. Lens, height and angle come from the Camera line of each slide.
+- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
+- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
+- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
+- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
+- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+```
+
+REALISMO (slides com pessoa)
+
+```text
+REALISM (highest priority)
+- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
+- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
+- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
+- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
+- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+```
+
+REALISMO-SEM-PESSOA (slides 06 e 08)
+
+```text
+REALISM
+- It must pass as an unretouched photo of a real, used workspace: documentary photograph, available light, visible grain, true-to-life color.
+- Materials: wooden counter with visible grain and light marks of use, pomade jars of different brands with unreadable labels, cords, a few hair clippings.
+- Forbidden: showroom-clean styling, perfect symmetry of objects, CGI look, moody grading, readable invented text, logos or brand marks, and any run-down, cheap or dirty look.
+```
+
 ## Fluxo
 1. **Capa primeiro (slide 01), sem referência.** Antes de aprovar, passe no portão da capa abaixo. Se reprovar, gere a capa de novo: os outros slides herdam o que ela tiver de genérico.
 2. Slides 02, 03, 04, 05 e 07: `--ref capa_aprovada`. Slides 06 e 08: sem referência (não têm pessoa).
@@ -33,17 +77,7 @@ Evening, 8 pm, after closing: the glass storefront shows the dark street outside
 Camera: 35mm f/2 at eye level, a little to the side, focus on his face and hands.
 Composition: his head at about 24% and his hands at about 36% of the height; the paper reaches the floor at about 70%. From 52% downward the photograph itself darkens smoothly into near-black (#0A0A0A).
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered; on the right, a small solid lime (#C8F028) pill ending at 92% of the width with dark uppercase text "BARBEARIAS", same baseline.
@@ -53,12 +87,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```
 
 ## Slide 02 · STAKE · L2 · Pilha tipográfica
@@ -70,17 +99,7 @@ Camera: 50mm f/2, slightly above counter height, focus on the hand and the recei
 
 Reference image 1 is the approved cover: keep the same barbershop, the same barber's general look and clothing, and the same colors. Do not copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "Pilha tipográfica" layout described below.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered; on the right, a small solid lime pill ending at 92% of the width with dark uppercase "BARBEARIAS".
@@ -92,12 +111,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```
 
 ## Slide 03 · DOR · L3 · Legenda de cinema
@@ -110,17 +124,7 @@ Camera: 35mm f/2, eye level, documentary.
 
 Reference image 1 is the approved cover: keep the same barbershop, the same barber's general look and clothing, and the same colors. Do not copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "Legenda de cinema" layout described below.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line inside the top black bar: "@groomyoficial" centered; on the left, "A DOR" small uppercase grey sans at 8% of the width, same baseline. Nothing on the right.
@@ -129,12 +133,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```
 
 ## Slide 04 · VIRADA · L8 · Coluna lateral
@@ -147,17 +146,7 @@ Composition: the barber occupies 55% to 92% of the width; the left 50% of the wi
 
 Reference image 1 is the approved cover: keep the same barbershop, the same barber's general look and clothing, and the same colors. Do not copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "Coluna lateral" layout described below.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered; on the left, "A VIRADA" small uppercase grey sans at 8% of the width. Nothing on the right.
@@ -168,12 +157,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```
 
 ## Slide 05 · COMO · L11 · Fileira de botões
@@ -185,17 +169,7 @@ Camera: 50mm f/2, eye level, focus on the barber's hands and clipper; slight mot
 
 Reference image 1 is the approved cover: keep the same barbershop, the same barber's general look and clothing, and the same colors. Do not copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "Fileira de botões" layout described below.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered; on the left, "COMO FUNCIONA" small uppercase grey sans at 8% of the width. Nothing on the right.
@@ -204,12 +178,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```
 
 ## Slide 06 · RESUMO · L7 · Número gigante
@@ -218,17 +187,7 @@ REALISM (highest priority)
 A portrait 3:4 documentary photograph for slide 6 of 8 of the same carousel; the quietest middle slide.
 Top-down view of the barbershop counter at the end of the day, organized but in use: pomade jars of different brands, a comb, clippers with their cords, a hand towel, a coffee cup, a smartphone face down, a few hair clippings. The whole photograph is darkened by about 65% so it is only a texture.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered. No side labels.
@@ -238,10 +197,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM
-- It must pass as an unretouched photo of a real, used workspace: documentary photograph, available light, visible grain, true-to-life color.
-- Materials: wooden counter with visible grain and light marks of use, pomade jars of different brands with unreadable labels, cords, a few hair clippings.
-- Forbidden: showroom-clean styling, perfect symmetry of objects, CGI look, moody grading, readable invented text, logos or brand marks, and any run-down, cheap or dirty look.
+{REALISMO-SEM-PESSOA}
 ```
 
 ## Slide 07 · OBJEÇÃO · L4 · Balões de mensagem
@@ -253,17 +209,7 @@ Camera: 35mm f/2, eye level, focus on his face.
 
 Reference image 1 is the approved cover: keep the same barbershop, the same barber's general look and clothing, and the same colors. Do not copy its layout, text positions, font sizes, headline treatment or composition: this slide uses the "Balões de mensagem" layout described below.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered; on the left, "DÚVIDAS" small uppercase grey sans at 8% of the width. Nothing on the right.
@@ -274,12 +220,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```
 
 ## Slide 08 · CTA · L12 · Fechamento liso
@@ -288,17 +229,7 @@ REALISM (highest priority)
 A portrait 3:4 closing slide (8 of 8) of the same carousel, the calmest of the series.
 Mostly plain near-black (#0A0A0A). In the lower right corner only, a small dim documentary detail of the empty black barber chair in good condition, lit by one remaining warm spotlight, fading into the dark.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
-- Frame: portrait 3:4, composed to be center-cropped later to 4:5: the top 4% and bottom 4% contain only continuous background.
-- Top handle line, baseline at 8.8% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (a page counter is added later as an overlay).
+{BÍBLIA}
 
 Text, rendered exactly:
 - Top line: "@groomyoficial" centered; on the right, "TESTE 7 DIAS" small uppercase lime sans ending at 92% of the width.
@@ -311,10 +242,7 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM
-- It must pass as an unretouched photo of a real, used workspace: documentary photograph, available light, visible grain, true-to-life color.
-- Materials: wooden counter with visible grain and light marks of use, pomade jars of different brands with unreadable labels, cords, a few hair clippings.
-- Forbidden: showroom-clean styling, perfect symmetry of objects, CGI look, moody grading, readable invented text, logos or brand marks, and any run-down, cheap or dirty look.
+{REALISMO-SEM-PESSOA}
 ```
 
 
@@ -329,14 +257,7 @@ Evening, 8 pm, after closing: the glass storefront shows the dark street outside
 Camera: 35mm f/2 at eye level, documentary, focus on his face and hands.
 Composition: his head at about 26% and his hands at about 38% of the height; the paper reaches the floor at about 62%. From 52% downward the photograph darkens smoothly into near-black (#0A0A0A). Keep 70% to 80% of the height empty and evenly dark for an Instagram link sticker added later.
 
-SERIES BIBLE (same place and same barber in every slide; layout changes per slide)
-- Place: a well-kept, mid-market neighborhood barbershop in a Brazilian city, about 5 by 8 meters, successful and organized, the kind of place a regular customer trusts. Warm grey matte walls with one wall of exposed brick, wood-look porcelain floor, a glass storefront facing the street; warm LED spotlights on a ceiling track plus daylight from the storefront; two modern black hydraulic barber chairs in good condition; a long mirror with a simple wooden frame; a wooden counter with neatly arranged pomade jars of different brands, spray bottles, clippers on a charging base with their cords, a hand towel and a cup of coffee; a small waiting area with a fabric bench, a plant and a wall TV. During work there are a few hair clippings around the chair. Framed prints, a price board and a calendar on the wall stay soft, out of focus and unreadable.
-- The barber (same man in every slide): Rafael, 38, Brazilian, mixed-race, sturdy build with a small belly, short buzz cut with a receding hairline, a patchy salt-and-pepper beard trimmed a few days ago, a small healed scar through the left eyebrow, a faded black tattoo of a date on the right forearm, slightly crooked lower teeth when he smiles. He wears a clean plain black polo shirt with no logo, dark jeans, clean white sneakers and a simple black watch. Not a model: a real, likable professional who owns his shop.
-- Other people, when present: ordinary customers of varied ages, faces not the focus, partly turned away.
-- Light: the real light of the place, warm LED spotlights mixed with daylight from the storefront, pleasant and natural, one dominant direction; time of day as stated in each slide. No bare fluorescent tubes, no Edison bulbs, no moody concept lighting.
-- Photography: documentary reportage photograph taken during a normal working day for a Brazilian news magazine; full-frame camera, 35mm f/2 lens at eye level, available light, visible ISO grain, slightly imperfect framing, true-to-life color with mixed white balance, no color-grading look.
-- Brand treatment lives only in the design layer: lime (#C8F028) never appears on objects in the scene; it appears only in the typography and interface listed for each slide, at most one line or word.
-- Type voices: DISPLAY = heavy geometric sans-serif, uppercase, warm white (#F2F2F0). COUNTERPOINT = elegant high-contrast serif in italic, lowercase. UTILITY = clean monospace. Interface labels = neutral sans. Use only the voices the slide names.
+{BÍBLIA, sem as três últimas linhas, que neste story são:}
 - Frame: vertical 9:16 story, 1080×1920: the top 13% and the bottom 18% stay calm and dark (Instagram interface covers them).
 - Top handle line, baseline at 15% of the height: "@groomyoficial" centered, lowercase exactly as written, neutral sans, white at 85%, no verification badge. Only the side labels this slide lists; no other pills, tags or labels at the top.
 - No page counter in the story.
@@ -349,10 +270,5 @@ Text, rendered exactly:
 
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 
-REALISM (highest priority)
-- It must pass as an unretouched photo of a real place and a real person, not a stock photo, not an advertisement, not a render.
-- Skin of a 38-year-old: visible pores, uneven tone, some redness, oily forehead, fine lines around the eyes, the eyebrow scar, individual beard hairs of uneven length with grey hairs and patchy areas.
-- Hands: work-worn, small cuts and dry knuckles, exactly five fingers per hand.
-- Materials: leather seats with natural creases, wood grain with light marks of daily use, cotton with natural wrinkles, a few hair clippings near the chair, fingerprints on the mirror edge.
-- Forbidden: model-like or symmetrical face, perfectly groomed beard, glossy or airbrushed skin, studio lighting, cinematic or moody grading, teal-and-orange, an empty or showroom-clean set, Edison bulbs, CGI look, extra fingers, readable invented text on posters or objects, logos or brand marks, and any run-down, cheap, dirty or precarious look (cracked tiles, patches, stains, bare fluorescent tubes, exposed wiring, broken furniture).
+{REALISMO}
 ```

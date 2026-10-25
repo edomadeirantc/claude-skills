@@ -12,7 +12,8 @@ nunca as use como `--ref` de geração nem copie composições, marcas ou textos
 Cada referência tem uma combinação **sujeito + enquadramento** que é a
 assinatura dela. Repetir essa combinação, mesmo com outra cor ou outro texto,
 é cópia — e foi rejeitado pelo cliente no caso de telemedicina (carrossel 2).
-Use a coluna da direita: o que se pode aproveitar.
+Use a coluna da direita: o que se pode aproveitar. O teste anti-réplica
+vale contra **todas** as R/N/IG/MK, não só contra a referência citada.
 
 | Ref. | Assinatura (não repetir) | Pode aproveitar |
 |---|---|---|
@@ -30,21 +31,27 @@ Use a coluna da direita: o que se pode aproveitar.
 | IG05 | Jovem de capuz lendo o celular numa multidão noturna | Manchete à esquerda sobre base escura; tag de urgência |
 | IG09 | Profissional de jaleco segurando uma tigela de salada | Especialista do nicho + tag de categoria |
 | IG10 | Retrato 3/4 com linhas pontilhadas no rosto | Constelação sobre a área explicada; serif display |
+| MK01 | Pilha de 4 vozes tipográficas sobre figura pequena na colina, filme 35 mm | Pilha de vozes (TM5) sobre uma cena do cliente, com outra figura e outro lugar |
 | MK02 | Tecido laranja atravessando a palavra gigante "controlar" num campo | Objeto do universo da marca entrelaçado com a palavra-chave; caixa de seleção como metáfora de escolha |
 | MK03 | Arquibancada cinza com uma única cadeira lime | "Um se destaca" com outro objeto repetido do mundo do cliente |
 | MK06 | Bolas de papel amassado e uma vira lâmpada | Objeto do ofício que se transforma no resultado, com outro objeto |
+| MK08 | "Comment the word" com a palavra-chave gigante em serif itálica vermelha sobre grama escura | CTA como peça inteira, com a palavra do cliente, outra cena e outro acento |
+| MK09 | Trilha sinuosa com 6 nós em monocromia de veludo vermelho | Caminho com nós para passos, com outro material e o percurso do serviço do cliente |
 | MK10 | Xícara lime com vapor em pixel art e menu de contexto "Atualizar" | Interface do sistema como metáfora, com outro objeto e outro comando |
 | MK11 | Tecla 3D "Ctrl" substituindo letra da palavra CTRL | Letra trocada por objeto, com outra palavra e outro objeto do nicho |
 | MK13 | Olho iluminado por fenda de luz dentro de colchetes de foco | Recorte de luz revelando só o essencial no preto, com outra parte/objeto |
 | MK14 | "A grama do vizinho" com a última linha engolida pelo campo | Literalizar uma expressão do nicho; título parcialmente coberto pela paisagem |
 | MK19 | Mulher no capim cercada de telas de celular flutuando | Órbita de objetos em volta da pessoa, com outros objetos do serviço |
 | MK21 | Espectadora comendo pipoca sozinha em cinema vermelho | Literalizar "público"/"plateia"; serif itálica de contraponto |
+| MK22 | Calendário de ladrilhos de vidro, dois no acento, sobre poltronas desfocadas | Informação útil virando design, com outro dado do cliente e outro suporte |
 | MK24 | Computador antigo tomado por musgo no campo | Objeto obsoleto ou durável como ideia de tempo, com outro objeto |
-| MK07, MK12, MK15, MK17–MK18, MK20, MK23, MK26 | Janela de site real flutuando sobre paisagem com paginação BACK 01–08 NEXT | A estrutura (janela + cabeçalho de 3 âncoras + paginação) com a tela e a paisagem do cliente |
+| MK07, MK12, MK15, MK17–MK18, MK20, MK23, MK26 | Janela de site real flutuando sobre paisagem com paginação BACK 01–08 NEXT | A estrutura (janela + cabeçalho de 3 âncoras tema · @ · categoria + paginação em camada) com a tela e a paisagem do cliente, em no máximo 1/3 dos slides |
 | MK04, MK05, MK16, MK25 | Folha de papel com título serif itálico com dois-pontos e 3 miniaturas com setas vermelhas | A página-caderno para explicar processo, com outro papel, outro acento e conteúdo do cliente |
 
 As peças aprovadas G01/G02 **podem** ser reutilizadas (mesmo casal e
-estilo), mas um slide novo deve mostrar **outro gesto ou outra cena**.
+estilo) só em novas peças do próprio caso de telemedicina, e um slide novo
+deve mostrar **outro gesto ou outra cena**. Para outros clientes, valem só
+como estudo, como as R/N/IG/MK.
 
 ## 1. Primeira leva — R01 a R16 (céu & campo)
 
