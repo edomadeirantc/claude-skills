@@ -221,6 +221,9 @@ Reprove a peça se qualquer item **crítico** falhar.
       produto (`realismo-fotografico.md §R.11.0`).
 - [ ] Carrossel: 4+ layouts distintos em 8 slides, nenhum repetido em
       sequência, um slide de respiro; vozes tipográficas pelo papel do texto.
+- [ ] Série com movimento (`repertorio-mercado.md §R.5`): um movimento MK por
+      slide, objeto-símbolo da família em no máximo 1/3 dos slides, 3+ slides
+      com até 6 palavras, cabeçalho variando (3 âncoras, 2, espalhado, só @).
 - [ ] Imagens pertinentes realmente abertas antes do prompt; IDs e qualidades
       utilizadas registrados. Arquivos ausentes declarados, não imaginados.
 - [ ] Cabeçalho opcional: três textos exatos, âncoras consistentes, sem crédito

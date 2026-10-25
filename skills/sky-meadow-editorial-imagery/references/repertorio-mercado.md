@@ -142,9 +142,41 @@ Registro no conceito (`nichos-e-ideias.md §N.4`):
 | Formato | G · Objeto | H · Cinema | I · Janela | J · Caderno |
 |---|---|---|---|---|
 | Post único 4:5 | objeto central, frase em 2 linhas, assinatura no rodapé | foto inteira + título entrelaçado | 1 janela, 1 frase | página com 1 miniatura grande |
-| Carrossel | capa G, miolo alterna H/J | capa H, miolo L1–L12 com a mesma foto-base | uma janela por slide com paginação 01–08 | um passo por página, mesmo papel |
+| Carrossel | capa G, miolo alterna H/J | capa H, miolo L1–L12 com a mesma foto-base | uma janela por slide com paginação 01–08 | a prancheta/página em no máximo 2–3 slides; o resto em outras escalas (R.5) |
 | Story/Reels 9:16 | objeto no terço central | título no meio; topo e base livres | janela menor, centro | evitar: texto pequeno demais |
 | Anúncio | o melhor: entende-se sem ler | bom para marca; teste com G | bom para app/SaaS | fraco em mídia paga |
 | Slide 16:9 | objeto à direita, texto à esquerda | foto de fundo, título em L8 | janela grande à direita | pouco indicado |
 
 Zonas, proporções e áreas da plataforma em `formatos-e-composicao.md §5.7`.
+
+## R.5 Série com movimento (a família é o fio, não o molde)
+
+Erro visto no caso de consultoria de segurança, carrossel em caderno: os 9
+slides saíram com a mesma prancheta vista de cima, o mesmo bloco de texto
+no topo e a mesma densidade de texto. O universo estava certo; a série
+estava morta. Uma família define **luz, paleta, acento e materiais**; ela
+não define cena, escala nem quantidade de texto. Regras para qualquer
+carrossel:
+
+1. **Um movimento por slide.** Cada slide nasce de uma MK diferente (ou de
+   uma alavanca de `nichos-e-ideias.md §N.4`); dois slides seguidos nunca
+   usam o mesmo movimento. Registre o movimento ao lado do prompt.
+2. **O objeto-símbolo da família aparece em no máximo 1/3 dos slides**
+   (prancheta, janela, papel, painel). Nos outros, mude a escala: foto em
+   tela cheia, macro, página só de tipografia, objeto como herói, recorte de
+   luz no escuro, folha de contato, mão em cena.
+3. **Densidade de texto varia pelo papel do slide.** Em 9 slides, pelo
+   menos 3 com até 6 palavras (manchete sozinha), 1 de respiro só
+   tipográfico, no máximo 3 com parágrafo.
+4. **O cabeçalho varia:** 3 âncoras (capa, falha numerada, checklist), 2
+   âncoras, microrrótulos espalhados na cena (MK13) ou só o @. O @ continua
+   no centro do topo em todos.
+5. **Vozes tipográficas pelo papel** (`variacao-de-layout.md §V.3`): serif
+   itálica nas frases de reflexão, extensa pesada nos golpes curtos, mono
+   nos rótulos.
+6. **Referência de continuidade só nos slides do mesmo cenário.** Foto em
+   tela cheia de outro lugar vai sem a capa como `--ref`, senão o gerador
+   copia a mesa.
+
+Teste antes de entregar: ponha as 9 miniaturas lado a lado. Se três
+seguidas parecem a mesma foto com outro texto, refaça o roteiro.
