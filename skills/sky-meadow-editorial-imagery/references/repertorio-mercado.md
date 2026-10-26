@@ -281,3 +281,38 @@ Do not include: photos inside the frames, extra handwriting, sticky notes, logos
 
 A J vale para no máximo 1/3 dos slides de uma série (§R.5.2); as miniaturas
 reais entram em camada.
+
+## R.7 Ritmo impacto × leitura e o surreal crível
+
+Pedido validado pelo usuário (segurança eletrônica, 25/10/2026): a série
+alterna **slides de impacto** (imagem surreal, quase sem texto) e **slides de
+leitura** (copy que explica e prende). Um só tipo cansa: só impacto vira
+pôster sem conteúdo, só leitura vira apostila.
+
+| Tipo | Imagem | Texto | Função |
+|---|---|---|---|
+| **Impacto (I)** | uma ideia visual impossível numa cena fotográfica crível | até 6 palavras | parar o polegar, criar a pergunta |
+| **Leitura (L)** | foto calma ou textura da série, espaço amplo para o texto | 20–45 palavras, frases curtas | responder a pergunta e abrir a próxima |
+
+Regras:
+
+1. A capa é sempre **I**. O fechamento pode ser I ou L, com um único pedido.
+2. Nunca três slides seguidos do mesmo tipo; padrão I-L-I-L, com o resumo
+   (slide de salvar) como L.
+3. Cada L termina com um **gancho de passagem** de até 5 palavras que puxa o
+   próximo slide ("Agora, o alarme →", "O último é o que mais esquecem →").
+   Não é promessa nem número inventado.
+4. Cada I responde a uma pergunta que o L seguinte explica: a imagem planta,
+   a copy colhe.
+
+**Surreal crível** (para os I): **uma** coisa impossível dentro de uma foto
+que, fora isso, é totalmente plausível: luz coerente, sombras de contato,
+materiais reais, escala física. Alavancas que funcionam: escala (a casa
+dentro da mala), deslocamento (a sala ao vivo na tela, na praia), presença
+na ausência (a sombra de alguém lendo numa sala vazia), isolamento (a casa
+sozinha no meio do mar). Escreva no prompt `photographed as a real scene;
+the only impossible element is {X}`. Mais de um elemento impossível vira
+colagem de IA e reprova no QA.
+
+No storyboard (`variacao-de-layout.md §V.5`), escreva `I` ou `L` na coluna
+"papel".

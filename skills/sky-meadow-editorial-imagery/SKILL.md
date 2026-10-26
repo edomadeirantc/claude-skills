@@ -49,6 +49,8 @@ A ideia vem antes da família, e a variação é planejada antes do prompt.
    linha por slide com movimento MK, escala/cena, câmera (lente · altura ·
    ângulo), layout, voz, nº de palavras, cabeçalho e se repete o lugar da
    capa. **Carrossel = um universo, não uma cena** (`repertorio-mercado.md §R.5`).
+   Carrossel alterna slides de **impacto** (surreal crível, até 6 palavras) e
+   de **leitura** (20–45 palavras com gancho de passagem), `repertorio-mercado.md §R.7`.
    Post único e anúncio: uma linha, com 2–3 variações para teste.
 5. **Copy:** título de 3–7 palavras; o contraste tipográfico vem do
    movimento (`repertorio-mercado.md §R.2`), não de itálico obrigatório.
@@ -174,8 +176,10 @@ combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
 1. Storyboard lado a lado: três linhas seguidas parecem "a mesma foto com
    outro texto"? Refaça.
 2. Linhas `Camera:` distintas nos prompts: pelo menos metade do nº de slides.
-3. Densidade: 3+ slides com até 6 palavras, 1 só tipográfico, no máximo 3
-   com parágrafo (carrossel de 7+ slides).
+3. Densidade e ritmo: 3+ slides com até 6 palavras, 1 só tipográfico, no
+   máximo 3 com parágrafo (carrossel de 7+ slides); capa de impacto, nunca
+   três slides seguidos do mesmo tipo (I/L), cada L com gancho de passagem,
+   cada I com um único elemento impossível (§R.7).
 4. Busca nos prompts por `cerulean|grassy hill|35mm f/2 at eye level|identity|same face|match the reference exactly`:
    cada ocorrência justificada ou removida.
 5. Cada prompt traz, numa linha de nota `# slide N · MK## · L#` (linhas com
