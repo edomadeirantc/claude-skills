@@ -80,6 +80,8 @@ Pares por tom da marca:
 Mono e itálica nunca no mesmo bloco; cor de acento em no máximo uma linha
 ou palavra por slide.
 
+Observado na rodada de segurança eletrônica (25/10/2026): com "very wide extended heavy grotesque" o gerador alternou entre fonte larga e condensada na mesma série. Descreva a voz display pela forma ("tall condensed heavy grotesque, bold condensed headline style") e repita a mesma frase em todos os prompts; quando um slide sair com outra fonte, corrija por edição usando um slide aprovado como amostra de tipo (`edicao-iterativa.md`). Palavra-chave do título nunca fica coberta por objeto: o sanduíche cobre só a ponta de uma letra.
+
 ## V.4 Referência de continuidade, nunca de layout
 
 Do slide 2 em diante, a capa aprovada entra como referência de
