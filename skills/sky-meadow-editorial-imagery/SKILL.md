@@ -140,7 +140,9 @@ combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
 
 ## Princípios de nível de mercado
 
-1. **Uma ideia, um herói, um acento.** Tudo o mais é silêncio.
+1. **Uma ideia, um herói, um acento.** Tudo o mais é silêncio. A cor da
+   marca é tempero: até ~5% da área por slide (um ponto, um fio, uma palavra);
+   fundo inteiro na cor da marca no máximo em 1 slide da série.
 2. **O texto tem lugar reservado.** Zona limpa em porcentagem no prompt;
    contraste calculado para a cor do texto (`formatos-e-composicao.md`).
 3. **Texto e imagem se entrelaçam** quando possível: título atrás da cabeça,
@@ -220,9 +222,9 @@ Reprove a peça se qualquer item **crítico** falhar.
 - [ ] Capa aprovada no portão da capa antes de virar referência; nada de
       banco de imagem: personagem com ficha, lugar vivo, luz do lugar
       (`realismo-fotografico.md §R.9–R.13`, `nichos-e-ideias.md §N.5`).
-- [ ] Lugar e pessoas no padrão da marca (mediano bem cuidado por padrão):
-      nada pobre, sujo, quebrado ou precário, salvo pedido do cliente ou do
-      produto (`realismo-fotografico.md §R.11.0`).
+- [ ] Lugar e pessoas no padrão escolhido no briefing (premium, mediano ou
+      popular digno), nunca abaixo do posicionamento que a marca quer; nada
+      pobre, sujo ou precário sem pedido (`realismo-fotografico.md §R.11.0`).
 - [ ] Carrossel: 4+ layouts distintos em 8 slides, nenhum repetido em
       sequência, um slide de respiro; vozes tipográficas pelo papel do texto.
 - [ ] Série com movimento (`repertorio-mercado.md §R.5`): um movimento MK por

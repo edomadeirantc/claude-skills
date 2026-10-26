@@ -16,7 +16,7 @@ from pathlib import Path
 
 BANNED = re.compile(r"cerulean|grassy hill|35mm f/2 at eye level|\bidentity\b|same face|"
                     r"match the reference (?:image )?exactly", re.IGNORECASE)
-MOVEMENT = re.compile(r"\b(?:MK\d{2}|IG\d{2}|R\d{2}|N\d{2})\b")
+MOVEMENT = re.compile(r"\b(?:MK\d{2}|IG\d{2}|R\d{2}|N\d{2}|TM\d)\b")
 
 
 def split_prompt(text: str) -> tuple[list[str], str]:

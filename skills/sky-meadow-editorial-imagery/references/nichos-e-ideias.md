@@ -130,14 +130,15 @@ nicho, alguém diria "é a mesma foto com outro texto"? Então descarte.
 O gerador tem um cenário padrão para cada nicho; pedir o nicho de forma
 genérica devolve esse padrão. Use a coluna da direita na bíblia da série
 (`realismo-fotografico.md §R.10–R.11`). Os detalhes abaixo são de um lugar
-**mediano bem cuidado** (R.11.0): vida e uso, nunca dano ou pobreza. Ajuste
-para premium ou popular digno só se a análise da marca pedir.
+**mediano bem cuidado** (R.11.0): vida e uso, nunca dano ou pobreza. O padrão
+vem do briefing; linhas "premium" abaixo para os nichos onde o usuário já pediu.
 
 | Nicho | Padrão de IA a evitar | Detalhes de vida real, padrão mediano (Brasil) |
 |---|---|---|
 | Barbearia | concreto escuro, lâmpada Edison, barbeiro de comercial com avental de couro | parede cinza quente com um painel de tijolo, piso amadeirado, vitrine para a rua, spots quentes em trilho, cadeiras hidráulicas pretas em bom estado, potes de pomada de marcas diferentes, máquinas na base com os fios, cabelo perto da cadeira durante o corte, banco de espera, planta, TV na parede, tabela de preços fora de foco |
 | Clínica estética / odonto | sala branca impecável, profissional de capa de revista | maca com papel descartável, luvas na caixa, armário com etiquetas (ilegíveis), recepção com planta e bebedouro, profissional de jaleco com caneta no bolso e crachá virado |
 | Clínica premium (HOF, fundo preto) | consultório de mármore genérico, profissional de revista, luz dourada em tudo | retrato real da profissional (foto como `--ref`), cadeira e bancada reais, luz de janela lateral + recorte, linha dourada fina só na interface |
+| Segurança eletrônica (premium) | rua de bairro, porta de enrolar, fachada simples, câmera barata em destaque | casa contemporânea e condomínio de alto padrão na hora azul com interior aceso, lobby corporativo de pedra e vidro, garagem de condomínio, família chegando de carro, executivo saindo do escritório, painel de acesso em metal escovado, câmera discreta integrada à arquitetura, consultor bem vestido com tablet |
 | Segurança eletrônica | sala de monitoramento de filme, hacker de capuz, câmeras em toda parede | técnico de uniforme da empresa instalando câmera numa fachada comum, caixa de passagem, cabo passado em canaleta, app de monitoramento no celular do dono, loja baixando a porta de enrolar à noite |
 | Nutrição | nutricionista sorrindo com salada perfeita | consultório com balança e fita métrica, potes de comida de verdade, geladeira de casa com ímãs, feira com caixotes, sacola reutilizável |
 | Suplemento / produto na pele | pele de vidro, gotas perfeitas, fundo infinito | banheiro ou quarto de casa bem cuidado, luz da janela, pele com marcas e pelos, frasco com marca de dedo, copo d'água comum |

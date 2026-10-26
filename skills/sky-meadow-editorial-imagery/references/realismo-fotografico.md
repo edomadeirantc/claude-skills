@@ -182,11 +182,11 @@ reforma, denúncia). O padrão vem da análise da marca e do público
 
 | Padrão | Quando | Como descrever |
 |---|---|---|
-| **Mediano bem cuidado** (padrão) | Pequeno negócio, SaaS para PME, serviço de bairro, produto de preço médio | `well-kept, mid-market, successful and organized`; materiais simples e bons, luz agradável, móveis em bom estado |
-| Premium | Marca ou preço premium, público A | materiais nobres, design autoral, poucas peças, luz cuidada (sem cair no banco de imagem: mantenha as cinco camadas) |
+| **Mediano bem cuidado** | Pequeno negócio, SaaS para PME, serviço de bairro, produto de preço médio, quando a marca quer parecer próxima | `well-kept, mid-market, successful and organized`; materiais simples e bons, luz agradável, móveis em bom estado |
+| **Premium** | Marca ou preço premium, público A, **ou marca que quer se posicionar acima do porte atual** (o feed é aspiracional) | arquitetura contemporânea, pedra, madeira escura, vidro, metal escovado, paisagismo; luz quente de interior combinada com hora azul ou dourada; pessoas bem vestidas vivendo o lugar (chegando, conversando, saindo); poucas peças, muito respiro. Vida vem de gente, luz e movimento, não de desgaste. Evite fachada comum de rua de bairro, porta de enrolar, fiação aparente, comércio simples |
 | Popular digno | Público C/D, quando a marca fala com ele | lugar simples, limpo e organizado, com orgulho do dono; nunca sujo ou quebrado |
 
-Na dúvida, mediano bem cuidado. Nunca abaixo do posicionamento da marca.
+O padrão é **escolha do briefing**, com recomendação (`briefing-perguntas.md` Q.2). Sem resposta, use o mais alto que a marca sustenta sem mentir; nunca abaixo do posicionamento que ela quer. Erro observado (segurança eletrônica, 25/10/2026): o padrão mediano gerou lojas e casas de bairro simples e foi lido pelo usuário como "baixa renda, sem vida". Marca de serviço que quer ser premium usa Premium.
 Sempre proibir no bloco de realismo: `any run-down, cheap, dirty or
 precarious look (cracked tiles, patches, stains, bare fluorescent tubes,
 exposed wiring, broken furniture)`.
