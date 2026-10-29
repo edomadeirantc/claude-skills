@@ -4,13 +4,13 @@
   "pacote": "público",
   "resumo": {
     "fontes_estudo_distribuidas": 0,
-    "geracoes_aprovadas_distribuidas": 2,
+    "geracoes_aprovadas_distribuidas": 0,
     "historicos_distribuidos": 0,
-    "imagens_unicas_distribuidas": 38,
-    "folhas_contato": 2,
-    "demonstracoes_derivadas": 1,
+    "imagens_unicas_distribuidas": 26,
+    "folhas_contato": 1,
+    "demonstracoes_derivadas": 0,
     "anexos_conversa_distribuidos": 0,
-    "referencias_carrossel_distribuidas": 10,
+    "referencias_carrossel_distribuidas": 0,
     "historicos_teste_distribuidos": 0,
     "referencias_mercado_distribuidas": 26,
     "artes_cliente_distribuidas": 0
@@ -835,9 +835,9 @@
     {
       "id": "G01",
       "papel": "aprovada",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/aprovadas/g01-casal-grama-mobile.png",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 941,
         "altura": 1672
@@ -852,17 +852,18 @@
       "marca_cliente_visivel": false,
       "permissoes": {
         "uso": "referência autorizada e golden",
-        "anexar_ao_gerador": true,
-        "redistribuicao_publica": true,
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
         "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      }
+      },
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "G02",
       "papel": "aprovada",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/aprovadas/g02-perfis-frente-a-frente-mobile.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1536,
         "altura": 2752
@@ -877,17 +878,18 @@
       "marca_cliente_visivel": false,
       "permissoes": {
         "uso": "referência autorizada e golden",
-        "anexar_ao_gerador": true,
-        "redistribuicao_publica": true,
+        "anexar_ao_gerador": false,
+        "redistribuicao_publica": false,
         "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
-      }
+      },
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG01",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig01-capa-retrato-handle-selo-perfil.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -903,17 +905,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG02",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig02-capa-retrato-pilula-vermelha.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -929,17 +931,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG03",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig03-fechamento-salvar-post.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -955,17 +957,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG04",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig04-capa-cabecalho-tres-ancoras-handle.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -981,17 +983,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG05",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig05-capa-noticia-urgente.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1007,17 +1009,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG06",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig06-capa-cartao-tweet.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1033,17 +1035,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG07",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig07-miolo-cartao-tweet.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1059,17 +1061,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG08",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig08-fechamento-cartao-tweet.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1085,17 +1087,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG09",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig09-capa-nicho-nutricao.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1111,17 +1113,17 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "IG10",
       "papel": "estudo",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/carrosseis/ig10-capa-nicho-clinica-constelacao.jpg",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1080,
         "altura": 1440
@@ -1137,10 +1139,10 @@
       "permissoes": {
         "uso": "referência de consulta para escrever prompts: estrutura, zonas, tipografia, acento e kit de sequência",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "publicação no repositório por decisão expressa do usuário; direitos de imagem de pessoas e de terceiros não transferidos; não atribuir licença MIT à imagem"
       },
-      "motivo": "Publicado a pedido do usuário para que a skill consulte os pixels ao escrever prompts. Contém pessoa pública e @/nome de terceiros: consultar, nunca reproduzir pessoas, nomes ou textos nem anexar ao gerador."
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     },
     {
       "id": "MK01",
@@ -2596,8 +2598,6 @@
     }
   ],
   "indices": [
-    "assets/indices/geracoes-aprovadas.jpg",
-    "assets/indices/carrosseis-ig.jpg",
     "assets/indices/mercado-mk.jpg"
   ],
   "nao_recuperado": [
@@ -2608,14 +2608,14 @@
       "motivo": "O arquivo de nome hexadecimal indicado no Desktop.rar é N12, imagem de terceiro, e não um desktop próprio aprovado."
     }
   ],
-  "direitos": "A licença do código da skill não concede licença MIT às imagens. São distribuídas as duas gerações próprias autorizadas (G01/G02) e, por decisão do usuário, os 10 carrosséis de referência IG01–IG10, somente para consulta. Também são distribuídas, por decisão do usuário, as 26 referências de mercado MK01–MK26, só para consulta. As artes de cliente RC01–RC33 ficam somente no acervo local (rostos de pacientes).",
+  "direitos": "A licença do código da skill não concede licença MIT às imagens. O acervo distribuído são as 26 referências de mercado MK01–MK26, publicadas por decisão do usuário, só para consulta, e o índice delas. G01/G02, IG01–IG10 e D01 foram removidos na curadoria de 29/10/2026 e ficam só como fichas. As artes de cliente RC01–RC33 ficam somente no acervo local (rostos de pacientes).",
   "derivados": [
     {
       "id": "D01",
       "papel": "demonstracao_tecnica_derivada",
-      "disponibilidade": "incluida_no_pacote",
-      "distribuido": true,
-      "caminho": "assets/indices/microtipografia-exemplo.png",
+      "disponibilidade": "removida_na_curadoria",
+      "distribuido": false,
+      "caminho": null,
       "dimensoes": {
         "largura": 1536,
         "altura": 2752
@@ -2631,7 +2631,7 @@
       "permissoes": {
         "uso": "demonstração da grade, não golden; referência técnica autorizada",
         "anexar_ao_gerador": false,
-        "redistribuicao_publica": true,
+        "redistribuicao_publica": false,
         "licenca": "autorização específica do usuário; não atribuir licença MIT à imagem"
       },
       "rotulos": [
@@ -2659,16 +2659,31 @@
         "maximo": 5.348,
         "limiar_texto_pequeno": 4.5,
         "aprovado": false
-      }
+      },
+      "motivo": "Removida do acervo na curadoria de 29/10/2026: o usuário manteve só as referências de mercado MK01–MK26. A ficha fica como registro textual das observações; não há pixels para consultar nem anexar."
     }
   ],
   "curadoria": {
-    "data": "2026-10-25",
+    "data": "2026-10-29",
     "fonte": "seleção do usuário",
+    "mantidos": "MK01–MK26",
     "removidos_publicos": [
       "TG-R1",
       "TG-R2",
-      "TG-R3"
+      "TG-R3",
+      "G01",
+      "G02",
+      "IG01",
+      "IG02",
+      "IG03",
+      "IG04",
+      "IG05",
+      "IG06",
+      "IG07",
+      "IG08",
+      "IG09",
+      "IG10",
+      "D01"
     ]
   },
   "regra_clientes": "Material de cliente (RC e pasta clientes/) fica desligado por padrão: só é consultado quando o usuário nomeia o cliente no chat."

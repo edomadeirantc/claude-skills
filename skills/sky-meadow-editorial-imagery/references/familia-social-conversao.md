@@ -2,8 +2,10 @@
 
 Carrossel de Instagram feito para **parar o polegar e levar ao arraste**:
 foto emocional que escurece na base, título enorme, um acento de cor, selo
-do perfil e sinais claros de sequência (pontos, "ARRASTE", botão). Refs.:
-IG01–IG10 (`referencias.md §1.3`). Segue a arquitetura de `prompts.md §6`, o
+do perfil e sinais claros de sequência (pontos, "ARRASTE", botão). Regras
+medidas em IG01–IG10 (`referencias.md §1.3`; imagens removidas em 29/10/2026,
+as medições continuam valendo); para abrir pixels, use as MK do movimento
+(`acervo-visual.md`). Segue a arquitetura de `prompts.md §6`, o
 bloco de realismo de `realismo-fotografico.md §R.6` e o QA de `../SKILL.md §12`.
 
 A Família F não substitui A–E: use-a quando o objetivo é **alcance e

@@ -161,19 +161,11 @@ Para hero web, manter os metadados em HTML quando houver informação que precis
 6. Comparar com a peça aprovada: pessoas, textura, botão e enquadramento permaneceram intactos quando só o cabeçalho foi solicitado?
 7. Se a geração falhar na grafia/grade, corrigir em camada tipográfica. Não chamar o resultado de pronto sem inspecionar a exportação.
 
-### Demonstração visual distribuída
+### Lição da demonstração D01 (imagem removida em 29/10/2026)
 
-Abra `../assets/indices/microtipografia-exemplo.png` (D01): os três rótulos
-foram compostos sobre G02 por tipografia determinística, sem recorte da foto
-e sem alterar o golden. É uma demonstração de **grade e hierarquia**, não
-uma peça final aprovada nem prova de lettering produzido por IA.
-
-Na verificação, o branco do cabeçalho contra os pixels correspondentes da
-fotografia original apresentou contraste mínimo de **4,248:1** e máximo de
-5,348:1 (5.949 pixels totalmente preenchidos dos glifos). O mínimo fica
-abaixo da meta de 4,5:1 para texto pequeno. Portanto, não reutilize D01 como
-arte final acessível: numa produção nova, escolha uma área de fundo mais
-escura/composição apropriada e volte a medir. A visualização a 390 px
-confirma que as três âncoras cabem sem colisão e permanecem secundárias;
-isso não substitui o requisito de contraste nem torna microtexto apropriado
-para informação essencial.
+A D01 compunha os três rótulos sobre uma foto clara por tipografia
+determinística. O branco do cabeçalho mediu contraste mínimo de **4,248:1**
+(máximo 5,348:1), abaixo da meta de 4,5:1 para texto pequeno, mesmo com as
+três âncoras cabendo sem colisão a 390 px. Regra que fica: microtexto branco
+sobre foto clara precisa de uma área de fundo mais escura ou de outra
+composição, e o contraste se mede no pior ponto da exportação final.

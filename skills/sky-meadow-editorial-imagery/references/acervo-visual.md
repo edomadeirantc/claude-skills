@@ -1,9 +1,11 @@
 # Acervo visual — consulta obrigatória antes de cada prompt
 
-O acervo foi **curado pelo usuário em 25/10/2026**: ficaram só as imagens que
-ele considera as melhores. Elas são a régua de qualidade. Nenhuma é molde:
-de cada uma sai um movimento, uma decisão de tipografia ou de luz; a cena
-nasce do cliente (`repertorio-mercado.md §R.3`).
+O acervo foi **curado pelo usuário em 25/10/2026 e de novo em 29/10/2026**:
+ficaram só as 26 referências de mercado MK01–MK26. Elas são a régua de
+qualidade. Nenhuma é molde: de cada uma sai um movimento, uma decisão de
+tipografia ou de luz; a cena nasce do cliente (`repertorio-mercado.md §R.3`).
+G01/G02, IG01–IG10 e D01 saíram do acervo; as fichas delas em
+`referencias.md` continuam como registro das regras aprendidas, sem imagem.
 
 ## Passos
 
@@ -16,9 +18,9 @@ nasce do cliente (`repertorio-mercado.md §R.3`).
    | Peça | Abra primeiro | Índice |
    |---|---|---|
    | Post único, anúncio, capa de alto impacto, slide | 2–3 MK do movimento pretendido | `assets/indices/mercado-mk.jpg` |
-   | Carrossel de conversão (kit de sequência, @, pílula) | 1–2 IG do mesmo papel (capa, miolo, fechamento) **e** 1–2 MK para o movimento | `carrosseis-ig.jpg` + `mercado-mk.jpg` |
-   | Hero web ou peça de paisagem (céu, campo, vidro) | 2–3 R/N (só instalação local) ou G01/G02 | `referencias-R.jpg`, `referencias-N.jpg`, `geracoes-aprovadas.jpg` |
-   | Continuidade com o caso telemedicina | G01/G02 | `geracoes-aprovadas.jpg` |
+   | Carrossel de conversão (kit de sequência, @, pílula) | 2–4 MK: uma do papel da capa e as do movimento dos slides; kit e @ pelas regras de `familia-social-conversao.md` | `mercado-mk.jpg` |
+   | Hero web ou peça de paisagem (céu, campo, vidro) | 2–3 MK de paisagem (MK01, MK14, MK15, MK17, MK18, MK23, MK26) | `mercado-mk.jpg` |
+   | Continuidade com o caso telemedicina | sem imagem: prompts aprovados em `caso-telemedicina.md` | — |
 
    Carrossel: escolha **uma MK diferente por slide** (`repertorio-mercado.md §R.5`).
 3. **Leia os pixels**, não o nome: sujeito e gesto, escala, enquadramento,
@@ -47,11 +49,10 @@ Consultar é abrir os pixels para análise. Anexar é enviar ao gerador.
 
 | Grupo | Consultar | Anexar ao gerador |
 |---|---|---|
-| MK01–MK26, IG01–IG10 | sim (publicadas por decisão do usuário) | **não**: têm marcas, @, pessoas e obras de terceiros |
+| MK01–MK26 | sim (publicadas por decisão do usuário) | **não**: têm marcas, @, pessoas e obras de terceiros |
 | R01–R16, N01–N18 | sim, só na instalação local | **não** |
-| G01/G02 | sim | sim, para continuidade do mesmo casal e luz |
+| G01/G02, IG01–IG10, D01 | não: removidas em 29/10/2026, só ficha | — |
 | RC (cliente) | só com o cliente nomeado | **não**; o retrato da profissional vem de foto real enviada por ela |
-| D01 (grade de rótulos sobre G02) | sim, como exemplo técnico | não |
 
 Declare quais imagens foram de fato anexadas. Se o gerador não aceita
 anexos, descreva os princípios observados; não alegue condicionamento por
@@ -62,9 +63,9 @@ arquivo que ele não recebeu.
 | Grupo | Instalação local | Pacote público (GitHub) |
 |---|---|---|
 | MK01–MK26 | `assets/mercado/` | mesmo |
-| IG01–IG10 | `assets/carrosseis/` | mesmo |
+| Índice MK | `assets/indices/mercado-mk.jpg` | mesmo |
 | R01–R16, N01–N18 | `assets/originais/` + miniaturas em `assets/referencias/` | só metadados (`caminho=null`) |
-| G01/G02, D01 | `assets/aprovadas/`, `assets/indices/` | mesmo |
+| G01/G02, IG01–IG10, D01 | removidas em 29/10/2026 | só metadados (`caminho=null`) |
 | RC (cliente de saúde) | `clientes/{cliente}/artes/` | só metadados; nunca publicado (pacientes) |
 
 Fonte única de caminhos, hashes e permissões: `assets/catalogo.json`. No

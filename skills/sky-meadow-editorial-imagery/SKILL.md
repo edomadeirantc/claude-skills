@@ -1,6 +1,6 @@
 ---
 name: sky-meadow-editorial-imagery
-description: Use para criar, dirigir, editar e finalizar arte de alto impacto em nível de mercado — post único, carrossel de Instagram 1080×1350, story 1080×1920, anúncio (feed, Stories/Reels, display), slide 16:9 e hero web — a partir de um acervo de referências validadas (padrão de mercado MK, carrosséis IG, peças aprovadas) que ensina o movimento da ideia sem copiar a cena. Identifica nicho e branding pelo material, faz rodadas de perguntas, propõe 3 conceitos fora da caixa e entrega prompts para o CLI/API desta skill (Gemini), para outras IAs (ChatGPT/GPT Image, Midjourney, Flux, Ideogram) e copy aplicada. Inclui templates testados (carrossel de conversão, pitch, produto na pele, clínica premium em fundo preto com regras CFO/CFM, segurança eletrônica), tipografia de contraste, realismo, edição iterativa, conversão entre formatos e exportação web. Não use para ícones, diagramas, UI de produto ou ilustração plana.
+description: Use para criar, dirigir, editar e finalizar arte de alto impacto em nível de mercado — post único, carrossel de Instagram 1080×1350, story 1080×1920, anúncio (feed, Stories/Reels, display), slide 16:9 e hero web — a partir de um acervo de 26 referências de mercado validadas (MK01–MK26) que ensina o movimento da ideia sem copiar a cena. Identifica nicho e branding pelo material, faz rodadas de perguntas, propõe 3 conceitos fora da caixa e entrega prompts para o CLI/API desta skill (Gemini), para outras IAs (ChatGPT/GPT Image, Midjourney, Flux, Ideogram) e copy aplicada. Inclui templates testados (carrossel de conversão, pitch, produto na pele, clínica premium em fundo preto com regras CFO/CFM, segurança eletrônica), tipografia de contraste, realismo, edição iterativa, conversão entre formatos e exportação web. Não use para ícones, diagramas, UI de produto ou ilustração plana.
 ---
 
 # Editorial Imagery — arte de alto impacto em nível de mercado
@@ -12,7 +12,7 @@ ideia forte** e é **lapidada por edições cirúrgicas** até ficar pronta.
 
 ---
 
-> **Versão pública:** inclui as gerações próprias autorizadas pelo usuário (G01/G02), os 10 carrosséis IG01–IG10 e as 26 referências de mercado MK01–MK26 (publicados a pedido do usuário, só para consulta), seus índices visuais e `assets/catalogo.json`. As 34 referências R/N e as artes de cliente com pacientes (RC) ficam só no pacote local; no público, os registros delas não têm caminho. Não alegue consulta visual a uma imagem ausente.
+> **Acervo visual (curadoria de 29/10/2026):** as únicas imagens da skill são as 26 referências de mercado MK01–MK26 (`assets/mercado/`, publicadas a pedido do usuário, só para consulta) e o índice delas (`assets/indices/mercado-mk.jpg`). G01/G02, IG01–IG10 e D01 foram removidos pelo usuário e, como as 34 referências R/N e as artes de cliente RC, existem só como fichas de texto (`caminho=null` no catálogo). As regras aprendidas com elas continuam valendo. Não alegue consulta visual a uma imagem ausente.
 
 ---
 
@@ -33,7 +33,7 @@ A ideia vem antes da família, e a variação é planejada antes do prompt.
    legais: `references/nichos-e-ideias.md §N.1–N.3` (SaaS: `saas.md`).
 2. **Salto + 3 conceitos:** abra referências reais conforme
    `references/acervo-visual.md` (até 4 imagens em tamanho integral por
-   peça; carrossel: índice MK obrigatório e 1–2 IG do papel da capa; as
+   peça; carrossel: índice MK obrigatório e 2–4 MK em tamanho integral, uma delas do papel da capa; as
    demais MK do storyboard podem vir do índice + ficha, registradas como
    "vista no índice"). Rode o salto de
    `references/repertorio-mercado.md §R.3` (verbo de cada MK, inventário do
@@ -104,7 +104,7 @@ A ideia vem antes da família, e a variação é planejada antes do prompt.
 | Cliente com ficha, diagnóstico e prompts prontos (só na instalação local, fora do Git; **proibido abrir sem o usuário nomear o cliente**) | `clientes/{cliente}/ficha.md` |
 | Protocolo de teste: rubrica, briefs de teste e registro de rodadas | `references/testes.md` |
 | Caso real completo com prompts aprovados | `references/caso-telemedicina.md` |
-| Imagens e índices visuais distribuídos | Caminhos e permissões em `assets/catalogo.json`: G01/G02 em `assets/aprovadas/`, IG01–IG10 em `assets/carrosseis/`, MK01–MK26 em `assets/mercado/`, planilha de pitch em `assets/templates/`, índices em `assets/indices/`; R/N e RC não distribuídos |
+| Imagens e índice visual distribuídos | Caminhos e permissões em `assets/catalogo.json`: MK01–MK26 em `assets/mercado/` e o índice `assets/indices/mercado-mk.jpg`; planilha de pitch em `assets/templates/`. G01/G02, IG01–IG10, D01, R/N e RC: só fichas, sem imagem |
 
 **Precedência quando dois arquivos discordam:** (1) restrições legais e de
 ética (§13) e "nenhum dado inventado"; (2) arquivo do nicho específico
@@ -127,13 +127,16 @@ deste `SKILL.md`).
 | **I · Janela de interface** | Paisagem calma com a tela real do cliente flutuando | SaaS, app, monitoramento, ferramentas | MK07, MK12, MK15, MK17, MK18, MK20, MK23, MK26 |
 | **J · Caderno editorial** | Papel com textura, título serif itálico com dois-pontos, miniaturas e setas manuscritas | Passo a passo, bastidor, estudo de caso, carrossel | MK04, MK05, MK16, MK25 |
 | **K · Clínica premium no preto** | Preto, contorno fino no perfil, dourado discreto, foto real | Clínica, HOF, odonto, estética | `templates/t4-clinica-premium-fundo-preto.md` |
-| **F · Social de conversão** | Foto que escurece na base, título gigante, um acento, @ no topo, pontos e pílula de arraste | Feed de alcance: salvar, comentar, direct, teste/demo | IG01–IG10 |
-| **A · Céu & Campo** | Céu cerúleo, colina, um objeto ou figura monumental, um acento | Natureza, bem-estar, território | R01–R16, N04, G01 |
-| **B · Saúde & Vidro** | Detalhe do corpo contra céu aço liso, tags de vidro e constelação | Saúde, telemedicina | N07, N12, N17, G02 |
-| **C · Produto em textura** | Produto sobre musgo ou na pele, luz recortada, monocromia | Suplemento, cosmético, kit | N06, N08, N13, N15, N16 |
-| **D · Esporte lifestyle** | Quadra azul, branco esportivo, lime, forma gráfica que entrelaça o sujeito | Esporte, energia, protetor solar | R06, R13, N10, N11, N14, N18 |
-| **E · Tipografia sobre paisagem** | Paisagem escurecida virando cartaz, pilha tipográfica | Manifesto, evento, capa | N04, N09, R09, R10 |
-| *Vidro sobre paisagem* (transversal) | Paisagem desfocada atrás de painel de vidro | Slides de conteúdo, stories | N01, N02, N03, N05 |
+| **F · Social de conversão** | Foto que escurece na base, título gigante, um acento, @ no topo, pontos e pílula de arraste | Feed de alcance: salvar, comentar, direct, teste/demo | fichas IG01–IG10; movimento em MK08, MK21 |
+| **A · Céu & Campo** | Céu cerúleo, colina, um objeto ou figura monumental, um acento | Natureza, bem-estar, território | fichas R01–R16, N04, G01; MK01, MK14, MK15 |
+| **B · Saúde & Vidro** | Detalhe do corpo contra céu aço liso, tags de vidro e constelação | Saúde, telemedicina | fichas N07, N12, N17, G02; MK19, MK22 |
+| **C · Produto em textura** | Produto sobre musgo ou na pele, luz recortada, monocromia | Suplemento, cosmético, kit | fichas N06, N08, N13, N15, N16; MK13, MK24 |
+| **D · Esporte lifestyle** | Quadra azul, branco esportivo, lime, forma gráfica que entrelaça o sujeito | Esporte, energia, protetor solar | fichas R06, R13, N10, N11, N14, N18; MK03, MK19 |
+| **E · Tipografia sobre paisagem** | Paisagem escurecida virando cartaz, pilha tipográfica | Manifesto, evento, capa | fichas N04, N09, R09, R10; MK01, MK14, MK15 |
+| *Vidro sobre paisagem* (transversal) | Paisagem desfocada atrás de painel de vidro | Slides de conteúdo, stories | fichas N01, N02, N03, N05; MK22 |
+
+"fichas" = só descrição em `references/referencias.md`, sem imagem; os pixels
+a abrir são os das MK listadas.
 
 Nenhuma família é padrão: ela sai do conceito escolhido no passo 2. Ao
 combinar famílias, mantenha **uma** luz, **uma** paleta e **um** acabamento.
