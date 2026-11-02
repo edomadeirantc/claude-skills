@@ -118,7 +118,7 @@ Por que para o polegar: ...
 Movimentos: MK14 (literalizar) + MK06 (transformar)   Alavancas: 9 + 12
 Família que nasce disso: H · Cinema
 Capa (gancho): "..."     Fórmula: #5 Colapso de tempo
-Referências consultadas: MK14 (verbo), IG04 (@ no topo, acento na última linha)
+Referências consultadas: MK14 (verbo), MK08 (a palavra-chave vira o título do CTA)
 Risco: ...               Teste anti-réplica: passa (motivo)
 ```
 

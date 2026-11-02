@@ -1,11 +1,13 @@
 # Referências analisadas
 
-Quatro levas de referências analisadas. As imagens R/N são de terceiros e não
-são distribuídas no pacote público; IG e MK foram publicadas por decisão do
-usuário, só para consulta. As fichas abaixo são descrições, não substituem a
-abertura visual. Consulte `acervo-visual.md` e `../assets/catalogo.json` para
-os arquivos efetivamente disponíveis. R/N/IG/MK servem **só para estudo**:
-nunca as use como `--ref` de geração nem copie composições, marcas ou textos.
+Quatro levas de referências analisadas. A curadoria de 29/10/2026 mantém
+somente MK01–MK26 e o índice MK como imagens no **pacote público**.
+O treinamento atual pode consultar IG/R/N fornecidas para estudo privado
+na instalação local; prevalecem caminhos e permissões do catálogo dessa
+instalação. Sem caminho, a ficha não permite alegar imagem vista.
+Consultar `acervo-visual.md` e `../assets/catalogo.json`; não recuperar
+imagens retiradas do Git nem redistribuir o acervo local. R/N/IG/MK servem **só para estudo**: nunca as use
+como `--ref` de geração nem copie composições, marcas ou textos.
 
 ## 0. Composições-assinatura — não repetir
 
@@ -18,7 +20,7 @@ vale contra **todas** as R/N/IG/MK, não só contra a referência citada.
 | Ref. | Assinatura (não repetir) | Pode aproveitar |
 |---|---|---|
 | R01 | Pessoa apoiada num objeto gigante em estúdio de uma cor | Escala como metáfora, com objeto do universo da marca e outro cenário |
-| R02 | Multidão uniforme com uma única figura/guarda-chuva colorido | A ideia de "um se destaca", resolvida de outro jeito |
+| R02 | Figura de terno laranja entre figuras escuras; duas vozes tipográficas com chamadas | Diferença relevante dentro de um padrão; não copiar figurinos ou cena |
 | R03 | Sofá no meio do campo | Objeto doméstico deslocado, se for outro objeto e outra cena |
 | R04, R16 | Céu visto de baixo emoldurado por copas ou folhas de bananeira | Câmera de baixo para cima; moldura orgânica com outro motivo |
 | R05, R12 | Objeto ou cadeira sozinho no topo de um morro | Monumento isolado, com sujeito da marca e outro terreno/ângulo |
@@ -50,10 +52,9 @@ vale contra **todas** as R/N/IG/MK, não só contra a referência citada.
 | MK15 | Trio no topo, palavra gigante, campo/cavalo e apoio | Hierarquia de capa; não contém janela de site e não exige cavalo/campo |
 | MK04, MK05, MK16, MK25 | Folha de papel com título serif itálico com dois-pontos e 3 miniaturas com setas vermelhas | A página-caderno para explicar processo, com outro papel, outro acento e conteúdo do cliente |
 
-As peças aprovadas G01/G02 **podem** ser reutilizadas (mesmo casal e
-estilo) só em novas peças do próprio caso de telemedicina, e um slide novo
-deve mostrar **outro gesto ou outra cena**. Para outros clientes, valem só
-como estudo, como as R/N/IG/MK.
+As peças aprovadas G01/G02 saíram do acervo em 29/10/2026: não há arquivo
+para usar como `--ref`. Novas peças do caso de telemedicina partem dos prompts
+aprovados de `caso-telemedicina.md` e mostram **outro gesto ou outra cena**.
 
 ## 1. Primeira leva — R01 a R16 (céu & campo)
 
@@ -116,25 +117,24 @@ Cores medidas por amostragem de área, não estimadas a olho.
 
 ---
 
-## 1.2 Peças aprovadas (golden) do caso de telemedicina
+## 1.2 Peças aprovadas (golden) do caso de telemedicina, só ficha
 
-Ficam em `../assets/aprovadas/`. Estas **podem** ser usadas como `--ref`, porque foram geradas para o cliente.
+Removidas do acervo em 29/10/2026; os arquivos não existem mais na skill. As
+descrições ficam como registro do que foi aprovado.
 
-| ID | Arquivo | Uso |
+| ID | Arquivo (removido) | O que foi aprovado |
 |---|---|---|
-| G01 | `g01-casal-grama-mobile.png` | Família A, vista de cima na grama, vidro em degradê no topo, botão de contorno. Fonte de rosto/luz para novas peças do casal |
-| G02 | `g02-perfis-frente-a-frente-mobile.jpg` | Família B, perfis frente a frente, tags de vidro, constelação, botão de contorno. Base para a conversão desktop |
+| G01 | `g01-casal-grama-mobile.png` | Família A, vista de cima na grama, vidro em degradê no topo, botão de contorno |
+| G02 | `g02-perfis-frente-a-frente-mobile.jpg` | Família B, perfis frente a frente, tags de vidro, constelação, botão de contorno; base da conversão desktop |
 
 ---
 
 ## 1.3 Terceira leva — IG01 a IG10 (carrossel social de conversão)
 
 Fonte: 10 imagens enviadas pelo usuário, todas 1080×1440 (3:4), JPEG.
-Base da Família F (`familia-social-conversao.md`). Arquivos em
-`assets/carrosseis/` (raiz da skill); índice em
-`assets/indices/carrosseis-ig.jpg`. Consulta apenas: não anexar
-ao gerador, não copiar pessoas, nomes, @ ou textos. Cores medidas por
-amostragem de área 5×5 px.
+Base da Família F (`familia-social-conversao.md`). As imagens foram removidas
+do acervo em 29/10/2026; ficam as medições abaixo, que continuam valendo como
+regra. Cores medidas por amostragem de área 5×5 px.
 
 | ID | Papel | Conteúdo observado | O que extrair |
 |---|---|---|---|

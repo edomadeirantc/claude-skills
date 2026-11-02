@@ -1,77 +1,57 @@
 # Acervo visual — consulta obrigatória antes de cada prompt
 
-O acervo foi **curado pelo usuário em 25/10/2026**: ficaram só as imagens que
-ele considera as melhores. Elas são a régua de qualidade. Nenhuma é molde:
-de cada uma sai um movimento, uma decisão de tipografia ou de luz; a cena
-nasce do cliente (`repertorio-mercado.md §R.3`).
+## Disponibilidade e curadoria
+
+**Pacote público:** preservar a curadoria de 29/10/2026: somente as 26 imagens MK01–MK26 e `assets/indices/mercado-mk.jpg` são distribuídas. G01/G02, IG01–IG10 e D01 permanecem removidas do Git; R/N nunca foram distribuídas. As fichas e a leitura dos 70 originais são conhecimento de direção, não arquivos de imagem.
+
+**Instalação local do treinamento:** o pedido de revisão de 02/11/2026 fornece novamente MK/IG/R/N para estudo privado. Usar os arquivos que o catálogo local declarar presentes e autorizados para consulta. Isso não restaura a distribuição pública nem autoriza anexos ao gerador. Não copiar catálogo público sobre catálogo local: a disponibilidade é específica da instalação.
+
+Fonte única de caminhos, hashes e permissões: `../assets/catalogo.json`. `caminho=null` significa **sem pixels nessa instalação**. Não procurar versões no histórico, baixar cópias externas ou alegar consulta visual a arquivo ausente. Se só houver ficha, declarar “ficha consultada; pixels indisponíveis” e usar MKs disponíveis para decisões que exigem observação visual.
 
 ## Passos
 
-1. **Preflight:** `python "<raiz-da-skill>/scripts/check_assets.py"`. Erro em
-   arquivo declarado presente bloqueia o trabalho: informe o ID e restaure a
-   cópia conhecida. Sem rede, sem busca no PC.
-2. **Escolher pelo assunto e pelo papel narrativo.** Ler
-   `direcao-por-pedido.md` e `leitura-do-acervo.md`; definir a relação a
-   explicar antes da família. Consultar o índice e abrir 2–4 candidatas:
+1. **Preflight, uma vez por sessão:** `python "<raiz-da-skill>/scripts/check_assets.py"`. Arquivo declarado presente que falha no hash bloqueia: informar ID e restaurar somente cópia conhecida autorizada. Sem busca geral no PC ou recuperação de arquivo retirado.
+2. **Estudar tese e papel antes da família.** Ler `direcao-por-pedido.md` e `leitura-do-acervo.md`; consultar o índice MK. Abrir 2–4 candidatas pertinentes disponíveis no catálogo, incluindo a função de capa, explicação e final quando o pedido for carrossel.
 
-   | Papel | Candidatas iniciais | Índice |
+   | Papel | Candidatas | Disponibilidade |
    |---|---|---|
-   | Capa editorial | MK15, IG01/IG04, ou MK do verbo pertinente | `assets/indices/mercado-mk.jpg`, `carrosseis-ig.jpg` |
-   | Miolo explicativo | R02/R05/R15, MK22, N07/N12 ou cadernos, conforme relação | índices MK/R/N; R/N só locais |
-   | Fechamento | MK12, IG03/IG08, MK08 se houver entrega real | índices MK/IG |
-   | Recurso de app | MK07/17/18/20/23/26 + captura autorizada | índice MK |
-   | Continuidade do caso telemedicina | G01/G02, só quando pertinente | `geracoes-aprovadas.jpg` |
+   | Capa de hierarquia forte | MK15, MK01; IG01/IG04 como alternativa | MK públicas; IG só se houver caminho local |
+   | Miolo de tempo/ordem | MK22, MK04/MK16/MK25 | públicas |
+   | Miolo de contraste, componentes e par | R02/R05/R15, N07/N12; MK03/MK06 como alternativas por operação | R/N só quando presentes localmente; MK públicas |
+   | Final de salvar/agir | MK12, MK08; IG03/IG08 como alternativa | MK públicas; IG só se houver caminho local |
+   | Recurso de app | MK07/17/18/20/23/26 + captura autorizada do produto | MK públicas; captura fornecida pela marca |
+   | Continuidade de caso já aprovado | texto do caso e imagem aprovada autorizada disponível | não recuperar G/RC ausente; respeitar ativação de cliente |
 
-   A tabela inicia a busca; não força estas refs em todo assunto. Para
-   carrossel cobrir capa, explicação e final; reutilizar uma referência
-   quando houver continuidade semântica, em vez de exigir uma MK por slide.
-3. **Leia os pixels**, não o nome: sujeito e gesto, escala, enquadramento,
-   luz, tipografia (famílias, troca de voz, tamanho relativo), onde está o
-   texto e quanto texto há, acento. Registre por imagem: ID, duas observações
-   concretas e o **verbo** do movimento.
-4. **Teste anti-réplica:** lado a lado com a referência, a peça nova não pode
-   ser "a mesma cena com outro texto". Mude sujeito, cena e gesto; mantenha
-   só o movimento.
+   A tabela inicia a seleção, não impõe as mesmas refs em todo pedido. Reutilizar uma referência quando a relação continuar útil, sem exigir uma MK diferente por slide. Não prometer três imagens abertas se só duas estão disponíveis.
+3. **Ler pixels, não nomes.** Registrar ID, duas observações concretas, operação visual, frase que ajuda a explicar e diferença proposta da cena. Separar observação e recomendação. Índice visto não equivale a original visto em tamanho integral.
+4. **Teste anti-réplica.** A nova peça não pode ser a mesma cena com outra legenda. Criar sujeito, gesto, copy e contexto próprios; transferir relação, hierarquia e luz.
 
 ## Clientes: desligados por padrão
 
-`clientes/{cliente}/` (só na instalação local: ficha, artes RC, prompts) é
-**aberto somente quando o usuário nomeia o cliente no chat** (pelo nome da
-pessoa ou da empresa). Pedido de nicho parecido sem o nome (clínica, HOF, segurança)
-usa os templates públicos T4/T5 e o acervo geral; não lê a ficha nem abre
-as artes do cliente, e não usa o nome, o logo ou as cores dele.
+`clientes/{cliente}/` permanece desligado. Abrir ficha, índice e artes somente quando o usuário **nomear esse cliente no chat**. Pedido de nicho parecido não ativa dados reais: usar T4/T5 e acervo geral; não listar nem procurar nomes, rostos, cores ou logo de cliente.
 
-Com o cliente nomeado: abra a `ficha.md`, o `indice-*.jpg` e 2–3 peças do
-mesmo tipo. Elas valem como estrutura aprovada; o texto só vale se a ficha
-disser que vale.
+Com cliente nomeado, consultar a ficha e os materiais autorizados do mesmo tipo; estrutura aprovada não transforma todo texto antigo em copy reutilizável. Pacientes/RC não são anexos de geração nem material de publicação da skill.
 
-## Consultar não é anexar ao gerador
-
-Consultar é abrir os pixels para análise. Anexar é enviar ao gerador.
+## Consultar não é anexar
 
 | Grupo | Consultar | Anexar ao gerador |
 |---|---|---|
-| MK01–MK26, IG01–IG10 | sim (publicadas por decisão do usuário) | **não**: têm marcas, @, pessoas e obras de terceiros |
-| R01–R16, N01–N18 | sim, só na instalação local | **não** |
-| G01/G02 | sim | sim, para continuidade do mesmo casal e luz |
-| RC (cliente) | só com o cliente nomeado | **não**; o retrato da profissional vem de foto real enviada por ela |
-| D01 (grade de rótulos sobre G02) | sim, como exemplo técnico | não |
+| MK01–MK26 | sim, arquivos distribuídos para consulta | não: marcas, pessoas e obras de terceiros |
+| IG01–IG10, R01–R16, N01–N18 | somente se presentes no catálogo local; público tem fichas | não |
+| G01/G02 | somente se uma cópia local autorizada já estiver declarada; público só ficha | apenas se catálogo autorizar e houver continuidade pertinente; nunca recuperar arquivo retirado |
+| D01 | ficha histórica; cópia local, se presente, só demonstra grade | não |
+| RC | somente com cliente nomeado e permissão pertinente | não |
 
-Declare quais imagens foram de fato anexadas. Se o gerador não aceita
-anexos, descreva os princípios observados; não alegue condicionamento por
-arquivo que ele não recebeu.
+Declarar anexos reais separadamente. Caminho ou ID escrito no prompt não envia imagem. Sem suporte a anexos, descrever a operação e não alegar condicionamento por arquivo.
 
-## Inventário
+## Inventário por instalação
 
-| Grupo | Instalação local | Pacote público (GitHub) |
+| Grupo | Instalação local de treinamento | Pacote público |
 |---|---|---|
-| MK01–MK26 | `assets/mercado/` | mesmo |
-| IG01–IG10 | `assets/carrosseis/` | mesmo |
-| R01–R16, N01–N18 | `assets/originais/` + miniaturas em `assets/referencias/` | só metadados (`caminho=null`) |
-| G01/G02, D01 | `assets/aprovadas/`, `assets/indices/` | mesmo |
-| RC (cliente de saúde) | `clientes/{cliente}/artes/` | só metadados; nunca publicado (pacientes) |
+| MK01–MK26 e índice MK | presentes conforme catálogo | distribuídos |
+| IG01–IG10 e índice IG | estudo privado quando declarados presentes | metadados; imagens continuam removidas |
+| R01–R16, N01–N18 e índices | estudo privado quando declarados presentes | metadados; nunca distribuir |
+| G01/G02 e D01 | somente cópias previamente autorizadas e declaradas | metadados; imagens continuam removidas |
+| Material de cliente | privado e desligado sem ativação explícita | nunca distribuído |
 
-Fonte única de caminhos, hashes e permissões: `assets/catalogo.json`. No
-pacote público, `caminho=null` é limite de distribuição, não arquivo perdido:
-não alegue ter aberto o que não está na instalação. Direitos em
-`../assets/NOTICE.md`; a licença do código não vale para as imagens.
+A revisão usa o acervo completo **local**, sem republicar imagens retiradas do repositório. Direitos em `../assets/NOTICE.md`; a licença do código não concede licença sobre as imagens.

@@ -1,8 +1,9 @@
 # Caso real — telemedicina para ele e para ela
 
-Registro do trabalho que gerou as peças aprovadas G01 e G02
-(`../assets/aprovadas/`). Use como modelo de processo e como ponto de partida
-para novas peças da marca.
+Registro do trabalho que gerou as peças aprovadas G01 e G02. Os arquivos
+saíram do acervo em 29/10/2026; ficam o processo e os prompts aprovados, como
+modelo de processo e ponto de partida para novas peças da marca. Os `--ref`
+citados abaixo são do histórico do caso e não existem mais na skill.
 
 ## Brief
 

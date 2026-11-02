@@ -5,6 +5,10 @@ Refs. IG01–IG10 ensinam hierarquia e papéis; os pontos/losangos observados
 não fazem parte do kit atual. Seguir `prompts.md §6` para arte completa,
 `microtipografia-editorial.md` para o topo e `direcao-por-pedido.md` para seleção.
 
+No pacote público, IG são fichas sem imagens; na instalação local de
+treinamento, consultar pixels somente quando o catálogo os declarar presentes.
+Usar MKs disponíveis para completar a consulta visual; ver `acervo-visual.md`.
+
 A Família F não substitui A–E: use-a quando o objetivo é **alcance e
 conversão no feed** (salvar, comentar, seguir, chamar no direct) e o
 público responde mais a manchete que a contemplação. Quando a marca pede

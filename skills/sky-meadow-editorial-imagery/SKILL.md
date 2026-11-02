@@ -7,6 +7,8 @@ description: Use when o pedido mencionar Meadow, prompts prontos para imagens, c
 
 **Estudar o pedido → selecionar referências pertinentes → construir uma narrativa → entregar arte com texto.** O acervo ensina operações visuais, não uma coleção de cenários para sortear. Céu, campo, vidro e brilho entram quando ajudam a mensagem. Um prompt pronto contém a peça inteira, não apenas a fotografia de fundo.
 
+**Acervo por instalação:** o GitHub distribui somente MK01–MK26 e o índice MK, preservando a curadoria pública de 29/10/2026. O treinamento atual usa também IG/R/N fornecidas para estudo local. Consultar o catálogo desta instalação; ficha não equivale a pixels. Não republicar nem recuperar imagens retiradas. Regras de disponibilidade em `references/acervo-visual.md`.
+
 ## 0. Fluxo obrigatório
 
 1. **Conferir o acervo uma vez por sessão:** `python "<raiz-da-skill>/scripts/check_assets.py"`. Restaurar arquivos declarados presentes se a checagem falhar; informar os IDs. Catálogo público com `caminho=null` significa referência sem pixels, não arquivo perdido. Material em `clientes/` fica desligado: não listar, procurar ou abrir sem o usuário nomear esse cliente. Só nesse caso consultar a ficha e usar `--cliente <pasta>`.
