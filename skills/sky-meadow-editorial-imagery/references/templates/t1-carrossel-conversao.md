@@ -3,8 +3,8 @@
 **Status:** testado em 3 rodadas reais (caso Groomy, SaaS de gestão para
 barbearias). Rodada 1 aprovada em direção e consistência; rodada 2 aprovada
 em variação de layout; rodada 3 reprovada pelo padrão do lugar, corrigida na
-v4. Prompts finais: `casos/groomy-carrossel-v4.md`. As folhas de contato das
-rodadas saíram do acervo na curadoria de 25/10/2026; as lições ficaram no texto.
+v4. O caso `casos/groomy-carrossel-v4.md` é registro histórico, não briefing
+do pedido atual. Arte completa atual: `../prompts.md` e `../direcao-por-pedido.md`.
 
 **Use quando:** a peça é um carrossel de feed que precisa de alcance e ação
 (direct, teste, salvar) para um serviço ou software, com uma pessoa real do
@@ -27,13 +27,13 @@ apresentação 16:9 use T2.
 2. **Uma rodada de perguntas** com resposta recomendada: @ exato, nº de
    slides, gerador (4:5 ou 3:4), prova social e prints. Prints e prova social
    são opcionais; sem eles o slide de prova vira resumo.
-3. **Salto + 3 conceitos** (seguro, ousado, fora da curva) com verbos MK (`repertorio-mercado.md §R.3`) e 3 ganchos; aprovado no caso: "O rolo do dia" (fita de comanda gigante) + "PARE DE FECHAR O CAIXA DE CABEÇA."
+3. **Selecionar direção pelo pedido:** usar `../direcao-por-pedido.md`; recomendar uma direção em pedido pronto. Três conceitos só quando alternativas forem solicitadas.
 4. **Família derivada do conceito**: F quando a marca é escura com acento forte (Groomy: `#0A0A0A` + lime `#C8F028`).
 5. **Storyboard por slide** na tabela canônica de `variacao-de-layout.md §V.5`, partindo do roteiro SaaS de 8 slides (`saas.md §S.4`): movimento, escala/cena, câmera e layout mudam a cada slide.
 6. **Bíblia da série** com ficha de personagem, padrão do lugar, luz, paleta, acento e registro documental (T1.4); sem câmera.
 7. **Capa primeiro**, sem referência; passa no portão da capa (`realismo-fotografico.md §R.13`) antes de servir de referência.
 8. **Referência da capa** só nos slides que o storyboard marca como "mesmo lugar da capa = sim"; slides em outra escala ou lugar e **slides sem pessoa** vão sem referência e sem bloco de pele.
-9. **Corte** para 1080×1350 e **contador em camada** (T1.6).
+9. **Corte** para 1080×1350 e navegação editorial de F.4: fração integrada no prompt; camada opcional para produção combinada/correção.
 10. **Story** a partir da capa aprovada, 9:16 nativo (T1.7).
 
 ## T1.3 Storyboard (8 slides)
@@ -57,7 +57,7 @@ SERIES BIBLE (fixed in every slide: light, palette, accent, materials, type voic
 - Type voices: DISPLAY = {sans pesada}. COUNTERPOINT = {serif itálica}. UTILITY = {mono}. Use only the voices the slide names.
 - Frame: portrait 3:4, composed to be center-cropped to 4:5: top 4% and bottom 4% only background.
 - Top handle line, baseline at 8.8%: "{@handle}" centered, lowercase exactly as written, no verification badge. Only the side labels this slide lists.
-- Reserved band: from 85% to 93% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes.
+- Footer: include the exact page fraction in each complete-artwork prompt. Reserve this band empty only when an overlay workflow was agreed.
 ```
 
 Bloco de realismo com pessoa: R.6 + proibição de visual precário
@@ -78,16 +78,16 @@ materiais. Referência dos slides 2+: frase de `variacao-de-layout.md §V.4`
 | 3 | Barbearia pobre e precária | Prompt pedindo azulejo trincado, assento remendado, LED frio | Padrão do lugar: mediano bem cuidado (`§R.11.0`), tabela por nicho (`nichos-e-ideias.md §N.5`) |
 | PlantMed | Geração bloqueada por política | `identity` + bloco de pele + referência num slide sem pessoa | Referência de continuidade sem `identity`; slide sem pessoa sem referência |
 
-## T1.6 Contador em camada
+## T1.6 Navegação editorial e camada opcional
 
 ```bash
 node scripts/kit_overlay.mjs --total 8 --accent "#C8F028" --out ./kit
 ```
 
-Gera `kit-01.svg … kit-08.svg` (1080×1350, transparentes): pontos com o
-losango no slide atual, "0N/08" e "ARRASTE →" (some no último). Corte cada
-imagem para 1080×1350 e aplique o kit por cima no Canva/Figma. Testado sobre
-o slide 4 da rodada 2: alinhado com a faixa reservada.
+Gera `kit-01.svg … kit-08.svg` transparentes com fração, régua proporcional
+e arraste (some no último), sem pontos/losangos. Aplicar após o corte para
+1080×1350 somente no fluxo por camadas ou como substituição de contador
+incorreto. Regra canônica em `../familia-social-conversao.md §F.4`.
 
 ## T1.7 Story derivado
 
@@ -101,5 +101,5 @@ a figurinha de link (aplicada no app). Sem contador. Prompt pronto no fim de
 - [ ] Capa passou no portão (nem banco de imagem, nem lugar precário).
 - [ ] 4+ layouts distintos (no caso Groomy: 8), um respiro, recorrência do topo correta; storyboard §V.5 cumprido (nada repetido em slides seguidos).
 - [ ] Textos com acento, @ exato, sem selo indevido.
-- [ ] Corte 1080×1350 conferido; contador aplicado em camada.
+- [ ] Corte 1080×1350 conferido; fração integrada ou camada aplicada sem duplicação.
 - [ ] Legenda (Job B), 5 hashtags no máximo, alt text da capa.

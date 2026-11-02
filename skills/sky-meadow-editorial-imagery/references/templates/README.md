@@ -20,20 +20,21 @@ combinar com um deles; as regras gerais continuam nos módulos de `../`.
 3. **Groomy rodada 2:** layouts variados aprovados; contador errado em 5 de 8; realismo de banco de imagem.
 4. **PlantMed:** pitch 16:9 aprovado; bloqueio de política resolvido com prompt enxuto em slide sem pessoa.
 5. **Groomy rodada 3:** lugar precário (erro oposto); regra do padrão mediano bem cuidado.
-6. **Groomy v4:** prompts atuais com todas as correções (aguardando nova rodada).
+6. **Groomy v4:** registro histórico de prompts e correções, não padrão automático para novos pedidos.
 7. **Clínica HOF (T4):** fundo preto, linha dourada e painel aprovados; card com preço retirado na curadoria; títulos-rótulo, preço de dentista e rosto da profissional inconsistente entre séries reprovados.
 8. **Referências de mercado MK01–MK26:** famílias G–J e o salto fora da caixa (`../repertorio-mercado.md`).
 9. **Curadoria de 25/10/2026:** folhas de contato das rodadas e artes retiradas saíram do pacote; as lições ficaram em texto (T1.5, V.0, K.2 e esta linha do tempo).
 
 ## Regras que todos os templates herdam
 
-- Contador do carrossel sempre em camada (`../../scripts/kit_overlay.mjs`).
+- Navegação atual em `../familia-social-conversao.md §F.4`: fração integrada em prompt pronto; camada combinada/correção sem duplicar contador. Sem pontos.
 - Carrossel passa pelo storyboard canônico (`../variacao-de-layout.md §V.5`) antes dos prompts; câmera, lente, altura e ângulo vêm da linha do slide, nunca da bíblia.
 - Capa (ou slide 1) passa no portão antes de virar referência (`../realismo-fotografico.md §R.13`).
 - Lugar e pessoas no padrão da marca, nunca precários sem pedido (`§R.11.0`).
 - Referência de continuidade sem `identity`; slides sem pessoa sem referência.
 - Logo e embalagem reais: logo por cima; embalagem como referência.
 - Gerador entrega 3:4? Prompt composto para o corte (`../formatos-e-composicao.md §5.6`).
+- Arte completa, seleção por assunto e cabeçalho atual precedem exemplos históricos (`../direcao-por-pedido.md`, `../prompts.md`).
 
 Ao fechar um novo caso: crie `tN-*.md` ou atualize o template existente,
 salve os prompts finais em `casos/` e a linha correspondente na tabela

@@ -51,9 +51,9 @@ literalmente em cada prompt.
 
 ### 9.5 Pacote multi-IA (entrega padrão quando o usuário pede prompts)
 
-Cada peça sai com os quatro blocos abaixo, a partir de **um** prompt-mestre
-em inglês (template de `prompts.md §6`), para que qualquer modelo ou
-terminal chegue ao mesmo resultado:
+Entregar o prompt completo para a IA ou terminal pedido. Se o usuário
+pedir pacote multi-IA ou não indicar destino, usar o prompt-mestre de
+`prompts.md §6` e os adaptadores pertinentes abaixo, sem omitir a copy:
 
 1. **CLI/API (esta skill):** o prompt salvo em `prompts/{peca}.txt` e o
    comando `generate.py` com `--aspect`, `--size` e os `--ref` na ordem
@@ -70,8 +70,10 @@ terminal chegue ao mesmo resultado:
    real da profissional = referência da pessoa real; foto do produto = rótulo). Um caminho
    no texto não envia a imagem; MK/IG/R/N nunca vão como anexo.
 
-Texto longo, números, preço, CRO/CRM e logo continuam em camada em
-qualquer modelo.
+Texto legal obrigatório, preço, CRO/CRM, logo e tabelas densas exigem
+camada legível e conferência exata. A fração simples do carrossel pode
+entrar no prompt completo (F.4). Para qualquer produção em camadas, entregar
+lista/posições e aplicação; não substituir arte pronta por fundo sem texto.
 
 ---
 

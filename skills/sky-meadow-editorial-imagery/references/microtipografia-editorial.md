@@ -1,6 +1,6 @@
 # Microtipografia editorial — três âncoras no topo
 
-Use quando o briefing pedir “letrinhas no topo”, ficha editorial, metadados discretos ou o acabamento de R08, R10 e R14. É um recurso **opcional**, não uma marca d'água automática de toda peça. **Exceção: em carrossel de Instagram com @ informado, a âncora central é o @handle e aparece em todos os slides** (§2.1). Leia também `acervo-visual.md` para abrir as imagens disponíveis antes de escrever o prompt.
+Em carrossel de Instagram com @ informado, usar **tema/série · @ central · categoria** na capa e slide 2, repetindo o trio nas retomadas de capítulo. Nos demais, manter @ no mesmo centro e somente as laterais úteis (§2.3). Fora de carrossel, o recurso é opcional. Consultar `acervo-visual.md` antes dos prompts.
 
 ## 1. Evidência e adaptação
 
@@ -38,7 +38,7 @@ Onde as referências põem o nome da marca ou o crédito (R08/R10/R14, IG04 `"Po
 - **Âncora central, x = 50%, centralizada**, na mesma linha-base das outras âncoras. Ex.: `@suamarca`.
 - **Grafia exata** da conta (minúsculas, pontos e sublinhados), confirmada no briefing. Sem caixa-alta forçada: o @ é escrito como a conta existe.
 - **Todos os slides**, mesma posição, mesmo tamanho; é a assinatura do post quando ele é compartilhado ou printado (§2.3).
-- **Esquerda e direita são opcionais** e entram só nos slides definidos pela recorrência (§2.3). Quando usadas: tema/capítulo à esquerda e categoria/ação à direita (texto ou pílula de categoria da Família F, nunca as duas).
+- **Laterais planejadas:** na capa e slide 2 preencher tema/série à esquerda e categoria à direita. No miolo, repetir o trio em retomadas ou reduzir as laterais; o @ central permanece fixo. Usar palavras próprias, curtas, sem datas/créditos inventados.
 - **Escala:** o @ pode ser um degrau maior que os rótulos laterais (28–32 px a 1080 px de largura), peso 500–600, sem caixa-alta e sem tracking largo.
 - **Selo verificado** ao lado do @ só se a conta for verificada. Nunca simular.
 - Nome da marca por extenso, logotipo ou wordmark **não** substituem o @ nesta posição; logotipo só se o usuário pedir, e então fora da linha de microtipografia.
@@ -66,7 +66,7 @@ Base da decisão:
 | **@handle** (centro) | identidade e atribuição | **todos** | slide isolado continua assinado |
 | Categoria/nicho (`NUTRIÇÃO`, `CLÍNICA`, `SAAS`) | filtro de interesse | **capa + slide 2** | some no miolo para não competir com o conteúdo |
 | Gatilho (`URGENTE`, `LANÇAMENTO`, `NOVO`) | parar o polegar | **só capa**; no final só se houver prazo/oferta real | perde força repetido |
-| Tema ou série (`GUIA DE PROBIÓTICOS`, `EP. 04`) | moldura editorial | **capa + final**; no miolo só em séries de 8+ slides | abre e fecha a moldura |
+| Tema ou série (`GUIA DE PROBIÓTICOS`, `EP. 04`) | moldura editorial | **capa + slide 2**, retomadas de capítulo e final quando útil | mantém a série reconhecível sem repetir ruído |
 | Capítulo/passo (`PASSO 2/4`, `MITO`, `VERDADE`, `ANTES`) | navegação | **só miolo**, muda a cada slide; em carrossel de lista ocupa a âncora lateral no lugar da terceira âncora, e o slide ainda pode cair para `— · @ · —` quando a variação de cabeçalho pedir (`variacao-de-layout.md` V.5, regra 7) | orienta quem está no meio |
 | Ação (`AGORA`, `SALVE`, `OFERTA`) | anunciar o CTA | **só final** | prepara o botão |
 | Data/edição | contexto temporal | capa (notícia, lançamento, evento); nunca no miolo | só quando o tempo faz parte da mensagem |
@@ -77,11 +77,11 @@ Receitas por objetivo (esquerda · centro · direita; `—` = vazio):
 | Objetivo | Capa | Slide 2 | Miolo | Resumo | Final |
 |---|---|---|---|---|---|
 | Alcance / salvar (educativo) | tema · @ · categoria | tema · @ · categoria | passo · @ · — | — · @ · `RESUMO` | — · @ · `SALVE` |
-| Conversão de produto (direct, compra) | — · @ · gatilho real ou categoria | — · @ · categoria | — · @ · — (ou passo) | — · @ · — | — · @ · `AGORA` |
-| SaaS (teste/demo) | — · @ · categoria | — · @ · categoria | passo · @ · — | — · @ · — | — · @ · `TESTE {N} DIAS` (só se for a oferta) |
-| Série recorrente / notícia | série · @ · data | série · @ · — | capítulo · @ · — | — · @ · — | série · @ · — |
-| Carrossel curto (≤ 4 slides) | — · @ · categoria | — · @ · — | — · @ · — | — | — · @ · ação |
-| Comentar palavra (`comente PALAVRA`) | — · @ · categoria | — · @ · — | passo · @ · — (ou — · @ · —) | — · @ · — | — · @ · `COMENTE` |
+| Conversão de produto (direct, compra) | tema · @ · categoria | tema · @ · categoria | capítulo · @ · — | — · @ · `RESUMO` | — · @ · `AGORA` (se pertinente) |
+| SaaS (teste/demo) | tema · @ · categoria | tema · @ · categoria | passo · @ · — | — · @ · `RESUMO` | — · @ · ação real |
+| Série recorrente / notícia | série · @ · data real | série · @ · categoria | capítulo · @ · — | — · @ · `RESUMO` | série · @ · — |
+| Carrossel curto (≤ 4 slides) | tema · @ · categoria | tema · @ · categoria | passo · @ · — | — | — · @ · ação |
+| Comentar palavra (`comente PALAVRA`) | tema · @ · categoria | tema · @ · categoria | passo · @ · — | — · @ · — | — · @ · `COMENTE` |
 | Post único / anúncio feed | — · @ · — (ou categoria; nunca passo nem `ARRASTE`) | — | — | — | — |
 | Story único | — · @ · categoria | — | — | — | — |
 
@@ -102,7 +102,7 @@ Defina antes dos prompts:
 microtipografia:
   linha_base: "6% (4:5) | 8,8% (3:4 para corte) | ~15% (story)"
   centro:   { texto: "@suamarca", slides: todos, verificado: false }
-  esquerda: { funcao: capitulo, textos: { 3: "PASSO 1", 4: "PASSO 2", 5: "PASSO 3" } }
+  esquerda: { funcao: tema_ou_capitulo, textos: { 1: "GUIA PRÁTICO", 2: "GUIA PRÁTICO", 3: "PASSO 1", 4: "PASSO 2", 5: "PASSO 3" } }
   direita:  { funcao: categoria, texto: "NUTRIÇÃO", slides: [1, 2] }
   final:    { direita: "SALVE" }           # rótulo de ação só no último slide
   alinhamento: "inicio / centro / fim"
@@ -116,7 +116,7 @@ Substitua a copy pelo tema real. Preserve posições, fonte, peso e espaçamento
 
 O cabeçalho e o rodapé têm funções diferentes:
 - Topo: identidade (@handle no centro), tema e capítulo nas laterais.
-- Rodapé: `01 / 06` à esquerda e `ARRASTE →` à direita, com linha-base a 92% da altura, conforme `formatos-e-composicao.md §7.4`. No último slide, retirar apenas `ARRASTE →`. Slide da Família J dentro de carrossel com kit: ver `familia-social-conversao.md §F.4` (rodapé J sobe para 88% ou o kit sai daquele slide).
+- Rodapé: navegação canônica de `familia-social-conversao.md §F.4`. Em prompt pronto, incluir a fração literal na lista fechada; em produção por camada combinada, reservar a faixa e aplicar o kit. Não usar pontos nem duplicar contador. O @ continua no topo, inclusive em página J.
 - Botão final: CTA principal com o material pedido; o cabeçalho não altera o botão. Vidro sutil translúcido e contorno transparente são tratamentos distintos (`interface-vidro.md`).
 
 ## 4. Dois caminhos de produção

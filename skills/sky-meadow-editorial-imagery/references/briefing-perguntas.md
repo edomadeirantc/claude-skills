@@ -6,6 +6,11 @@ resolvidos), numeradas, **cada uma com a resposta recomendada**. O usuário
 responde, a árvore se reorganiza, a próxima rodada sai. Mantém a regra da
 skill: **fatos você descobre; decisões o usuário toma**.
 
+**Escopo:** usar rodadas quando o usuário quiser explorar decisões.
+Pedido de prompts prontos com briefing suficiente segue diretamente
+`direcao-por-pedido.md`: recomendar uma direção, declarar pressupostos
+estéticos e entregar. Perguntar apenas por fato/decisão que bloqueie.
+
 ---
 
 ## Q.0 Antes de perguntar (trabalho do agente)
@@ -19,10 +24,10 @@ Leia todo o material enviado e preencha sozinho, marcando `[INFERIDO]`:
   ficha técnica e estudos só informam, `nichos-e-ideias.md §N.1`) e
   restrições do setor;
 - produto e textos exatos da embalagem (para não inventar letras);
-- padrão do lugar e das pessoas em cena: **pergunte** (premium, mediano bem
-  cuidado ou popular digno), recomendando o mais alto que a marca sustenta;
-  marca que quer se posicionar como premium é premium mesmo sendo pequena
-  (`realismo-fotografico.md §R.11.0`). Nunca pobre ou precário sem pedido;
+- padrão do lugar e das pessoas em cena: inferir do material/posicionamento,
+  declarando a escolha; perguntar somente se a diferença mudar a proposta.
+  Preservar lugar bem cuidado e digno, nunca precariedade sem pedido
+  (`realismo-fotografico.md §R.11.0`);
 - referências do acervo a consultar (`acervo-visual.md`).
 
 Nunca pergunte o que o material responde. Pergunte só o que é **escolha**.
@@ -50,13 +55,13 @@ aberta vai para a rodada seguinte.
    slides (6–10). O gerador entrega 4:5 nativo, só 3:4 ou ChatGPT 2:3
    (1024×1536)? (3:4 ou 2:3 → compor para o corte com a tabela de
    `formatos-e-composicao.md §5.6`.) Precisa de hero web junto?
-4. **Texto**: na imagem (gerado) ou em camada (Figma/Canva/HTML) — recomende
-   camada para miolos com muito texto e cartão de autor.
+4. **Texto:** arte completa com copy integrada como padrão; combinar
+   camada quando necessária, entregando também sua aplicação.
 5. **Confirmações do `[INFERIDO]`**: nicho, público, acento, alegações
    permitidas. Peça correção só do que estiver errado.
 6. **Saúde** (só se o nicho for saúde): nome do profissional, conselho, UF
-   e nº de registro (ex.: `Dra. {Nome} · CD · CRO-{UF} {nº}`). Sem eles a
-   peça sai com placeholder e não é publicável.
+   e nº de registro (ex.: `Dra. {Nome} · CD · CRO-{UF} {nº}`). Sem dados
+   obrigatórios, pedir os dados e não chamar a peça de publicável.
 
 A linguagem visual (família) **não** é perguntada aqui: ela nasce do
 conceito e é confirmada na rodada 2.
@@ -80,8 +85,8 @@ SaaS: acrescente as perguntas de `saas.md §S.1` que o material não respondeu.
 Mostre o storyboard por slide na tabela canônica de
 `variacao-de-layout.md §V.5` (movimento, escala, câmera, layout, voz, nº de
 palavras, cabeçalho, `--ref`), com título e texto de apoio de cada slide, e
-a legenda. Pergunte só o que mudar. **Nenhum prompt antes da aprovação do
-storyboard.**
+a legenda. No fluxo exploratório, colher aprovação antes dos prompts;
+no pedido pronto com briefing suficiente, entregar os dois juntos.
 
 ## Q.5 Encerramento
 

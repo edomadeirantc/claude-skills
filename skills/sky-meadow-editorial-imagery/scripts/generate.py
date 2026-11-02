@@ -53,6 +53,10 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     parser.add_argument("--model", default=DEFAULT_MODEL, help="Modelo de imagem.")
     parser.add_argument(
+        "--background-only", action="store_true",
+        help="Gerar só fundo/foto sem copy, quando solicitado explicitamente.",
+    )
+    parser.add_argument(
         "--cliente",
         help="Incluir clientes/<nome> na checagem do acervo (so quando o usuario nomeia o cliente).",
     )
@@ -81,9 +85,11 @@ def main(argv: list[str] | None = None) -> None:
         if not ref.is_file():
             sys.exit(f"Erro: referencia nao encontrada: {ref}")
 
-    lint = lint_prompt(raw)
+    lint = lint_prompt(raw, args.background_only)
     if lint["banned"]:
         sys.exit("Erro: termos proibidos no prompt (SKILL.md §12.1): " + ", ".join(lint["banned"]))
+    if lint["copy_errors"]:
+        sys.exit("Erro no contrato de texto: " + "; ".join(lint["copy_errors"]))
 
     if args.dry_run:
         print(

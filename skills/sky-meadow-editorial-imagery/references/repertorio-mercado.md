@@ -37,7 +37,7 @@ tomado pelo tempo).
 **Assinatura:** fotografia de cinema ou de filme (paisagem, sala, plateia,
 monocromia) em que a tipografia **conversa** com a cena: atravessa, é
 engolida, orbita ou literaliza uma expressão.
-**Refs:** MK01, MK02, MK08, MK09, MK14, MK19, MK21, MK22.
+**Refs:** MK01, MK02, MK08, MK09, MK12, MK14, MK15, MK19, MK21, MK22.
 
 - **Tipografia:** troca de família no meio da frase (sans leve → serif
   itálica na palavra emocional; MK02, MK21); pilha de 3–4 vozes (MK01);
@@ -53,9 +53,11 @@ engolida, orbita ou literaliza uma expressão.
 janela de app ou site **real do cliente** flutuando no centro; nome ou marca
 em grotesca grande acima; uma frase com trecho em bold abaixo; cabeçalho de
 3 âncoras (tema · @ · categoria, pela recorrência de
-`microtipografia-editorial.md §2.3`) e paginação com seta fina na base. O
-cabeçalho e a paginação entram **em camada**, nunca no prompt.
-**Refs:** MK07, MK12, MK15, MK17, MK18, MK20, MK23, MK26.
+`microtipografia-editorial.md §2.3`) e navegação editorial na base (F.4).
+Na produção por camadas, entregar a aplicação; em prompt completo, o
+cabeçalho e a fração literal entram na lista fechada.
+**Refs:** MK07, MK17, MK18, MK20, MK23, MK26. MK12/MK15 são hierarquia
+tipográfica/CTA, não janelas de site.
 
 - **Regra de produção:** a janela é **captura real** do produto aplicada em
   camada (Figma/HTML) com sombra suave; o gerador entrega só a paisagem com
@@ -73,18 +75,18 @@ parágrafo curto em itálico, 3 miniaturas em fila ligadas por setas
 manuscritas no acento, rodapé `@handle · salvar · →`.
 **Refs:** MK04, MK05, MK16, MK25.
 
-- **Exceção do @:** na J o @ pode descer para o rodapé, e no movimento MK13
-  pode virar um microrrótulo na cena. A grafia e o tamanho são os mesmos dos
-  outros slides da série; só a posição muda.
+- **@ no Instagram:** manter centralizado no topo, inclusive na J e no
+  movimento de foco. O rodapé autoral da referência não substitui o @ nem
+  duplica a navegação editorial da série.
 
 - **Regra de produção:** a página e as setas podem ser geradas; miniaturas
   são fotos reais do cliente aplicadas em camada.
 - **Quando usar:** passo a passo, bastidor de processo, "como funciona",
   estudo de caso, comparação.
 
-Numa série, troque de família só dentro de G–J (ou G–J com o kit da F),
-mantendo uma luz, uma paleta, um acento, os mesmos materiais e os mesmos
-pares tipográficos (§R.5). Não misture A–E com G–J na mesma série.
+Combinar operações somente quando servirem à mesma tese, mantendo luz,
+paleta, acento, materiais e par tipográfico. A continuidade semântica
+precede a troca de família (`direcao-por-pedido.md`).
 
 ---
 
@@ -152,7 +154,7 @@ Registro no conceito (`nichos-e-ideias.md §N.4`):
 | Formato | G · Objeto | H · Cinema | I · Janela | J · Caderno |
 |---|---|---|---|---|
 | Post único 4:5 | objeto central, frase em 2 linhas, assinatura no rodapé | foto inteira + título entrelaçado | 1 janela, 1 frase | página com 1 miniatura grande |
-| Carrossel | capa G, miolo alterna H/J; o objeto-símbolo em no máximo 1/3 dos slides | capa H, miolo alterna escalas (macro, plano aberto, só tipografia), nunca a mesma foto-base | janela em no máximo 1/3 dos slides; os demais em G/H ou só tipografia; paginação em camada | a prancheta/página em no máximo 2–3 slides; o resto em outras escalas (R.5) |
+| Carrossel | objeto central pode evoluir em estados ou partes; variar escala/layout com propósito | alternar situação, detalhe e respiro para desenvolver a tese | janela reaparece quando demonstrar uma etapa real; captura e aplicação autorizadas | página pode reaparecer com novo conteúdo/escala, sem clonar a composição (§R.5) |
 | Story/Reels 9:16 | objeto no terço central | título no meio; topo e base livres | janela menor, centro | evitar: texto pequeno demais |
 | Anúncio | o melhor: entende-se sem ler | bom para marca; teste com G | bom para app/SaaS | fraco em mídia paga |
 | Slide 16:9 | objeto à direita, texto à esquerda | foto de fundo, título em L8 | janela grande à direita | pouco indicado |
@@ -170,22 +172,21 @@ cena, escala, câmera, densidade de texto nem cabeçalho. Esses vêm da linha
 de cada slide no storyboard (`variacao-de-layout.md §V.5`). Regras para
 qualquer carrossel:
 
-1. **Um movimento por slide.** Cada slide nasce de uma MK diferente (ou de
-   uma alavanca de `nichos-e-ideias.md §N.4`); dois slides seguidos nunca
-   usam o mesmo movimento. Registre o movimento na coluna do storyboard e
-   numa linha de comentário fora do texto do prompt.
-2. **O objeto-símbolo da família aparece em no máximo 1/3 dos slides**
-   (prancheta, janela, papel, painel). Nos outros, mude a escala: foto em
-   tela cheia, macro, página só de tipografia, objeto como herói, recorte de
-   luz no escuro, folha de contato, mão em cena.
-3. **Densidade de texto varia pelo papel do slide.** Em 9 slides, pelo
-   menos 3 com até 6 palavras (manchete sozinha), 1 de respiro só
-   tipográfico, no máximo 3 com parágrafo.
-4. **O cabeçalho varia:** 3 âncoras (capa, falha numerada, checklist), 2
-   âncoras, microrrótulos espalhados na cena (MK13) ou só o @. O @ está
-   presente em todos os slides; a posição vem do movimento: centro do topo
-   por padrão, rodapé na J, microrrótulo no MK13, sempre com a mesma grafia
-   e o mesmo tamanho.
+1. **Uma operação pertinente por slide.** Selecionar MK/IG/R/N pelo assunto
+   e papel. Reutilizar uma referência quando a relação continuar útil;
+   variar estado, informação ou enquadramento em vez de sortear outra cena.
+   Registrar referência + verbo no storyboard e em nota fora do prompt.
+2. **Objeto recorrente com função:** pode reaparecer em vários slides se
+   mudar de estado, componente ou papel explicado. Sem função nova, trocar
+   escala/layout ou usar um respiro; não clonar a foto com outra legenda.
+3. **Densidade pelo papel:** capa de impacto, miolo que explica e síntese
+   utilizável. Reservar espaço para leitura; quotas de palavras e tipos
+   não devem suprimir informação necessária ao pedido.
+4. **Cabeçalho recorrente:** trio tema · @ · categoria na capa e slide 2;
+   retomadas preservam a grade, slides densos podem reduzir as laterais.
+   O @ permanece no centro do topo, com a mesma grafia e tamanho.
+   Seguir a recorrência de `microtipografia-editorial.md §2.3`; não variar
+   identidade para preencher uma cota de variedade.
 5. **Vozes tipográficas pelo papel** (`variacao-de-layout.md §V.3`): serif
    itálica nas frases de reflexão, extensa pesada nos golpes curtos, mono
    nos rótulos.
@@ -213,9 +214,9 @@ Antes de colar:
 - `Palette:` e `Light:` vêm da bíblia da série; o acento aparece num só
   elemento.
 - As zonas em % são exemplo; a zona do texto vem do layout L# da linha.
-- Texto em camada? Troque a linha `Text:` por `Do not include any text,
-  letters, numbers, logos, watermarks, signage, UI elements, borders or
-  frames.`
+- Texto em camada somente quando combinado; entregar lista exata e
+  aplicação junto do fundo. Para esse fundo explícito usar `--background-only`.
+  Prompt pronto de arte completa segue `prompts.md §6`, com copy integrada.
 - Escreva o movimento numa linha de comentário no topo do `.txt`, por
   exemplo `# slide 3 · MK06 transformar · L8`. Linhas que começam com `#`
   não vão ao gerador (`scripts/generate.py` as remove); em outro gerador,
@@ -265,6 +266,11 @@ Finish: {FINISH_SENTENCE from the series bible}, natural grain, no HDR look.
 Do not include any text, letters, numbers, UI, windows, screens, logos, watermarks, borders or frames.
 ```
 
+Este bloco é somente a etapa FOTO/FUNDO de uma produção com captura real.
+Usar `--background-only` e entregar também screenshot autorizado, copy,
+posições de cabeçalho/fração e a composição. Não chamar esta paisagem de
+prompt completo para um carrossel.
+
 ### J · Caderno editorial
 
 ```text
@@ -275,12 +281,12 @@ Camera: {CAMERA from the storyboard row: lens · height · angle, e.g. straight 
 Light: {LIGHT_SENTENCE from the series bible}, soft enough to show the paper texture.
 Palette: {PALETTE_SENTENCE from the series bible}; {ACCENT_HEX} appears only on the arrows.
 Composition: title from 10% to 22% of the height, left-aligned at 8% of the width; short paragraph from 26% to 40%; footer line at 92%.
-Text: render only these exact lines: "{TITLE ending with a colon}" in a condensed serif italic; "{PARAGRAPH, max 18 words}" in a small serif italic; "{@handle} · salvar · →" small in the footer. Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
+Text: render only these exact lines: "{TITLE ending with a colon}" in a condensed serif italic; "{PARAGRAPH, max 18 words}" in a readable serif; "{@handle}" centered at the top; "{TEMA}" left and "{CATEGORIA}" right only as planned; "{PÁGINA / TOTAL}" in the footer. Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 Do not include: photos inside the frames, extra handwriting, sticky notes, logos, a second accent color.
 ```
 
-A J vale para no máximo 1/3 dos slides de uma série (§R.5.2); as miniaturas
-reais entram em camada.
+Na J, manter a página enquanto ela explicar uma etapa ou comparação nova;
+variar escala/densidade com propósito (§R.5.2). Miniaturas reais entram em camada.
 
 ## R.7 Ritmo impacto × leitura e o surreal crível
 

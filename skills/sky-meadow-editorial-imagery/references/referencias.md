@@ -45,7 +45,9 @@ vale contra **todas** as R/N/IG/MK, não só contra a referência citada.
 | MK21 | Espectadora comendo pipoca sozinha em cinema vermelho | Literalizar "público"/"plateia"; serif itálica de contraponto |
 | MK22 | Calendário de ladrilhos de vidro, dois no acento, sobre poltronas desfocadas | Informação útil virando design, com outro dado do cliente e outro suporte |
 | MK24 | Computador antigo tomado por musgo no campo | Objeto obsoleto ou durável como ideia de tempo, com outro objeto |
-| MK07, MK12, MK15, MK17–MK18, MK20, MK23, MK26 | Janela de site real flutuando sobre paisagem com paginação BACK 01–08 NEXT | A estrutura (janela + cabeçalho de 3 âncoras tema · @ · categoria + paginação em camada) com a tela e a paisagem do cliente, em no máximo 1/3 dos slides |
+| MK07, MK17–MK18, MK20, MK23, MK26 | Janela de site real sobre paisagem com grade editorial recorrente | Interface/captura autorizada, utilidade e recorrência; paisagem própria do pedido |
+| MK12 | SAVE gigante, menubar, nuvem/perfil sobre oceano | Palavra de ação dominante e motivo de guardar; não copiar perfil/menu |
+| MK15 | Trio no topo, palavra gigante, campo/cavalo e apoio | Hierarquia de capa; não contém janela de site e não exige cavalo/campo |
 | MK04, MK05, MK16, MK25 | Folha de papel com título serif itálico com dois-pontos e 3 miniaturas com setas vermelhas | A página-caderno para explicar processo, com outro papel, outro acento e conteúdo do cliente |
 
 As peças aprovadas G01/G02 **podem** ser reutilizadas (mesmo casal e
@@ -171,10 +173,10 @@ G–J e método de transferência em `repertorio-mercado.md`.
 | MK09 | H | Monocromia vermelha de veludo; "06 PASSOS … posicionar"; trilha sinuosa com 6 nós | Caminho com nós para passos; monocromia total da foto |
 | MK10 | G | Cinza claro; xícara lime com vapor em pixel art; menu de contexto com "Atualizar" | Interface do sistema como metáfora; foto + pixel art |
 | MK11 | G | Palavra "CTRL" inteira com a tecla de vidro lime na frente do "T", cobrindo parte dele | Letra-objeto em sanduíche de profundidade (objeto na frente da letra, não no lugar); trocadilho legível em 1 segundo |
-| MK12 | I | Barra de menus de editor no topo; oceano, nuvem e pessoa minúscula; "save" gigante | App como moldura; escala surreal |
+| MK12 | H | Menubar no topo; SAVE enorme; oceano, nuvem e perfil | Palavra de ação monumental; fechamento/curadoria, não janela I |
 | MK13 | G | Preto; só o olho iluminado por uma fenda; colchetes de foco; "VISION." estendida | Recorte de luz; microrrótulos espalhados; extensa pesada |
 | MK14 | H | Vale escuro; "A grama do vizinho" com linha engolida pelo campo | Literalizar ditado; título coberto pela paisagem |
-| MK15 | I | Campo ensolarado com cavalo branco; "stop using pinterest" gigante; linha em 3 colunas | Manchete-provocação sobre paisagem limpa |
+| MK15 | H | Três âncoras; título monumental; superfície luminosa, campo e cavalo | Hierarquia de contraposição e apoio; não interface I |
 | MK16 | J | Papel com furos de fichário; "Step-by-step:"; 3 capturas com setas | Página-caderno; furos como sinal físico |
 | MK17 | I | Colina e céu; janela escura de site; frase com trecho em bold | Janela escura sobre paisagem clara |
 | MK18 | I | Céu claro, figura na ponta da rocha; janela escura | Figura pequena dá escala à janela |

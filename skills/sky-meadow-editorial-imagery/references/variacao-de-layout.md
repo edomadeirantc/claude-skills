@@ -26,8 +26,8 @@ saem do storyboard (V.5).
 |---|---|
 | Luz, paleta, um acento, materiais; pessoa só se houver personagem | Arquétipo de layout (V.2) |
 | (nada fixo aqui) | Lugar e escala: cenário principal em até 2/3 dos slides; os outros em macro, só tipografia, objeto-herói ou outro lugar do mesmo mundo (R.5) |
-| @ em todos os slides, mesma grafia e tamanho (posição pelo movimento: centro do topo por padrão, rodapé na J, microrrótulo no MK13); recorrência dos rótulos (`microtipografia-editorial.md §2.3`) | Voz tipográfica do título (V.3) |
-| Kit de sequência: pontos, numeração, "ARRASTE" (em camada) | Posição do bloco de texto: base, topo, esquerda, centro, sobre o objeto |
+| @ central no topo em todos os slides, mesma grafia/tamanho; trio e recorrência conforme `microtipografia-editorial.md §2.3` | Voz tipográfica do título (V.3) |
+| Navegação editorial: fração legível, sem pontos; F.4 define integrado ou camada | Posição do bloco de texto: base, topo, esquerda, centro, sobre o objeto |
 | Pares tipográficos escolhidos (no máximo 2 famílias + 1 mono) | Câmera (lente · altura · ângulo) e distância: detalhe, meio corpo, plano aberto, de cima. Nunca na bíblia |
 | Tratamento da base escura (ou neutro da marca) | Dispositivo de interface: nenhum, tags, balão, legenda, botões, número gigante |
 
@@ -107,30 +107,29 @@ Esta é a única tabela de roteiro da skill; `briefing-perguntas.md`,
 `ganchos-e-copy.md` e os templates apontam para cá. Preencha uma linha por
 slide depois do conceito escolhido e antes da copy final e dos prompts.
 
-| # | papel | movimento (MK## + verbo) | escala/cena | câmera (lente · altura · ângulo) | layout L# | voz | nº palavras | cabeçalho | mesmo lugar da capa? (--ref sim/não) |
+| # | papel/tese | referência + verbo; explica X por Y | escala/cena | câmera (lente · altura · ângulo) | layout L# | voz | nº palavras | topo esquerdo · @ central · direito | mesmo lugar da capa? (--ref sim/não) |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | capa | MK06 transformar | objeto-herói em estúdio | 50mm · altura da mesa · frontal | L9 | display | 5 | 3 âncoras · @ no centro | é a capa (sem --ref) |
-| 2 | stake | MK14 literalizar | plano aberto, outro lugar do mesmo mundo | 24mm · altura do peito · leve contra-plongée | L3 | utilitária | 9 | só o @ | não |
-| 3 | dor | MK13 recortar com luz | macro de mão no escuro | 100mm macro · rente · lateral | L8 | contraponto | 18 | microrrótulos na cena · @ em microrrótulo | não |
-| 4 | respiro | só tipografia (TM2 escala extrema) | sem foto | sem câmera | L5 | display + contraponto | 4 | só o @ | não |
+| 2 | stake | MK06 decompor; mostra os componentes da transformação | detalhe do mesmo objeto em novo estado | 85mm · altura da mesa · lateral | L8 | utilitária | 18 | tema · @ · categoria | não |
+| 3 | explicação | R05 encaixar; cada parte tem uma função nomeada | detalhe de componentes do próprio tema | 100mm macro · rente · lateral | L6 | contraponto | 18 | capítulo · @ · — | não |
+| 4 | respiro | IG07 sintetizar; texto organiza o aprendizado | sem foto | sem câmera | L5 | display + contraponto | 12 | — · @ · RESUMO | não |
 | … | | | | | | | | | |
 
 Regras (conferir antes de escrever prompts):
 
-1. Duas linhas seguidas nunca repetem movimento, câmera ou layout.
-2. O objeto-símbolo da família aparece em no máximo 1/3 das linhas.
-3. Pelo menos 3 linhas com até 6 palavras, 1 linha só tipográfica, no
-   máximo 3 linhas com parágrafo.
+1. Variar estado, informação, escala ou layout quando a narrativa avança.
+   Uma referência pode reaparecer; mudar por mudar não é progressão.
+2. Não repetir um objeto decorativo em todos os slides; objetos centrais
+   ao argumento podem reaparecer em estados explicados.
+3. Alternar impacto e leitura conforme extensão do pedido; cada slide
+   resolve uma ideia, sem forçar quotas que prejudiquem o conteúdo.
 4. `--ref` "sim" só quando o slide está no mesmo lugar da capa.
 5. Câmeras distintas em pelo menos metade dos slides (arredonde para cima).
-6. 4+ layouts distintos, um respiro, capa e final distintos.
-7. O cabeçalho varia (3 âncoras, 2 âncoras, microrrótulos, só o @); o @
-   está em todas as linhas, com a mesma grafia e o mesmo tamanho. Em
-   carrossel de lista (passos, falhas, mitos), o rótulo de passo ocupa a
-   âncora lateral nos slides de conteúdo no lugar da terceira âncora; mesmo
-   assim um slide de conteúdo pode cair para `— · @ · —` (precedência em
-   `microtipografia-editorial.md §2.3`).
+6. Em séries de 8 slides, usar 4+ layouts e um respiro; capa e final distintos.
+7. Trio na capa e slide 2, e em retomadas planejadas. Nos demais, manter
+   @ central e laterais úteis. Posição, grafia e tamanho do @ não variam.
+   Recorrência canônica: `microtipografia-editorial.md §2.3`.
 
-A câmera de cada prompt vem da coluna "câmera" desta tabela, nunca da
-bíblia da série. Mostre o storyboard e espere aprovação antes dos prompts
-(no atalho "decide você", entregue junto e avise que pode ser ajustado).
+A câmera vem da linha, não da bíblia. Se o pedido for de prompts prontos
+e o briefing bastar, entregar storyboard e blocos completos juntos;
+pedir aprovação separada somente quando o usuário quiser esse fluxo.

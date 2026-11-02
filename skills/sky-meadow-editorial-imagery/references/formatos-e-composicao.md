@@ -122,7 +122,6 @@ convertidas pela tabela (`y₃ₓ₄ = (y₄ₓ₅ × 1350 + 45) / 1440`):
 | Início do título no topo | 13% | 15% |
 | Título na base (Família F) | 52–76% | 52–74% |
 | Pílula de arraste | 80–84% | 78–82% |
-| Pontos | 90% | 87,5% |
 | Numeração, "ARRASTE" e rodapé (todas as famílias) | 92% | 89,5% |
 
 Exportação (centro exato; ajuste o deslocamento `y` só se o ponto focal
@@ -132,8 +131,8 @@ pedir, nunca cortando texto):
 ffmpeg -y -i slide-3x4.png -vf "crop=iw:trunc(iw*5/4/2)*2:0:(ih-trunc(iw*5/4/2)*2)/2,scale=1080:1350:flags=lanczos" slide-1080x1350.png
 ```
 
-Confira o PNG final, não o 3:4: @, título, pontos e numeração inteiros e
-a 5% das bordas.
+Conferir no PNG final, não no 3:4: @, título, copy e fração editorial
+inteiros e dentro das margens. Navegação canônica: família F §F.4.
 
 **Quando o gerador entrega 2:3** (ChatGPT/GPT Image, 1024×1536)
 `[INFERÊNCIA, conferir no app]`: gere já composto para o corte central a
@@ -149,7 +148,6 @@ Converta as posições com `y₂ₓ₃ = (y₄ₓ₅ × 1280 + 128) / 1536`:
 | Início do título no topo | 13% | 19,2% |
 | Título na base (Família F) | 52–76% | 51,7–71,7% |
 | Pílula de arraste | 80–84% | 75–78,3% |
-| Pontos | 90% | 83,3% |
 | Numeração, "ARRASTE" e rodapé (todas as famílias) | 92% | 85% |
 
 A exportação usa o mesmo comando `ffmpeg` do 3:4 acima (o corte `iw*5/4`

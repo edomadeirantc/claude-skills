@@ -80,30 +80,29 @@ Nos outros slides, monte o prompt pela família do slide em
 
 ## SE.6 Carrossel 9 slides
 
-Exemplo de variação; não copie: pelo menos 6 de 9 linhas devem mudar de cena e de copy. Formato canônico de `../variacao-de-layout.md
-§V.5`. Cada slide usa um movimento MK diferente e uma câmera diferente; a
-página J aparece uma vez e a janela I uma vez. Troque cena, copy e paleta
-pela marca e pelo conceito da rodada; mantenha só a regra de variação.
+Exemplo de autoria, não briefing nem quota de variação. Adaptar a tese,
+cena e copy à marca pela tabela de `../variacao-de-layout.md §V.5`.
+Reutilizar referências quando pertinentes e variar estado/informação.
+O @ permanece central no topo; trio na capa e slide 2, com retomadas planejadas.
 
 | # | papel | movimento (MK## + verbo) | escala/cena | câmera (lente · altura · ângulo) | layout L# | voz | nº palavras | cabeçalho | mesmo lugar da capa? (--ref sim/não) |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | capa | SE1 · MK13 recortar com luz | porta dos fundos da loja fechada à noite, vista pela câmera | 24mm · canto alto do muro · plongée de câmera de segurança | L8 | display + mono nos rótulos | 6 | 3 âncoras (PONTO CEGO · @ · CAM 02) | é a capa (sem --ref) |
-| 2 | stake | SE3 · MK11 trocar a letra pelo objeto | still life em estúdio grafite, câmera dome como a letra "O" | 85mm · altura do objeto · frontal | letra-objeto (estrutura própria da MK11, sem pilha L2) | display | 5 | só o @ | não |
+| 2 | stake | SE3 · MK11 objeto na palavra | still life em estúdio grafite, câmera dome em profundidade sobre o "O" | 85mm · altura do objeto · frontal | palavra-objeto | display | 5 | 3 âncoras (PONTO CEGO · @ central · MONITORAMENTO) | não |
 | 3 | dor | SE4 · MK21 literalizar | plano médio: o dono baixando a porta de enrolar na frente da loja às 22h | 28mm · altura do olho, do outro lado da calçada · frontal | L3 | utilitária (mono) | 8 | @ no topo | não |
-| 4 | como funciona | SE6 · J (MK16 caderno de processo) | página de laudo técnico sobre o balcão da loja, 3 fotos reais em camada | 35mm · de cima · top-down a 90° | L10 | utilitária (mono impressa no laudo) | 4 | rodapé J (@ · salvar · →) | não |
+| 4 | como funciona | SE6 · J (MK16 caderno de processo) | página de laudo técnico sobre o balcão da loja, 3 fotos reais em camada | 35mm · de cima · top-down a 90° | L10 | utilitária (mono impressa no laudo) | 4 | LAUDO · @ central no topo · —; sem rodapé autoral duplicado | não |
 | 5 | respiro | TM2 escala extrema (só tipografia) | sem foto, fundo da série | sem câmera | L5 | display | 5 | só o @ | não |
 | 6 | prova de rotina | SE2 · MK03 um se destaca | plano aberto: fileira de fachadas à noite, uma sem o LED de monitoramento | 50mm · do outro lado da rua, altura do olho · frontal com fachadas paralelas | L1 | display + contraponto | 7 | 2 âncoras (@ · RUA COMERCIAL) | não |
 | 7 | virada | SE5 · família I (MK26 janela noturna) | a cidade de cima à noite, janela real do app em camada | 70mm teleobjetiva · alto de um prédio · plongée leve | janela I em camada | utilitária + display | 9 | 3 âncoras em camada (CENTRAL · @ · AO VIVO) | não |
 | 8 | resumo | MK09 trilha de passos | detalhe: cabo em canaleta percorrendo a parede com 5 caixas de passagem como nós | 35mm · altura do peito · diagonal ao longo da parede | L11 | utilitária | 10 | 3 âncoras (CHECKLIST · @ · 5 PONTOS) | não |
 | 9 | CTA | MK08 a palavra vira CTA | macro do LED de status desfocado atrás da palavra | 100mm macro · altura do LED · frontal | L12 | display | 5 | só o @ | não |
 
-Conferência (regras de §V.5): nenhum movimento, câmera ou layout repete em
-linhas seguidas; o objeto-símbolo (câmera dome/visor) aparece em 3 de 9
-linhas (1, 2, 9); 5 linhas com até 6 palavras (1, 2, 4, 5, 9), 1 só
-tipográfica (5); a explicação do laudo vai na legenda, porque o L10 aceita
-no máximo 4 palavras; a capa (plongée de vigilância) e a dor (altura do olho)
-não repetem câmera nem ideia de copy; nenhuma linha usa a capa como
-`--ref`, porque nenhuma volta à porta dos fundos.
+Conferência: progressão legível, mudanças de escala/layout quando úteis,
+um respiro e a identidade estável. Os números e movimentos desta tabela
+descrevem o exemplo; não são quotas a impor. A explicação do laudo pode ir
+na copy legível do slide ou na legenda conforme espaço. A capa (plongée)
+e a dor (altura do olho) usam enquadramentos distintos; a referência da
+capa só entra nas linhas que de fato retornarem ao mesmo lugar.
 
 Copy de exemplo (não copie; troque pela da marca e do conceito):
 
@@ -117,7 +116,8 @@ Copy de exemplo (não copie; troque pela da marca e do conceito):
 8. "O que a vistoria confere:" + "ângulo · cobertura · gravação · resposta · manutenção"
 9. "Comente DIAGNÓSTICO" + "peça a vistoria"
 
-Contador e paginação em camada (`../../scripts/kit_overlay.mjs`). Registre
-a rodada no caso, seção `## Rodadas` (`README.md`).
+Navegação atual conforme `../familia-social-conversao.md §F.4`: fração
+no prompt completo ou camada combinada/correção, sem pontos e sem duplicação.
+Registrar a rodada no caso, seção `## Rodadas` (`README.md`).
 
 Adaptadores para outros geradores: `../modelos-e-producao.md §9`.

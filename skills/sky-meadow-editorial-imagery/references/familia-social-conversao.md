@@ -1,10 +1,9 @@
 # Família F — Social de conversão (carrossel de feed)
 
-Carrossel de Instagram feito para **parar o polegar e levar ao arraste**:
-foto emocional que escurece na base, título enorme, um acento de cor, selo
-do perfil e sinais claros de sequência (pontos, "ARRASTE", botão). Refs.:
-IG01–IG10 (`referencias.md §1.3`). Segue a arquitetura de `prompts.md §6`, o
-bloco de realismo de `realismo-fotografico.md §R.6` e o QA de `../SKILL.md §12`.
+Carrossel de Instagram com capa forte, copy integrada e navegação discreta.
+Refs. IG01–IG10 ensinam hierarquia e papéis; os pontos/losangos observados
+não fazem parte do kit atual. Seguir `prompts.md §6` para arte completa,
+`microtipografia-editorial.md` para o topo e `direcao-por-pedido.md` para seleção.
 
 A Família F não substitui A–E: use-a quando o objetivo é **alcance e
 conversão no feed** (salvar, comentar, seguir, chamar no direct) e o
@@ -36,6 +35,9 @@ atmosfera premium, mantenha A–E e aplique só o **kit de sequência** (§F.4).
 - **Arraste:** as refs escrevem "ARRASTA →" (coloquial); a skill usa
   "ARRASTE →". Escolha um pelo tom da marca no briefing e repita igual em
   todos os slides; nunca misture.
+
+As medidas acima descrevem o kit observado nas referências. Para a peça
+nova, substituir a navegação pela §F.4; não reproduzir seus marcadores.
 
 ### Acentos medidos (amostragem de área)
 
@@ -103,14 +105,11 @@ Onde as referências põem o nome da marca, a skill põe o **@ do Instagram**:
 
 - **Centro do topo, x = 50%**, linha-base a 6% no 4:5 (8,8% se gerado em 3:4 para corte; ~15% no story), sans
   neutra 500–600, ~28–32 px a 1080 px de largura, sem fundo. Ex.: `@suamarca`.
-- Esquerda (x = 6%) e direita (x = 94%) são opcionais: tema/capítulo à
-  esquerda e **tag de categoria** em pílula à direita (IG03/IG05/IG09/IG10)
-  *ou* um rótulo de texto, nunca os dois do mesmo lado.
-- O @ aparece **em todos os slides**, na mesma posição; é a assinatura que
-  identifica o post quando ele é compartilhado. Tag de categoria, gatilho,
-  passo e rótulo de ação **não** repetem em todos: seguem a tabela de
-  recorrência de `microtipografia-editorial.md §2.3` (nas refs, a tag
-  aparece só na capa e "AGORA" só no fechamento).
+- Na capa e slide 2, usar três âncoras: tema/série à esquerda, @ ao centro,
+  categoria à direita. Texto direto na imagem; pílula apenas se o projeto pedir.
+- O @ aparece em todos os slides, na mesma posição. As laterais reaparecem
+  em retomadas de capítulo e saem quando não ajudam a orientação, conforme
+  `microtipografia-editorial.md §2.3`. A recorrência é planejada, não sorteada.
 - Grafia exata: minúsculas, com o ponto/sublinhado da conta real. Confirmar
   no briefing. Nada de @ inventado ou de marca de outra conta.
 - **Selo verificado** (✓ azul) só se a conta for verificada. Caso contrário,
@@ -122,61 +121,43 @@ Detalhes de grade, escala e contraste em `microtipografia-editorial.md §2–§4
 
 ---
 
-## F.4 Kit de sequência (aplicável a qualquer família)
+## F.4 Navegação editorial (fonte canônica)
 
-| Elemento | Posição (altura) | Frase de prompt ou regra |
+Substituir os pontos/losangos do corpus por **fração legível**, como
+`03 / 08`, em sans utilitária, sem caixa. Uma régua fina de progresso é
+opcional na produção por camada; nunca um marcador por página.
+
+| Elemento | Posição no 4:5 | Regra |
 |---|---|---|
-| Pílula de CTA de arraste | 80–84%, centrada (3:4 para corte: 78–82%) | `a solid {ACCENT} pill button with dark uppercase sans text "ARRASTE PARA O LADO", next to a small solid {ACCENT} circle containing a dark right arrow` (só na capa) |
-| Pontos de página | 90%, centrados | **camada, nunca no prompt** (`scripts/kit_overlay.mjs`) |
-| Numeração | 92%, x = 6% | **camada**: `"01/06"` sem espaços |
-| Arraste | 92%, terminando em x = 94% | **camada**: `"ARRASTE →"` (some no último slide) |
-| Tag de categoria | 6–9%, terminando em x = 94% | `a small solid {ACCENT} pill with dark uppercase label "{CATEGORIA}"` |
-| Salvar (último slide) | após o subtítulo | `an outlined white pill with a bookmark icon and the text "SALVAR ESTE POST"` |
+| Fração | x=6%, linha-base y=92% | `01 / 08` até `08 / 08`; alto contraste, cerca de 28 px |
+| Régua opcional | x=37–63%, y=92% | trilha neutra fina + trecho no acento proporcional à página |
+| Arraste discreto | x=94%, y=92%, alinhado à direita | `ARRASTE →`; omitir no último e quando já houver chamada de avanço |
+| CTA final | zona de conteúdo | uma ação, a do briefing; não competir com o contador |
 
-Cor do kit: cinza claro (~`#A0A0A0`) sobre base escura; cinza médio
-(~`#6E6E6E`) sobre fundo claro; confira contraste no fundo real.
+**Prompts prontos para colar — padrão integrado:** incluir a fração literal
+e sua posição no bloco `Text, rendered exactly:` de cada slide. A fração
+é texto simples; não pedir contagem de elementos repetidos. Manter o restante
+do rodapé calmo. A régua pode ser omitida no prompt integrado.
 
-**Kit aplicado às famílias A–E:** foto, paleta e tipografia continuam da
-família; posições e desenho de pontos, numeração e pílula seguem esta
-tabela (o rodapé fica a 92% em todas as famílias, como em
-`formatos-e-composicao.md §7.4`). O botão final continua o **de contorno**
-(`interface-vidro.md §V.7`); a pílula sólida de arraste só aparece na capa.
-Sempre: um único CTA por slide, a mesma ação pedida no briefing.
-
-**Slide da Família J dentro de um carrossel com kit:** o rodapé J
-(`@handle · salvar · →`) e a numeração/"ARRASTE →" do kit disputariam a
-linha de 92%. Escolha um: o rodapé J sobe para 88% (e o prompt reserva
-86–94% livres), ou o kit é suprimido naquele slide (não aplique o SVG do
-kit sobre ele).
-
-**Pontos, numeração e "ARRASTE →" nunca entram no prompt.** O gerador não
-conta elementos pequenos repetidos: na rodada 2 do Groomy, mesmo com "ONLY
-the current one", 5 de 8 slides saíram com 6 ou 7 pontos, o ponto aceso na
-posição errada ou o contador deslocado. O prompt reserva a faixa vazia
-(`Reserved band: from 86% to 96% of the height keep only calm background,
-with no text, dots, squares, numbers or shapes`; em 3:4 para corte, 85–93%)
-e o kit é aplicado por cima, depois do corte para o tamanho final:
+**Produção por camada — quando combinada ou para corrigir lettering:** reservar
+86–96% da altura sem lettering; não gerar outro contador nessa faixa.
+Depois do corte final aplicar o kit abaixo, substituindo a navegação incorreta.
+Entregar o SVG e sua aplicação, não só uma promessa de “adicionar depois”.
 
 ```bash
-node scripts/kit_overlay.mjs --total 8 --accent "#C8F028" --out ./kit      # feed 1080×1350
-node scripts/kit_overlay.mjs --total 8 --h 1920 --out ./kit-story          # story
+node scripts/kit_overlay.mjs --total 8 --accent "#C8F028" --out ./kit
+node scripts/kit_overlay.mjs --total 8 --h 1920 --out ./kit-story
 ```
 
-Gera `kit-01.svg … kit-NN.svg` transparentes (Node ou Bun, sem dependências),
-importáveis no Canva, Figma ou Photoshop. O @, os rótulos do topo, a pílula de
-arraste da capa e o CTA continuam podendo ser gerados (acertaram nas duas rodadas).
-A tag de categoria também falhou uma vez (apareceu no slide 4 sem estar na
-recorrência): escreva `Nothing on the right` nos slides sem tag.
+Gera `kit-01.svg … kit-NN.svg` transparentes, sem dependências: fração,
+régua proporcional e arraste que desaparece no final. Usar `--grey` e
+`--accent` conforme contraste e identidade da série. Em story isolado não
+há contador; em série de stories, respeitar as áreas da interface.
 
-Erros observados no caso Groomy, rodada 1 (8 slides): (1) o gerador entregou
-3:4 (1792×2400) apesar de `4:5`, com o @ a ~4% e o rodapé a ~96%, o que um
-corte para 4:5 cortaria; (2) com `--ref` da capa, o primeiro ponto ficou
-lime em vários slides além do ponto atual; (3) com "keep typography
-exactly", os 8 slides saíram com a mesma diagramação. Correções: conferir a
-proporção do primeiro arquivo (`formatos-e-composicao.md §5.6`), kit em
-camada e referência sem copiar layout (`variacao-de-layout.md §V.4`).
-Rodada 2: layouts variados funcionaram; o realismo ficou de banco de imagem
-(`realismo-fotografico.md §R.9–R.13`).
+Aplicar o mesmo sistema em qualquer família. Na J, omitir o rodapé autoral
+redundante: o @ permanece no topo. Não empilhar kit sobre fração já existente.
+Se a arte foi gerada em 3:4, converter as posições antes do corte
+(`formatos-e-composicao.md §5.6`); o SVG final entra depois do corte.
 
 ---
 
@@ -190,7 +171,7 @@ Gerar texto corrido por IA não é confiável. Monte no Figma/Canva/HTML:
   fosse a pessoa), nome em sans 600, verificado só se for verdade, @ em cinza.
 - Título sans 700 (~44 px), corpo sans 400 (~34 px), 1–2 palavras do corpo no
   acento da marca.
-- Mesmos pontos, numeração e "ARRASTE →" do kit (§F.4).
+- Mesma fração editorial e avanço discreto da §F.4, sem pontos.
 
 Use F3 como **slide de respiro** dentro de um carrossel F1/F4 (opinião do
 especialista, passo a passo) ou como série inteira de autoridade.
@@ -217,19 +198,18 @@ Light: the real available light of the place ({LIGHT_OF_THE_PLACE}, time of day)
 Palette: {BRAND_NEUTRALS}; {ACCENT_NAME} ({ACCENT_HEX}) appears only in the typography and interface, never on objects in the scene.
 Composition: the subject occupies 5% to 72% of the height. From 50% downward the photograph itself fades smoothly into near-black (#0A0A0A), fully dark from 85%; no box, card or band. Keep 4–9% calm for the top handle line.
 Text, rendered exactly:
-- "{@handle}" centered at the top, small neutral sans, white at 80% opacity, baseline at 6% of the height.
+- "{@handle}" centered at the top, neutral sans, about 30 px, baseline at 6%.
+- "{TEMA}" left-aligned at x=6% and "{CATEGORIA}" right-aligned at x=94%, same baseline, discreet neutral sans.
 - Headline in a heavy condensed uppercase sans, warm white, centered, 52% to 76% of the height: "{TÍTULO}", with "{PALAVRA_OU_LINHA}" in {ACCENT_HEX}.
 - {Optional subline in small uppercase sans with a thin right arrow, 77–79%: "{APOIO}".}
-- A solid {ACCENT_HEX} pill at 80–84% with dark uppercase sans "ARRASTE PARA O LADO" and a small {ACCENT_HEX} circle with a dark right arrow beside it.
-- Reserved band: from 86% to 96% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (page counter added later as an overlay).
+- Page fraction "{01 / TOTAL}" at x=6%, baseline y=92%, small neutral sans. Keep the rest of the footer calm; no repeated page markers.
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
 [REALISM BLOCK — realismo-fotografico.md §R.6 + §R.12; character sheet §R.10]
 ```
 
-Miolo: mesma luz, paleta e kit, com **layout e voz tipográfica diferentes a
-cada slide** (`variacao-de-layout.md`); troque distância/gesto (§7.4 de
-`formatos-e-composicao.md`), tire a pílula de arraste, mantenha pontos e
-numeração. Fechamento: F5/L12 ou o plano mais calmo da série com o CTA da marca.
+Miolo: manter luz, paleta, material, tipografia e @; variar estado, escala
+e layout para desenvolver a tese (`variacao-de-layout.md §V.5`). Usar a
+fração da §F.4, sem pílula de arraste. Final F5/L12: um CTA, sem arraste.
 
 Ordem dos `--ref` nos slides depois da capa: **IMAGE 1 = capa aprovada**,
 só para continuidade (lugar, aparência e roupa da pessoa, cores; nunca layout ou tipografia,

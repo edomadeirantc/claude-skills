@@ -2,185 +2,87 @@
 
 ## 6. Arquitetura do prompt
 
-### 6.1 Ordem dos slots
+### 6.1 Saída padrão: ARTE COMPLETA
 
-Para Gemini/Nano Banana, escreva **frases descritivas**, não listas de
-palavras-chave. Siga esta ordem:
+Prompt de capa/carrossel/post/anúncio contém **imagem + copy + composição + identidade + navegação**. Escrever um bloco independente por peça: o usuário pode colá-lo sozinho em outra IA. Cada bloco repete luz, paleta, fontes, @ e formato necessários. A nota de referência não condiciona o gerador: só anexos autorizados realmente enviados podem fazer isso.
 
-| # | Slot | Pergunta que responde |
+| Ordem | Slot obrigatório | Conteúdo |
 |---|---|---|
-| 1 | FORMATO E PROPÓSITO | Que peça é e para quê |
-| 2 | SUJEITO | O herói da ideia: objeto, pessoa, gesto, material |
-| 3 | CENÁRIO | Escala/cena da linha do storyboard (`variacao-de-layout.md §V.5`) |
-| 4 | CÂMERA | Lente, altura, ângulo da linha do storyboard (nunca da bíblia) |
-| 5 | LUZ | Hora, direção, qualidade |
-| 6 | PALETA | Frase de paleta da bíblia da série + acento único |
-| 7 | COMPOSIÇÃO E ESPAÇO NEGATIVO | Zonas da [formatos-e-composicao.md §5](formatos-e-composicao.md) em porcentagem |
-| 8 | CAMADAS | Se o sujeito invade a zona do título |
-| 9 | ACABAMENTO | CGI limpo ou filme 35 mm |
-| 10 | EXCLUSÕES | Sem texto, logos, artefatos |
+| 1 | Formato e propósito | proporção, entrega, papel do slide e tese |
+| 2 | Sujeito e relação | quem/o quê, gesto/estado, operação que explica a frase |
+| 3 | Cenário | universo próprio da marca; referência não é cena a copiar |
+| 4 | `Camera:` | lente, altura, ângulo do storyboard; composição plana quando só tipografia |
+| 5 | Luz/material | direção, sombra de contato, textura; causa de brilho/refração |
+| 6 | Paleta | neutros e acento da série; função do acento |
+| 7 | Composição/camadas | zonas em porcentagem, espaço limpo, ordem de sobreposição |
+| 8 | Tipografia | display e apoio, hierarquia e escala; texto legível no celular |
+| 9 | `Text, rendered exactly:` | strings finais de cabeçalho, @, título, apoio, chamadas, contador e CTA |
+| 10 | Restrições | somente lettering listado; erros pertinentes, sem anular a copy |
 
-### 6.2 Template mestre
+### 6.2 Receita do bloco final
 
-```text
-A {FORMAT} {FINISH_SHORT} image for {USE: the cover slide of an Instagram carousel | the {N}th slide of an Instagram carousel | a single Instagram post | a website hero | …}.
-{SUBJECT_SENTENCE}
-It is set {SETTING_SENTENCE}.
-Camera: {CAMERA_SENTENCE from this slide's storyboard row}.
-Light: {LIGHT_SENTENCE}.
-Palette: {PALETTE_SENTENCE from the series bible}{ACCENT_CLAUSE}; no other strong colors.
-Composition: {SAFE_ZONE_SENTENCE}
-{LAYER_SENTENCE}
-Finish: {FINISH_SENTENCE}.
-Do not include any text, letters, numbers, logos, watermarks, signage, UI elements, borders or frames.
-```
-Este template é a variante **sem texto**. Quando a copy for aplicada pelo
-gerador, substitua a última frase por uma lista fechada dos textos exatos
-(título, subtítulo, CTA e, se ativado, cabeçalho). Termine com: `Render only
-the exact text listed above; no additional lettering, dates, credits, logos
-or watermarks.` Não misture a lista com a proibição geral de letras/números.
-
-### 6.3 Banco de frases por slot
-
-**Câmera** (exemplos; a escolha vem da linha do storyboard, e dois slides seguidos não repetem a mesma). Família A (campo e céu):
-- Rente ao chão: `low camera height just above the grass, slight upward angle, 28mm lens, deep focus on the subject`
-- Herói monumental: `camera placed below the crest looking up, 35mm lens, subject silhouetted against the sky`
-- Perspectiva forçada: `very low angle, 20mm wide lens, the nearest hand/object almost touching the lens, strong perspective`
-- Aérea: `high aerial view, 50mm equivalent, looking down at a shallow angle`
-- Para cima: `worm's-eye view pointing straight up`
-
-Família G (still life de estúdio, macro):
-- Still life frontal: `camera at table height, 90mm macro lens, object centered on a seamless sweep, shallow depth of field`
-- Macro de textura: `extreme close-up, 100mm macro lens, focus on the material surface, background fully out of focus`
-- Plano de cima: `top-down flat lay, 50mm lens, camera parallel to the tabletop`
-
-Família H (cinema interior):
-- Interior em plano aberto: `wide interior shot, 24mm lens at chest height, the room's depth leading to the subject`
-- Plongée: `high angle looking down at the subject from above, 35mm lens, floor pattern visible`
-- Contra-plongée: `low angle looking up from knee height, 28mm lens, ceiling visible above the subject`
-
-Família K (low-key, recorte) e CFTV:
-- Retrato 85mm: `head-and-shoulders portrait, 85mm lens at eye level, background falling to black`
-- Detalhe recortado: `tight crop on hands or profile, 100mm lens, everything outside the light lost in shadow`
-- CFTV / vigilância: `fixed security-camera view from a high ceiling corner, wide lens with slight barrel distortion, flat deep focus`
-
-**Luz** (L1–L3 são da Família A; L4–L8 servem G, H e K)
-- L1 Meio-dia limpo (padrão): `clear bright midday sunlight from high above, soft natural shadows, crisp air`
-- L2 Contraluz dourada: `late-afternoon sun low behind the subject, warm golden rim light on grass tips and edges, gentle glow`
-- L3 Entardecer pastel (R11): `soft pastel dusk, pink and lavender clouds, diffuse warm light`
-- L4 Estúdio (R01): `large soft studio key light from the front-left, subtle fill, soft contact shadow on the seamless floor`
-- L5 Noir (R02): `low-key moody light, deep shadows, a single soft spotlight on the accent figure`
-- L6 Interior com janela (H): `daylight from a single side window, soft falloff across the room, practical lamps off`
-- L7 Recorte low-key (K, MK13): `one hard narrow beam from the side cutting across the subject, the rest of the frame near black`
-- L8 Luz de CFTV: `flat overhead fluorescent light, slight green cast, no dramatic shadows`
-
-**Acabamento**
-- F1 CGI limpo: `hyperreal 3D render with photographic lighting, physically accurate materials, crisp detail, clean and calm, subtle atmospheric haze at the horizon` — **só para peças sem pessoas**; com pessoas gera pele de cera.
-- F2 Filme 35 mm: `shot on 35mm color film, fine natural grain, slightly soft highlights, true-to-life color, authentic candid feel`
-- F3 Moda editorial: `high-end editorial fashion photography, sharp detail, natural skin texture, minimal retouching`
-- F4 Fotografia editorial real (**padrão para pessoas**): ver `realismo-fotografico.md §R.2` e o bloco §R.6.
-
-**Materiais para objetos-herói**
-`clear glass with soft internal refractions` · `frosted glass` · `polished chrome` ·
-`matte ceramic` · `natural oak wood` · `soft upholstered fabric with deep tufting` ·
-`brushed aluminium`
-
-**Acento** (`{ACCENT_CLAUSE}`)
-- `, with a single vivid lime-green (#D4FF1A) accent on {ELEMENT}`
-- `, with a single coral (#FF5A3C) accent on {ELEMENT}`
-- `, set against a warm amber (#E8940F) seamless backdrop`
-
-Hex no prompt orienta, mas não garante a cor exata: confira no QA e corrija
-por edição ou no tratamento.
-
-**Camadas** (`{LAYER_SENTENCE}`)
-- Com texto atrás: `The top of the subject rises about 10% into the headline zone; its silhouette is crisp and sharply defined against a smooth background, with no motion blur, so it can be cleanly cut out.`
-- Sem texto atrás: `The subject stays fully below the headline zone with clear background between them.`
-
-### 6.4 Regras de escrita
-
-- Um sujeito por frase; um herói por imagem.
-- Posições em **porcentagem ou terços**, nunca "à esquerda" sozinho.
-- Diga o que deve estar **vazio** com tanta precisão quanto o que deve
-  aparecer.
-- Proporção vai no **parâmetro** do modelo, não só no texto.
-- Não cite fotógrafos ou artistas vivos, celebridades, personagens ou marcas
-  ([SKILL.md §13](../SKILL.md)). Descreva as qualidades visuais.
-- Prompt em inglês; texto que for aparecer na imagem, entre aspas, no idioma
-  final.
-
-### 6.5 Referências e cabeçalho editorial
-
-Antes de preencher os slots, execute a consulta visual de `acervo-visual.md`
-e registre os IDs consultados fora do prompt. Anexe ao gerador somente
-imagens autorizadas, informando a função de cada uma. Se entregar um prompt
-para outro terminal ou gerador, diga quais arquivos devem acompanhá-lo;
-um caminho local ou ID no texto não envia uma imagem por si só.
-
-Se a peça pedir microlegendas no topo, inclua o bloco e as três strings exatas
-de `microtipografia-editorial.md §4`, adaptadas ao tema. Defina os slides
-escolhidos e reutilize as mesmas âncoras. No modo sobreposição, gere a faixa
-vazia e entregue os rótulos separadamente para composição tipográfica.
-
-Carrossel de Instagram: o @handle exato entra na lista fechada de textos,
-centralizado no topo, em todos os slides (`microtipografia-editorial.md §2.1`
-e §4, variante Instagram). Família F: bloco base em
-`familia-social-conversao.md §F.6`; SaaS: `saas.md §S.6`.
-
----
-
-## 15. Prompts prontos
-
-Substitua os campos `{...}`. Cada exemplo segue o template da §6.2.
-
-Os exemplos completos da Família A (hero, carrossel, panorama, janela de céu) estão em
-`familia-ceu-campo.md`, "Apêndice A · prompts prontos da Família A". Para G–J, parta
-dos núcleos de `repertorio-mercado.md §R.1`; em carrossel, cada slide segue a sua linha
-do storyboard (`variacao-de-layout.md §V.5`).
-
-### P11 · Carrossel 1080×1350 — capa de conversão (F1) com @handle
-
-Use o bloco de `familia-social-conversao.md §F.6` com a série preenchida.
-Exemplo de sujeito (produto na pele): `A {PERSON}'s hands, cropped at the wrists, cradle the {PRODUCT} against {BODY_PART}; {SKIN_AND_NAIL_DETAILS}; the label faces the camera and is reproduced exactly as in the reference image.`
-
-### P12 · Carrossel — miolo com especialista do nicho (F4)
+Preencher todos os campos antes de entregar. Este é esquema de autoria, não prompt pronto:
 
 ```text
-A portrait {3:4 | 4:5} photograph for an inner slide of the same Instagram carousel. {Only if the storyboard row marks "mesmo lugar da capa = sim": Reference image 1 is the approved cover; keep the same light, colors and the same person's general look and clothing; build a new framing, camera and scale; do not copy its layout or typography.}
-Camera: {CAMERA from this slide's storyboard row}.
-{PROFESSIONAL of the niche, no recognizable real person}, {NICHE_GESTURE_OR_OBJECT that is not the niche cliché}, warm directional light, natural skin texture.
-Composition: the subject occupies 8% to 70% of the height; from 55% downward the photograph fades into near-black; keep 4–9% calm for the handle line.
+# slide N · ID da referência · L# · operação semântica
+Create a portrait 4:5 complete editorial Instagram carousel slide for [papel e tese]. Intended final delivery: 1080x1350.
+Subject and meaning: [objeto/gesto próprio do conteúdo e relação que demonstra].
+Setting: [cena, escala e materiais próprios].
+Camera: [lente, altura e ângulo desta linha do storyboard].
+Light: [fonte e direção; sombra de contato; aresta com reflexo se houver].
+Palette: [neutros e acento exatos, repetidos em cada bloco].
+Composition: [zonas de imagem e texto; topo; rodapé; margens].
+Typography: [display descrita pela forma, apoio, pesos e contraste].
 Text, rendered exactly:
-- "{@handle}" centered at the top, baseline at {6% (4:5) | 8.8% (3:4 for crop)}.
-- Only the side labels this slide gets in the recurrence table (`microtipografia-editorial.md §2.3`); in a middle slide usually: "{PASSO 2/4}" left-aligned at 6% of the width, small uppercase sans, same baseline. Category pill only on slides 1–2.
-- Headline centered, 56% to 80%: "{TÍTULO}".
-- Subline, small sans, 82%: "{APOIO}".
-- Reserved band: from 86% to 96% of the height keep only calm dark background, with no text, dots, squares, numbers or shapes (page counter added later as an overlay).
+- [string do topo esquerdo e posição; omitir quando vazio no roteiro].
+- [@ exato, x=50%, baseline y=6%; mesma fonte e tamanho em todos].
+- [string do topo direito e posição; omitir quando vazio no roteiro].
+- [título preenchido, quebras e posição].
+- [apoio ou chamadas preenchidos e posições].
+- [contador literal e posição; CTA final somente quando houver].
 Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
+[restrições específicas da peça, sem proibir globalmente texto].
 ```
 
-### P13 · Carrossel — fechamento (F5)
+Os campos entre colchetes são instruções de preenchimento. O bloco entregue contém as frases finais, não colchetes, chaves, “mesmo do anterior” ou caminhos/IDs no lugar da descrição. Um exemplo preenchido de seis peças está em `exemplo-agenda-editorial.md`.
 
-```text
-A portrait {3:4 | 4:5} closing slide of the same Instagram carousel, plain {#0A0A0A | #FFFFFF} background matching the series, no photograph.
-Text, rendered exactly, left-aligned at 8% of the width, block centered vertically:
-- "{@handle}" centered at the top, baseline at {6% (4:5) | 8.8% (3:4 for crop)}; optional action label "{AGORA | SALVE}" right-aligned at 94% on the same baseline.
-- Headline in the series headline font: "{PERGUNTA OU CONVITE}".
-- Subline, small sans: "{APOIO}".
-- An outlined pill with a bookmark icon and "{CTA, ex.: SALVAR ESTE POST | PEÇA O SEU NO DIRECT}".
-- Reserved band: from 86% to 96% of the height keep only calm background, with no text, dots, squares, numbers or shapes (page counter added later as an overlay).
-Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.
-```
+Para prompts prontos, **o contador simples entra na lista fechada**: por exemplo, `"03 / 06" at x=6%, baseline y=92%, small neutral sans`. O cabeçalho obedece à recorrência de `microtipografia-editorial.md`; a navegação segue `familia-social-conversao.md §F.4`. Não omitir textos porque serão “aplicados depois” sem combinar produção em camadas.
 
----
+### 6.3 Câmara, luz e efeito com função
 
-## 16. Exclusões padrão
+A câmera vem do storyboard, não de um preset repetido. Variações úteis: 28–35 mm em plano aberto para situação; 50 mm na altura do objeto para relação de escala; 85–100 mm em detalhe para textura; overhead paralelo para ordem/etapas. Em página só tipográfica, escrever `Camera: not applicable; flat graphic composition`.
 
-Inclua o equivalente no prompt ou no `--no` do modelo:
+Descrever a causa do impacto: `a single coral component slots into the transparent assembly; directional light catches its bevels, with visible thickness, restrained refraction and a physical contact shadow`. A frase explica peça/estado; trocar “component” pelo objeto real do tema. Não usar “vidro premium” como substituto da ideia.
 
-- texto, letras, números, logos, marcas d'água, placas, interface, molduras;
-- pessoas reais, celebridades, personagens, bandeiras, insígnias;
-- dedos extras, mãos deformadas, membros fundidos;
-- grama de plástico/carpete, nuvens clonadas, horizonte torto involuntário;
-- HDR, halos, lens flare excessivo, glow neon, gradientes roxos/índigo;
-- segundo acento cromático, objetos extras no céu, sol na zona do título.
+Pessoas: incorporar o bloco de `realismo-fotografico.md §R.6`. Objetos sem pessoas podem ser esculturas conceituais/materialidade 3D convincente. Manter arestas, reflexos e transparência; impedir glow que lave a letra. Paleta da marca precede céu azul/grama verde da referência.
+
+### 6.4 Linguagem e completude
+
+- Atender ao idioma de prompt pedido. Sem preferência, direção de imagem em inglês e strings visíveis no idioma final; explicar a entrega em português.
+- Reservar espaço da copy antes de descrever o cenário. Especificar porcentagens/terços e contraste por área, não só “texto grande no centro”.
+- Copiar literalmente a grafia de @, palavras, números e acentos. Não importar autor, crédito, ano, marca, selo ou oferta da referência.
+- A imagem responde ao título, o apoio explica e o próximo slide desenvolve. Nunca usar a mesma cena com outro texto nem cenas sem fio narrativo.
+- Parâmetros de proporção/resolução seguem a ferramenta; texto no prompt não garante dimensão. Conferir o arquivo real e recompor, não esticar.
+- Para outra IA, cada bloco deve bastar sozinho. Informar anexos reais; caminho local no texto não envia imagem.
+
+### 6.5 Modo explícito FOTO/FUNDO ou camadas
+
+Usar somente quando o usuário pedir fundo/foto sem lettering ou quando a produção em camadas for combinada. Identificar a saída como fundo, reservar zonas e escrever uma proibição global de texto **nesse modo apenas**. Rodar os scripts com `--background-only`.
+
+Em produção em camadas, fornecer simultaneamente a lista de strings, fontes, cores, posições e arquivo/comando de aplicação. Exemplos de paisagem para receber screenshot, tipos complexos, dados regulatórios e HTML continuam possíveis; não são a entrega padrão para quem pediu arte completa. Se não houver ferramenta de composição, declarar a limitação, não dizer que o carrossel está pronto.
+
+## 15. Exemplos e famílias
+
+- **Exemplo completo:** `exemplo-agenda-editorial.md` — seis prompts independentes com copy e navegação integrada; marca fictícia e sem métricas.
+- **Retrato-capa e final:** `familia-social-conversao.md §F.6`; preencher o contrato desta §6, sem herdar pontos.
+- **Metáfora, cinema, janela e caderno:** `repertorio-mercado.md §R.6`; os núcleos são material de autoria, não respostas prontas.
+- **Céu/campo:** apêndice de `familia-ceu-campo.md`, somente se o pedido justificar esse ambiente.
+- **SaaS:** `saas.md`; captura real autorizada ou conceito declarado, nunca tela fabricada apresentada como produto.
+
+## 16. Exclusões por modo
+
+**ARTE COMPLETA:** encerrar com `Render only the exact text listed above; no additional lettering, dates, credits, logos or watermarks.` Não colar proibição global de texto, letras ou números junto da copy. Restringir anatomia incorreta, marcas/rostos alheios, artefatos, segundo acento e elementos sem nexo conforme o caso.
+
+**FOTO/FUNDO explícito:** pode proibir texto/letras/números no fundo. O identificador `--background-only` não autoriza descartar a copy de uma produção completa combinada.
+
+O linter verifica o contrato e campos por preencher; não mede semântica, direitos, contraste ou acentos renderizados. Aplicar também o QA de `../SKILL.md §12` e inspecionar a exportação quando houver geração.

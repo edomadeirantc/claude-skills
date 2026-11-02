@@ -10,17 +10,21 @@ nasce do cliente (`repertorio-mercado.md §R.3`).
 1. **Preflight:** `python "<raiz-da-skill>/scripts/check_assets.py"`. Erro em
    arquivo declarado presente bloqueia o trabalho: informe o ID e restaure a
    cópia conhecida. Sem rede, sem busca no PC.
-2. **Escolha pelo tipo de peça**, não pela família de costume. Abra o índice
-   e depois 2–4 imagens em tamanho integral:
+2. **Escolher pelo assunto e pelo papel narrativo.** Ler
+   `direcao-por-pedido.md` e `leitura-do-acervo.md`; definir a relação a
+   explicar antes da família. Consultar o índice e abrir 2–4 candidatas:
 
-   | Peça | Abra primeiro | Índice |
+   | Papel | Candidatas iniciais | Índice |
    |---|---|---|
-   | Post único, anúncio, capa de alto impacto, slide | 2–3 MK do movimento pretendido | `assets/indices/mercado-mk.jpg` |
-   | Carrossel de conversão (kit de sequência, @, pílula) | 1–2 IG do mesmo papel (capa, miolo, fechamento) **e** 1–2 MK para o movimento | `carrosseis-ig.jpg` + `mercado-mk.jpg` |
-   | Hero web ou peça de paisagem (céu, campo, vidro) | 2–3 R/N (só instalação local) ou G01/G02 | `referencias-R.jpg`, `referencias-N.jpg`, `geracoes-aprovadas.jpg` |
-   | Continuidade com o caso telemedicina | G01/G02 | `geracoes-aprovadas.jpg` |
+   | Capa editorial | MK15, IG01/IG04, ou MK do verbo pertinente | `assets/indices/mercado-mk.jpg`, `carrosseis-ig.jpg` |
+   | Miolo explicativo | R02/R05/R15, MK22, N07/N12 ou cadernos, conforme relação | índices MK/R/N; R/N só locais |
+   | Fechamento | MK12, IG03/IG08, MK08 se houver entrega real | índices MK/IG |
+   | Recurso de app | MK07/17/18/20/23/26 + captura autorizada | índice MK |
+   | Continuidade do caso telemedicina | G01/G02, só quando pertinente | `geracoes-aprovadas.jpg` |
 
-   Carrossel: escolha **uma MK diferente por slide** (`repertorio-mercado.md §R.5`).
+   A tabela inicia a busca; não força estas refs em todo assunto. Para
+   carrossel cobrir capa, explicação e final; reutilizar uma referência
+   quando houver continuidade semântica, em vez de exigir uma MK por slide.
 3. **Leia os pixels**, não o nome: sujeito e gesto, escala, enquadramento,
    luz, tipografia (famílias, troca de voz, tamanho relativo), onde está o
    texto e quanto texto há, acento. Registre por imagem: ID, duas observações
